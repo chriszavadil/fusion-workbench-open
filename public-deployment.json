@@ -2,7 +2,7 @@
   "schema": "fusion.public-deployment.v1",
   "site_url": "https://chriszavadil.github.io/fusion-workbench-open/",
   "repository": "https://github.com/chriszavadil/fusion-workbench-open",
-  "checked_at_utc": "2026-09-14T00:54:39Z",
+  "checked_at_utc": "2026-09-14T01:02:05Z",
   "tested_content_commit": "1c41693a2015e921ccc2195f734cf31196e65a5d",
   "unauthenticated_http_status": 200,
   "https_enforced": true,
@@ -22,6 +22,88 @@
   "research_records": 84,
   "static_snapshot_not_live_compute": true,
   "old_repository_left_private_and_unchanged": true,
-  "ci_observation": "Hosted Linux checks passed after the declared NumPy dependency fix. Windows exposed a test-reader default-codepage issue; its file decoding is now explicitly UTF-8, without changing research data. Final rerun pending.",
-  "windows_release_upload_in_progress": false
+  "ci_observation": "Corrected missing numerical test dependencies and explicit UTF-8 decoding exposed by clean hosted runners; final checks pass on both Windows and Linux.",
+  "ci_verified_content_commit": "b15f50e956429dcd799c00d824f96517e0f7649f",
+  "ci_run_url": "https://github.com/chriszavadil/fusion-workbench-open/actions/runs/34794373634",
+  "ci_jobs": [
+    {
+      "conclusion": "success",
+      "html_url": "https://github.com/chriszavadil/fusion-workbench-open/actions/runs/34794373634/job/103824531518",
+      "name": "verify (windows-latest)",
+      "status": "completed"
+    },
+    {
+      "conclusion": "success",
+      "html_url": "https://github.com/chriszavadil/fusion-workbench-open/actions/runs/34794373634/job/103824531671",
+      "name": "verify (ubuntu-latest)",
+      "status": "completed"
+    }
+  ],
+  "anonymous_asset_verification": {
+    "checked_at_utc": "2026-09-14T01:00:23Z",
+    "passed": true,
+    "authenticated": false,
+    "site_url": "https://chriszavadil.github.io/fusion-workbench-open/",
+    "assets": [
+      {
+        "path": "index.html",
+        "status": 200,
+        "bytes": 19806,
+        "sha256": "d20936d0fefa78d6e66ad03ca0d08799fca93b953d9929e4699739d5024a78b0",
+        "matches_reviewed_static_file": true
+      },
+      {
+        "path": "release-status.json",
+        "status": 200,
+        "bytes": 4460,
+        "sha256": "4091d0ae5d8c5a90caddce184f2ed80d7a56173d97d147226402728e6a51e3e6",
+        "matches_reviewed_static_file": true
+      },
+      {
+        "path": "feed.xml",
+        "status": 200,
+        "bytes": 2426,
+        "sha256": "26a7ad7c7fa48c4efddfa5257f6e8dc90812b8ac23e3d26e5d1107cfab655304",
+        "matches_reviewed_static_file": true
+      },
+      {
+        "path": "data/catalog.json",
+        "status": 200,
+        "bytes": 21745,
+        "sha256": "ec18c81e4c7505c37f341a8eaee3ed3df0fdda63ead8648ce534c96c29e13da7",
+        "matches_reviewed_static_file": true
+      },
+      {
+        "path": "data/research_library.json",
+        "status": 200,
+        "bytes": 449741,
+        "sha256": "c5107dbe1b2fee318eec015911898f4e3bda1b8e9678aea37ef3538dadeedd73",
+        "matches_reviewed_static_file": true
+      },
+      {
+        "path": "data/neutronics.json",
+        "status": 200,
+        "bytes": 23546,
+        "sha256": "8775de27179749257beb0313ab4dfdf576b206485ce76c9e0c2bfc3483cb0ac0",
+        "matches_reviewed_static_file": true
+      },
+      {
+        "path": "data/transport_lab.json",
+        "status": 200,
+        "bytes": 10945710,
+        "sha256": "b9bd41d7686668e3341d7df76f6f47637ea383418bf644368d757e8a0b02c8c9",
+        "matches_reviewed_static_file": true
+      },
+      {
+        "path": "data/source_context.bin",
+        "status": 200,
+        "bytes": 16777232,
+        "sha256": "7aa5de4dc4ac40b49172f67ac8c225641fe113c6bfd05732d75489d52ae2cb38",
+        "matches_reviewed_static_file": true
+      }
+    ],
+    "backend_required": false
+  },
+  "release_url": "https://github.com/chriszavadil/fusion-workbench-open/releases/tag/v0.5.1-public",
+  "release_assets_privacy_checked": true
 }

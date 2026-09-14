@@ -14,15 +14,24 @@
     "external_network_requests": 0,
     "page_errors": [],
     "http_failures": [],
-    "public_deployment_verified": false
+    "public_deployment_verified": true
   },
   "source_privacy_scan_passed": true,
   "secret_scan_findings": 0,
   "scientific_data_modified": false,
   "old_repository_history_imported": false,
   "repository_visibility_changed": false,
-  "public_deployment_verified": false,
+  "public_deployment_verified": true,
   "public_repository": "chriszavadil/fusion-workbench-open",
   "repository_separate_from_private_archive": true,
-  "static_data_unchanged": true
+  "static_data_unchanged": true,
+  "public_ci": {
+    "verified_content_commit": "b15f50e956429dcd799c00d824f96517e0f7649f",
+    "run_url": "https://github.com/chriszavadil/fusion-workbench-open/actions/runs/34794373634",
+    "operating_systems": [
+      "Windows",
+      "Linux"
+    ],
+    "conclusion": "success"
+  }
 }
