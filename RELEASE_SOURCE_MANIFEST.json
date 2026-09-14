@@ -551,6 +551,10 @@
       "sha256": "6f589eda44d488952964024ee6a1fe8cd28accf288407fc8052488cab760257a"
     },
     {
+      "path": "public-deployment.json",
+      "sha256": "e309538c4553cbb782bd1ba384b8053028563d25318fb25887f94ffb90e9e2cd"
+    },
+    {
       "path": "PUBLICATION_VALIDATION.json",
       "sha256": "aa0d2f104d40f5521755c649cfe38afb28d6c8caccb30708d401519c501af426"
     },
@@ -564,7 +568,7 @@
     },
     {
       "path": "requirements-tests.txt",
-      "sha256": "5fbf87b6a497a20f42243f6b9de542c7814b8ae05826ea34ca15bc76bde5f2e7"
+      "sha256": "b0b69577b6dfda1be2aa99a5c786d155156bb8dce0dc4e5be6a55cfbda36aa3e"
     },
     {
       "path": "research/ADDITIONAL_REPORT_MANIFEST.json",

@@ -1,0 +1,27 @@
+{
+  "schema": "fusion.public-deployment.v1",
+  "site_url": "https://chriszavadil.github.io/fusion-workbench-open/",
+  "repository": "https://github.com/chriszavadil/fusion-workbench-open",
+  "checked_at_utc": "2026-09-14T00:54:39Z",
+  "tested_content_commit": "1c41693a2015e921ccc2195f734cf31196e65a5d",
+  "unauthenticated_http_status": 200,
+  "https_enforced": true,
+  "browser_test": {
+    "passed": true,
+    "static_subpath_works": true,
+    "actual_3d_model_loaded": true,
+    "recorded_source_case_shown": true,
+    "research_readable": true,
+    "progress_dashboard_and_update_check": true,
+    "backend_requests": 0,
+    "external_network_requests": 0,
+    "page_errors": [],
+    "http_failures": [],
+    "public_deployment_verified": true
+  },
+  "research_records": 84,
+  "static_snapshot_not_live_compute": true,
+  "old_repository_left_private_and_unchanged": true,
+  "ci_observation": "Fresh hosted runners exposed missing NumPy in the test dependency file. NumPy/SciPy declarations corrected; rerun pending. No scientific result changed.",
+  "windows_release_upload_in_progress": true
+}
