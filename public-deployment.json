@@ -22,6 +22,6 @@
   "research_records": 84,
   "static_snapshot_not_live_compute": true,
   "old_repository_left_private_and_unchanged": true,
-  "ci_observation": "Fresh hosted runners exposed missing NumPy in the test dependency file. NumPy/SciPy declarations corrected; rerun pending. No scientific result changed.",
-  "windows_release_upload_in_progress": true
+  "ci_observation": "Hosted Linux checks passed after the declared NumPy dependency fix. Windows exposed a test-reader default-codepage issue; its file decoding is now explicitly UTF-8, without changing research data. Final rerun pending.",
+  "windows_release_upload_in_progress": false
 }

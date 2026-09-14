@@ -552,7 +552,7 @@
     },
     {
       "path": "public-deployment.json",
-      "sha256": "e309538c4553cbb782bd1ba384b8053028563d25318fb25887f94ffb90e9e2cd"
+      "sha256": "c5612dc7852f7432ccda5734ebdad7b54cb4a3f4af9dbe9f21cf17c0e6614d3f"
     },
     {
       "path": "PUBLICATION_VALIDATION.json",
@@ -1976,7 +1976,7 @@
     },
     {
       "path": "tests/test_neutronics_view.py",
-      "sha256": "88967213722dafe89d5d36e64acd82a19536a2a5ea7d620cecb82087e3c0c3a9"
+      "sha256": "ad7a153c9f22cfe30998380573feb81bd10c3a5855724a13453d92581f2bf545"
     },
     {
       "path": "tests/test_pages_static.py",
