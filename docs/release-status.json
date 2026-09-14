@@ -1,0 +1,95 @@
+{
+  "schema": "fusion.pages-publication.v1",
+  "viewer_version": "0.5.1-public",
+  "data_date": "2026-09-13",
+  "research_records": 84,
+  "data_sha256": {
+    "catalog.json": "ec18c81e4c7505c37f341a8eaee3ed3df0fdda63ead8648ce534c96c29e13da7",
+    "neutronics.json": "8775de27179749257beb0313ab4dfdf576b206485ce76c9e0c2bfc3483cb0ac0",
+    "research_library.json": "c5107dbe1b2fee318eec015911898f4e3bda1b8e9678aea37ef3538dadeedd73",
+    "source_context.bin": "7aa5de4dc4ac40b49172f67ac8c225641fe113c6bfd05732d75489d52ae2cb38",
+    "transport_lab.json": "b9bd41d7686668e3341d7df76f6f47637ea383418bf644368d757e8a0b02c8c9"
+  },
+  "repository": "https://github.com/chriszavadil/fusion-workbench-open",
+  "source_branch": "main",
+  "solver_hosted": false,
+  "snapshot_only": true,
+  "public_collaboration_open": true,
+  "release_gate": "Clean public repository; see public-deployment.json for independent hosting verification.",
+  "readiness": [
+    {
+      "title": "Visual exploration",
+      "status": "Implemented",
+      "level": "ready",
+      "detail": "Two conceptual reactor models; component inspection, cutaways, electrical replay and a six-case 3D transport lab."
+    },
+    {
+      "title": "Research and reproducibility",
+      "status": "Implemented with limits",
+      "level": "ready",
+      "detail": "84 readable records, source hashes and admitted tests. Full historical raw-data integration is incomplete; private correspondence is excluded."
+    },
+    {
+      "title": "Source-linked neutron transport",
+      "status": "Conditional model result",
+      "level": "partial",
+      "detail": "Candidate-profile-derived direct-source banks drive local header comparisons. This is not a full-reactor breeding calculation."
+    },
+    {
+      "title": "Experimental reactor validation",
+      "status": "Not established",
+      "level": "open",
+      "detail": "No working reactor, sustained net electricity, measured equilibrium, or qualified magnet lifetime has been demonstrated by this project."
+    },
+    {
+      "title": "Integrated fuel and cooling",
+      "status": "Unresolved",
+      "level": "open",
+      "detail": "Matched full geometry, return flux, breeder benchmarks, fuel recovery and thermal/structural closure remain acceptance gates."
+    },
+    {
+      "title": "Live public execution",
+      "status": "Not hosted",
+      "level": "open",
+      "detail": "GitHub Pages displays published snapshots. New solver runs and contributor code execution are not offered by the static site."
+    }
+  ],
+  "milestones": [
+    {
+      "id": "source-coupling-20260913",
+      "date": "2026-09-13",
+      "title": "Plasma-to-blanket source coupling",
+      "summary": "Four recorded runs use candidate-linked position/direction banks. The front-header local yield penalty persists; source geometry and reactor return-flux uncertainty remain.",
+      "search": "plasma source coupling"
+    },
+    {
+      "id": "spatial-lab-20260910",
+      "date": "2026-09-10",
+      "title": "Recorded trajectories and 3D heating",
+      "summary": "Source-direction stress tests and actual OpenMC trajectories/voxel scores were linked to the Unreal and browser 3D lab. No fabricated coolant velocity or temperature field.",
+      "search": "source direction"
+    },
+    {
+      "id": "header-transport-20260910",
+      "date": "2026-09-10",
+      "title": "Header placement enters neutron transport",
+      "summary": "Equal-inventory local cells were compared using six runs. The front layout was not accepted solely on its hydraulic result.",
+      "search": "header neutron"
+    },
+    {
+      "id": "evidence-reader-20260909",
+      "date": "2026-09-09",
+      "title": "Evidence reader and confinement accounting",
+      "summary": "Full cleared reports and superseded findings became searchable. Known accounting conventions were applied without claiming new fusion physics.",
+      "search": "confinement comparison"
+    },
+    {
+      "id": "lifetime-20260907",
+      "date": "2026-09-07",
+      "title": "Full-system numerical reference",
+      "summary": "The lifetime-constrained systems model converged with positive conditional modeled net electricity. It is not a qualified 30-year magnet or measured power plant.",
+      "search": "full process"
+    }
+  ],
+  "revision_id": "5b328a6d194a113bc17fc64e8cf4b57e9423696a1482a12420ebadb76bf7e4f5"
+}

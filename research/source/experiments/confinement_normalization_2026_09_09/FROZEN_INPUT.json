@@ -1,0 +1,76 @@
+{
+  "admission": "Two archived states only. Reconcile reporting definitions using existing scaling and documented corrections, not a new optimization or experimental validation.",
+  "cases": {
+    "r838": {
+      "i_confinement_time_from_input": 34,
+      "input_sha256": "2bc99ba58a1a9305a8e395a21d9ab9a2bba64fb31c06486d05617d89d3ecb9b4",
+      "mfile_sha256": "92b7e95564e4890b3f2f3860f70d5e5834c4f838dde4eff77fbf5d1f6b5ccb8c",
+      "values": {
+        "aspect": 3.0,
+        "b_plasma_toroidal_on_axis": 5.0071864336153595,
+        "e_plasma_beta": 1571442146.0880356,
+        "e_plasma_thermal_total": 1335006189.3841188,
+        "f_p_alpha_plasma_deposited": 0.95,
+        "hfact": 1.1999999999864892,
+        "hstar": 1.0653896210910996,
+        "i_rad_loss": 1.0,
+        "kappa_ipb": 1.6814508068158611,
+        "m_fuel_amu": 2.514526964257,
+        "nd_plasma_electron_line": 8.05804906353123e+19,
+        "p_hcd_injected_total_mw": 199.99999998172459,
+        "p_non_alpha_charged_mw": 1.9186089389522625,
+        "p_plasma_alpha_mw": 432.77818864503473,
+        "p_plasma_heating_total_mw": 613.6120249766985,
+        "p_plasma_inner_rad_mw": 168.40956144468765,
+        "p_plasma_loss_mw": 445.2024635320109,
+        "p_plasma_ohmic_mw": 0.5541368432387453,
+        "p_plasma_sync_mw": 39.88551972727468,
+        "plasma_current": 19750445.14869698,
+        "rmajor": 8.379532870755202,
+        "t_energy_confinement": 2.998649600442074
+      }
+    },
+    "r900": {
+      "i_confinement_time_from_input": 34,
+      "input_sha256": "e90c73910e7f1011deed185a6b6c43ade15cd3fe5f9ebfb9dbfc89862ab72e0c",
+      "mfile_sha256": "2566fdf898d61e46c82cedcb2476cf77869cf940c5e0930f8f5b565cf2929f5a",
+      "values": {
+        "aspect": 3.0,
+        "b_plasma_toroidal_on_axis": 5.047196125541167,
+        "e_plasma_beta": 1634122022.5526702,
+        "e_plasma_thermal_total": 1395591779.5501313,
+        "f_p_alpha_plasma_deposited": 0.95,
+        "hfact": 1.0299999999825042,
+        "hstar": 0.9229353850882237,
+        "i_rad_loss": 1.0,
+        "kappa_ipb": 1.6814508068158598,
+        "m_fuel_amu": 2.514526964257,
+        "nd_plasma_electron_line": 7.563760990348285e+19,
+        "p_hcd_injected_total_mw": 199.99999996761005,
+        "p_non_alpha_charged_mw": 1.8048111553309134,
+        "p_plasma_alpha_mw": 437.2534187081343,
+        "p_plasma_heating_total_mw": 618.0330583779139,
+        "p_plasma_inner_rad_mw": 161.4196487152542,
+        "p_plasma_loss_mw": 456.6134096626597,
+        "p_plasma_ohmic_mw": 0.8374994822454468,
+        "p_plasma_sync_mw": 32.560439429003445,
+        "plasma_current": 21378726.78478266,
+        "rmajor": 8.998463065871626,
+        "t_energy_confinement": 3.056396833806388
+      }
+    }
+  },
+  "prior_art": [
+    "https://github.com/ukaea/PROCESS/issues/652",
+    "https://github.com/ukaea/PROCESS/issues/3534",
+    "https://ukaea.github.io/PROCESS/physics-models/plasma_confinement/",
+    "https://arxiv.org/abs/2305.07285"
+  ],
+  "schema": "fusion.confinement-normalization-input.v1",
+  "source_sha256": {
+    "process/models/physics/confinement_time.py": "773d7a185d0d4f96919237c941c365d7e6868a26d9281c7c149f57195eeca7b0",
+    "process/models/physics/physics.py": "cf07c22404ce136299741000e6f6aada1ebd2a47b20e6be6ba84db8ef54dd202",
+    "process/models/physics/radiation_power.py": "4840580b734af1832e9c07875d889d2ad127eb9e3f1f83df4da3d6f692cbc374"
+  },
+  "upstream": "c0ae5b28649f2b20fb7efc7904628b6defe4151c"
+}

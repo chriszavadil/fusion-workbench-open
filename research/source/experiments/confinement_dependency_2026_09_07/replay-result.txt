@@ -1,0 +1,4 @@
+.................                                                        [100%]
+17 passed in 2.35s
+
+{"read_only_replay_verified": true, "source_hashes_verified": true, "workdir": "<LOCAL_HOME>\\AppData\\Local\\Temp\\fusion-confinement-replay-a3icve8q\\confinement-dependency-20260907", "optimizer_rerun": false, "physical_validation": false}

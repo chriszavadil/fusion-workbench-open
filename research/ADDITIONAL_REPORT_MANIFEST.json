@@ -1,0 +1,41 @@
+{
+  "records": [
+    {
+      "source_path": "README.md",
+      "published_path": "research/reports/archive/README.md",
+      "source_sha256": "ea8f4a6ee52a61565cddc0a00ef7468b6f37aa524290c1fb2ba79b30642c8349",
+      "published_sha256": "ea8f4a6ee52a61565cddc0a00ef7468b6f37aa524290c1fb2ba79b30642c8349",
+      "privacy_transform_applied": false
+    },
+    {
+      "source_path": "external/freegsnke_integration/FROZEN_BASELINE.md",
+      "published_path": "research/reports/archive/external/freegsnke_integration/FROZEN_BASELINE.md",
+      "source_sha256": "a17e291e90d4746ea80180407bfe083de67ca081fea49569b07a4e15a96208be",
+      "published_sha256": "a17e291e90d4746ea80180407bfe083de67ca081fea49569b07a4e15a96208be",
+      "privacy_transform_applied": false
+    },
+    {
+      "source_path": "external/freegsnke_integration/RUN_REQUEST_001.md",
+      "published_path": "research/reports/archive/external/freegsnke_integration/RUN_REQUEST_001.md",
+      "source_sha256": "6f7087dfbd1897ec767602b41fd587533e0213d0656578a5259ae799316d33ed",
+      "published_sha256": "6f7087dfbd1897ec767602b41fd587533e0213d0656578a5259ae799316d33ed",
+      "privacy_transform_applied": false
+    },
+    {
+      "source_path": "external/freegsnke_integration/README.md",
+      "published_path": "research/reports/archive/external/freegsnke_integration/README.md",
+      "source_sha256": "a934bbd938e85b93b8f88b0aecc2a21ff5e642fd28838302ec015e827b649602",
+      "published_sha256": "a934bbd938e85b93b8f88b0aecc2a21ff5e642fd28838302ec015e827b649602",
+      "privacy_transform_applied": false
+    },
+    {
+      "source_path": "external/plant_tools/FROZEN_BASELINES.md",
+      "published_path": "research/reports/archive/external/plant_tools/FROZEN_BASELINES.md",
+      "source_sha256": "4b472409161bebcbef8a3e9a46a665931862c57a08e76171c13e0b620178832d",
+      "published_sha256": "4b472409161bebcbef8a3e9a46a665931862c57a08e76171c13e0b620178832d",
+      "privacy_transform_applied": false
+    }
+  ],
+  "source_revision": "2adb4b5c925dfe7c5fc7c0ab887def3c92deb601",
+  "manual_scope_review": true
+}

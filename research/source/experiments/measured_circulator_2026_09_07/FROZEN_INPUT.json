@@ -1,0 +1,13 @@
+{
+  "admission_sha256": "1b0798ff4beac8dacf6e8437a30a8b438b24d78ac1bed8b4ac5d4543e9833d44",
+  "candidate_sha256": "3f1da76bd3ff8aeb854e1657e3a76c2db7d88607473e9c537f649c4c3f74b6ba",
+  "code_sha256": "50749857534735f9dcad391e528251ee117c90c45cb4f2acb2fc8e386dd6ad9b",
+  "definition_gate_inputs": {},
+  "no_regression": true,
+  "not_an_uncertainty_interval": true,
+  "pressure_interpretations": [
+    "absolute_inlet",
+    "absolute_outlet"
+  ],
+  "source_rows_sha256": "a442eb7efa8a18f957672ba222927bc2e0fb94de82e8ea731edcc0a06632233d"
+}

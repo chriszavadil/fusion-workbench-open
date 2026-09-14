@@ -1,0 +1,28 @@
+{
+  "upstream": "c0ae5b28649f2b20fb7efc7904628b6defe4151c",
+  "upstream_repository": "https://github.com/ukaea/PROCESS.git",
+  "configurations": {
+    "r838": {
+      "path": "research/approved_inputs/r838.IN.DAT",
+      "sha256": "2bc99ba58a1a9305a8e395a21d9ab9a2bba64fb31c06486d05617d89d3ecb9b4"
+    },
+    "r900": {
+      "path": "research/approved_inputs/r900.IN.DAT",
+      "sha256": "e90c73910e7f1011deed185a6b6c43ade15cd3fe5f9ebfb9dbfc89862ab72e0c"
+    }
+  },
+  "runtime_modules": {
+    "adaptive_fatigue.py": {
+      "path": "research/runtime/adaptive_fatigue.py",
+      "sha256": "96be69c05abbfa9786591b652dac5c81262d7fb03c4a8fe3471fe42a5974949d"
+    },
+    "mission_constraint.py": {
+      "path": "research/runtime/mission_constraint.py",
+      "sha256": "d25a629240275457f24e0d3a27ff2a324e1a5100995cb31996f5104de57459db"
+    },
+    "windows_output_fix.py": {
+      "path": "research/runtime/windows_output_fix.py",
+      "sha256": "b8f70409ce24ee9bda76e34b22e55289f60cb500697ebb2b445bea634ac0fdc7"
+    }
+  }
+}

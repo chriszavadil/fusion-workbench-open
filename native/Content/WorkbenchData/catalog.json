@@ -1,0 +1,592 @@
+{
+  "attribution": "Fusion Workbench contributors",
+  "configurations": [
+    {
+      "assumptions": {
+        "EC_wall_plug_efficiency": 0.5,
+        "additional_outage_electricity_modelled": false,
+        "availability": 0.8,
+        "thermal_conversion_efficiency": 0.4
+      },
+      "components": [
+        {
+          "detail": "Shape illustrates native major/minor radius, elongation and triangularity. No plasma simulation is implied by the glow.",
+          "evidence": "analytic_display_only",
+          "id": "plasma",
+          "title": "Plasma envelope"
+        },
+        {
+          "detail": "Native bore radius, radial width and total height. Winding detail and qualified material life are not supplied.",
+          "evidence": "dimensional_envelope",
+          "id": "solenoid",
+          "title": "Central solenoid"
+        },
+        {
+          "detail": "Native side thicknesses and gaps; interpolated surface is not a resolved heat map or certified geometry.",
+          "evidence": "conceptual_shell",
+          "id": "first_wall",
+          "title": "First-wall envelope"
+        },
+        {
+          "detail": "Native inboard/outboard thicknesses. Internal channels, isotope geometry and measured breeding remain unresolved.",
+          "evidence": "conceptual_shell",
+          "id": "blanket",
+          "title": "Breeding blanket envelope"
+        },
+        {
+          "detail": "Approximate visualization of native radial build. Top/bottom closure is illustrative.",
+          "evidence": "conceptual_shell",
+          "id": "shield",
+          "title": "Shield envelope"
+        },
+        {
+          "detail": "Simplified boundary shell, not pressure-vessel design or structural qualification.",
+          "evidence": "conceptual_shell",
+          "id": "vessel",
+          "title": "Vacuum-vessel envelope"
+        },
+        {
+          "detail": "Native coil count; each surrounding coil shape is deliberately schematic, not an imported winding/structure solution.",
+          "evidence": "schematic_only",
+          "id": "coils",
+          "title": "Toroidal-field coils"
+        }
+      ],
+      "geometry": {
+        "blanket_inboard_m": 0.7,
+        "blanket_outboard_m": 1.0,
+        "blanket_upper_m": 0.85,
+        "elongation": 1.85,
+        "first_wall_inboard_m": 0.018000000000000002,
+        "first_wall_outboard_m": 0.018000000000000002,
+        "major_radius_m": 8.379532870755202,
+        "minor_radius_m": 2.7931776235850676,
+        "plasma_gap_inboard_m": 0.25,
+        "plasma_gap_outboard_m": 0.25,
+        "plasma_gap_upper_m": 0.6,
+        "shield_inboard_m": 0.3,
+        "shield_outboard_m": 0.8,
+        "solenoid_height_m": 16.294072381967766,
+        "solenoid_inner_radius_m": 2.057422935161185,
+        "solenoid_radial_width_m": 0.8545609414076564,
+        "toroidal_coil_count": 16.0,
+        "triangularity": 0.5,
+        "vessel_inboard_m": 0.3,
+        "vessel_outboard_m": 0.3
+      },
+      "id": "r838",
+      "metrics": {
+        "conditional_average_net_MW": 213.69131801996207,
+        "cycle_s": 9905.008899246712,
+        "fatigue_cycles": 76464.5855395387,
+        "flat_top_net_MW": 400.0000000179575,
+        "fusion_MW": 2152.7603750513326,
+        "gross_MW": 1210.4425586971252,
+        "internal_confinement_multiplier": 1.1999999999864892,
+        "plant_accounting_residual_MW": -0.5541368432386662,
+        "pulse_energy_kWh": 734935.5578748204,
+        "required_fatigue_cycles": 76464.58551466823,
+        "solenoid_current_MA_m2": 10.185602925584838,
+        "solenoid_hoop_MPa": 189.02037767037575
+      },
+      "provenance": {
+        "artifact_sha256": "92b7e95564e4890b3f2f3860f70d5e5834c4f838dde4eff77fbf5d1f6b5ccb8c",
+        "public_upstream": "https://github.com/ukaea/PROCESS/tree/c0ae5b28649f2b20fb7efc7904628b6defe4151c",
+        "solver": "UKAEA PROCESS",
+        "version": "3.4.2"
+      },
+      "pulse": {
+        "interpolation": "piecewise_linear_recorded_profiles",
+        "mode": "recorded_simulation_not_live_plasma",
+        "phase_names": [
+          "Coil precharge",
+          "Current ramp-up",
+          "Fusion ramp",
+          "Generating phase",
+          "Ramp-down",
+          "Dwell"
+        ],
+        "series": {
+          "base_MW": [
+            -57.88642658092613,
+            -57.88642658092613,
+            -57.88642658092613,
+            -57.88642658092613,
+            -57.88642658092613,
+            -57.88642658092613,
+            -57.88642658092613
+          ],
+          "cooling_MW": [
+            0.0,
+            0.0,
+            -280.7891187337376,
+            -280.7891187337376,
+            -280.7891187337376,
+            0.0,
+            0.0
+          ],
+          "cryogenics_MW": [
+            -45.5804468512594,
+            -45.5804468512594,
+            -45.5804468512594,
+            -45.5804468512594,
+            -45.5804468512594,
+            -45.5804468512594,
+            -45.5804468512594
+          ],
+          "fuel_processing_MW": [
+            -15.0,
+            -15.0,
+            -15.0,
+            -15.0,
+            -15.0,
+            -15.0,
+            -15.0
+          ],
+          "gross_MW": [
+            0.0,
+            0.0,
+            1210.4425586971252,
+            1210.4425586971252,
+            1210.4425586971252,
+            0.0,
+            0.0
+          ],
+          "heating_MW": [
+            0.0,
+            0.0,
+            -399.99999996344917,
+            -399.99999996344917,
+            -399.99999996344917,
+            0.0,
+            0.0
+          ],
+          "net_MW": [
+            -126.59293233514991,
+            -129.65343998198088,
+            400.00000001795746,
+            400.00000001795746,
+            400.00000001795746,
+            -126.59293233514991,
+            -126.59293233514991
+          ],
+          "poloidal_magnets_MW": [
+            0.0,
+            -3.0605076468309576,
+            -3.0605076468309576,
+            -3.0605076468309576,
+            -3.0605076468309576,
+            0.0,
+            0.0
+          ],
+          "toroidal_magnets_MW": [
+            -7.626058902964374,
+            -7.626058902964374,
+            -7.626058902964374,
+            -7.626058902964374,
+            -7.626058902964374,
+            -7.626058902964374,
+            -7.626058902964374
+          ],
+          "vacuum_MW": [
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5
+          ]
+        },
+        "spatial_field": false,
+        "time_s": [
+          0.0,
+          500.0,
+          697.5044514869699,
+          707.5044514869699,
+          7907.504447759741,
+          8105.008899246711,
+          9905.00889924671
+        ]
+      },
+      "scope": [
+        "A conceptual systems-model result, not produced electricity or an operating reactor.",
+        "Geometry is a display envelope derived from model dimensions, not manufactured CAD or an equilibrium reconstruction.",
+        "The fatigue constraint has no newly validated material uncertainty margin.",
+        "No matched neutron heating or tritium breeding tally is available for this geometry.",
+        "Internal confinement multiplier is not automatically an experimental global H98 value.",
+        "Do not combine other configurations' cooling, fuel or equipment gains with these outputs."
+      ],
+      "status": "numerically_converged_concept",
+      "title": "Reference \u00b7 8.38 m",
+      "verification": {
+        "conditional_average_net_MW": 213.69131801996207,
+        "energy_disagreement_kWh": 0.0,
+        "kind": "recorded_output_verification",
+        "maximum_balance_disagreement_MW": 2.842170943040401e-14,
+        "passed": true,
+        "physical_validation": false,
+        "recomputed_pulse_energy_kWh": 734935.5578748204,
+        "source_artifact_sha256": "92b7e95564e4890b3f2f3860f70d5e5834c4f838dde4eff77fbf5d1f6b5ccb8c"
+      }
+    },
+    {
+      "assumptions": {
+        "EC_wall_plug_efficiency": 0.5,
+        "additional_outage_electricity_modelled": false,
+        "availability": 0.8,
+        "thermal_conversion_efficiency": 0.4
+      },
+      "components": [
+        {
+          "detail": "Shape illustrates native major/minor radius, elongation and triangularity. No plasma simulation is implied by the glow.",
+          "evidence": "analytic_display_only",
+          "id": "plasma",
+          "title": "Plasma envelope"
+        },
+        {
+          "detail": "Native bore radius, radial width and total height. Winding detail and qualified material life are not supplied.",
+          "evidence": "dimensional_envelope",
+          "id": "solenoid",
+          "title": "Central solenoid"
+        },
+        {
+          "detail": "Native side thicknesses and gaps; interpolated surface is not a resolved heat map or certified geometry.",
+          "evidence": "conceptual_shell",
+          "id": "first_wall",
+          "title": "First-wall envelope"
+        },
+        {
+          "detail": "Native inboard/outboard thicknesses. Internal channels, isotope geometry and measured breeding remain unresolved.",
+          "evidence": "conceptual_shell",
+          "id": "blanket",
+          "title": "Breeding blanket envelope"
+        },
+        {
+          "detail": "Approximate visualization of native radial build. Top/bottom closure is illustrative.",
+          "evidence": "conceptual_shell",
+          "id": "shield",
+          "title": "Shield envelope"
+        },
+        {
+          "detail": "Simplified boundary shell, not pressure-vessel design or structural qualification.",
+          "evidence": "conceptual_shell",
+          "id": "vessel",
+          "title": "Vacuum-vessel envelope"
+        },
+        {
+          "detail": "Native coil count; each surrounding coil shape is deliberately schematic, not an imported winding/structure solution.",
+          "evidence": "schematic_only",
+          "id": "coils",
+          "title": "Toroidal-field coils"
+        }
+      ],
+      "geometry": {
+        "blanket_inboard_m": 0.7,
+        "blanket_outboard_m": 1.0,
+        "blanket_upper_m": 0.85,
+        "elongation": 1.85,
+        "first_wall_inboard_m": 0.018000000000000002,
+        "first_wall_outboard_m": 0.018000000000000002,
+        "major_radius_m": 8.998463065871626,
+        "minor_radius_m": 2.999487688623875,
+        "plasma_gap_inboard_m": 0.25,
+        "plasma_gap_outboard_m": 0.25,
+        "plasma_gap_upper_m": 0.6,
+        "shield_inboard_m": 0.3,
+        "shield_outboard_m": 0.8,
+        "solenoid_height_m": 16.981084898546992,
+        "solenoid_inner_radius_m": 2.3377117498281232,
+        "solenoid_radial_width_m": 0.9789290885063878,
+        "toroidal_coil_count": 16.0,
+        "triangularity": 0.5,
+        "vessel_inboard_m": 0.3,
+        "vessel_outboard_m": 0.3
+      },
+      "id": "r900",
+      "metrics": {
+        "conditional_average_net_MW": 211.55309756670846,
+        "cycle_s": 9937.574526348715,
+        "fatigue_cycles": 76214.00967127546,
+        "flat_top_net_MW": 399.99999997757845,
+        "fusion_MW": 2174.786115050785,
+        "gross_MW": 1221.6625853402652,
+        "internal_confinement_multiplier": 1.0299999999825042,
+        "plant_accounting_residual_MW": -0.8374994822452209,
+        "pulse_energy_kWh": 729973.8449128772,
+        "required_fatigue_cycles": 76214.00956459333,
+        "solenoid_current_MA_m2": 9.039065532204848,
+        "solenoid_hoop_MPa": 191.9391927773287
+      },
+      "provenance": {
+        "artifact_sha256": "2566fdf898d61e46c82cedcb2476cf77869cf940c5e0930f8f5b565cf2929f5a",
+        "public_upstream": "https://github.com/ukaea/PROCESS/tree/c0ae5b28649f2b20fb7efc7904628b6defe4151c",
+        "solver": "UKAEA PROCESS",
+        "version": "3.4.2"
+      },
+      "pulse": {
+        "interpolation": "piecewise_linear_recorded_profiles",
+        "mode": "recorded_simulation_not_live_plasma",
+        "phase_names": [
+          "Coil precharge",
+          "Current ramp-up",
+          "Fusion ramp",
+          "Generating phase",
+          "Ramp-down",
+          "Dwell"
+        ],
+        "series": {
+          "base_MW": [
+            -62.63016681025685,
+            -62.63016681025685,
+            -62.63016681025685,
+            -62.63016681025685,
+            -62.63016681025685,
+            -62.63016681025685,
+            -62.63016681025685
+          ],
+          "cooling_MW": [
+            0.0,
+            0.0,
+            -282.5247604167668,
+            -282.5247604167668,
+            -282.5247604167668,
+            0.0,
+            0.0
+          ],
+          "cryogenics_MW": [
+            -49.271515752816676,
+            -49.271515752816676,
+            -49.271515752816676,
+            -49.271515752816676,
+            -49.271515752816676,
+            -49.271515752816676,
+            -49.271515752816676
+          ],
+          "fuel_processing_MW": [
+            -15.0,
+            -15.0,
+            -15.0,
+            -15.0,
+            -15.0,
+            -15.0,
+            -15.0
+          ],
+          "gross_MW": [
+            0.0,
+            0.0,
+            1221.6625853402652,
+            1221.6625853402652,
+            1221.6625853402652,
+            0.0,
+            0.0
+          ],
+          "heating_MW": [
+            0.0,
+            0.0,
+            -399.9999999352201,
+            -399.9999999352201,
+            -399.9999999352201,
+            0.0,
+            0.0
+          ],
+          "net_MW": [
+            -135.3574663911794,
+            -139.13782501069983,
+            399.9999999775782,
+            399.9999999775782,
+            399.9999999775782,
+            -135.3574663911794,
+            -135.3574663911794
+          ],
+          "poloidal_magnets_MW": [
+            0.0,
+            -3.7803586195204253,
+            -3.7803586195204253,
+            -3.7803586195204253,
+            -3.7803586195204253,
+            0.0,
+            0.0
+          ],
+          "toroidal_magnets_MW": [
+            -7.955783828105867,
+            -7.955783828105867,
+            -7.955783828105867,
+            -7.955783828105867,
+            -7.955783828105867,
+            -7.955783828105867,
+            -7.955783828105867
+          ],
+          "vacuum_MW": [
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5
+          ]
+        },
+        "spatial_field": false,
+        "time_s": [
+          0.0,
+          500.0,
+          713.7872678478266,
+          723.7872678478266,
+          7923.787258500888,
+          8137.574526348715,
+          9937.574526348715
+        ]
+      },
+      "scope": [
+        "A conceptual systems-model result, not produced electricity or an operating reactor.",
+        "Geometry is a display envelope derived from model dimensions, not manufactured CAD or an equilibrium reconstruction.",
+        "The fatigue constraint has no newly validated material uncertainty margin.",
+        "No matched neutron heating or tritium breeding tally is available for this geometry.",
+        "Internal confinement multiplier is not automatically an experimental global H98 value.",
+        "Do not combine other configurations' cooling, fuel or equipment gains with these outputs."
+      ],
+      "status": "numerically_converged_concept",
+      "title": "Confinement comparator \u00b7 9.00 m",
+      "verification": {
+        "conditional_average_net_MW": 211.55309756670846,
+        "energy_disagreement_kWh": 0.0,
+        "kind": "recorded_output_verification",
+        "maximum_balance_disagreement_MW": 2.2737367544323206e-13,
+        "passed": true,
+        "physical_validation": false,
+        "recomputed_pulse_energy_kWh": 729973.8449128772,
+        "source_artifact_sha256": "2566fdf898d61e46c82cedcb2476cf77869cf940c5e0930f8f5b565cf2929f5a"
+      }
+    }
+  ],
+  "experiments": [
+    {
+      "id": "verify_recorded_energy",
+      "kind": "numerical_verification",
+      "local_only": true,
+      "title": "Verify recorded pulse electricity"
+    },
+    {
+      "id": "rerun_process",
+      "kind": "new_solver_execution",
+      "local_only": true,
+      "scope": "Fresh execution of an approved, fixed input; not an arbitrary code runner and not a new scientific discovery.",
+      "title": "Run pinned full-systems reproduction"
+    }
+  ],
+  "historical_rejections": [
+    {
+      "reason": "Lead-lithium screening and ceramic-blanket power results represent different materials and geometries.",
+      "status": "not_combined",
+      "title": "Unmatched blanket evidence"
+    },
+    {
+      "reason": "Pump heat recovery and fatigue numerics required correction; no superseded output is added to either current configuration.",
+      "status": "superseded",
+      "title": "Earlier optimistic average-output estimate"
+    },
+    {
+      "reason": "Unconverged final states are not accepted power predictions and do not prove global physical impossibility.",
+      "status": "not_converged",
+      "title": "Internal confinement 1.00 attempts"
+    }
+  ],
+  "inventory": {
+    "historical_raw_runs_fully_integrated": false,
+    "interactive_configurations": 2,
+    "note": "Repository inventory plus selected linked runs, not a claim that every historical dataset is already rendered.",
+    "tracked_artifacts_catalogued": 257
+  },
+  "progress_summary": "Conceptual systems models exist. An experimentally validated integrated fusion plant has not been demonstrated by this project.",
+  "project": "Fusion Workbench",
+  "public_references": [
+    {
+      "role": "Existing systems-model solver; upstream attribution retained.",
+      "title": "UKAEA PROCESS",
+      "url": "https://github.com/ukaea/PROCESS"
+    },
+    {
+      "role": "Existing engineering CAD route to evaluate; this preview does not replace it.",
+      "title": "Paramak",
+      "url": "https://github.com/fusion-energy/paramak"
+    }
+  ],
+  "publication_mode": "reviewed_projection",
+  "purpose": "Open research for humanity",
+  "schema": "fusion-workbench.catalog.v1",
+  "tracks": [
+    {
+      "catalogued_artifacts": 8,
+      "id": "systems",
+      "integration": "selected_runs_linked",
+      "model_status": "Numerical reference available",
+      "summary": "Two geometry-specific full-solver references; pulse electricity replay is available.",
+      "title": "Systems and net electricity",
+      "validation_status": "Needs integrated physical validation"
+    },
+    {
+      "catalogued_artifacts": 38,
+      "id": "plasma",
+      "integration": "summary_only",
+      "model_status": "Empirical scaling only",
+      "summary": "Keep internal scaling definitions separate from experimental global confinement metrics.",
+      "title": "Plasma confinement",
+      "validation_status": "Transport / stability validation open"
+    },
+    {
+      "catalogued_artifacts": 11,
+      "id": "magnets",
+      "integration": "selected_runs_linked",
+      "model_status": "Numerical constraint checked",
+      "summary": "Event-located fatigue integration is numerically checked, not experimental lifetime evidence.",
+      "title": "Magnets and lifetime",
+      "validation_status": "Material margin unqualified"
+    },
+    {
+      "catalogued_artifacts": 81,
+      "id": "cooling",
+      "integration": "summary_only",
+      "model_status": "Component comparisons",
+      "summary": "Independent regional circuits and header obligations remain specific to the smaller reference.",
+      "title": "Cooling and distribution",
+      "validation_status": "Complete loop unresolved"
+    },
+    {
+      "catalogued_artifacts": 2,
+      "id": "neutronics",
+      "integration": "recorded_3D_tracks_and_fields",
+      "model_status": "Verified local transport with candidate-linked direct source",
+      "summary": "r838 profile-derived surface banks now drive two header layouts and 3D heat/particle views; the whole-reactor source/return-flux and breeding benchmarks remain unresolved.",
+      "title": "Breeding and neutron heating",
+      "validation_status": "Whole-device breeding and experimental support open"
+    },
+    {
+      "catalogued_artifacts": 29,
+      "id": "fuel",
+      "integration": "summary_only",
+      "model_status": "Conditional ledgers / references",
+      "summary": "Recovery delays, permanent losses and isotope definitions need physical calibration.",
+      "title": "Fuel and material recovery",
+      "validation_status": "Compatible measurements incomplete"
+    },
+    {
+      "catalogued_artifacts": 36,
+      "id": "control",
+      "integration": "summary_only",
+      "model_status": "Historical reference work",
+      "summary": "Machine-specific vertical-control and observer studies are not tests of the displayed reactor.",
+      "title": "Plasma control benchmarks",
+      "validation_status": "Separate machine scenes pending"
+    },
+    {
+      "catalogued_artifacts": 9,
+      "id": "evidence",
+      "integration": "summary_only",
+      "model_status": "Source records inspected",
+      "summary": "Measured, rated and simulated equipment records must not be merged into one performance claim.",
+      "title": "Equipment and evidence intake",
+      "validation_status": "Map transfer not accepted"
+    }
+  ]
+}

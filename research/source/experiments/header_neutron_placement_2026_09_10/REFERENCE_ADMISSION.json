@@ -1,0 +1,9 @@
+{
+  "benchmark_pin": "c47fc573a7e2a9ca11a8958dc67155b1146adf51",
+  "exact_code_sha256": "e9ae59e49c46006546bb991c5783922ccea739d6fa730b78eeb2f387823a0c3c",
+  "changes": "Only batches,particles,thread count and explicit random seed; source,geometry,tallies unchanged.",
+  "histories": 1000000,
+  "comparison": "Archived OpenMC0.14 ENDFB8 leakage spectra per source neutron per surface area; not reactor breeding validation.",
+  "acceptance": "Integrated neutron leakage agrees within3%; populated bin MonteCarlo consistency recorded,not fitted.",
+  "experimental_data": "Retained separately; instrument/energy-bin conventions not accepted as calibrated candidate evidence."
+}

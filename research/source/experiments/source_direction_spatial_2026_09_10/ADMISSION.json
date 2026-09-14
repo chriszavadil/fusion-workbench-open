@@ -1,0 +1,144 @@
+{
+  "batches": 40,
+  "cases": [
+    {
+      "id": "cosine_rear",
+      "layout": "headers_rear",
+      "seed": 930010,
+      "source_law": "cosine"
+    },
+    {
+      "id": "cosine_front",
+      "layout": "headers_front",
+      "seed": 930020,
+      "source_law": "cosine"
+    },
+    {
+      "id": "normal_rear",
+      "layout": "headers_rear",
+      "seed": 930110,
+      "source_law": "normal"
+    },
+    {
+      "id": "normal_front",
+      "layout": "headers_front",
+      "seed": 930120,
+      "source_law": "normal"
+    }
+  ],
+  "configuration": "r838 local representative cell only",
+  "constraints": [
+    "No globalTBR or additional net electricity",
+    "No change to approved plant input",
+    "SourceAngular law alone is a boundary stress test",
+    "New mesh records actual scores; unsupported bins masked at relative standard error>.5",
+    "First16 source histories selected before transport; particle marker size/glow/time scaling are display encodings, not actual sizes or source flux"
+  ],
+  "date": "2026-09-10",
+  "mesh_dimension": [
+    24,
+    16,
+    16
+  ],
+  "particles": 10000,
+  "primary_sources": [
+    "https://docs.openmc.org/en/v0.15.2/usersguide/settings.html",
+    "https://www.oecd-nea.org/science/wprs/shielding/sinbad/fng_hcpb/fnghcpb-a.htm",
+    "https://doi.org/10.1080/15361055.2025.2567167",
+    "https://dev.epicgames.com/documentation/en-us/unreal-engine/instanced-static-mesh-component-in-unreal-engine"
+  ],
+  "prior_frozen_sha256": "2fc8e7afb71fa1dc54ecc4acffbbb7f7405f43d0c7f6dab19f4ca487829134cf",
+  "prior_model_sha256": "5dfe4cb4e2d185771d79fc576ab54c2f0f623ccc10fd03374c104a9f661734bc",
+  "question": "Does the prior front/rear header ranking and spatial heating pattern survive replacing diffuse cosine incidence with normal incidence? These are contrasting boundary hypotheses, not uncertainty bounds or toroidal source validation.",
+  "reuse": [
+    "OpenMC0.15.2 existing CSG and nuclear data",
+    "OpenMC native tracks.h5 with position/time/energy/particle IDs",
+    "Existing representative-cell experiment, unchanged material inventories"
+  ],
+  "schema": "fusion.source_direction_spatial_gate.v1",
+  "score_rule": "Compare front-minus-rear triton yield within each source assumption and the difference of those contrasts using independent-run standard errors. Report99% normal Monte Carlo intervals; do not equate with physical uncertainty. Do not optimize after outcomes.",
+  "threads": 2,
+  "timeout_each_seconds": 600,
+  "track_ids": [
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2
+    ],
+    [
+      1,
+      1,
+      3
+    ],
+    [
+      1,
+      1,
+      4
+    ],
+    [
+      1,
+      1,
+      5
+    ],
+    [
+      1,
+      1,
+      6
+    ],
+    [
+      1,
+      1,
+      7
+    ],
+    [
+      1,
+      1,
+      8
+    ],
+    [
+      1,
+      1,
+      9
+    ],
+    [
+      1,
+      1,
+      10
+    ],
+    [
+      1,
+      1,
+      11
+    ],
+    [
+      1,
+      1,
+      12
+    ],
+    [
+      1,
+      1,
+      13
+    ],
+    [
+      1,
+      1,
+      14
+    ],
+    [
+      1,
+      1,
+      15
+    ],
+    [
+      1,
+      1,
+      16
+    ]
+  ]
+}

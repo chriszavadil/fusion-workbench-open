@@ -1,0 +1,7 @@
+{
+  "cause": "0.15.2 uses settings.track; current online documentation showed tracks. Transport completed, requested track file absent.",
+  "physics_changed": false,
+  "existing_statepoint_preserved_sha256": "1a98a722273db4aeea6cb605065103507e1f764fa15446bf2ea9bf03c8f9b495",
+  "recovery": "One-batch companion with same model/seed records first16 histories; existing400k tally is not rerun. Remaining cases use correct track serialization.",
+  "driver_sha256": "565083752c9dddcd2e32f1d26a2ebf05a7724662e3facb396e300092a7b0e34c"
+}

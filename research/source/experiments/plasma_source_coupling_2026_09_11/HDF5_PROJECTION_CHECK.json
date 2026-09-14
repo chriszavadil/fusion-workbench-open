@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "run": "headers_front_bank0",
+      "primary_histories": 16,
+      "recorded_paths": 128,
+      "tally_values_and_errors_exact": true,
+      "recorded_states_exact": true,
+      "passed": true
+    },
+    {
+      "run": "headers_front_bank1",
+      "primary_histories": 16,
+      "recorded_paths": 142,
+      "tally_values_and_errors_exact": true,
+      "recorded_states_exact": true,
+      "passed": true
+    },
+    {
+      "run": "headers_rear_bank0",
+      "primary_histories": 16,
+      "recorded_paths": 109,
+      "tally_values_and_errors_exact": true,
+      "recorded_states_exact": true,
+      "passed": true
+    },
+    {
+      "run": "headers_rear_bank1",
+      "primary_histories": 16,
+      "recorded_paths": 163,
+      "tally_values_and_errors_exact": true,
+      "recorded_states_exact": true,
+      "passed": true
+    }
+  ],
+  "fresh_transport_run": false,
+  "physical_validation": false
+}

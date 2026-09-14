@@ -1,0 +1,19 @@
+{
+  "schema":"fusion.confinement-dependency-admission.v1",
+  "question":"Can the original lifetime-constrained full PROCESS systems family meet its enabled requirements with hfact capped at1.0 instead of1.2, holding scaling and radiation conventions fixed?",
+  "class":"Candidate-specific full-framework dependence check, not new confinement physics or an experimentally validated prediction.",
+  "baseline_project_ref":"276c55a6558a525afd98d2f7fabade605db5068c",
+  "current_integration_ref":"42ffb73fbea76f68ecff124445feed22dca2ff95",
+  "baseline_input_sha256":"2bc99ba58a1a9305a8e395a21d9ab9a2bba64fb31c06486d05617d89d3ecb9b4",
+  "baseline_MFILE_sha256":"92b7e95564e4890b3f2f3860f70d5e5834c4f838dde4eff77fbf5d1f6b5ccb8c",
+  "native_process_ref":"c0ae5b28649f2b20fb7efc7904628b6defe4151c",
+  "nearest_primary_references":["PROCESS documentation: hfact multiplies selected empirical scaling; i_confinement_time34=IPB98(y,2). Pinned source is authority for execution.","PROCESS radiation options: i_rad_loss1 subtracts core radiation from loss power; retain this convention and do not equate internal hfact directly with experimental global H98.","Slendebroek et al. STEP-0D arXiv2305.07285v2: existing theory-based equilibrium/transport/pedestal workflow validated against a confinement database. Not reproduced by this sensitivity."],
+  "reading_scope":"Official equations/radiation options and STEP-0D primary paper reviewed. No experimental confidence interval imported.",
+  "strongest_available_baseline":"Exact solved30-year duty point at hfact1.1999999999864892, conditional average213.691318MW. Warm guesses extracted by labeled native iteration output, not assumed index positions.",
+  "intervention":"Only hfact upper bound becomes1.0; warm guesses change. Keep all27 constraints and20 variables,8-9m radius,current/field limits,pumping,efficiencies,1800s dwell,80%availability.",
+  "admitted_cases":["H1.0 cap from solved H1.2 point","Only if nonconverged: H1.1 cap continuation bridge","Only if bridge converges: one H1.0 retry from bridge"],
+  "stop_rule":"At most three600second-guarded solves. Optimizer failure is not proof of physical infeasibility. Do not relax another engineering constraint to force a pass.",
+  "decision":"Whether internal confinement-enhancement dependence is a more important unresolved issue than further component-efficiency tuning.",
+  "not_combined":"Original systems pumping/heating model, NOT later split-header/independent-circuit proposals or newly read circulator points.",
+  "boundaries":["No neutron breeding,qualified magnet life,calibrated transport,global optimality,achieved generation or new general model.","hfact1.0 is a reference multiplier, not a probabilistic worst case or guaranteed performance.","Reconcile radiation conventions before comparison with measured H98.","Higher-fidelity published transport workflows are not being reinvented."]
+}

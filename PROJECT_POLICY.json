@@ -1,0 +1,17 @@
+{
+  "name": "Fusion Workbench",
+  "attribution": "Fusion Workbench contributors",
+  "purpose": "Open research for humanity",
+  "original_code_license": "MIT",
+  "original_visualization_mesh_license": "MIT",
+  "commercial_reuse_allowed": true,
+  "personal_or_company_branding": false,
+  "private_repository_visibility_change_authorized": false,
+  "publish_raw_private_history": false,
+  "public_data_policy": "Explicit allowlist, source-specific rights review, privacy scan and human release review",
+  "third_party_rights": "Upstream copyrights, required notices and source licenses remain in force",
+  "public_compute_policy": "No unreviewed contributor code on a development workstation",
+  "claim_policy": "Separate numerical verification, empirical validation, conceptual geometry and illustrative presentation",
+  "publication_under_existing_github_username_authorized": true,
+  "public_user_details": "GitHub account association only; no private email, home path, machine name, correspondence or credentials"
+}

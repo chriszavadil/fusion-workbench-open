@@ -1,0 +1,464 @@
+{
+  "Modelica_or_GETTHEM_executed": false,
+  "cases": [
+    {
+      "crossover_ignores_auxiliary_or_efficiency_changes": true,
+      "difference": {
+        "electric_saving_MW": 48.14546603234662,
+        "fixed_conversion_net_budget_MW": 31.390843853090107,
+        "lost_conversion_output_MW": 16.75462217925651,
+        "lost_recoverable_heat_MW": 41.88655544814128
+      },
+      "energy_only_equal_added_head_crossover_Pa": 103046.12690353676,
+      "equal_external_loss_Pa": 0.0,
+      "external_loss_case": "channel_only",
+      "independent_regional_circuits": {
+        "drive_electric_MW": 79.86505785773848,
+        "fluid_shaft_work_MW": 69.48260033623248,
+        "loops": [
+          {
+            "compression_residual_J_kg": -3.725290298461914e-09,
+            "cycle_energy_residual_MW": -8.526512829121202e-14,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 36.703809923618756,
+            "entropy_error_J_kgK": 0.0,
+            "external_heat_MW": 708.337677429987,
+            "flow_kg_s": 682.5721004465584,
+            "fluid_shaft_work_MW": 31.932314633548316,
+            "fluid_work_J_kg": 46782.33202420268,
+            "hot_return_T_K": 773.293505160489,
+            "pressure_drop_Pa": 275504.79059357155,
+            "recoverable_HX_heat_MW": 740.2699920635353,
+            "suction_P_Pa": 7724495.209406428,
+            "suction_T_K": 564.2816000985252,
+            "suction_h_J_kg": 2959956.488324925
+          },
+          {
+            "compression_residual_J_kg": -1.862645149230957e-09,
+            "cycle_energy_residual_MW": 1.2079226507921703e-13,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 43.16124793411972,
+            "entropy_error_J_kgK": 0.0,
+            "external_heat_MW": 1762.109729720818,
+            "flow_kg_s": 1698.0094346243648,
+            "fluid_shaft_work_MW": 37.55028570268416,
+            "fluid_work_J_kg": 22114.297445579898,
+            "hot_return_T_K": 773.2091263091055,
+            "pressure_drop_Pa": 130838.99860263588,
+            "recoverable_HX_heat_MW": 1799.6600154235023,
+            "suction_P_Pa": 7869161.001397364,
+            "suction_T_K": 568.9475997067558,
+            "suction_h_J_kg": 2984624.5229035476
+          }
+        ],
+        "recoverable_HX_heat_MW": 2539.9300074870375
+      },
+      "joint_equal_added_head_limit_Pa": 103046.12690353676,
+      "pressure_budget_equal_added_head_limit_Pa": 274495.20940642845,
+      "property_choice": "mean",
+      "shared_balanced": {
+        "drive_electric_MW": 128.0105238900851,
+        "fluid_shaft_work_MW": 111.36915578437403,
+        "loops": [
+          {
+            "compression_residual_J_kg": -3.725290298461914e-09,
+            "cycle_energy_residual_MW": -8.526512829121202e-14,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 36.703809923618756,
+            "entropy_error_J_kgK": 0.0,
+            "external_heat_MW": 708.337677429987,
+            "flow_kg_s": 682.5721004465584,
+            "fluid_shaft_work_MW": 31.932314633548316,
+            "fluid_work_J_kg": 46782.33202420268,
+            "hot_return_T_K": 773.293505160489,
+            "pressure_drop_Pa": 275504.79059357155,
+            "recoverable_HX_heat_MW": 740.2699920635353,
+            "suction_P_Pa": 7724495.209406428,
+            "suction_T_K": 564.2816000985252,
+            "suction_h_J_kg": 2959956.488324925
+          },
+          {
+            "compression_residual_J_kg": -3.725290298461914e-09,
+            "cycle_energy_residual_MW": 7.105427357601002e-14,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 91.30671396646633,
+            "entropy_error_J_kgK": 0.0,
+            "external_heat_MW": 1762.109729720818,
+            "flow_kg_s": 1698.0094346243648,
+            "fluid_shaft_work_MW": 79.43684115082571,
+            "fluid_work_J_kg": 46782.33202420268,
+            "hot_return_T_K": 773.2939840758625,
+            "pressure_drop_Pa": 275504.79059357155,
+            "recoverable_HX_heat_MW": 1841.5465708716438,
+            "suction_P_Pa": 7724495.209406428,
+            "suction_T_K": 564.2816000985252,
+            "suction_h_J_kg": 2959956.488324925
+          }
+        ],
+        "recoverable_HX_heat_MW": 2581.816562935179
+      }
+    },
+    {
+      "crossover_ignores_auxiliary_or_efficiency_changes": true,
+      "difference": {
+        "electric_saving_MW": 49.024669463707,
+        "fixed_conversion_net_budget_MW": 31.96408449033701,
+        "lost_conversion_output_MW": 17.060584973369988,
+        "lost_recoverable_heat_MW": 42.65146243342497
+      },
+      "energy_only_equal_added_head_crossover_Pa": 103040.49786771323,
+      "equal_external_loss_Pa": 274495.20940642845,
+      "external_loss_case": "equal_external_loss_at_shared_budget",
+      "independent_regional_circuits": {
+        "drive_electric_MW": 208.83943981705553,
+        "fluid_shaft_work_MW": 181.69031264083833,
+        "loops": [
+          {
+            "compression_residual_J_kg": -9.313225746154785e-10,
+            "cycle_energy_residual_MW": -2.842170943040401e-14,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 73.93607154745371,
+            "entropy_error_J_kgK": -3.637978807091713e-12,
+            "external_heat_MW": 708.337677429987,
+            "flow_kg_s": 682.5721004465584,
+            "fluid_shaft_work_MW": 64.32438224628473,
+            "fluid_work_J_kg": 94238.22363117663,
+            "hot_return_T_K": 773.4545455269264,
+            "pressure_drop_Pa": 550000.0,
+            "recoverable_HX_heat_MW": 772.6620596762717,
+            "suction_P_Pa": 7450000.0,
+            "suction_T_K": 555.3033902794779,
+            "suction_h_J_kg": 2912500.596717951
+          },
+          {
+            "compression_residual_J_kg": 3.725290298461914e-09,
+            "cycle_energy_residual_MW": 1.5631940186722204e-13,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 134.90336826960183,
+            "entropy_error_J_kgK": 0.0,
+            "external_heat_MW": 1762.109729720818,
+            "flow_kg_s": 1698.0094346243648,
+            "fluid_shaft_work_MW": 117.36593039455359,
+            "fluid_work_J_kg": 69119.71629917203,
+            "hot_return_T_K": 773.3701476768118,
+            "pressure_drop_Pa": 405334.2080090643,
+            "recoverable_HX_heat_MW": 1879.4756601153717,
+            "suction_P_Pa": 7594665.791990936,
+            "suction_T_K": 560.0558804334462,
+            "suction_h_J_kg": 2937619.1040499555
+          }
+        ],
+        "recoverable_HX_heat_MW": 2652.1377197916436
+      },
+      "joint_equal_added_head_limit_Pa": 0.0,
+      "pressure_budget_equal_added_head_limit_Pa": 0.0,
+      "property_choice": "mean",
+      "shared_balanced": {
+        "drive_electric_MW": 257.86410928076253,
+        "fluid_shaft_work_MW": 224.3417750742634,
+        "loops": [
+          {
+            "compression_residual_J_kg": -9.313225746154785e-10,
+            "cycle_energy_residual_MW": -2.842170943040401e-14,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 73.93607154745371,
+            "entropy_error_J_kgK": -3.637978807091713e-12,
+            "external_heat_MW": 708.337677429987,
+            "flow_kg_s": 682.5721004465584,
+            "fluid_shaft_work_MW": 64.32438224628473,
+            "fluid_work_J_kg": 94238.22363117663,
+            "hot_return_T_K": 773.4545455269264,
+            "pressure_drop_Pa": 550000.0,
+            "recoverable_HX_heat_MW": 772.6620596762717,
+            "suction_P_Pa": 7450000.0,
+            "suction_T_K": 555.3033902794779,
+            "suction_h_J_kg": 2912500.596717951
+          },
+          {
+            "compression_residual_J_kg": -9.313225746154785e-10,
+            "cycle_energy_residual_MW": 2.5579538487363607e-13,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 183.92803773330883,
+            "entropy_error_J_kgK": -3.637978807091713e-12,
+            "external_heat_MW": 1762.109729720818,
+            "flow_kg_s": 1698.0094346243648,
+            "fluid_shaft_work_MW": 160.01739282797868,
+            "fluid_work_J_kg": 94238.22363117663,
+            "hot_return_T_K": 773.4550244532761,
+            "pressure_drop_Pa": 550000.0,
+            "recoverable_HX_heat_MW": 1922.127122548797,
+            "suction_P_Pa": 7450000.0,
+            "suction_T_K": 555.3033902794779,
+            "suction_h_J_kg": 2912500.596717951
+          }
+        ],
+        "recoverable_HX_heat_MW": 2694.7891822250685
+      }
+    },
+    {
+      "crossover_ignores_auxiliary_or_efficiency_changes": true,
+      "difference": {
+        "electric_saving_MW": 51.142993270569804,
+        "fixed_conversion_net_budget_MW": 33.34523161241161,
+        "lost_conversion_output_MW": 17.797761658158198,
+        "lost_recoverable_heat_MW": 44.49440414539549
+      },
+      "energy_only_equal_added_head_crossover_Pa": 109347.14295978897,
+      "equal_external_loss_Pa": 0.0,
+      "external_loss_case": "channel_only",
+      "independent_regional_circuits": {
+        "drive_electric_MW": 85.89091070870359,
+        "fluid_shaft_work_MW": 74.72509231657212,
+        "loops": [
+          {
+            "compression_residual_J_kg": -1.3969838619232178e-09,
+            "cycle_energy_residual_MW": -7.105427357601002e-14,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 39.29103804828848,
+            "entropy_error_J_kgK": 0.0,
+            "external_heat_MW": 708.337677429987,
+            "flow_kg_s": 682.5721004465584,
+            "fluid_shaft_work_MW": 34.18320310201098,
+            "fluid_work_J_kg": 50079.98873620434,
+            "hot_return_T_K": 773.304789638566,
+            "pressure_drop_Pa": 294741.337944216,
+            "recoverable_HX_heat_MW": 742.5208805319979,
+            "suction_P_Pa": 7705258.662055784,
+            "suction_T_K": 563.6577931772617,
+            "suction_h_J_kg": 2956658.831612923
+          },
+          {
+            "compression_residual_J_kg": 1.862645149230957e-09,
+            "cycle_energy_residual_MW": 1.1368683772161603e-13,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 46.5998726604151,
+            "entropy_error_J_kgK": 0.0,
+            "external_heat_MW": 1762.109729720818,
+            "flow_kg_s": 1698.0094346243648,
+            "fluid_shaft_work_MW": 40.54188921456114,
+            "fluid_work_J_kg": 23876.127180370968,
+            "hot_return_T_K": 773.2152129792499,
+            "pressure_drop_Pa": 141216.12167471432,
+            "recoverable_HX_heat_MW": 1802.6516189353792,
+            "suction_P_Pa": 7858783.878325285,
+            "suction_T_K": 568.6143684033004,
+            "suction_h_J_kg": 2982862.6931687566
+          }
+        ],
+        "recoverable_HX_heat_MW": 2545.1724994673773
+      },
+      "joint_equal_added_head_limit_Pa": 109347.14295978897,
+      "pressure_budget_equal_added_head_limit_Pa": 255258.66205578402,
+      "property_choice": "outlet",
+      "shared_balanced": {
+        "drive_electric_MW": 137.0339039792734,
+        "fluid_shaft_work_MW": 119.21949646196785,
+        "loops": [
+          {
+            "compression_residual_J_kg": -1.3969838619232178e-09,
+            "cycle_energy_residual_MW": -7.105427357601002e-14,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 39.29103804828848,
+            "entropy_error_J_kgK": 0.0,
+            "external_heat_MW": 708.337677429987,
+            "flow_kg_s": 682.5721004465584,
+            "fluid_shaft_work_MW": 34.18320310201098,
+            "fluid_work_J_kg": 50079.98873620434,
+            "hot_return_T_K": 773.304789638566,
+            "pressure_drop_Pa": 294741.337944216,
+            "recoverable_HX_heat_MW": 742.5208805319979,
+            "suction_P_Pa": 7705258.662055784,
+            "suction_T_K": 563.6577931772617,
+            "suction_h_J_kg": 2956658.831612923
+          },
+          {
+            "compression_residual_J_kg": -1.3969838619232178e-09,
+            "cycle_energy_residual_MW": 9.947598300641403e-14,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 97.7428659309849,
+            "entropy_error_J_kgK": 0.0,
+            "external_heat_MW": 1762.109729720818,
+            "flow_kg_s": 1698.0094346243648,
+            "fluid_shaft_work_MW": 85.03629335995687,
+            "fluid_work_J_kg": 50079.98873620434,
+            "hot_return_T_K": 773.3052685649857,
+            "pressure_drop_Pa": 294741.337944216,
+            "recoverable_HX_heat_MW": 1847.146023080775,
+            "suction_P_Pa": 7705258.662055784,
+            "suction_T_K": 563.6577931772617,
+            "suction_h_J_kg": 2956658.831612923
+          }
+        ],
+        "recoverable_HX_heat_MW": 2589.666903612773
+      }
+    },
+    {
+      "crossover_ignores_auxiliary_or_efficiency_changes": true,
+      "difference": {
+        "electric_saving_MW": 52.01156717755711,
+        "fixed_conversion_net_budget_MW": 33.911541799767285,
+        "lost_conversion_output_MW": 18.100025377789827,
+        "lost_recoverable_heat_MW": 45.25006344447456
+      },
+      "energy_only_equal_added_head_crossover_Pa": 109341.22954304129,
+      "equal_external_loss_Pa": 255258.66205578402,
+      "external_loss_case": "equal_external_loss_at_shared_budget",
+      "independent_regional_circuits": {
+        "drive_electric_MW": 205.85254210320542,
+        "fluid_shaft_work_MW": 179.09171162978873,
+        "loops": [
+          {
+            "compression_residual_J_kg": -9.313225746154785e-10,
+            "cycle_energy_residual_MW": -2.842170943040401e-14,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 73.93607154745371,
+            "entropy_error_J_kgK": -3.637978807091713e-12,
+            "external_heat_MW": 708.337677429987,
+            "flow_kg_s": 682.5721004465584,
+            "fluid_shaft_work_MW": 64.32438224628473,
+            "fluid_work_J_kg": 94238.22363117663,
+            "hot_return_T_K": 773.4545455269264,
+            "pressure_drop_Pa": 550000.0,
+            "recoverable_HX_heat_MW": 772.6620596762717,
+            "suction_P_Pa": 7450000.0,
+            "suction_T_K": 555.3033902794779,
+            "suction_h_J_kg": 2912500.596717951
+          },
+          {
+            "compression_residual_J_kg": 2.7939677238464355e-09,
+            "cycle_energy_residual_MW": 1.5631940186722204e-13,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 131.91647055575172,
+            "entropy_error_J_kgK": 0.0,
+            "external_heat_MW": 1762.109729720818,
+            "flow_kg_s": 1698.0094346243648,
+            "fluid_shaft_work_MW": 114.76732938350399,
+            "fluid_work_J_kg": 67589.33551443601,
+            "hot_return_T_K": 773.3649501079134,
+            "pressure_drop_Pa": 396474.78373049834,
+            "recoverable_HX_heat_MW": 1876.8770591043221,
+            "suction_P_Pa": 7603525.2162695015,
+            "suction_T_K": 560.3454105275374,
+            "suction_h_J_kg": 2939149.4848346915
+          }
+        ],
+        "recoverable_HX_heat_MW": 2649.539118780594
+      },
+      "joint_equal_added_head_limit_Pa": 0.0,
+      "pressure_budget_equal_added_head_limit_Pa": 0.0,
+      "property_choice": "outlet",
+      "shared_balanced": {
+        "drive_electric_MW": 257.86410928076253,
+        "fluid_shaft_work_MW": 224.3417750742634,
+        "loops": [
+          {
+            "compression_residual_J_kg": -9.313225746154785e-10,
+            "cycle_energy_residual_MW": -2.842170943040401e-14,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 73.93607154745371,
+            "entropy_error_J_kgK": -3.637978807091713e-12,
+            "external_heat_MW": 708.337677429987,
+            "flow_kg_s": 682.5721004465584,
+            "fluid_shaft_work_MW": 64.32438224628473,
+            "fluid_work_J_kg": 94238.22363117663,
+            "hot_return_T_K": 773.4545455269264,
+            "pressure_drop_Pa": 550000.0,
+            "recoverable_HX_heat_MW": 772.6620596762717,
+            "suction_P_Pa": 7450000.0,
+            "suction_T_K": 555.3033902794779,
+            "suction_h_J_kg": 2912500.596717951
+          },
+          {
+            "compression_residual_J_kg": -9.313225746154785e-10,
+            "cycle_energy_residual_MW": 2.5579538487363607e-13,
+            "discharge_h_J_kg": 3006738.8203491275,
+            "drive_electric_MW": 183.92803773330883,
+            "entropy_error_J_kgK": -3.637978807091713e-12,
+            "external_heat_MW": 1762.109729720818,
+            "flow_kg_s": 1698.0094346243648,
+            "fluid_shaft_work_MW": 160.01739282797868,
+            "fluid_work_J_kg": 94238.22363117663,
+            "hot_return_T_K": 773.4550244532761,
+            "pressure_drop_Pa": 550000.0,
+            "recoverable_HX_heat_MW": 1922.127122548797,
+            "suction_P_Pa": 7450000.0,
+            "suction_T_K": 555.3033902794779,
+            "suction_h_J_kg": 2912500.596717951
+          }
+        ],
+        "recoverable_HX_heat_MW": 2694.7891822250685
+      }
+    }
+  ],
+  "frozen_input_sha256": "76046e9f5e0dbeaa4a258b178f0f5ae1bab96f32374e2cfdecaa6de78711b133",
+  "inputs": {
+    "CoolProp_version": "8.0.0",
+    "admission": {
+      "accounting": "Reduced compressor work also reduces recovered heat. No addition to the213.69MW reactor figure and no annual-availability claim.",
+      "cases": "Mean and outlet property approximations, each at zero omitted equal branch loss and at the shared topology's remaining550kPa allowance. Endpoints are budgets, not measured header losses.",
+      "classification": "Reference-driven design comparison; not a new loop solver or new hydraulic principle",
+      "compression": "Solve suction temperature with real-helium entropy and enthalpy so discharge temperature remains fixed; also close a four-state heat ledger and cross-check ideal-gas algebra.",
+      "decision": "Whether to retain the published independent topology as preferred next reference and the budget for extra losses/auxiliaries before any net benefit is erased.",
+      "fixed_boundary": "Candidate helium pump discharge 8MPa and573.13K; branch mass flow/heat from previous solved nominal split. Eta_isentropic0.9, electrical-to-shaft0.87, recovered-heat conversion0.4 remain assumptions.",
+      "full_state_sha256": "cedcfa6d695fd45d4be17ea1ee77ae40d821064ea15eb1244822804f3001f9ea",
+      "not_free": "Independent circuits require their own controls, cooling trains and spatial hardware. Within-region unequal flow, compressor maps, cold-side HX feasibility, pressure-vessel stress and neutron/material allocation remain open.",
+      "physical_plant_validated": false,
+      "primary_references": [
+        {
+          "doi": "10.1016/j.pnucene.2016.08.007",
+          "scope": "Full author manuscript read, Figure5 inspected; four independent circuits, two IB and two OB; manifold losses absent and ex-vessel components excluded in reported simulations."
+        },
+        {
+          "commit": "e2b011ac7fd90f9cf5771f29f1aefa160550b6ee",
+          "repository": "casella/ThermoPower",
+          "scope": "CompressorBase source inspected; reuse enthalpy/entropy/efficiency equations only. No Modelica execution or full GETTHEM reproduction."
+        },
+        {
+          "doi": "10.1016/j.fusengdes.2025.114872",
+          "scope": "Publisher text and institutional abstract inspected; geometry-specific manifold thermomechanical issues remain despite thickness changes. No stress coefficients transferred."
+        }
+      ],
+      "prior_result_sha256": "62ee10daa0f2ca4630095e43043e83351a7ff2aa128b8e2104bde8271b5f379a",
+      "project_base": "91648db3ad2d6691dfe57f0b1b632ec20a36235a",
+      "question": "At the same candidate heat and branch flows, what is the pumping/heat-recovery trade of the published independent IB/OB topology versus the hypothetical common-pressure balanced topology?",
+      "schema": "fusion.independent-circuits-admission.v1",
+      "stop_rule": "Complete this finite topology comparison and numerical cross-checks once; do not build a general whole-loop simulator or repeat manifold-parameter sweeps."
+    },
+    "code_sha256": "6eabdf3cde3cb0a16643f697c7c740ab60134243c00ba44fea4da19828ff41df",
+    "config": {
+      "drive": 0.87,
+      "eta": 0.9,
+      "head_budget": 550000.0,
+      "heat_eff": 0.4,
+      "pout": 8000000.0,
+      "tout": 573.13
+    },
+    "flows_kg_s": {
+      "inboard": 682.5721004465584,
+      "outboard": 1698.0094346243648
+    },
+    "head_inputs": [
+      {
+        "branch_heads": {
+          "inboard": 275504.79059357155,
+          "outboard": 130838.99860263588
+        },
+        "property_choice": "mean"
+      },
+      {
+        "branch_heads": {
+          "inboard": 294741.337944216,
+          "outboard": 141216.12167471432
+        },
+        "property_choice": "outlet"
+      }
+    ],
+    "heats_MW": {
+      "inboard": 708.337677429987,
+      "outboard": 1762.109729720818
+    }
+  },
+  "no_updated_plant_output": true,
+  "physical_validation": false,
+  "schema": "fusion.independent-circuit-comparison.v1"
+}

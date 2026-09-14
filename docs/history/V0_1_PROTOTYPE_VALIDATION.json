@@ -1,0 +1,56 @@
+{
+  "schema": "fusion-workbench.prototype-validation.v1",
+  "browser_checks": {
+    "comparator_loaded": true,
+    "layer_toggle": true,
+    "cutaway_toggle": true,
+    "timeline_scrub": true,
+    "evidence_view": true,
+    "verification_submission": true,
+    "full_solver_completed": true,
+    "job_shows_configuration": true,
+    "presentation_toggle": true,
+    "no_browser_exceptions": true
+  },
+  "focused_tests_passed": 37,
+  "blender_configurations": 2,
+  "mesh_objects_per_configuration": 34,
+  "unreal_import": {
+    "maps": [
+      {
+        "configuration_id": "r838",
+        "map": "/Game/Generated/R838",
+        "bounds_cm": [
+          2894.14208984375,
+          2894.14208984375,
+          1629.4073486328125
+        ],
+        "USD_loaded": true,
+        "runtime_UMG_app": false
+      },
+      {
+        "configuration_id": "r900",
+        "map": "/Game/Generated/R900",
+        "bounds_cm": [
+          3059.190185546875,
+          3059.190185546875,
+          1698.1085205078125
+        ],
+        "USD_loaded": true,
+        "runtime_UMG_app": false
+      }
+    ],
+    "scope": "Editor scene import and metric bounds verification, not physical validation",
+    "full_runtime_UI_complete": false
+  },
+  "full_solver_ui_test": {
+    "configuration_id": "r838",
+    "state": "completed",
+    "numerically_converged": true,
+    "conditional_average_net_MW": 213.69131801996207,
+    "reference_updated": false,
+    "physical_validation": false
+  },
+  "historical_project_fully_integrated": false,
+  "public_hosting_active": false
+}

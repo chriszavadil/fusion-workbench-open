@@ -1,0 +1,2 @@
+Open research for humanity: Fusion Workbench is a free Unreal desktop preview for exploring fusion models, replaying tests and tracking the evidence. Not a working reactor. Scientists and developers: help reproduce and improve it.
+https://github.com/chriszavadil/fusion-workbench

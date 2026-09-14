@@ -1,0 +1,114 @@
+{
+  "research/reports/results/CONFINEMENT_DEPENDENCY_DECISION_2026-09-07.md": {
+    "configuration_scope": "r838 r900",
+    "scope_notice": "Read the original comparison and configuration-specific conditions; numerical feasibility is not physical validation."
+  },
+  "research/reports/results/COOLING_INTERFACE_DECISION_2026-09-07.md": {
+    "configuration_scope": "r838",
+    "scope_notice": "Conditional component/distribution study for r838 only; no transfer to r900 and no higher net output accepted."
+  },
+  "research/reports/results/FLOW_BALANCE_DECISION_2026-09-07.md": {
+    "configuration_scope": "r838",
+    "scope_notice": "Conditional component/distribution study for r838 only; no transfer to r900 and no higher net output accepted."
+  },
+  "research/reports/results/FULL_PROCESS_LIFECYCLE_2026-09-07.md": {
+    "configuration_scope": "r838 r900",
+    "scope_notice": "Read the original comparison and configuration-specific conditions; numerical feasibility is not physical validation."
+  },
+  "research/reports/results/HEADER_INVENTORY_DECISION_2026-09-07.md": {
+    "configuration_scope": "r838",
+    "scope_notice": "Conditional component/distribution study for r838 only; no transfer to r900 and no higher net output accepted."
+  },
+  "research/reports/results/INDEPENDENT_CIRCUITS_DECISION_2026-09-07.md": {
+    "configuration_scope": "r838",
+    "scope_notice": "Conditional component/distribution study for r838 only; no transfer to r900 and no higher net output accepted."
+  },
+  "research/reports/results/CONFINEMENT_NORMALIZATION_2026-09-09.md": {
+    "configuration_scope": "r838 r900",
+    "status": "current update",
+    "track": "plasma",
+    "scope_notice": "Known accounting correction applied to archived outputs; not measured H98 or increased reactor power."
+  },
+  "docs/RESEARCH_UPDATE_2026-09-09.md": {
+    "status": "current update",
+    "track": "project",
+    "configuration_scope": "r838 r900 project",
+    "scope_notice": "Current local research and application update; public publication remains on hold."
+  },
+  "research/reports/archive/README.md": {
+    "status": "superseded overview",
+    "configuration_scope": "reference_or_project",
+    "scope_notice": "Archived project planning/reference document, not current status or evidence that an experiment was completed. Read the latest dated results."
+  },
+  "research/reports/archive/external/freegsnke_integration/FROZEN_BASELINE.md": {
+    "status": "historical setup reference",
+    "configuration_scope": "reference_or_project",
+    "scope_notice": "Archived project planning/reference document, not current status or evidence that an experiment was completed. Read the latest dated results."
+  },
+  "research/reports/archive/external/freegsnke_integration/RUN_REQUEST_001.md": {
+    "status": "historical setup reference",
+    "configuration_scope": "reference_or_project",
+    "scope_notice": "Archived project planning/reference document, not current status or evidence that an experiment was completed. Read the latest dated results."
+  },
+  "research/reports/archive/external/freegsnke_integration/README.md": {
+    "status": "historical setup reference",
+    "configuration_scope": "reference_or_project",
+    "scope_notice": "Archived project planning/reference document, not current status or evidence that an experiment was completed. Read the latest dated results."
+  },
+  "research/reports/archive/external/plant_tools/FROZEN_BASELINES.md": {
+    "status": "historical setup reference",
+    "configuration_scope": "reference_or_project",
+    "scope_notice": "Archived project planning/reference document, not current status or evidence that an experiment was completed. Read the latest dated results."
+  },
+  "research/reports/results/HEADER_NEUTRON_TRANSPORT_2026-09-10.md": {
+    "configuration_scope": "r838",
+    "status": "current update",
+    "track": "neutronics",
+    "scope_notice": "Candidate-linked local-cell neutron transport; not global TBR, recovered fuel or more plant electricity."
+  },
+  "docs/RESEARCH_UPDATE_2026-09-10.md": {
+    "configuration_scope": "r838 project",
+    "status": "current update",
+    "track": "project",
+    "scope_notice": "Local 0.3.1 app and neutron-study update. Public publication is still on hold."
+  },
+  "research/source/experiments/header_neutron_placement_2026_09_10/KEY_RESULTS.json": {
+    "configuration_scope": "r838",
+    "track": "neutronics",
+    "scope_notice": "Local source/header-placement study; same inventory, not a full-reactor prediction."
+  },
+  "research/source/experiments/header_neutron_placement_2026_09_10/REPRODUCE.md": {
+    "configuration_scope": "r838",
+    "track": "neutronics",
+    "scope_notice": "Local source/header-placement study; same inventory, not a full-reactor prediction."
+  },
+  "research/source/experiments/header_neutron_placement_2026_09_10/RESEARCH_CONTEXT.md": {
+    "configuration_scope": "r838",
+    "track": "neutronics",
+    "scope_notice": "Local source/header-placement study; same inventory, not a full-reactor prediction."
+  },
+  "research/reports/results/SOURCE_DIRECTION_AND_3D_TRANSPORT_2026-09-10.md": {
+    "status": "current update",
+    "track": "neutronics",
+    "configuration_scope": "r838",
+    "scope_notice": "Four local source-direction tests with actual 3D scores and trajectories. No whole-reactor TBR, measured validation or new power."
+  },
+  "docs/TRANSPORT_LAB_UPDATE_2026-09-10.md": {
+    "status": "current update",
+    "track": "project",
+    "configuration_scope": "r838 r900 project",
+    "scope_notice": "3D component physics visualization; the local transport results apply only to the r838-linked module."
+  },
+  "research/reports/results/PLASMA_SOURCE_COUPLING_2026-09-13.md": {
+    "configuration_scope": "r838",
+    "track": "neutronics",
+    "status": "current update",
+    "scope_notice": "Joint profile-derived direct-source comparison; parameterized geometry and finite-bank/transport statistics, not global TBR or physical validation."
+  },
+  "docs/SOURCE_COUPLING_UPDATE_2026-09-13.md": {
+    "configuration_scope": "r838 project",
+    "track": "project",
+    "status": "current update",
+    "scope_notice": "Recovered source-coupling results and current 3D visualization; existing repository retained, no public visibility change."
+  }
+}

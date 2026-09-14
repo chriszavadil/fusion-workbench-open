@@ -1,0 +1,51 @@
+{
+  "admitted_cases": [
+    "same-flow replay",
+    "one unbalanced common-pressure solve per mean/outlet property approximation",
+    "one nominal differential balancing requirement and thermal-flow acceptance interval",
+    "inventory reservation upper limit before external hardware losses"
+  ],
+  "baseline_project_ref": "3f1d2f619778ee2ef1a37fcf60f8b5807c5347a7",
+  "boundary_conditions": "8MPa property pressure, total helium mass flow sized by inherited heat and 573.13->773.13K target; active heat loads unchanged; 550kPa total pressure budget.",
+  "claim_boundary": [
+    "No design-specific experimental calibration or CFD.",
+    "No manifold steel sizing, pressure-vessel qualification, TBR or increased electricity claimed.",
+    "Nominal peaking1.0 is not a resolved spatial heat map.",
+    "Mean/outlet properties are two approximations, not uncertainty bounds."
+  ],
+  "class": "candidate-specific integration and acceptance test, not new hydraulic theory",
+  "not_started": [
+    "new blanket optimizer",
+    "GPU search",
+    "unmatched neutron screen",
+    "full reactor reoptimization"
+  ],
+  "prior_art_status": "Established heat/pressure/parallel-network methods reused. No originality claim for the method or splitting channels.",
+  "question": "Does the outboard-only split maintain its required cooling flow when both branch groups share supply/return pressure? What balancing pressure and inventory reservation would be required?",
+  "schema": "fusion.flow-balance-admission.v1",
+  "sources": [
+    {
+      "doi": "10.1016/j.fusengdes.2015.12.026",
+      "lesson": "GRICAMAN demonstrates actual flow distribution need not match assigned flows; do not transplant its coefficients to this geometry.",
+      "read": "publisher abstract and section extracts"
+    },
+    {
+      "doi": "10.3390/en16145377",
+      "lesson": "Use existing FW-manifold-BZ flow scheme; newer pin design is not this generic PROCESS candidate.",
+      "read": "publisher indexed full text portions"
+    },
+    {
+      "doi": "10.1016/j.fusengdes.2025.114924",
+      "lesson": "Scaled mock-up design, proposed testing; not achieved manifold performance validation.",
+      "read": "full parsed PDF text; web rendering failed; not relying on diagram/table numerical data"
+    },
+    {
+      "doi": "10.1016/j.fusengdes.2017.02.072",
+      "lesson": "Connection and channel resistance differences are measured; extra feeds are not free.",
+      "read": "publisher abstract and sections"
+    }
+  ],
+  "state_sha256": "cedcfa6d695fd45d4be17ea1ee77ae40d821064ea15eb1244822804f3001f9ea",
+  "stop_rule": "Finish these named decisions once, with numerical crosschecks; do not turn into generic shape or flow sweeps.",
+  "topology": "Declared common supply and return pressure for aggregate IB/OB groups. Separate controlled circuits are an alternative, not ruled out. Headers are idealized for the distribution test, not completed hardware."
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "readable_records": 71,
+  "confinement_matches": 8,
+  "selected_configuration_matches": 8,
+  "configuration_unchanged": true,
+  "script_errors": [],
+  "scientific_job_submitted": false
+}

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" material="7" name="armour" region="3 -4 5 -6 7 -8" universe="1" volume="13065.974068757976"/>
+  <cell id="2" material="9" name="first_wall" region="4 -1 5 -6 7 -8" universe="1" volume="47037.5066475287"/>
+  <cell id="3" material="5" name="header_0_coolant" region="-12 9 -10 -11 5 -6 7 -8 1 -2" universe="1" volume="12172.02522582943"/>
+  <cell id="4" material="2" name="header_0_steel_caps" region="-11 5 -6 7 -8 1 -2 (12 | -9 | 10 | 11 | -5 | 6 | -7 | 8 | -1 | 2)" universe="1" volume="4521.893208236414"/>
+  <cell id="5" material="5" name="header_1_coolant" region="-14 9 -10 -13 5 -6 7 -8 1 -2" universe="1" volume="12172.02522582943"/>
+  <cell id="6" material="2" name="header_1_steel_caps" region="-13 5 -6 7 -8 1 -2 (14 | -9 | 10 | 13 | -5 | 6 | -7 | 8 | -1 | 2)" universe="1" volume="4521.893208236414"/>
+  <cell id="7" material="5" name="header_2_coolant" region="-16 9 -10 -15 5 -6 7 -8 1 -2" universe="1" volume="12172.02522582943"/>
+  <cell id="8" material="2" name="header_2_steel_caps" region="-15 5 -6 7 -8 1 -2 (16 | -9 | 10 | 15 | -5 | 6 | -7 | 8 | -1 | 2)" universe="1" volume="4521.893208236414"/>
+  <cell id="9" material="10" name="blanket_residual" region="1 -2 5 -6 7 -8 (11 | -5 | 6 | -7 | 8 | -1 | 2) (13 | -5 | 6 | -7 | 8 | -1 | 2) (15 | -5 | 6 | -7 | 8 | -1 | 2)" universe="1" volume="2563113.0584493973"/>
+  <surface coeffs="0" id="1" type="x-plane"/>
+  <surface boundary="vacuum" coeffs="100.0" id="2" type="x-plane"/>
+  <surface boundary="vacuum" coeffs="-2.3" id="3" type="x-plane"/>
+  <surface coeffs="-1.7999999999999998" id="4" type="x-plane"/>
+  <surface boundary="reflective" coeffs="0" id="5" type="y-plane"/>
+  <surface boundary="reflective" coeffs="133.1366692344427" id="6" type="y-plane"/>
+  <surface boundary="reflective" coeffs="0" id="7" type="z-plane"/>
+  <surface boundary="reflective" coeffs="196.27911895181742" id="8" type="z-plane"/>
+  <surface coeffs="0.7433085310952301" id="9" type="z-plane"/>
+  <surface coeffs="195.53581042072219" id="10" type="z-plane"/>
+  <surface coeffs="94.7968392823334 22.18944487240712 5.203159717666611" id="11" type="z-cylinder"/>
+  <surface coeffs="94.7968392823334 22.18944487240712 4.459851186571381" id="12" type="z-cylinder"/>
+  <surface coeffs="94.7968392823334 66.56833461722135 5.203159717666611" id="13" type="z-cylinder"/>
+  <surface coeffs="94.7968392823334 66.56833461722135 4.459851186571381" id="14" type="z-cylinder"/>
+  <surface coeffs="94.7968392823334 110.94722436203558 5.203159717666611" id="15" type="z-cylinder"/>
+  <surface coeffs="94.7968392823334 110.94722436203558 4.459851186571381" id="16" type="z-cylinder"/>
+</geometry>

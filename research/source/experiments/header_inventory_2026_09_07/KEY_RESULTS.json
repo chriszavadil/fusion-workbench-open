@@ -1,0 +1,136 @@
+{
+  "TBR_computed": false,
+  "date": "2026-09-07",
+  "integrated_with_newer_project_ref": "2629556074609ad89ee44e6e9bf0bf8e8e21ae6d",
+  "physical_manifold_validated": false,
+  "portable_replay": {
+    "focused_tests_passed": 19,
+    "maximum_selected_pressure_error_Pa": 0.0,
+    "numerical_replay_verified": true,
+    "output": "<LOCAL_HOME>\\FusionResearch\\header-portable-replay-20260907",
+    "physical_model_validated": false
+  },
+  "preferred_topology": "Independent regional circuits retained; cross-region common-pressure balancing is comparator only.",
+  "project_parent": "91648db3ad2d6691dfe57f0b1b632ec20a36235a",
+  "reactor_power_recomputed": false,
+  "results": [
+    {
+      "configuration": "unsplit",
+      "header_coolant_m3": 19.900371512353573,
+      "header_steel_m3": 7.391891031188512,
+      "inner_radii_m": {
+        "inboard": 0.03848705776309573,
+        "outboard": 0.04514116673305153
+      },
+      "nominal_balanced_FW_peak_K": null,
+      "nominal_balancing_Pa": {
+        "inboard": 273272.92198996665,
+        "outboard": 0.0
+      },
+      "nominal_common_drop_Pa": 623031.9357720556,
+      "nominal_remaining_Pa": -73031.93577205564,
+      "properties": "mean",
+      "unbalanced_FW_peak_K": {
+        "IB": 779.8928014566222,
+        "OB": 786.4224389182272
+      },
+      "unbalanced_common_drop_Pa": 516469.2952195492,
+      "unbalanced_remaining_Pa": 33530.70478045079
+    },
+    {
+      "configuration": "outboard_split",
+      "header_coolant_m3": 19.900371064937822,
+      "header_steel_m3": 7.391890862565439,
+      "inner_radii_m": {
+        "inboard": 0.03848705776309573,
+        "outboard": 0.0451411660300862
+      },
+      "nominal_balanced_FW_peak_K": {
+        "IB": 798.241059794778,
+        "OB": 793.4053516046567
+      },
+      "nominal_balancing_Pa": {
+        "inboard": 0.0,
+        "outboard": 141855.52641158988
+      },
+      "nominal_common_drop_Pa": 349759.013782089,
+      "nominal_remaining_Pa": 200240.986217911,
+      "properties": "mean",
+      "unbalanced_FW_peak_K": {
+        "IB": 820.9919831596511,
+        "OB": 787.6470583391628
+      },
+      "unbalanced_common_drop_Pa": 237490.84368753227,
+      "unbalanced_remaining_Pa": 312509.15631246776
+    },
+    {
+      "configuration": "unsplit",
+      "header_coolant_m3": 19.449483189876428,
+      "header_steel_m3": 7.222104089690613,
+      "inner_radii_m": {
+        "inboard": 0.038111185997808744,
+        "outboard": 0.044598512560598845
+      },
+      "nominal_balanced_FW_peak_K": null,
+      "nominal_balancing_Pa": {
+        "inboard": 283991.41414401366,
+        "outboard": 0.0
+      },
+      "nominal_common_drop_Pa": 657246.491262826,
+      "nominal_remaining_Pa": -107246.49126282602,
+      "properties": "outlet",
+      "unbalanced_FW_peak_K": {
+        "IB": 779.731346416236,
+        "OB": 786.5094407721507
+      },
+      "unbalanced_common_drop_Pa": 546707.7081858095,
+      "unbalanced_remaining_Pa": 3292.291814190452
+    },
+    {
+      "configuration": "outboard_split",
+      "header_coolant_m3": 19.44948275292022,
+      "header_steel_m3": 7.2221039250924,
+      "inner_radii_m": {
+        "inboard": 0.038111185997808744,
+        "outboard": 0.04459851186571381
+      },
+      "nominal_balanced_FW_peak_K": {
+        "IB": 798.2410597947787,
+        "OB": 793.4053516046566
+      },
+      "nominal_balancing_Pa": {
+        "inboard": 0.0,
+        "outboard": 149577.80660441975
+      },
+      "nominal_common_drop_Pa": 373255.07711881236,
+      "nominal_remaining_Pa": 176744.92288118764,
+      "properties": "outlet",
+      "unbalanced_FW_peak_K": {
+        "IB": 821.5724698115879,
+        "OB": 787.5372721314009
+      },
+      "unbalanced_common_drop_Pa": 254929.1783452875,
+      "unbalanced_remaining_Pa": 295070.8216547125
+    }
+  ],
+  "schema": "fusion.header-inventory-key-results.v1",
+  "scope": [
+    "No actual header distribution CFD or geometry-qualified pressure vessel",
+    "No experimentally calibrated performance or neutron TBR",
+    "Optimization is of an explicitly assumed envelope, not global plant optimality",
+    "Numerical headroom is not a safe operating margin; full pressure, thermal stress, heat peaking and reliability remain unvalidated",
+    "Three circular envelopes per native module are a chosen topology, not an actual HCPB CAD reproduction.",
+    "Known friction charges full module flow over each full header length; it is NOT a bound on omitted junction/distribution losses.",
+    "Reallocating steel from the remaining blanket may compromise its support; no structural or breeding benefit is assumed.",
+    "Caps have volume only; local cap/nozzle/weld stresses, irradiated allowable values and thermal stress are not evaluated.",
+    "The repeated branch temperature calculation assumes prescribed nominal flow maintained by unspecified balancing.",
+    "No power-output update or tritium breeding tally was made."
+  ],
+  "tests": {
+    "all_repository_tests_run": false,
+    "failed": 0,
+    "focused_passed": 19,
+    "skipped": 0
+  },
+  "upstream": "c0ae5b28649f2b20fb7efc7904628b6defe4151c"
+}

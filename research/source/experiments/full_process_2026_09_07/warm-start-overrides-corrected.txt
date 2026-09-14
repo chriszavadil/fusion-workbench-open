@@ -1,0 +1,21 @@
+
+* Single admitted warm start from converged adaptive20k output *
+b_plasma_toroidal_on_axis = 5.0617032841898943
+rmajor = 8.2220284033014632
+temp_plasma_electron_vol_avg_kev = 16.759772386863716
+beta_total_vol_avg = 0.046724556948806902
+nd_plasma_electrons_vol_avg = 7.8250735788572836e+19
+hfact = 1.1999999999951672
+dr_cs = 0.41675340379270792
+q95 = 3.0000000000753255
+dr_bore = 2.3728789005962523
+f_c_plasma_non_inductive = 0.67497189514028821
+t_tf_superconductor_quench = 16.238777409226216
+dr_tf_nose_case = 0.23158115465858686
+dx_tf_turn_steel = 0.008000000004635327
+f_a_tf_turn_cable_copper = 0.88598064666507015
+c_tf_turn = 89999.999961038702
+f_nd_alpha_thermal_electron = 0.06910430263812832
+f_a_cs_turn_steel = 0.85995832951842588
+f_nd_impurity_electrons(13) = 0.0012984260556800993
+dr_tf_wp_with_insulation = 0.52966133183267261

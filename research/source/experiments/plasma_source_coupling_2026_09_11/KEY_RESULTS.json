@@ -1,0 +1,205 @@
+{
+  "admission_sha256": "ba86d02abe6727e889714d9ccf33261fde4a1819dd27d1378210c21725ac29d6",
+  "angular_means": [
+    0.787337238135728,
+    0.7871952638850901
+  ],
+  "cases": {
+    "headers_front": {
+      "between_bank_difference_z": 0.14454888040570893,
+      "cells": [
+        {
+          "heat_MW": 0.16836126724444517,
+          "heat_MW_conditional_MC_se": 0.0005044527633295385,
+          "id": 1,
+          "material": "armour_W",
+          "name": "armour",
+          "volume_cm3": 13065.974068757976
+        },
+        {
+          "heat_MW": 0.24483311548688075,
+          "heat_MW_conditional_MC_se": 0.0006662638954287218,
+          "id": 2,
+          "material": "first_wall_mixed",
+          "name": "first_wall",
+          "volume_cm3": 47037.5066475287
+        },
+        {
+          "heat_MW": 0.0004885235507436284,
+          "heat_MW_conditional_MC_se": 2.217700488657127e-05,
+          "id": 3,
+          "material": "pressurized_He4",
+          "name": "header_0_coolant",
+          "volume_cm3": 12172.02522582943
+        },
+        {
+          "heat_MW": 0.030216687587238965,
+          "heat_MW_conditional_MC_se": 0.000230709781330063,
+          "id": 4,
+          "material": "eurofer_recipe",
+          "name": "header_0_steel_caps",
+          "volume_cm3": 4521.893208236414
+        },
+        {
+          "heat_MW": 0.0005162248682390866,
+          "heat_MW_conditional_MC_se": 2.2598276370562997e-05,
+          "id": 5,
+          "material": "pressurized_He4",
+          "name": "header_1_coolant",
+          "volume_cm3": 12172.02522582943
+        },
+        {
+          "heat_MW": 0.03101439816747078,
+          "heat_MW_conditional_MC_se": 0.0002524122521781665,
+          "id": 6,
+          "material": "eurofer_recipe",
+          "name": "header_1_steel_caps",
+          "volume_cm3": 4521.893208236414
+        },
+        {
+          "heat_MW": 0.0005335529806253502,
+          "heat_MW_conditional_MC_se": 2.6257329097184806e-05,
+          "id": 7,
+          "material": "pressurized_He4",
+          "name": "header_2_coolant",
+          "volume_cm3": 12172.02522582943
+        },
+        {
+          "heat_MW": 0.030582279479752575,
+          "heat_MW_conditional_MC_se": 0.0002728769048446012,
+          "id": 8,
+          "material": "eurofer_recipe",
+          "name": "header_2_steel_caps",
+          "volume_cm3": 4521.893208236414
+        },
+        {
+          "heat_MW": 3.0678892287590167,
+          "heat_MW_conditional_MC_se": 0.004462414286866308,
+          "id": 9,
+          "material": "blanket_residual",
+          "name": "blanket_residual",
+          "volume_cm3": 2563113.0584493973
+        }
+      ],
+      "conditional_module_nuclear_heat_MW": 3.574435278127045,
+      "deposited_MeV_per_incident_neutron": 12.483031969762969,
+      "heating_standard_error_MeV": 0.015869041666270803,
+      "layout": "headers_front",
+      "physical_validation": false,
+      "source_histories": 400000,
+      "tritons_per_incident_neutron": 0.732379563892906,
+      "tritons_standard_error": 0.0018142480156653424
+    },
+    "headers_rear": {
+      "between_bank_difference_z": 1.1973161965134773,
+      "cells": [
+        {
+          "heat_MW": 0.1673991130980093,
+          "heat_MW_conditional_MC_se": 0.0005879776462855565,
+          "id": 1,
+          "material": "armour_W",
+          "name": "armour",
+          "volume_cm3": 13065.974068757976
+        },
+        {
+          "heat_MW": 0.24336989503137108,
+          "heat_MW_conditional_MC_se": 0.0006178274121683159,
+          "id": 2,
+          "material": "first_wall_mixed",
+          "name": "first_wall",
+          "volume_cm3": 47037.5066475287
+        },
+        {
+          "heat_MW": 0.0,
+          "heat_MW_conditional_MC_se": 0.0,
+          "id": 3,
+          "material": "pressurized_He4",
+          "name": "header_0_coolant",
+          "volume_cm3": 12172.02522582943
+        },
+        {
+          "heat_MW": 3.3775748127497494e-05,
+          "heat_MW_conditional_MC_se": 1.0388582586650784e-05,
+          "id": 4,
+          "material": "eurofer_recipe",
+          "name": "header_0_steel_caps",
+          "volume_cm3": 4521.893208236414
+        },
+        {
+          "heat_MW": 2.260344836731598e-07,
+          "heat_MW_conditional_MC_se": 2.2345393175198645e-07,
+          "id": 5,
+          "material": "pressurized_He4",
+          "name": "header_1_coolant",
+          "volume_cm3": 12172.02522582943
+        },
+        {
+          "heat_MW": 4.9265836439767685e-05,
+          "heat_MW_conditional_MC_se": 1.2024127082540731e-05,
+          "id": 6,
+          "material": "eurofer_recipe",
+          "name": "header_1_steel_caps",
+          "volume_cm3": 4521.893208236414
+        },
+        {
+          "heat_MW": 2.3186132066251504e-07,
+          "heat_MW_conditional_MC_se": 2.3186132066251504e-07,
+          "id": 7,
+          "material": "pressurized_He4",
+          "name": "header_2_coolant",
+          "volume_cm3": 12172.02522582943
+        },
+        {
+          "heat_MW": 4.936910070613495e-05,
+          "heat_MW_conditional_MC_se": 1.123718681664179e-05,
+          "id": 8,
+          "material": "eurofer_recipe",
+          "name": "header_2_steel_caps",
+          "volume_cm3": 4521.893208236414
+        },
+        {
+          "heat_MW": 3.1952952667802923,
+          "heat_MW_conditional_MC_se": 0.0044834830021852345,
+          "id": 9,
+          "material": "blanket_residual",
+          "name": "blanket_residual",
+          "volume_cm3": 2563113.0584493973
+        }
+      ],
+      "conditional_module_nuclear_heat_MW": 3.606197143493161,
+      "deposited_MeV_per_incident_neutron": 12.593954213399808,
+      "heating_standard_error_MeV": 0.01574364487183095,
+      "layout": "headers_rear",
+      "physical_validation": false,
+      "source_histories": 400000,
+      "tritons_per_incident_neutron": 0.7528022016684557,
+      "tritons_standard_error": 0.0014799974637183806
+    }
+  },
+  "comparison": {
+    "conditional_MC_error_only": true,
+    "front_minus_rear_tritons": -0.020422637775549646,
+    "interval99": [
+      -0.026453538405927478,
+      -0.014391737145171815
+    ],
+    "percent_of_rear": -2.7128823122842105,
+    "source_geometry_and_nuclear_data_uncertainty_excluded": true,
+    "standard_error": 0.0023413432800335945
+  },
+  "date": "2026-09-11",
+  "experimental_validation": false,
+  "extra_electricity": false,
+  "schema": "fusion.candidate-source-coupling-result.v1",
+  "source_power_geometry_not_reoptimized": true,
+  "source_result_sha256": "761025a4606861ec3ea3ace30268d88d42d0a7da4e892f294d957ac0508c07a1",
+  "source_summary": {
+    "normalization_DT_rate_s": 7.628046705123184e+20,
+    "normalized_patch_neutrons_s": 1.7872156603093489e+18,
+    "parameterized_volume_difference_percent": 2.4073634509849784,
+    "patch_fraction": 0.0023429532217061687,
+    "patch_fraction_scramble_se": 3.626121256556327e-07,
+    "source_shape_total_rate_ratio_to_PROCESS": 1.037448959979253
+  },
+  "whole_reactor_TBR": false
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "fusion.circulator-evidence-readiness.v1",
+  "checked_date": "2026-09-07",
+  "purpose": "Replace assumed equipment performance only when compatible measured data are available; do not extend synthetic efficiency sweeps.",
+  "references": [
+    {
+      "doi": "10.1016/j.fusengdes.2021.112299",
+      "title": "Performance test and modeling with GAMMA-FR of helium circulator and recuperator for helium cooled breeding blanket",
+      "reading_scope": "Publisher abstract, introduction and section extracts; not full numerical curves.",
+      "use": "Identifies real component-test and modeling-validation evidence to request/reuse.",
+      "not_transferred": "No performance curve, fitted efficiency, or scale-up coefficient was imported. The cited test-blanket flow scale is not our regional flow."
+    },
+    {
+      "doi": "10.1016/j.fusengdes.2026.116021",
+      "title": "Experimental evaluation of the performance and operational characteristics of a helium circulator for Test Blanket System applications",
+      "reading_scope": "Publisher indexed abstract/section extracts, Crossref record, and publisher retrieval API metadata.",
+      "issue_date": "2026-11",
+      "Crossref_record_created_utc": "2026-08-20T10:52:03Z",
+      "Crossref_deposit_utc": "2026-09-06T03:05:51Z",
+      "online_publication_date_not_supplied_by_Crossref": true,
+      "publisher_openaccess_flag": 0,
+      "publisher_API_outcome": "HTTP200 returned core metadata only, not experimental curves or full article.",
+      "use": "Prioritize speed-dependent measured performance and uncertainty metadata over another assumed-efficiency calculation.",
+      "not_transferred": "No curve was digitized or fitted, no numerical speed limit adopted, and no full-scale reactor circulator qualified."
+    },
+    {
+      "doi": "10.1016/j.fusengdes.2025.115515",
+      "reading_scope": "Publisher abstract and section extracts.",
+      "rejection": "The 70% overall efficiency in this motor-cooling study is explicitly an assumption, not a measured isentropic map for our circuit."
+    }
+  ],
+  "new_experimental_data_received": false,
+  "empirical_efficiency_calibrated": false,
+  "new_email_or_access_purchase": false,
+  "not_a_reason_to_change_the_frozen_numeric_results": true
+}

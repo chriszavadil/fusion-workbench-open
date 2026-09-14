@@ -1,0 +1,7 @@
+{
+  "numerical_replay_verified": true,
+  "maximum_selected_pressure_error_Pa": 0.0,
+  "focused_tests_passed": 19,
+  "output": "<LOCAL_HOME>\\FusionResearch\\header-portable-replay-20260907",
+  "physical_model_validated": false
+}

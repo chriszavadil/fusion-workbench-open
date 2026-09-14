@@ -1,0 +1,76 @@
+{
+  "admission": "Does spatial placement of the actual proposed header inventory change local triton yield or heating enough to invalidate the uniform-material approximation? No full reactor TBR or net-power claim.",
+  "armour_m": 0.005,
+  "batches": 40,
+  "benchmark_model_sha256": "e9ae59e49c46006546bb991c5783922ccea739d6fa730b78eeb2f387823a0c3c",
+  "benchmark_pin": "c47fc573a7e2a9ca11a8958dc67155b1146adf51",
+  "blanket_depth_m": 1.0,
+  "boundary": "reflecting y/z faces, vacuum front/back; local repeated rectangular representative cell, no toroidal return flux",
+  "closest_prior_art": [
+    "https://doi.org/10.3390/en16145377",
+    "https://doi.org/10.1080/15361055.2025.2567167",
+    "https://doi.org/10.1016/j.net.2023.08.005",
+    "https://github.com/eepeterson/openmc_fusion_benchmarks"
+  ],
+  "configuration_id": "r838",
+  "date": "2026-09-10",
+  "decision_rule": "Flag geometry sensitivity when absolute yield difference exceeds2% of homogeneous and independent-run99% normal Monte Carlo interval excludeszero. No physical uncertainty/validation claim.",
+  "densities_g_cm3": {
+    "Li4SiO4": 2.4,
+    "TiBe12": 2.26,
+    "coolant_He4": 0.005637606884935859,
+    "purge_He4": 7.150157881556807e-05,
+    "steel": 7.8,
+    "tungsten": 19.25
+  },
+  "first_wall_coolant_fraction": 0.3141592653589793,
+  "first_wall_m": 0.018,
+  "fractions": {
+    "f_vol_blkt_li4sio4": 0.375,
+    "f_vol_blkt_steel": 0.09705,
+    "f_vol_blkt_tibe12": 0.375,
+    "vfcblkt": 0.05295,
+    "vfpblkt": 0.1
+  },
+  "header": {
+    "cap_volume_allowance_m3": 0.14565848194330264,
+    "header_coolant_m3": 14.022173060155502,
+    "inner_radius_m": 0.04459851186571381,
+    "length_each_m": 1.9479250188962696,
+    "outer_radius_m": 0.05203159717666611,
+    "shell_steel_m3": 5.063562493945045,
+    "wall_m": 0.007433085310952301
+  },
+  "header_state_sha256": "6bedbc75bb903edc731d312e116d9122bc84a54470f4b978dd89597fcf78a73b",
+  "headers_per_module": 3,
+  "layouts": [
+    "homogeneous",
+    "headers_rear",
+    "headers_front"
+  ],
+  "li6_atom_enrichment_percent": 30.0,
+  "limitations": [
+    "Not transport-ready full reactor CAD or globalTBR.",
+    "Identical per-nuclide inventories across layouts; fixed uniform temperatures, no thermal expansion or CFD feedback.",
+    "No moderator bound-atom S(alpha,beta) data assigned to ceramic or TiBe12; model-form and nuclear-data uncertainty excluded.",
+    "Front-header layout is a stress case, not a claimed optimized manifold or safe pressure vessel.",
+    "Published benchmark validates only scope actually reproduced, not candidate tritium performance."
+  ],
+  "material_recipe": "NMM1.2.3 eurofer recipe overridden to pinned7.8g/cm3; solids use PROCESS effective densities. Isotopic and temperature assumptions are diagnostic, not validated blanket specification.",
+  "mfile_sha256": "92b7e95564e4890b3f2f3860f70d5e5834c4f838dde4eff77fbf5d1f6b5ccb8c",
+  "module_count": 384,
+  "module_volume_m3": 2.613194813751595,
+  "nuclear_data_library": "ENDFB-8.0-NNDC",
+  "particles_per_batch": 25000,
+  "reuse": "Unchanged Oktavian Al reference, OpenMC transport and existing material recipe. No new blanket optimizer.",
+  "schema": "fusion.local-header-transport-input.v1",
+  "seeds": [
+    920031,
+    920051
+  ],
+  "source_angular_law": "cosine-weighted incoming hemisphere along+x",
+  "source_energy_eV": 14100000.0,
+  "temperature_K": 673.15,
+  "threads": 2,
+  "timeout_s_each": 600
+}

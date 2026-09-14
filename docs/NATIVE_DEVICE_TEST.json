@@ -1,0 +1,21 @@
+{
+	"schema": "fusion.native-runtime-test.v1",
+	"configurations": [
+		{
+			"configuration_id": "r838",
+			"passed": true,
+			"mesh_components": 34,
+			"height_error_cm": 0.00011043603581128991
+		},
+		{
+			"configuration_id": "r900",
+			"passed": true,
+			"mesh_components": 34,
+			"height_error_cm": 3.0653113299194956e-05
+		}
+	],
+	"passed": true,
+	"physical_validation": false,
+	"native_unreal_runtime": true,
+	"public_host_configured": false
+}

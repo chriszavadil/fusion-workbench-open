@@ -1,0 +1,15 @@
+{
+  "browser_reader_test_passed": true,
+  "correspondence_access_documents_withheld": 7,
+  "current_scientific_markdown_included": 57,
+  "fresh_native_solver_reproduction_passed": true,
+  "historical_raw_data_fully_integrated": false,
+  "native_reader_test_passed": true,
+  "new_confinement_check": "Known radiation-accounting correction applied to two exact archived states, not new physics or experimental H98 validation",
+  "physical_validation": false,
+  "publication_needs_fresh_repository": true,
+  "publicly_published": false,
+  "readable_records": 71,
+  "source_tests_passed": 147,
+  "version": "0.3.0-preview"
+}

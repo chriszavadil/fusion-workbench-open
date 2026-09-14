@@ -1,0 +1,43 @@
+{
+  "schema": "fusion.native-solver-smoke.v1",
+  "passed": true,
+  "actual_local_solver_requested": true,
+  "physical_validation": false,
+  "reference_auto_updated": false,
+  "safe_solver_result": {
+    "accepted_reference_updated": false,
+    "artifact_sha256": "d44274915bf1aed2ce1878df20dc48a795c7ffa1ed00c7b86d294f522c9922e0",
+    "classification": "numerically_converged",
+    "configuration_id": "r838",
+    "kind": "full_solver_reproduction",
+    "metrics": {
+      "conditional_average_net_MW": 213.69131801996207,
+      "cycle_s": 9905.008899246712,
+      "fatigue_cycles": 76464.5855395387,
+      "flat_top_net_MW": 400.0000000179575,
+      "fusion_MW": 2152.7603750513326,
+      "gross_MW": 1210.4425586971252,
+      "internal_confinement_multiplier": 1.1999999999864892,
+      "plant_accounting_residual_MW": -0.5541368432386662,
+      "pulse_energy_kWh": 734935.5578748204,
+      "required_fatigue_cycles": 76464.58551466823,
+      "solenoid_current_MA_m2": 10.185602925584838,
+      "solenoid_hoop_MPa": 189.02037767037575
+    },
+    "passed": true,
+    "physical_validation": false,
+    "verification": {
+      "conditional_average_net_MW": 213.69131801996207,
+      "energy_disagreement_kWh": 0,
+      "kind": "recorded_output_verification",
+      "maximum_balance_disagreement_MW": 2.842170943040401e-14,
+      "passed": true,
+      "physical_validation": false,
+      "recomputed_pulse_energy_kWh": 734935.5578748204,
+      "source_artifact_sha256": "d44274915bf1aed2ce1878df20dc48a795c7ffa1ed00c7b86d294f522c9922e0"
+    }
+  },
+  "privacy_corrected_distribution": true,
+  "worker_stdin_isolated": true,
+  "git_banner_lookup_bounded": true
+}

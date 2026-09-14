@@ -1,0 +1,5 @@
+.......................                                                  [100%]
+23 passed in 2.17s
+
+
+{"source_and_input_hashes_verified": true, "maximum_power_replay_error_MW": 0.0, "maximum_ledger_residual_MW": 2.5579538487363607e-13, "test_exit": 0, "replay_directory": "<LOCAL_HOME>\\AppData\\Local\\Temp\\fusion-independent-replay-l5na9n5j", "physical_validation": false}

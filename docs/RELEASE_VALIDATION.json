@@ -1,0 +1,28 @@
+{
+  "schema": "fusion.public-release-validation.v1",
+  "version": "0.2.1-preview",
+  "native_packaged_runtime_verified": true,
+  "native_configurations_checked": [
+    "r838",
+    "r900"
+  ],
+  "native_full_solver_reproduction_passed": true,
+  "conditional_average_net_MW": 213.69131801996207,
+  "physical_validation": false,
+  "reference_automatically_updated": false,
+  "worker_timeout_seconds": 600,
+  "native_smoke_wait_seconds": 630,
+  "focused_source_tests_passed": 49,
+  "all_historical_tests_executed": false,
+  "unsigned_windows_preview": true,
+  "fresh_machine_installation_tested": false,
+  "public_publication_confirmed": false,
+  "private_history_included": false,
+  "research_source_revision": "2adb4b5c925dfe7c5fc7c0ab887def3c92deb601",
+  "review": "Controlled file projection, source/binary scans, math-preservation checks, license notices and actual packaged runtime/worker test; not a guarantee against all defects or disclosure.",
+  "development_file_server_disabled": true,
+  "startup_git_reporting_shell_free": true,
+  "terminal_stdin_inheritance_disabled": true,
+  "latest_clean_native_solver_check": "passed",
+  "native_shipping_executable_sha256": "5526fe0637911be27d7dcdb6cee548dddb499c95c102df11a4b3b70418834dbe"
+}

@@ -1,0 +1,1005 @@
+{
+  "schema": "fusion.public-experiment-projection.v1",
+  "source_revision": "2adb4b5c925dfe7c5fc7c0ab887def3c92deb601",
+  "records": [
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/ADMISSION.json",
+      "source_sha256": "29898a4f77dac440dcbd3572bd6877f7afcdf9d44dd54015f5d39b93d62c5293",
+      "published_sha256": "29898a4f77dac440dcbd3572bd6877f7afcdf9d44dd54015f5d39b93d62c5293",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/DECISION.md",
+      "source_sha256": "34389e10a194da32527eb1c94aaf6a626fd17be1256b5c1451447de5cb133660",
+      "published_sha256": "34389e10a194da32527eb1c94aaf6a626fd17be1256b5c1451447de5cb133660",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/EXECUTION_SUMMARY.json",
+      "source_sha256": "9ca140dedbc933b3b11b44f01a004687c8f2a5f21ebcee97c9b9de3df40c5e39",
+      "published_sha256": "9ca140dedbc933b3b11b44f01a004687c8f2a5f21ebcee97c9b9de3df40c5e39",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/H103_native_validation/FROZEN_INPUT.json",
+      "source_sha256": "6749459ef8f9b83090ae77b5883e407b915a86a9ff25fd652cf2776c021163cd",
+      "published_sha256": "6749459ef8f9b83090ae77b5883e407b915a86a9ff25fd652cf2776c021163cd",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/H103_native_validation/RESULT.json",
+      "source_sha256": "29cfaeacd223aca01e34005bf9f13a276dc4c97638694f577f505f3f514010be",
+      "published_sha256": "29cfaeacd223aca01e34005bf9f13a276dc4c97638694f577f505f3f514010be",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/H11_bridge/FROZEN_INPUT.json",
+      "source_sha256": "cf71fa46efc378641f7e1340899abdddf3480d8cc19605856aefda437d2aa69d",
+      "published_sha256": "cf71fa46efc378641f7e1340899abdddf3480d8cc19605856aefda437d2aa69d",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/H11_bridge/RESULT.json",
+      "source_sha256": "ee9b25a49ac73a5c414a59a0d9d3990431f05f3869b0bc1d866bd4c1168b1712",
+      "published_sha256": "ee9b25a49ac73a5c414a59a0d9d3990431f05f3869b0bc1d866bd4c1168b1712",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/H1_continued/FROZEN_INPUT.json",
+      "source_sha256": "5b288d5493a1941cd8f5f873f423fc0c541d6b8e2e502cee23641b3da708226c",
+      "published_sha256": "5b288d5493a1941cd8f5f873f423fc0c541d6b8e2e502cee23641b3da708226c",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/H1_continued/RESULT.json",
+      "source_sha256": "aea8102cfdb0416d28135b9c08fc278a28f5ee5a81130f302705e3598e3fabc2",
+      "published_sha256": "aea8102cfdb0416d28135b9c08fc278a28f5ee5a81130f302705e3598e3fabc2",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/H1_direct/FROZEN_INPUT.json",
+      "source_sha256": "69ceaa12458c0be0b0fc249767091f5017c1c6382d3b68ee031633639f681ce1",
+      "published_sha256": "69ceaa12458c0be0b0fc249767091f5017c1c6382d3b68ee031633639f681ce1",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/H1_direct/RESULT.json",
+      "source_sha256": "3e59ff3aee5afcd8494da0c561f5af781f7077c8525cd3b7d8c685f493ffed5f",
+      "published_sha256": "3e59ff3aee5afcd8494da0c561f5af781f7077c8525cd3b7d8c685f493ffed5f",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/H_min_inverse/FROZEN_INPUT.json",
+      "source_sha256": "46aefcdb9e9b2e292da15260b8690b2e9fc187d2c864092d39a6f775d1ca9dc4",
+      "published_sha256": "46aefcdb9e9b2e292da15260b8690b2e9fc187d2c864092d39a6f775d1ca9dc4",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/H_min_inverse/RESULT.json",
+      "source_sha256": "d27e1b34637a7311656c1b35551905d4330cd395d41c3c98d0ca283367cd721a",
+      "published_sha256": "d27e1b34637a7311656c1b35551905d4330cd395d41c3c98d0ca283367cd721a",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/INVERSE_ADMISSION.json",
+      "source_sha256": "b9bff30db112ecc0ef85dd05485c70781b39089900a0d7a09e474910d4f1fdf6",
+      "published_sha256": "b9bff30db112ecc0ef85dd05485c70781b39089900a0d7a09e474910d4f1fdf6",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/README.md",
+      "source_sha256": "eb293cc1f6075aba79bcaf34b0f8303bc66bf364c2f47b0baf3230de0235b64a",
+      "published_sha256": "377d43323838ad68c2158f0a2fe14e43c2a94762fc098ce050c2a07db1f7837b",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/UPSTREAM_LICENSE.txt",
+      "source_sha256": "63fb7edfe2c6a20b3dc768b95c1f80abbe4c478fa407325693528163aef141d8",
+      "published_sha256": "63fb7edfe2c6a20b3dc768b95c1f80abbe4c478fa407325693528163aef141d8",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/VALIDATION.json",
+      "source_sha256": "9b793c7fd8c3af411f06b09d93e699d126320eea86d66f7880ef03e823615a06",
+      "published_sha256": "9b793c7fd8c3af411f06b09d93e699d126320eea86d66f7880ef03e823615a06",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/audit_results.py",
+      "source_sha256": "1f414bd6518017da0490c3806fcd942b41b8b969e8239faa0d80d020f8bf202c",
+      "published_sha256": "1f414bd6518017da0490c3806fcd942b41b8b969e8239faa0d80d020f8bf202c",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/execute_bounded.py",
+      "source_sha256": "f37f3c3e9761ca2b432f038f42db531c161444e90c7ab970be33840f205d7b42",
+      "published_sha256": "f37f3c3e9761ca2b432f038f42db531c161444e90c7ab970be33840f205d7b42",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/min_h_objective.py",
+      "source_sha256": "9d1f9987988bdc2f4db145fe99d5a9c662de33cb740b72c1ecab30d98b98bbb8",
+      "published_sha256": "9d1f9987988bdc2f4db145fe99d5a9c662de33cb740b72c1ecab30d98b98bbb8",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/replay-result.txt",
+      "source_sha256": "cbcf35457a34b657d32801f78336e842e2d72757914d60b2dbe56fda10a44813",
+      "published_sha256": "d6c129929023f39a8f3a61c6fef1d9aefad1364545d68bb54a033485a5d4e2c6",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/replay.py",
+      "source_sha256": "7fbecdd552c5020dd682eb850d145bd8304719b834add6bd4904e7ff4d2240ec",
+      "published_sha256": "7fbecdd552c5020dd682eb850d145bd8304719b834add6bd4904e7ff4d2240ec",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/requirements-observed.txt",
+      "source_sha256": "cf07f6ee366738e068a268b9f4a371c076d3f7a8fff8e4cbdfc42aa030ab2382",
+      "published_sha256": "cf07f6ee366738e068a268b9f4a371c076d3f7a8fff8e4cbdfc42aa030ab2382",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/run_case.py",
+      "source_sha256": "b8230495052d9e910f33ab01bd9a0d06c13a70eee8e04f73546602daa77b4475",
+      "published_sha256": "b8230495052d9e910f33ab01bd9a0d06c13a70eee8e04f73546602daa77b4475",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/run_inverse.py",
+      "source_sha256": "9cde4408707263cf9f860409187eb691e6d5dd545e8d849b1fa703f0a403d30e",
+      "published_sha256": "9cde4408707263cf9f860409187eb691e6d5dd545e8d849b1fa703f0a403d30e",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/run_native_validation.py",
+      "source_sha256": "31bfd0a176d80f507ddaff07755b1aadaef06f1f4318c94af91c4ca0b4bc4cc8",
+      "published_sha256": "31bfd0a176d80f507ddaff07755b1aadaef06f1f4318c94af91c4ca0b4bc4cc8",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/support/adaptive_fatigue.py",
+      "source_sha256": "96be69c05abbfa9786591b652dac5c81262d7fb03c4a8fe3471fe42a5974949d",
+      "published_sha256": "96be69c05abbfa9786591b652dac5c81262d7fb03c4a8fe3471fe42a5974949d",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/support/audit_full_runs.py",
+      "source_sha256": "24a701e3b05d1c5f73d63fbcb7f87625d0710d35369246baafeee5dbbe2bfe55",
+      "published_sha256": "24a701e3b05d1c5f73d63fbcb7f87625d0710d35369246baafeee5dbbe2bfe55",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/support/mission_constraint.py",
+      "source_sha256": "d25a629240275457f24e0d3a27ff2a324e1a5100995cb31996f5104de57459db",
+      "published_sha256": "d25a629240275457f24e0d3a27ff2a324e1a5100995cb31996f5104de57459db",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/support/run_full_process.py",
+      "source_sha256": "40bae045aae0036568226076ddb184d97cdc42135f09f9d5ded63cd1c5714603",
+      "published_sha256": "40bae045aae0036568226076ddb184d97cdc42135f09f9d5ded63cd1c5714603",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/support/run_warm_fixed_process.py",
+      "source_sha256": "3c65c901fbee719bad63e0e8a12ff48d2cc6b0674181ce27c43efda6cabe270e",
+      "published_sha256": "3c65c901fbee719bad63e0e8a12ff48d2cc6b0674181ce27c43efda6cabe270e",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/support/windows_output_fix.py",
+      "source_sha256": "b8f70409ce24ee9bda76e34b22e55289f60cb500697ebb2b445bea634ac0fdc7",
+      "published_sha256": "b8f70409ce24ee9bda76e34b22e55289f60cb500697ebb2b445bea634ac0fdc7",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/test_confinement.py",
+      "source_sha256": "a4bf2a7863a898b3f8f3181d3e2867656a435b4a9cd7e424e2aab09aa1d588d9",
+      "published_sha256": "a4bf2a7863a898b3f8f3181d3e2867656a435b4a9cd7e424e2aab09aa1d588d9",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/tests.txt",
+      "source_sha256": "3585b438ea68f36c6a94c8043fad81f8563d239b76d90957790cd594d52a542f",
+      "published_sha256": "3585b438ea68f36c6a94c8043fad81f8563d239b76d90957790cd594d52a542f",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/cooling_interface_2026_09_07/MINIMAL_THERMAL_STATE.json",
+      "source_sha256": "4ee26347978dfb3b4a6e18d55ea7b6aca223f8f0e4fca31867152f4b85dc2658",
+      "published_sha256": "4ee26347978dfb3b4a6e18d55ea7b6aca223f8f0e4fca31867152f4b85dc2658",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/cooling_interface_2026_09_07/README.md",
+      "source_sha256": "251577f481aadc9e6b2c7900236785ef3720cc87e0eec496bf4bd22cc3796c3d",
+      "published_sha256": "c2a1f4d324394bcef366aaefbe2079edf5f6f0d825dd43bfa111874947f5de49",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/cooling_interface_2026_09_07/UPSTREAM_LICENSE.txt",
+      "source_sha256": "63fb7edfe2c6a20b3dc768b95c1f80abbe4c478fa407325693528163aef141d8",
+      "published_sha256": "63fb7edfe2c6a20b3dc768b95c1f80abbe4c478fa407325693528163aef141d8",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/cooling_interface_2026_09_07/coolant_volume_gate.py",
+      "source_sha256": "a908bbb2bdf09363f1a7b1f816871449fbc9d502b50062ba5b1f8c2bacae9f94",
+      "published_sha256": "a908bbb2bdf09363f1a7b1f816871449fbc9d502b50062ba5b1f8c2bacae9f94",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/cooling_interface_2026_09_07/evaluate_frozen_fw_final.py",
+      "source_sha256": "520df2244f1bcf80d3288a33445933be8002ef4de9291c13cdd31a3d1ad77668",
+      "published_sha256": "520df2244f1bcf80d3288a33445933be8002ef4de9291c13cdd31a3d1ad77668",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/cooling_interface_2026_09_07/replay_cooling_gate.py",
+      "source_sha256": "b64a91b6a8defb2169c0051ed7df5b48ab330484e036a32f965f4c5b10082eb6",
+      "published_sha256": "b64a91b6a8defb2169c0051ed7df5b48ab330484e036a32f965f4c5b10082eb6",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/cooling_interface_2026_09_07/requirements-runtime-lock.txt",
+      "source_sha256": "1a3837b6a855d431f10c7d5050db2b5800bf434065d410fb9deb38a705ef0e24",
+      "published_sha256": "1a3837b6a855d431f10c7d5050db2b5800bf434065d410fb9deb38a705ef0e24",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/cooling_interface_2026_09_07/split_fw_intervention.py",
+      "source_sha256": "a60c6474f6de02e7f7ce0f65e8858a0ba8aff784438770c87e62dcea77f463d8",
+      "published_sha256": "a60c6474f6de02e7f7ce0f65e8858a0ba8aff784438770c87e62dcea77f463d8",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/ADMISSION.json",
+      "source_sha256": "11bddcf49ae561e2de1d58bcb7bed602de82d791c5c57256ddfd05ecf0e1147a",
+      "published_sha256": "11bddcf49ae561e2de1d58bcb7bed602de82d791c5c57256ddfd05ecf0e1147a",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/DECISION.md",
+      "source_sha256": "7b5b86847f06ded0e5deab4426b7279347b02bfe9c301ab8c1e90295b07a9802",
+      "published_sha256": "0952d613e1f2db0a2b768efb73d6841f0e09dd6b50ac1ba78aa7123c7ffe33a3",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/FROZEN_INPUT.json",
+      "source_sha256": "d94c75d998dde0fa8a4d724e98d71889122232e976c0d1423ee27a4b83a076e9",
+      "published_sha256": "d94c75d998dde0fa8a4d724e98d71889122232e976c0d1423ee27a4b83a076e9",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/INPUT_STATE.json",
+      "source_sha256": "75c998edb5a105f54c2184d716a48d3d45822c2c2af490f512e639723b35000f",
+      "published_sha256": "75c998edb5a105f54c2184d716a48d3d45822c2c2af490f512e639723b35000f",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/PORTABLE_MANIFEST.json",
+      "source_sha256": "05519ec1b94a5debecf826f027a19c3adb52482fb13577a68ad3954e4216de4c",
+      "published_sha256": "05519ec1b94a5debecf826f027a19c3adb52482fb13577a68ad3954e4216de4c",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/PORTABLE_REPLAY_LOG.txt",
+      "source_sha256": "592f9ec6e7df0eacb0a90fc06f351458bfde821ad1596e424e66e83805c96aca",
+      "published_sha256": "34dd7018197e7e1c21754995985817f4c1ab9a1c76bd334e98fda1652bfbce4c",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/README.md",
+      "source_sha256": "702ec8f2addc9e861f39b04d87e61176e3e7b139e17f8ab26a576397d0c8266d",
+      "published_sha256": "8667acc1fc4eaf255ba2dd12544695bab4204ff8d3df42a068aafa6a0121e6d2",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/RESULT.json",
+      "source_sha256": "62ee10daa0f2ca4630095e43043e83351a7ff2aa128b8e2104bde8271b5f379a",
+      "published_sha256": "62ee10daa0f2ca4630095e43043e83351a7ff2aa128b8e2104bde8271b5f379a",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/UPSTREAM_LICENSE.txt",
+      "source_sha256": "63fb7edfe2c6a20b3dc768b95c1f80abbe4c478fa407325693528163aef141d8",
+      "published_sha256": "63fb7edfe2c6a20b3dc768b95c1f80abbe4c478fa407325693528163aef141d8",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/branch_balance.py",
+      "source_sha256": "a6bdb6a0fdc68655aa08bf0d8445f55ad337b54f53dedb2012556f65b6b37a45",
+      "published_sha256": "a6bdb6a0fdc68655aa08bf0d8445f55ad337b54f53dedb2012556f65b6b37a45",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/evaluate_frozen_fw_final.py",
+      "source_sha256": "773ab997cad8265708eab529d08723f807db168e0ec9fd5d2a26cd28fb684dae",
+      "published_sha256": "773ab997cad8265708eab529d08723f807db168e0ec9fd5d2a26cd28fb684dae",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/replay.py",
+      "source_sha256": "dfb9a0ed05d261af503140e4515fafc7410555d7dcae8911f90d7ae8bb50680d",
+      "published_sha256": "dfb9a0ed05d261af503140e4515fafc7410555d7dcae8911f90d7ae8bb50680d",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/requirements-observed.txt",
+      "source_sha256": "0470545f4d48bcf476f9b5d469d4ee7eb910c813b9a1cb42681a952014f543c3",
+      "published_sha256": "0470545f4d48bcf476f9b5d469d4ee7eb910c813b9a1cb42681a952014f543c3",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/test_branch_balance.py",
+      "source_sha256": "fd6fb1e2e8e47107d39e3f720a684578a666fbf507ed62146c1bb36f46d480c4",
+      "published_sha256": "fd6fb1e2e8e47107d39e3f720a684578a666fbf507ed62146c1bb36f46d480c4",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/tests.txt",
+      "source_sha256": "9f492353fe37727f9a56fe667e9535ebf966e6ec3a75089f7b328712055ee6cd",
+      "published_sha256": "9ac6ea966d397543a5bb24a41f315701681830119ffda7e9435f1f483d58b65f",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/full_process_2026_09_07/README.md",
+      "source_sha256": "c931fd90d6172ef848f960ddf0bbe1af2f9ed110b0cb1251626377c245370579",
+      "published_sha256": "c931fd90d6172ef848f960ddf0bbe1af2f9ed110b0cb1251626377c245370579",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/full_process_2026_09_07/UPSTREAM_LICENSE.txt",
+      "source_sha256": "63fb7edfe2c6a20b3dc768b95c1f80abbe4c478fa407325693528163aef141d8",
+      "published_sha256": "63fb7edfe2c6a20b3dc768b95c1f80abbe4c478fa407325693528163aef141d8",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/full_process_2026_09_07/adaptive_fatigue.py",
+      "source_sha256": "e97ecba17d898d1a5b44dad8f4dbdbadedfe9c33ac05a00609bfaeb69387bd14",
+      "published_sha256": "e97ecba17d898d1a5b44dad8f4dbdbadedfe9c33ac05a00609bfaeb69387bd14",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/full_process_2026_09_07/mission_constraint.py",
+      "source_sha256": "4f14b9af6b10db18ac2bf0693a0625802e6a16c4e0cb9d63d02da2731002417a",
+      "published_sha256": "4f14b9af6b10db18ac2bf0693a0625802e6a16c4e0cb9d63d02da2731002417a",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/full_process_2026_09_07/requirements-runtime-lock.txt",
+      "source_sha256": "1a3837b6a855d431f10c7d5050db2b5800bf434065d410fb9deb38a705ef0e24",
+      "published_sha256": "1a3837b6a855d431f10c7d5050db2b5800bf434065d410fb9deb38a705ef0e24",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/full_process_2026_09_07/run_warm_fixed_process.py",
+      "source_sha256": "e194f19cf914f4187bfc513d02dcc7b8a0330caa8da0ab6a4567e3906a1275bb",
+      "published_sha256": "e194f19cf914f4187bfc513d02dcc7b8a0330caa8da0ab6a4567e3906a1275bb",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/full_process_2026_09_07/warm-start-overrides-corrected.txt",
+      "source_sha256": "17ce0b0afa100e011256e7005cac807f789414c332824d9380bb95af08298cec",
+      "published_sha256": "17ce0b0afa100e011256e7005cac807f789414c332824d9380bb95af08298cec",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/full_process_2026_09_07/windows_output_fix.py",
+      "source_sha256": "9d081cbeaf7348bc120b7d06cc565b47c5e41e0509929f6c9f17151be65c47c0",
+      "published_sha256": "9d081cbeaf7348bc120b7d06cc565b47c5e41e0509929f6c9f17151be65c47c0",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/ADMISSION.json",
+      "source_sha256": "7eac1a1b50b4d9a1032884b3ab5c44d9af3475de0bd10a93e7ab8b8435ed30d8",
+      "published_sha256": "7eac1a1b50b4d9a1032884b3ab5c44d9af3475de0bd10a93e7ab8b8435ed30d8",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/DECISION.md",
+      "source_sha256": "1ade291a0df4c2fb75a0c983c1c8715166e24f63d2eaa73e6102741ca4f6855e",
+      "published_sha256": "1ade291a0df4c2fb75a0c983c1c8715166e24f63d2eaa73e6102741ca4f6855e",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/FLOW_RECHECK_RESULT.json",
+      "source_sha256": "ffb9a6c85b4cb18c59159b6e7f21c88845906fa3c70dc910e7f43de99ebb337d",
+      "published_sha256": "ffb9a6c85b4cb18c59159b6e7f21c88845906fa3c70dc910e7f43de99ebb337d",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/FOLLOWON_ADMISSION.json",
+      "source_sha256": "f1909cb1e3d4e9a20982f238784b213c8f503616e738f8cb99841d54d4affa3b",
+      "published_sha256": "f1909cb1e3d4e9a20982f238784b213c8f503616e738f8cb99841d54d4affa3b",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/FROZEN_INPUT.json",
+      "source_sha256": "eff8f23212c1e8e289960a060f967c40a761b93ea2d8a321d7711c89786f98d8",
+      "published_sha256": "eff8f23212c1e8e289960a060f967c40a761b93ea2d8a321d7711c89786f98d8",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/INPUT_STATE.json",
+      "source_sha256": "6bedbc75bb903edc731d312e116d9122bc84a54470f4b978dd89597fcf78a73b",
+      "published_sha256": "6bedbc75bb903edc731d312e116d9122bc84a54470f4b978dd89597fcf78a73b",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/KEY_RESULTS.json",
+      "source_sha256": "0f6b4295462ad4c0765b8025425c43e5f4ab60e944f74430269d9aa379a85d68",
+      "published_sha256": "47dd84b68f0d81b54c97c11ed4ef4e006caf0d2819e88ae051b202e9e9cbfc62",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/PORTABLE_REPLAY_LOG.txt",
+      "source_sha256": "e923c342425488f54a2c17a8ceff53af603b66dd5673b1e68d5d1b1b566b864e",
+      "published_sha256": "e515bbded6c067a3f9fdf1aa0413e8f45b10fa5096c219b53ca6c96f075321f7",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/PORTABLE_REPLAY_RESULT.json",
+      "source_sha256": "a3795ae6245104d2dba1f497209bd129a069e0f2d69a682f80e6ade4a5e69898",
+      "published_sha256": "8c46e5588efe2394b9f4f56058fe4be71b480a6a6b8dc339384bf0668c005de3",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/PROVENANCE.json",
+      "source_sha256": "053975edc79ebf878b093910950aa8db02b0dc5c4f6ce1969dcf143357420968",
+      "published_sha256": "053975edc79ebf878b093910950aa8db02b0dc5c4f6ce1969dcf143357420968",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/README.md",
+      "source_sha256": "e6df8913f46aab0a45776503ddad4c5a9b6c91e263338f96ca921231ff569399",
+      "published_sha256": "e6df8913f46aab0a45776503ddad4c5a9b6c91e263338f96ca921231ff569399",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/RESULT.json",
+      "source_sha256": "63808857d8cc2dac214dc9e59dc6cc482b7f44436d722b55443b60c3f2ca6237",
+      "published_sha256": "63808857d8cc2dac214dc9e59dc6cc482b7f44436d722b55443b60c3f2ca6237",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/TESTS.txt",
+      "source_sha256": "a39c2cff8ee318a543f220f4fcae48a0f36c06746139dff50929e7e385fe5f89",
+      "published_sha256": "a39c2cff8ee318a543f220f4fcae48a0f36c06746139dff50929e7e385fe5f89",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/UPSTREAM_LICENSE.txt",
+      "source_sha256": "63fb7edfe2c6a20b3dc768b95c1f80abbe4c478fa407325693528163aef141d8",
+      "published_sha256": "63fb7edfe2c6a20b3dc768b95c1f80abbe4c478fa407325693528163aef141d8",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/dependencies/SOLVED_STATE.json",
+      "source_sha256": "cedcfa6d695fd45d4be17ea1ee77ae40d821064ea15eb1244822804f3001f9ea",
+      "published_sha256": "cedcfa6d695fd45d4be17ea1ee77ae40d821064ea15eb1244822804f3001f9ea",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/dependencies/branch_balance.py",
+      "source_sha256": "a6bdb6a0fdc68655aa08bf0d8445f55ad337b54f53dedb2012556f65b6b37a45",
+      "published_sha256": "a6bdb6a0fdc68655aa08bf0d8445f55ad337b54f53dedb2012556f65b6b37a45",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/dependencies/evaluate_frozen_fw_final.py",
+      "source_sha256": "773ab997cad8265708eab529d08723f807db168e0ec9fd5d2a26cd28fb684dae",
+      "published_sha256": "773ab997cad8265708eab529d08723f807db168e0ec9fd5d2a26cd28fb684dae",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/flow_recheck.py",
+      "source_sha256": "004f61ff78a77634950d9ce5f3b99fe28e8d901335ac6b6a689e0e64a153f89f",
+      "published_sha256": "004f61ff78a77634950d9ce5f3b99fe28e8d901335ac6b6a689e0e64a153f89f",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/header_inventory.py",
+      "source_sha256": "2d62348c578be4c4bc1234d0b2bb88b1b905ad61982d37c438507e2bb8bbaadd",
+      "published_sha256": "2d62348c578be4c4bc1234d0b2bb88b1b905ad61982d37c438507e2bb8bbaadd",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/initial_prescribed_flow/FROZEN_INPUT.json",
+      "source_sha256": "d23bc9387d6f55c2d0d950066b52cfb5b8c947e7c97298a29481f1b4f3fd99df",
+      "published_sha256": "d23bc9387d6f55c2d0d950066b52cfb5b8c947e7c97298a29481f1b4f3fd99df",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/initial_prescribed_flow/RESULT.json",
+      "source_sha256": "9dc77c025317d774a47b45e76b04dc6c6a3c5932f5fdf14074aeed1c63f3209e",
+      "published_sha256": "9dc77c025317d774a47b45e76b04dc6c6a3c5932f5fdf14074aeed1c63f3209e",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/initial_prescribed_flow/header_inventory.py",
+      "source_sha256": "e5c8c8f942bfc590f77fe7a690758b59040e5f91290ece46231b89a579ecb46a",
+      "published_sha256": "e5c8c8f942bfc590f77fe7a690758b59040e5f91290ece46231b89a579ecb46a",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/preserve_packet.py",
+      "source_sha256": "c75d29ea3b0d41678efc044436cdf6bdb2e93d095dfa082f842f5cf259149b21",
+      "published_sha256": "c75d29ea3b0d41678efc044436cdf6bdb2e93d095dfa082f842f5cf259149b21",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/replay.py",
+      "source_sha256": "48732c859486dfca7fc636d22512aa13e2e2471e5ac712e9d4dbf6c968e0dbe4",
+      "published_sha256": "48732c859486dfca7fc636d22512aa13e2e2471e5ac712e9d4dbf6c968e0dbe4",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/requirements-observed.txt",
+      "source_sha256": "cf07f6ee366738e068a268b9f4a371c076d3f7a8fff8e4cbdfc42aa030ab2382",
+      "published_sha256": "cf07f6ee366738e068a268b9f4a371c076d3f7a8fff8e4cbdfc42aa030ab2382",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/test_header_inventory.py",
+      "source_sha256": "afa0df312c91900d2dda0f6563353565012dbc62297e51b9650d8852d2f2fbc2",
+      "published_sha256": "afa0df312c91900d2dda0f6563353565012dbc62297e51b9650d8852d2f2fbc2",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/ADMISSION.json",
+      "source_sha256": "a159fe5db9bc874da5658bc1f8d7d15dd9a6a7dc1d977411ee26e4243e66dff7",
+      "published_sha256": "a159fe5db9bc874da5658bc1f8d7d15dd9a6a7dc1d977411ee26e4243e66dff7",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/CIRCULATOR_EVIDENCE_GATE.json",
+      "source_sha256": "739614cbd949faa8bf7338cd124337dee2ac76c078f0eff493cec27584e17f0b",
+      "published_sha256": "739614cbd949faa8bf7338cd124337dee2ac76c078f0eff493cec27584e17f0b",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/DECISION.md",
+      "source_sha256": "865437a75514bf1f4207c5adfc3a0b1cb4dfd7706141e8ecb817fb8a2dc93551",
+      "published_sha256": "865437a75514bf1f4207c5adfc3a0b1cb4dfd7706141e8ecb817fb8a2dc93551",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/EFFICIENCY_ADMISSION.json",
+      "source_sha256": "238412aee2a9b1d297d2bfd4aee1a27e90ef605c0bc9723d92d9a8218ffbff82",
+      "published_sha256": "238412aee2a9b1d297d2bfd4aee1a27e90ef605c0bc9723d92d9a8218ffbff82",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/EFFICIENCY_RESULT.json",
+      "source_sha256": "e90421c95bd312132e47a9a41931d39b61917c2c1af18763829af9ae07bbb43b",
+      "published_sha256": "e90421c95bd312132e47a9a41931d39b61917c2c1af18763829af9ae07bbb43b",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/FROZEN_INPUT.json",
+      "source_sha256": "76046e9f5e0dbeaa4a258b178f0f5ae1bab96f32374e2cfdecaa6de78711b133",
+      "published_sha256": "76046e9f5e0dbeaa4a258b178f0f5ae1bab96f32374e2cfdecaa6de78711b133",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/KEY_RESULTS.json",
+      "source_sha256": "1c278a81f5c4edf3949b3fe6170969872ac304534a7451f6f1f0fdb575edf970",
+      "published_sha256": "1c278a81f5c4edf3949b3fe6170969872ac304534a7451f6f1f0fdb575edf970",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/README.md",
+      "source_sha256": "2b580b9c6a2dfd20baf3663557804f0ff7b53395fde5f2f264dc7973cc0fe26e",
+      "published_sha256": "2b580b9c6a2dfd20baf3663557804f0ff7b53395fde5f2f264dc7973cc0fe26e",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/REPLAY_RESULT.json",
+      "source_sha256": "f0d1fe4a64f80cec528b1b6a6d34adedd82ee5dcd1da134a515ec0c4d4a2f6bc",
+      "published_sha256": "2615dd6e387eae2f82749264f59518bed4fdb63852ff05526928135308c581c2",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/RESULT.json",
+      "source_sha256": "2fa3397a03f59fd92ec84ffbf929111f9633c624dbf6fc9fbd40b4e9367ccf79",
+      "published_sha256": "2fa3397a03f59fd92ec84ffbf929111f9633c624dbf6fc9fbd40b4e9367ccf79",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/compare_circuits.py",
+      "source_sha256": "6eabdf3cde3cb0a16643f697c7c740ab60134243c00ba44fea4da19828ff41df",
+      "published_sha256": "6eabdf3cde3cb0a16643f697c7c740ab60134243c00ba44fea4da19828ff41df",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/efficiency_requirement.py",
+      "source_sha256": "0d3d556033ef676e3d58cdbde6bf2419e308e60d2642e93b4f02d481f1d78b23",
+      "published_sha256": "0d3d556033ef676e3d58cdbde6bf2419e308e60d2642e93b4f02d481f1d78b23",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/portable-replay.txt",
+      "source_sha256": "aadec3148bbc9dc7f99afa94ed0166919ab0a79e620d0bf250a585729281ad5d",
+      "published_sha256": "2f41d936adae64add21cb64485eae6a31b83289cbeea482cdb58563f9ce192ff",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/replay.py",
+      "source_sha256": "42c363e841b36ed63abacf637b9b8a82ac5ba94f644a2b2075addc0cb984dec2",
+      "published_sha256": "42c363e841b36ed63abacf637b9b8a82ac5ba94f644a2b2075addc0cb984dec2",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/requirements.txt",
+      "source_sha256": "ab931c711e08fa5b81c9dc6ba89b09f863e67b08d6ddfba3c9e9210889145f12",
+      "published_sha256": "ab931c711e08fa5b81c9dc6ba89b09f863e67b08d6ddfba3c9e9210889145f12",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/test_circuits.py",
+      "source_sha256": "dd256a65c1ca98b84466e75b9774d5c405135409b7c8d72b742eadf919bdaacf",
+      "published_sha256": "dd256a65c1ca98b84466e75b9774d5c405135409b7c8d72b742eadf919bdaacf",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/tests.txt",
+      "source_sha256": "81acf16e698bfc6569db62b945c078ca3e9511795c81bb6e43ef489fe7b14d3b",
+      "published_sha256": "81acf16e698bfc6569db62b945c078ca3e9511795c81bb6e43ef489fe7b14d3b",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/measured_circulator_2026_09_07/ADMISSION.json",
+      "source_sha256": "1b0798ff4beac8dacf6e8437a30a8b438b24d78ac1bed8b4ac5d4543e9833d44",
+      "published_sha256": "1b0798ff4beac8dacf6e8437a30a8b438b24d78ac1bed8b4ac5d4543e9833d44",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/measured_circulator_2026_09_07/CANDIDATE_INTERFACE.json",
+      "source_sha256": "3f1da76bd3ff8aeb854e1657e3a76c2db7d88607473e9c537f649c4c3f74b6ba",
+      "published_sha256": "3f1da76bd3ff8aeb854e1657e3a76c2db7d88607473e9c537f649c4c3f74b6ba",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/measured_circulator_2026_09_07/DECISION.md",
+      "source_sha256": "501a53f055cc98a88253d15bd40ce5b96792daf06727a2e49517542bdd7b35f5",
+      "published_sha256": "501a53f055cc98a88253d15bd40ce5b96792daf06727a2e49517542bdd7b35f5",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/measured_circulator_2026_09_07/FROZEN_INPUT.json",
+      "source_sha256": "d9d290b63a7c4dc0366bffaed8611e4e78a1c553cf6b102a73f711a7c6a6e298",
+      "published_sha256": "d9d290b63a7c4dc0366bffaed8611e4e78a1c553cf6b102a73f711a7c6a6e298",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/measured_circulator_2026_09_07/REPLAY.json",
+      "source_sha256": "40446b91f86a4356a7797980d7dd0ab8f8b26b7c713712d0ae7f50fa82dffcf3",
+      "published_sha256": "e1daa359ac8577bf0297e5cc8008abdfd22625a29303fb0e66b59f8e5fc59f26",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/measured_circulator_2026_09_07/RESULT.json",
+      "source_sha256": "7424799b4cfea447a752b9d015568f7c60de93215f76ad2d832d6e510ca08424",
+      "published_sha256": "7424799b4cfea447a752b9d015568f7c60de93215f76ad2d832d6e510ca08424",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/measured_circulator_2026_09_07/SOURCE_ROWS.json",
+      "source_sha256": "a442eb7efa8a18f957672ba222927bc2e0fb94de82e8ea731edcc0a06632233d",
+      "published_sha256": "a442eb7efa8a18f957672ba222927bc2e0fb94de82e8ea731edcc0a06632233d",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/measured_circulator_2026_09_07/assess_observations.py",
+      "source_sha256": "50749857534735f9dcad391e528251ee117c90c45cb4f2acb2fc8e386dd6ad9b",
+      "published_sha256": "50749857534735f9dcad391e528251ee117c90c45cb4f2acb2fc8e386dd6ad9b",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/measured_circulator_2026_09_07/requirements-observed.txt",
+      "source_sha256": "cf07f6ee366738e068a268b9f4a371c076d3f7a8fff8e4cbdfc42aa030ab2382",
+      "published_sha256": "cf07f6ee366738e068a268b9f4a371c076d3f7a8fff8e4cbdfc42aa030ab2382",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/measured_circulator_2026_09_07/test_observations.py",
+      "source_sha256": "47d0bc10bcccf4de1391759cc8008fc440c2b9a2102ae20963f236a3358e0bc0",
+      "published_sha256": "47d0bc10bcccf4de1391759cc8008fc440c2b9a2102ae20963f236a3358e0bc0",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": true,
+      "standalone_reproduction_not_asserted": true
+    },
+    {
+      "path": "experiments/measured_circulator_2026_09_07/tests.txt",
+      "source_sha256": "f707704b2c349e36a565a4eb96dbf687801c6cc02e75210966255cc4df1c9c5b",
+      "published_sha256": "f707704b2c349e36a565a4eb96dbf687801c6cc02e75210966255cc4df1c9c5b",
+      "transform": "privacy-only string/comment transformation",
+      "arithmetic_AST_preserved": false,
+      "standalone_reproduction_not_asserted": true
+    }
+  ],
+  "excluded": [
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/.gitattributes",
+      "reason": "Non-source or unreviewed format; not in public projection"
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/MANIFEST.json",
+      "reason": "Private-layout manifest superseded by public projection manifest"
+    },
+    {
+      "path": "experiments/confinement_dependency_2026_09_07/REPOSITORY_LAYOUT.md",
+      "reason": "Private-layout manifest superseded by public projection manifest"
+    },
+    {
+      "path": "experiments/flow_balance_2026_09_07/.gitattributes",
+      "reason": "Non-source or unreviewed format; not in public projection"
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/.gitattributes",
+      "reason": "Non-source or unreviewed format; not in public projection"
+    },
+    {
+      "path": "experiments/header_inventory_2026_09_07/MANIFEST.json",
+      "reason": "Private-layout manifest superseded by public projection manifest"
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/.gitattributes",
+      "reason": "Non-source or unreviewed format; not in public projection"
+    },
+    {
+      "path": "experiments/independent_circuits_2026_09_07/MANIFEST.json",
+      "reason": "Private-layout manifest superseded by public projection manifest"
+    },
+    {
+      "path": "experiments/measured_circulator_2026_09_07/.gitattributes",
+      "reason": "Non-source or unreviewed format; not in public projection"
+    },
+    {
+      "path": "experiments/measured_circulator_2026_09_07/MANIFEST.json",
+      "reason": "Private-layout manifest superseded by public projection manifest"
+    },
+    {
+      "path": "experiments/measured_circulator_2026_09_07/REPOSITORY_LAYOUT.md",
+      "reason": "Private-layout manifest superseded by public projection manifest"
+    }
+  ],
+  "scope": "Current experimental code and text records; private raw archives not redistributed. Existing private file hashes in historical records do not hash the transformed files. Use this manifest for public content integrity. Local-home placeholders need local configuration; only the two approved public solver inputs have a supported setup path."
+}

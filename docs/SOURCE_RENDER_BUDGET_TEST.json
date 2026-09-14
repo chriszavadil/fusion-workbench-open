@@ -1,0 +1,9 @@
+{
+	"passed": true,
+	"case_count": 6,
+	"total_recorded_paths": 700,
+	"canonical_source_sites": 131072,
+	"rendered_source_sites": 128,
+	"configuration_unchanged": true,
+	"physical_validation": false
+}

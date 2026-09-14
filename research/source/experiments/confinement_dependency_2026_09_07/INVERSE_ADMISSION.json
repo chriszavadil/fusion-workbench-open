@@ -1,0 +1,15 @@
+{
+  "schema":"fusion.confinement-inverse-admission.v1",
+  "selection":"Adaptive follow-on after original three admitted solves; not held-out discovery.",
+  "observed_trigger":"H1.1 warm solve converged; two H1.0 starts returned ifail5. Failure of local optimization does not certify infeasibility.",
+  "question":"What confinement multiplier can the existing full optimizer reach when directly minimizing that multiplier from the feasible H1.1 point, with every engineering constraint and original bound retained?",
+  "prior_art":"Constrained scalar-objective optimization is established PROCESS functionality; pinned objectives.py and caller.py inspected directly. This is not new optimization or transport theory.",
+  "native_support":"The supplied objective catalog has no H-factor objective. A runtime wrapper returns data.physics.hfact for objective slot1; it changes only the objective callback, not physics, constraints or their evaluations.",
+  "output_caution":"Native banner may still label slot1 as major radius. Frozen manifest and result identify custom_min_hfact; verify output metric equals returned hfact. Do not misreport native labels.",
+  "baseline":"H11_bridge, converged at R8.726227m, hfact1.1,400MW flat-top and modeled30y cycling.",
+  "fixed":"All27 constraints,20iteration variables,radius8-9m,original efficiencies,pumping,dwell,availability and i_rad_loss1/confinement34 remain.",
+  "bound":"Restore original allowed hfact upper bound1.2 so the solver starts at a feasible interior value; minimize hfact rather than force an initially infeasible cap.",
+  "finite_rule":"One600second optimization. At most one exact physical-point validation run from its output using native radius objective and a cap just above its returned hfact, if successful. No unconstrained extra sweep.",
+  "success":"A local feasible requirement candidate, not a certified global minimum or proof that all H1.0 physical designs fail.",
+  "prohibited_inference":"No reactor novelty, experimental H98 guarantee, source-matched TBR, actual lifetime or net generation claim follows. No later cooling/equipment proposals are imported."
+}

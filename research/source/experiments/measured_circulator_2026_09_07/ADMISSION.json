@@ -1,0 +1,17 @@
+{
+  "schema": "fusion.measured-circulator-admission.v1",
+  "question": "Do actual published high-flow helium-circulator operating points supply transferable efficiency evidence for the current independent-circuit candidate?",
+  "baseline_project_ref": "42ffb73fbea76f68ecff124445feed22dca2ff95",
+  "classification": "Source-data intake and applicability assessment; no new compressor theory or design discovery.",
+  "primary_source": "Ye et al. (2024), DOI10.11884/HPLPB202436.230444, full manuscript pp076001-1 to7, especially section3.2/Table3.",
+  "source_pdf_sha256": "575c9cb86003105ea7337cbe73c83366bbd5171faa3b01f4d759f6a09d9bb9a1",
+  "prior_art": ["ThermoPower CompressorBase entropy/enthalpy equations, commit e2b011ac7fd90f9cf5771f29f1aefa160550b6ee, inspected in previous checkpoint.", "Perez-Martin et al.2022 DOI10.3390/jne3040029 distinguishes DEMO circulator design targets from qualification needs.", "Ye2024 similarity method requires geometric, kinematic, dynamic and fluid similarity; no free scale-up of measured points."],
+  "reading_scope": "Full Ye2024 PDF text read with publisher HTML Table3 cross-check; plotted design-efficiency contours are not digitized as measured efficiency. KIT2022 article read as design/readiness context only.",
+  "admitted_computations": ["Two source-classified operating/test rows; exclude rated row from evidence calculations.", "For each row compute an explicitly conditional pressure-work/electrical-power proxy using the tabulated pressure as absolute inlet or outlet pressure.", "Check observed pressure-ratio coverage against the newer header-accounted candidate; do not size equipment from massflow alone.", "Numerical implementation and source-classification tests; no map regression or plant reoptimization."],
+  "source_definitions_missing": ["Absolute/gauge and exact pressure tap/reference states", "Total-state versus static pressure rise at the table points", "Shaft power and actual outlet temperature/heat leakage", "Instrument uncertainties, individual repeat records and massflow measurement method", "Speed-dependent map and geometric/scale similarity to a proposed fusion machine"],
+  "inconsistency_to_preserve": "Hot-test narrative section3.1 quotes4735.5kW at4000rpm whereas Table3 row2 gives4648kW. They are not merged or treated as a quantified uncertainty interval.",
+  "proposed_difference": "Use actual tabulated operating/test observations rather than nominal/design efficiencies or inaccessible abstract-only curves.",
+  "decision": "Accept a source as traceable operating evidence while rejecting unsupported transplantation as a validated isentropic efficiency or equipment map.",
+  "stop_rule": "Complete four diagnostic evaluations and current-envelope comparison once. Any proposed map/plant fit remains blocked unless missing definitions and compatible coverage are supplied.",
+  "boundaries": ["Static pressure-work ratio is NOT a reported shaft isentropic, polytropic, or total-to-total efficiency.", "Two pressure interpretations are alternatives, not physical uncertainty bounds.", "No comparison treats90%fluid efficiency as directly comparable to this electrical proxy.", "No published operating procedure is implemented on real equipment; no physical test, purchase, cloud resource or new email."]
+}

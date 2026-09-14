@@ -1,0 +1,43 @@
+{
+  "data_manifest_sha256": "77391a70a50d0c04e4ca03fdb07c859393d88d86b65f58467d9b9925cbb98312",
+  "driver_sha256": "bfd049c14c1930d481a26a83be483a8f3bc0f302511369c19efed8f2ed9e0a6b",
+  "frozen_input_sha256": "2fc8e7afb71fa1dc54ecc4acffbbb7f7405f43d0c7f6dab19f4ca487829134cf",
+  "materials_sha256": "974d74a9c2f6594eb795e66205424b0108ee7e446519dd42f17c8e5501da4936",
+  "model_sha256": "5dfe4cb4e2d185771d79fc576ab54c2f0f623ccc10fd03374c104a9f661734bc",
+  "physics_scope": "Local repeated slab and header-placement comparison, not toroidal transport, global breeding ratio or measured validation.",
+  "reference_scope": "Published aluminum neutron/photon transport computational replay, not HCPB breeding validation.",
+  "runs": [
+    {
+      "histories": 1000000,
+      "layout": "homogeneous",
+      "seed": 920031
+    },
+    {
+      "histories": 1000000,
+      "layout": "homogeneous",
+      "seed": 920051
+    },
+    {
+      "histories": 1000000,
+      "layout": "headers_rear",
+      "seed": 1020031
+    },
+    {
+      "histories": 1000000,
+      "layout": "headers_rear",
+      "seed": 1020051
+    },
+    {
+      "histories": 1000000,
+      "layout": "headers_front",
+      "seed": 1120031
+    },
+    {
+      "histories": 1000000,
+      "layout": "headers_front",
+      "seed": 1120051
+    }
+  ],
+  "schema": "fusion.local-transport-run-admission.v1",
+  "seed_rule": "base_seed + 100000*layout_index; distinct streams, not common random numbers"
+}

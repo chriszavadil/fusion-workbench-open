@@ -1,0 +1,50 @@
+{
+  "admission": {
+    "fixed": "Same branch heads, flows, external heat, drive efficiency and conversion assumption; shared topology eta stays0.9",
+    "prior_sha256": "2fa3397a03f59fd92ec84ffbf929111f9633c624dbf6fc9fbd40b4e9367ccf79",
+    "question": "How much common efficiency degradation across independent loops erases the predicted net budget?",
+    "root_bracket_eta": [
+      0.1,
+      0.9
+    ],
+    "selection": "adaptive follow-on to topology comparison, not held-out validation",
+    "source": "ThermoPower CompressorBase includes eta as a performance input, not a guaranteed value; maps unavailable.",
+    "stop": "One root for each of four saved cases, no sweep"
+  },
+  "real_circulator_performance_validated": false,
+  "results": [
+    {
+      "external_loss_case": "channel_only",
+      "fail_just_below": true,
+      "minimum_equal_independent_eta_before_auxiliary_penalty": 0.5577381186139532,
+      "pass_just_above": true,
+      "property_choice": "mean",
+      "root_residual_MW": 4.740741132991389e-12
+    },
+    {
+      "external_loss_case": "equal_external_loss_at_shared_budget",
+      "fail_just_below": true,
+      "minimum_equal_independent_eta_before_auxiliary_penalty": 0.7243817749269528,
+      "pass_just_above": true,
+      "property_choice": "mean",
+      "root_residual_MW": -1.4358647604240104e-11
+    },
+    {
+      "external_loss_case": "channel_only",
+      "fail_just_below": true,
+      "minimum_equal_independent_eta_before_auxiliary_penalty": 0.5600966628987099,
+      "pass_just_above": true,
+      "property_choice": "outlet",
+      "root_residual_MW": 5.88897819397971e-12
+    },
+    {
+      "external_loss_case": "equal_external_loss_at_shared_budget",
+      "fail_just_below": true,
+      "minimum_equal_independent_eta_before_auxiliary_penalty": 0.7137357838934033,
+      "pass_just_above": true,
+      "property_choice": "outlet",
+      "root_residual_MW": -1.0516032489249483e-11
+    }
+  ],
+  "schema": "fusion.independent-efficiency-budget.v1"
+}

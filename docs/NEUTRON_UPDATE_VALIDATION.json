@@ -1,0 +1,20 @@
+{
+  "additional_plant_power_computed": false,
+  "app_source_tests_passed": 160,
+  "browser_neutron_view_passed": true,
+  "date": "2026-09-10",
+  "existing_worker_math_unchanged": true,
+  "fresh_full_PROCESS_run_this_update": false,
+  "global_TBR_computed": false,
+  "local_layouts": 3,
+  "native_packaged_neutron_view_passed": true,
+  "neutron_transport_runs_completed": 6,
+  "physical_validation": false,
+  "physics_statepoint_checks_passed": 12,
+  "portable_arithmetic_replay_passed": true,
+  "public_release_requires_fresh_repository": true,
+  "publicly_published": false,
+  "research_reader_records": 76,
+  "source_histories": 6000000,
+  "version": "0.3.1-preview"
+}

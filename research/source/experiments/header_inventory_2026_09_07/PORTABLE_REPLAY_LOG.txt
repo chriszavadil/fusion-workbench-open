@@ -1,0 +1,115 @@
+COMMAND ['<LOCAL_HOME>\\FusionResearch\\.venv-process-310\\Scripts\\python.exe', 'header_inventory.py']
+[
+  {
+    "configuration": "unsplit",
+    "properties": "mean",
+    "known_drop_kPa": 623.0319357720556,
+    "remaining_kPa": -73.03193577205565,
+    "header_void_m3": 19.900371512353573,
+    "header_steel_m3": 7.391891031188512,
+    "radii_mm": {
+      "inboard": 38.48705776309573,
+      "outboard": 45.141166733051534
+    },
+    "K_allowance": {
+      "inboard": 1.7787503422777995,
+      "outboard": -0.5894101602848009
+    }
+  },
+  {
+    "configuration": "outboard_split",
+    "properties": "mean",
+    "known_drop_kPa": 349.75901378208897,
+    "remaining_kPa": 200.240986217911,
+    "header_void_m3": 19.900371064937822,
+    "header_steel_m3": 7.391890862565439,
+    "radii_mm": {
+      "inboard": 38.48705776309573,
+      "outboard": 45.141166030086204
+    },
+    "K_allowance": {
+      "inboard": 1.7787503422777995,
+      "outboard": 2.760917476037149
+    }
+  },
+  {
+    "configuration": "unsplit",
+    "properties": "outlet",
+    "known_drop_kPa": 657.246491262826,
+    "remaining_kPa": -107.24649126282603,
+    "header_void_m3": 19.449483189876428,
+    "header_steel_m3": 7.222104089690613,
+    "radii_mm": {
+      "inboard": 38.11118599780875,
+      "outboard": 44.59851256059884
+    },
+    "K_allowance": {
+      "inboard": 1.5095933623112896,
+      "outboard": -0.824666355975785
+    }
+  },
+  {
+    "configuration": "outboard_split",
+    "properties": "outlet",
+    "known_drop_kPa": 373.2550771188124,
+    "remaining_kPa": 176.74492288118765,
+    "header_void_m3": 19.44948275292022,
+    "header_steel_m3": 7.2221039250924,
+    "radii_mm": {
+      "inboard": 38.11118599780875,
+      "outboard": 44.5985118657138
+    },
+    "K_allowance": {
+      "inboard": 1.5095933623112896,
+      "outboard": 2.5092416195298344
+    }
+  }
+]
+
+COMMAND ['<LOCAL_HOME>\\FusionResearch\\.venv-process-310\\Scripts\\python.exe', 'flow_recheck.py']
+[
+  {
+    "configuration": "unsplit",
+    "properties": "mean",
+    "common_kPa": 516.4692952195492,
+    "remaining_kPa": 33.53070478045079,
+    "IB_K": 779.8928014566222,
+    "OB_K": 786.4224389182272,
+    "thermal_pass": true,
+    "IB_flow_fraction": 1.2450946428788616
+  },
+  {
+    "configuration": "outboard_split",
+    "properties": "mean",
+    "common_kPa": 237.49084368753228,
+    "remaining_kPa": 312.5091563124678,
+    "IB_K": 820.9919831596511,
+    "OB_K": 787.6470583391628,
+    "thermal_pass": true,
+    "IB_flow_fraction": 0.800878254208747
+  },
+  {
+    "configuration": "unsplit",
+    "properties": "outlet",
+    "common_kPa": 546.7077081858096,
+    "remaining_kPa": 3.292291814190452,
+    "IB_K": 779.731346416236,
+    "OB_K": 786.5094407721507,
+    "thermal_pass": true,
+    "IB_flow_fraction": 1.2477628691109564
+  },
+  {
+    "configuration": "outboard_split",
+    "properties": "outlet",
+    "common_kPa": 254.9291783452875,
+    "remaining_kPa": 295.0708216547125,
+    "IB_K": 821.5724698115879,
+    "OB_K": 787.5372721314009,
+    "thermal_pass": true,
+    "IB_flow_fraction": 0.796788204301292
+  }
+]
+
+COMMAND ['<LOCAL_HOME>\\FusionResearch\\.venv-process-310\\Scripts\\python.exe', '-m', 'pytest', '-q', 'test_header_inventory.py']
+...................                                                      [100%]
+19 passed in 2.32s

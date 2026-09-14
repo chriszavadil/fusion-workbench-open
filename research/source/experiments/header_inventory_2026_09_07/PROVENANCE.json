@@ -1,0 +1,10 @@
+{
+  "schema": "fusion.header-source-provenance.v1",
+  "upstream_ref": "c0ae5b28649f2b20fb7efc7904628b6defe4151c",
+  "upstream_worktree_clean": true,
+  "full_state_sha256": "cedcfa6d695fd45d4be17ea1ee77ae40d821064ea15eb1244822804f3001f9ea",
+  "input_subset_sha256": "6bedbc75bb903edc731d312e116d9122bc84a54470f4b978dd89597fcf78a73b",
+  "subset_fields": "Complete native fwbs/blanket/first_wall/primary_pumping/build groups, no fitted replacements",
+  "topology_is_assumed_not_source_CAD": true,
+  "module_counts_are_native_computational_subdivisions": true
+}

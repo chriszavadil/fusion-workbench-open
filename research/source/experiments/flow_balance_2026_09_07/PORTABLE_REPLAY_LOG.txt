@@ -1,0 +1,35 @@
+{
+  "nominal_flows": {
+    "inboard": 682.5721004465584,
+    "outboard": 1698.0094346243648
+  },
+  "min_flows": {
+    "inboard": 537.1138185863438,
+    "outboard": 1221.8525683556356
+  },
+  "summaries": [
+    {
+      "choice": "mean",
+      "old_pass": true,
+      "split_pass": false,
+      "unbalanced_split_IB_peak_K": 832.5599752797924,
+      "unbalanced_split_IB_fraction": 0.7262289577448958,
+      "balanced_pass": true,
+      "required_balancing_Pa": 144665.7919909357,
+      "remaining_budget_Pa": 274495.20940642216
+    },
+    {
+      "choice": "outlet",
+      "old_pass": true,
+      "split_pass": false,
+      "unbalanced_split_IB_peak_K": 833.8095683142558,
+      "unbalanced_split_IB_fraction": 0.7189492665853432,
+      "balanced_pass": true,
+      "required_balancing_Pa": 153525.21626950166,
+      "remaining_budget_Pa": 255258.66205578228
+    }
+  ]
+}
+.........................                                                [100%]
+25 passed in 0.25s
+{"numerical_replay_verified": true, "test_exit": 0, "output": "<LOCAL_HOME>\\FusionResearch\\flow-portable-validation-20260907\\payload\\fusion-flow-replay-8zeuck75", "physical_validation": false}

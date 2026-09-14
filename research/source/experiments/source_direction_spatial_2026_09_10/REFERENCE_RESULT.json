@@ -1,0 +1,23 @@
+{
+  "physical_validation": false,
+  "benchmark": "OKTAVIAN-Al published CSG computational replay",
+  "cases": {
+    "nspectrum": {
+      "integrated_ratio_to_archived": 0.9996440347766486,
+      "bins": 134,
+      "populated_bins": 134,
+      "fraction_populated_within_3sigma": 0.9925373134328358,
+      "largest_z": 3.1966643871182763,
+      "pass_integrated_3percent": true
+    },
+    "gspectrum": {
+      "integrated_ratio_to_archived": 0.9999334143712142,
+      "bins": 57,
+      "populated_bins": 57,
+      "fraction_populated_within_3sigma": 0.9824561403508771,
+      "largest_z": 3.3421052481356655,
+      "pass_integrated_3percent": true
+    }
+  },
+  "computational_replay_passed": true
+}

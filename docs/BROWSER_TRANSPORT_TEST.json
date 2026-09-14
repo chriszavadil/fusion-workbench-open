@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "3d_canvas_rendered": true,
+  "source_cases_changed": true,
+  "physical_time_scrubbed": true,
+  "actual_rendered_particle_frames_changed": true,
+  "voxel_picked": true,
+  "configuration_unchanged": true,
+  "report_readable": true,
+  "page_errors": [],
+  "jobs_submitted": false,
+  "physical_validation": false
+}

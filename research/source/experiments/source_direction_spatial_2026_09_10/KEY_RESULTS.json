@@ -1,0 +1,160 @@
+{
+  "admission_sha256": "aeb6f881b25ec70d1ef86384618d57fcb696f8f184f7d10d4ee934cfd1121ab3",
+  "cases": {
+    "cosine_front": {
+      "heating_MeV_per_source": 11.717325110227154,
+      "heating_standard_error_MeV": 0.01592597812642141,
+      "id": "cosine_front",
+      "layout": "headers_front",
+      "max_track_time_s": 1.2511058203472838e-06,
+      "physical_validation": false,
+      "result_sha256": "7b26a086937bd80318c322582af22eb7e85e5c0c759fc66f1d175cf898734ef0",
+      "source_histories": 400000,
+      "source_law": "cosine",
+      "statepoint_sha256": "0cddb3abb893e5e4182f82e0c8d22d52db6a1ed2fdca3ba9d796afcee4514365",
+      "title": "Cosine incidence / front headers",
+      "tracks_hdf5_sha256": "c1b31f00ca67b3212fb586083dd0fd292c1ea07ae3b21ad347c96de1131ea8e9",
+      "tritons_per_source": 0.6663765814454575,
+      "tritons_standard_error": 0.001890086652631658
+    },
+    "cosine_rear": {
+      "heating_MeV_per_source": 11.788266529098864,
+      "heating_standard_error_MeV": 0.015175029427932646,
+      "id": "cosine_rear",
+      "layout": "headers_rear",
+      "max_track_time_s": 5.71627340167546e-06,
+      "physical_validation": false,
+      "result_sha256": "67a26d746016ec664f6c1a42d7457918e0a63dc0b5dadb93814aaf9d93f18742",
+      "source_histories": 400000,
+      "source_law": "cosine",
+      "statepoint_sha256": "1a98a722273db4aeea6cb605065103507e1f764fa15446bf2ea9bf03c8f9b495",
+      "title": "Cosine incidence / rear headers",
+      "tracks_hdf5_sha256": "03530cc96753cba102a2b7c2bc726af0e75a692cac98d736662a93aa8ee3cb0b",
+      "tritons_per_source": 0.6807085078893962,
+      "tritons_standard_error": 0.0016124393150586695
+    },
+    "normal_front": {
+      "heating_MeV_per_source": 13.329230195822644,
+      "heating_standard_error_MeV": 0.01795539295539622,
+      "id": "normal_front",
+      "layout": "headers_front",
+      "max_track_time_s": 1.8164928508560875e-06,
+      "physical_validation": false,
+      "result_sha256": "da8ed1afbdb62f3f720c61e41495c29d177e2836694595eeda7f525d0c91a143",
+      "source_histories": 400000,
+      "source_law": "normal",
+      "statepoint_sha256": "a9c4d1672f0fad9caf7c746d1da88d59f533464f6c93885edda7a352d0aceb14",
+      "title": "Normal incidence / front headers",
+      "tracks_hdf5_sha256": "33edf4782d9aacb995796d5f346bc10b4ace1082f235af0e8233332777b95736",
+      "tritons_per_source": 0.8253526871387825,
+      "tritons_standard_error": 0.0017481710284076206
+    },
+    "normal_rear": {
+      "heating_MeV_per_source": 13.43343885822863,
+      "heating_standard_error_MeV": 0.01849579499531756,
+      "id": "normal_rear",
+      "layout": "headers_rear",
+      "max_track_time_s": 2.8110624745331603e-06,
+      "physical_validation": false,
+      "result_sha256": "e64e3080a9f32f4a09595f0dd310c63bb2beec92e015e3ca6938889f282bc199",
+      "source_histories": 400000,
+      "source_law": "normal",
+      "statepoint_sha256": "c68afcf53b5b86ba14e65b169abff40640af131a42f62ab8cc2a410fee1e913b",
+      "title": "Normal incidence / rear headers",
+      "tracks_hdf5_sha256": "af1d76c9e5a5f93cd46a5c610d401d96db79dfc606a179f22cfb0cb034181417",
+      "tritons_per_source": 0.8462512488115012,
+      "tritons_standard_error": 0.0018280723375855602
+    }
+  },
+  "conclusions": {
+    "full_reactor_TBR": false,
+    "geometry_or_plant_output_updated": false,
+    "no_validated_source_law_selected": true,
+    "source_change_resolved_at99_MC": false,
+    "source_direction_interaction": {
+      "Monte_Carlo_error_only": true,
+      "difference": -0.006566635228779982,
+      "interval99": [
+        -0.015699153845693363,
+        0.0025658833881333984
+      ],
+      "standard_error": 0.0035454673197214083
+    }
+  },
+  "date": "2026-09-10",
+  "front_minus_rear": {
+    "cosine": {
+      "Monte_Carlo_error_only": true,
+      "difference": -0.014331926443938658,
+      "interval99": [
+        -0.02073139179813718,
+        -0.007932461089740137
+      ],
+      "percent_of_rear": -2.105442531984242,
+      "standard_error": 0.0024844291294386354
+    },
+    "normal": {
+      "Monte_Carlo_error_only": true,
+      "difference": -0.02089856167271864,
+      "interval99": [
+        -0.02741390813078841,
+        -0.014383215214648871
+      ],
+      "percent_of_rear": -2.46954574094504,
+      "standard_error": 0.002529417011093523
+    }
+  },
+  "physical_validation": false,
+  "projection_checks": [
+    {
+      "all_track_states_in_domain": true,
+      "field_voxels": 6144,
+      "heat_sum_error_eV_source": 6.407499313354492e-07,
+      "id": "cosine_rear",
+      "mean_field_acceptable_voxels": 5104,
+      "no_downsampling_or_synthetic_paths": true,
+      "path_states": 997,
+      "rendered_paths": 108,
+      "tracked_histories": 16,
+      "triton_sum_error_source": 5.551115123125783e-16
+    },
+    {
+      "all_track_states_in_domain": true,
+      "field_voxels": 6144,
+      "heat_sum_error_eV_source": 2.775341272354126e-07,
+      "id": "cosine_front",
+      "mean_field_acceptable_voxels": 5219,
+      "no_downsampling_or_synthetic_paths": true,
+      "path_states": 911,
+      "rendered_paths": 89,
+      "tracked_histories": 16,
+      "triton_sum_error_source": 8.881784197001252e-16
+    },
+    {
+      "all_track_states_in_domain": true,
+      "field_voxels": 6144,
+      "heat_sum_error_eV_source": 2.173706889152527e-06,
+      "id": "normal_rear",
+      "mean_field_acceptable_voxels": 5542,
+      "no_downsampling_or_synthetic_paths": true,
+      "path_states": 1254,
+      "rendered_paths": 132,
+      "tracked_histories": 16,
+      "triton_sum_error_source": 2.220446049250313e-15
+    },
+    {
+      "all_track_states_in_domain": true,
+      "field_voxels": 6144,
+      "heat_sum_error_eV_source": 1.823529601097107e-06,
+      "id": "normal_front",
+      "mean_field_acceptable_voxels": 5646,
+      "no_downsampling_or_synthetic_paths": true,
+      "path_states": 1531,
+      "rendered_paths": 134,
+      "tracked_histories": 16,
+      "triton_sum_error_source": -1.7763568394002505e-15
+    }
+  ],
+  "schema": "fusion.source_direction_spatial_result.v1",
+  "scope": "A source-law stress test of the inherited r838 local cell. Normal and diffuse incidence are contrasting hypotheses, not physical confidence limits."
+}

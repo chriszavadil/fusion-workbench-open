@@ -1,0 +1,18 @@
+{
+  "upstream_pin": "c0ae5b28649f2b20fb7efc7904628b6defe4151c",
+  "checks": [
+    {
+      "configuration": "r838",
+      "upstream_static_scaling_s": 2.002637873454943,
+      "thermal_deposited_factor": 1.086393083683475,
+      "passed": true
+    },
+    {
+      "configuration": "r900",
+      "upstream_static_scaling_s": 2.4080362243002056,
+      "thermal_deposited_factor": 0.9377426760678237,
+      "passed": true
+    }
+  ],
+  "no_full_solver_run": true
+}

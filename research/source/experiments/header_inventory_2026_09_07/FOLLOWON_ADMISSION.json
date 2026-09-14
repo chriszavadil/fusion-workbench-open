@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-09-07T23:18:03.308507+00:00",
+  "classification": "adaptive fair-baseline follow-on, not held-out validation",
+  "reason": "Compare the unsplit reference with permitted flow redistribution; fixed nominal-flow comparison alone can overstate split benefit.",
+  "experiment": "At fixed selected header radii and total flow, solve common-pressure split/unsplit cases updating all header and channel temperatures. Replay nominal balancing as verification.",
+  "new_geometry_or_physics": false,
+  "limit": "Four common-pressure solves and nominal balance replay; no new sweep."
+}

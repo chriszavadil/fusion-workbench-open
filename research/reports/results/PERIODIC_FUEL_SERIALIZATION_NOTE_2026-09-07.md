@@ -1,0 +1,3 @@
+# Result serialization
+
+The repository's frozen-input and compact-result JSON files are compact serializations of the same objects preserved in the downloadable checkpoint. The SHA-256 values in `PERIODIC_FUEL_KEY_RESULTS_2026-09-07.json` refer to the original, indented checkpoint files, not the compact repository serializations. Running the scripts rewrites frozen inputs in the original canonical form: `json.dumps(obj, indent=2, sort_keys=True, allow_nan=False) + '\n'`. Full scenario-result JSON files are preserved in the checkpoint and can be reproduced by the scripts; measured runtime changes on rerun. No physical model difference is intended by serialization.

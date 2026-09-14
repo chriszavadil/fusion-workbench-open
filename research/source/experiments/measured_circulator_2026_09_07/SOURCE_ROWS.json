@@ -1,0 +1,17 @@
+{
+  "schema": "fusion.circulator-source-rows.v1",
+  "doi": "10.11884/HPLPB202436.230444",
+  "source_pdf_sha256": "575c9cb86003105ea7337cbe73c83366bbd5171faa3b01f4d759f6a09d9bb9a1",
+  "locator": "Table3, paper076001-7 (PDFpage8 including publisher cover)",
+  "transcription_method": "Numeric table transcription checked against publisher HTML Table3 and direct PDF text; no OCR or graph digitization.",
+  "rows": [
+    {"id":"operation_200MW","source_marker":"1","classification":"reported_operation","speed_rpm":3600,"current_A":523.7,"voltage_V":5614,"power_kW":4218,"pressure_rise_kPa":122.2,"massflow_kg_s":127.3,"pressure_MPa":6.9,"inlet_C":239.9},
+    {"id":"hot_function_test","source_marker":"2","classification":"reported_test","speed_rpm":4000,"current_A":516,"voltage_V":6147,"power_kW":4648,"pressure_rise_kPa":145.2,"massflow_kg_s":116.0,"pressure_MPa":5.31,"inlet_C":235.9},
+    {"id":"rated_reference","source_marker":"3","classification":"rated_design_not_measurement","speed_rpm":3800,"current_A":580,"voltage_V":6000,"power_kW":4500,"pressure_rise_kPa":200,"massflow_kg_s":96,"pressure_MPa":7.0,"inlet_C":243}
+  ],
+  "observational_scope": "Rows1/2 are source-reported operating/test records. Independent raw instrument records and uncertainty are not supplied here; not every individual table field is asserted to be directly measured.",
+  "power_boundary": "Table1 labels rated electrical power, sections3.1/3.2 refer to motor power/current/voltage. Exact metering location, motor and drive loss split remain unspecified.",
+  "pressure_boundary": "Text describes static pressure rise in test curves; Table3 only labels pressure rise and pressure. Pressure taps and absolute/gauge reference are not resolved.",
+  "not_to_merge": ["Table3hot row4648kW versus section3.1hot narrative4735.5kW at4000rpm.", "Table3rated row3800rpm versus Table1rated4000rpm; preserve source distinction rather than manufacture a common map."],
+  "excluded_as_measured_efficiency": "Figures5/6 contain factory performance curves and efficiency contours; these are not labels of independently measured total-to-total efficiencies at the operating points."
+}

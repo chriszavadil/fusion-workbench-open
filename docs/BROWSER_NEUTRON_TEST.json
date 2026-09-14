@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "distinct_real_profiles_shown": true,
+  "header_cross_section_loaded": true,
+  "source_histories_shown": 2000000,
+  "unchanged_reactor_configuration": true,
+  "full_report_searchable": true,
+  "script_errors": [],
+  "jobs_submitted": false,
+  "physical_validation": false
+}

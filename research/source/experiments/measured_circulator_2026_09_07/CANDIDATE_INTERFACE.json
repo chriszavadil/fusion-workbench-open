@@ -1,0 +1,16 @@
+{
+  "blanket_inlet_K": 573.13,
+  "eta_drive_assumed": 0.87,
+  "eta_fluid_assumed": 0.9,
+  "is_experiment": false,
+  "known_model_dp_Pa": {
+    "inboard": 373255.07711881236,
+    "outboard": 223677.2705143926
+  },
+  "missing_costs": "Omitted junction/connection/heat exchanger/external losses and structural/neutron qualification remain unresolved.",
+  "p_discharge_Pa": 8000000.0,
+  "source_file_sha256": "0f6b4295462ad4c0765b8025425c43e5f4ab60e944f74430269d9aa379a85d68",
+  "source_path": "results/HEADER_INVENTORY_KEY_RESULTS_2026-09-07.json",
+  "source_project_ref": "42ffb73fbea76f68ecff124445feed22dca2ff95",
+  "total_dp_budget_Pa": 550000.0
+}

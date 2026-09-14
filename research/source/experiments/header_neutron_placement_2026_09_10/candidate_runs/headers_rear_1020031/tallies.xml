@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tallies>
+  <mesh id="1">
+    <dimension>40 1 1</dimension>
+    <lower_left>0 0 0</lower_left>
+    <upper_right>100.0 133.1366692344427 196.27911895181742</upper_right>
+  </mesh>
+  <filter id="1" type="cell">
+    <bins>1 2 3 4 5 6 7 8 9</bins>
+  </filter>
+  <filter id="2" type="particle">
+    <bins>neutron</bins>
+  </filter>
+  <filter id="4" type="surface">
+    <bins>3</bins>
+  </filter>
+  <filter id="5" type="particle">
+    <bins>neutron photon</bins>
+  </filter>
+  <filter id="6" type="surface">
+    <bins>2</bins>
+  </filter>
+  <filter id="8" type="mesh">
+    <bins>1</bins>
+  </filter>
+  <tally id="1" name="heat_by_cell">
+    <filters>1</filters>
+    <scores>heating</scores>
+  </tally>
+  <tally id="2" name="tritons_by_cell">
+    <filters>1 2</filters>
+    <scores>H3-production</scores>
+  </tally>
+  <tally id="3" name="lithium_tritons">
+    <filters>2</filters>
+    <nuclides>Li6 Li7</nuclides>
+    <scores>H3-production</scores>
+  </tally>
+  <tally id="4" name="front_leakage">
+    <filters>4 5</filters>
+    <scores>current</scores>
+  </tally>
+  <tally id="5" name="back_leakage">
+    <filters>6 5</filters>
+    <scores>current</scores>
+  </tally>
+  <tally id="6" name="depth">
+    <filters>8 2</filters>
+    <scores>flux H3-production</scores>
+  </tally>
+  <tally id="7" name="total_heating">
+    <scores>heating</scores>
+  </tally>
+  <tally id="8" name="total_tritons">
+    <filters>2</filters>
+    <scores>H3-production</scores>
+  </tally>
+</tallies>

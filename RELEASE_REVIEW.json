@@ -1,0 +1,7 @@
+{
+  "schema": "fusion.release-review.v2",
+  "reference": "docs/RELEASE_VALIDATION.json",
+  "supersedes": "v0.1 preview-only scan",
+  "public_content_manifest": "RELEASE_SOURCE_MANIFEST.json",
+  "private_history_included": false
+}

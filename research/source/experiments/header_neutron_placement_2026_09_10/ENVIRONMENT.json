@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "openmc": "0.15.2",
+    "numpy": "2.5.3",
+    "scipy": "1.18.0",
+    "pandas": "3.0.5",
+    "h5py": "3.13.0",
+    "neutronics-material-maker": "1.2.3",
+    "openmc-data-downloader": "0.6.2",
+    "pytest": "9.1.1"
+  }
+}

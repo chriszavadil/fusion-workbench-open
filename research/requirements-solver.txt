@@ -1,0 +1,5 @@
+numpy==2.2.6
+scipy==1.15.3
+CoolProp==8.0.0
+PyVMCON==2.4.2
+numba==0.67.0

@@ -1,0 +1,962 @@
+{
+  "schema": "fusion.public-research-snapshot.v1",
+  "scientific_source_revision": "2adb4b5c925dfe7c5fc7c0ab887def3c92deb601",
+  "records": [
+    {
+      "source_path": "docs/COMMON_ACTION_PROTECTION_THEOREM_2026-09-02.md",
+      "source_sha256": "62fc4f1180eef8b199c79ba5a21b4708e15bcc334e0de9005dd5742b73b0f6d9",
+      "published_path": "research/reports/docs/COMMON_ACTION_PROTECTION_THEOREM_2026-09-02.md",
+      "published_sha256": "a65ce2307fe0a8a151078480d90ac21d5328fe61eeb4c0ab76e20741f2e14604",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "docs/MAST_SAMPLE_REQUEST_SCOPE_2026-09-02.md",
+      "source_sha256": "cffd873ed594af4bb07aabb08123e945e91ba5503fa271e3c02eff88f3fe6add",
+      "published_path": "research/reports/docs/MAST_SAMPLE_REQUEST_SCOPE_2026-09-02.md",
+      "published_sha256": "af12f1ce4e32a07af5eeade97e5d0cf401afc24b1826d2d2e6ba0868ba911ad5",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "docs/MATERIAL_DATA_VALIDATION_GATE_2026-09-07.md",
+      "source_sha256": "cbde3fb47e1568e47223c68a4dabc54db11f5a43732366ff97484e0091668151",
+      "published_path": "research/reports/docs/MATERIAL_DATA_VALIDATION_GATE_2026-09-07.md",
+      "published_sha256": "f397f035409df0d1b4e08f8c8af8de629d02413707f4640771a6ee15bfbe015a",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "docs/OBSERVER_PROTECTION_CLAIM_BOUNDARY_2026-09-02.md",
+      "source_sha256": "06d1ca957053bf16050c08a3e5ae4e5f437110630270a029f9b07f94d0b0b569",
+      "published_path": "research/reports/docs/OBSERVER_PROTECTION_CLAIM_BOUNDARY_2026-09-02.md",
+      "published_sha256": "791400d1551e20d30a48ed11da48957b7b61c203e65df16fd10f66426c6ded4d",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "docs/PERIODIC_FUEL_OPERABILITY_PROOF_2026-09-07.md",
+      "source_sha256": "04825a1b81f03c89a63e4a87a51d0a4c33c864b45c1e5f0b29678983a40f964d",
+      "published_path": "research/reports/docs/PERIODIC_FUEL_OPERABILITY_PROOF_2026-09-07.md",
+      "published_sha256": "93a6adc3098232b3762329338af3b6ac6f16ef92b9e9b23081c339f4d4e6d30f",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "docs/REAL_DATA_ACCEPTANCE_CONTRACT_2026-09-02.md",
+      "source_sha256": "7452d43939543eee756d39f7e3b90c9fcc647b85fec3fc255671c9b4dab8f591",
+      "published_path": "research/reports/docs/REAL_DATA_ACCEPTANCE_CONTRACT_2026-09-02.md",
+      "published_sha256": "1ca9ff2838b7d5a6d133582c3617a8453be31eab99a13170874e89db972e8aa6",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "docs/RESEARCH_ADMISSION_AND_PRIOR_ART_2026-09-07.md",
+      "source_sha256": "3b6a34b45b5f4ea80fdb704ca03a0aeaa885073dbeb4624dd2b3588ea0e57d0d",
+      "published_path": "research/reports/docs/RESEARCH_ADMISSION_AND_PRIOR_ART_2026-09-07.md",
+      "published_sha256": "def5c031ec714a7b2aff72b4c64ddf0368dbc341955919295f2b9d1fc1e0871f",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "docs/RESEARCH_BATON_PROTOCOL.md",
+      "source_sha256": "55954fa6e5962171a27f18079b04066da423a00869450e95cc546a69df0d4f7f",
+      "published_path": "research/reports/docs/RESEARCH_BATON_PROTOCOL.md",
+      "published_sha256": "ec5a0a519eed4df8ff400fd89a6a1c1cdd2d89dd85c0a4e547b0176d7e984022",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/ACTIVE_TURN_NOTE_2026-09-02.md",
+      "source_sha256": "643f0da6e7875953f20d769d20d55ea99bbcf2e737ec36453949e9751bd94353",
+      "published_path": "research/reports/results/ACTIVE_TURN_NOTE_2026-09-02.md",
+      "published_sha256": "599e52bdefadb3db4b8faa0f9f6c4c0c7b704ff8bbc31eef6e1c9b03d07edd84",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/CONFINEMENT_DEPENDENCY_DECISION_2026-09-07.md",
+      "source_sha256": "34389e10a194da32527eb1c94aaf6a626fd17be1256b5c1451447de5cb133660",
+      "published_path": "research/reports/results/CONFINEMENT_DEPENDENCY_DECISION_2026-09-07.md",
+      "published_sha256": "34389e10a194da32527eb1c94aaf6a626fd17be1256b5c1451447de5cb133660",
+      "privacy_transform_applied": false
+    },
+    {
+      "source_path": "results/CONTINUATION_EVIDENCE_PACK_INDEX_2026-09-02.md",
+      "source_sha256": "7fe1c7600a6f2d03caed7e8106b1eb56203addbe8c23ac12b10c033f96c354cd",
+      "published_path": "research/reports/results/CONTINUATION_EVIDENCE_PACK_INDEX_2026-09-02.md",
+      "published_sha256": "32f980f7eaad9adbde7030288e6fc95261e1060f923aeeb224e4c6e09c096cea",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/COOLING_INTERFACE_DECISION_2026-09-07.md",
+      "source_sha256": "b70478fc5d26486a129bac38f92a3e3e5264c8273d0c73e6299f7e0db5101774",
+      "published_path": "research/reports/results/COOLING_INTERFACE_DECISION_2026-09-07.md",
+      "published_sha256": "9b0f3e08b83e291304f58b32a50c69d818962865de2dc03e2649577e4c199763",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/COUPLED_CANDIDATE_AUDIT_2026-09-07.md",
+      "source_sha256": "44a925de279f273ef33d2812b27746c48070c02d307e5f65cd7139a36fe04e8d",
+      "published_path": "research/reports/results/COUPLED_CANDIDATE_AUDIT_2026-09-07.md",
+      "published_sha256": "9814b78709592d5cef69aeb7042891e11de24a58259c40b7bc0d7c1df9e38025",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/CS_FATIGUE_GATE_2026-09-07.md",
+      "source_sha256": "439198be3130914a32617aa59b30a29b0f7c11d0ac3eddcdf48834778de89a90",
+      "published_path": "research/reports/results/CS_FATIGUE_GATE_2026-09-07.md",
+      "published_sha256": "b91e4bcc5e0dd61acaa1fc0800bdeaddd970662fdd6afbc0e51cf9e990ff5f4f",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/FLOW_BALANCE_DECISION_2026-09-07.md",
+      "source_sha256": "fd6a57556ef76ac939cccf94ff00aee4e34c3d5bcf989a846238326acaeefcdf",
+      "published_path": "research/reports/results/FLOW_BALANCE_DECISION_2026-09-07.md",
+      "published_sha256": "29cf00c7ab1a064c5a232c154b014313ffb045a1902507261fb5c92b34fe041a",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/FREEGSNKE_EXAMPLE05_REPRODUCTION_2026-08-29.md",
+      "source_sha256": "77f83de829fd967d079cf3dfcebfd3e3a00a8a5063ec7330a874e5d2911e9260",
+      "published_path": "research/reports/results/FREEGSNKE_EXAMPLE05_REPRODUCTION_2026-08-29.md",
+      "published_sha256": "e715156b22e426002d88dff2bc1462d031a0dba958ea1db0166523dc2554b3bf",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/FREEGSNKE_FIRST_MACHINE_DERIVED_FINDINGS_2026-08-28.md",
+      "source_sha256": "c3a2cc25b9dd415b8273a28af05c62c836440fa42911628164279d1129ab6aea",
+      "published_path": "research/reports/results/FREEGSNKE_FIRST_MACHINE_DERIVED_FINDINGS_2026-08-28.md",
+      "published_sha256": "c10c3462ee060a316c204967d25a3a1aa2100c6fec69bf2014edf6cc58a5fd7c",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/FREEGSNKE_GATE2_REPEATABILITY_RESULT_2026-08-28.md",
+      "source_sha256": "c57da287cf8701a4364324ba7c8c268bf1f223902a5b0e0fae1ce9da34c24199",
+      "published_path": "research/reports/results/FREEGSNKE_GATE2_REPEATABILITY_RESULT_2026-08-28.md",
+      "published_sha256": "ccb5bf9a9ac07f78acfd22bb6426e71d887f8833ad132b6aa44229bef68a6f3e",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/FREEGSNKE_UPSTREAM_REPRODUCTION_2026-08-28.md",
+      "source_sha256": "7d0643083a4dbb0af8479fc452bdcf48426b1bf1da564e4306d886313f880615",
+      "published_path": "research/reports/results/FREEGSNKE_UPSTREAM_REPRODUCTION_2026-08-28.md",
+      "published_sha256": "26ccb3b920493736053a6f7ca8ea6b079855ed17f9a583bf62164a5ac3a2bf17",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/FULL_PROCESS_LIFECYCLE_2026-09-07.md",
+      "source_sha256": "8abe1eb61015b57f897d21fecddb80af7b7d9acaf0dc1d52646b45bb2387deaa",
+      "published_path": "research/reports/results/FULL_PROCESS_LIFECYCLE_2026-09-07.md",
+      "published_sha256": "0354ca7036fa9b44871947ee982ed1ce32082678f1e5627664f43151d513b4ae",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/HEADER_INVENTORY_DECISION_2026-09-07.md",
+      "source_sha256": "900c8c5b292364959887f1799cb1db10e854efad419b9c1992cedd6e2e97ddd8",
+      "published_path": "research/reports/results/HEADER_INVENTORY_DECISION_2026-09-07.md",
+      "published_sha256": "1ade291a0df4c2fb75a0c983c1c8715166e24f63d2eaa73e6102741ca4f6855e",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/INDEPENDENT_CIRCUITS_DECISION_2026-09-07.md",
+      "source_sha256": "84915654162135f016bfcd10d1ebd721cbba2530b87d0a6bfe354a970b5458bc",
+      "published_path": "research/reports/results/INDEPENDENT_CIRCUITS_DECISION_2026-09-07.md",
+      "published_sha256": "865437a75514bf1f4207c5adfc3a0b1cb4dfd7706141e8ecb817fb8a2dc93551",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/INDEPENDENT_HIDDEN_STATE_LINEAR_AUDIT_2026-08-31.md",
+      "source_sha256": "e13ba2258776a658c548ef72976396e27a526ab2d745832d55276d40cb80337c",
+      "published_path": "research/reports/results/INDEPENDENT_HIDDEN_STATE_LINEAR_AUDIT_2026-08-31.md",
+      "published_sha256": "b88fbe946aa5b3556ab3cf2a3669235c7b48db415951a70a6e069fcb96593991",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/INTEGRATED_CANDIDATE_PATH_2026-09-07.md",
+      "source_sha256": "e1e5af2d41b0933b7d6ef465e96944a26d2321a82cbc96721277b2a6d7096218",
+      "published_path": "research/reports/results/INTEGRATED_CANDIDATE_PATH_2026-09-07.md",
+      "published_sha256": "b2456bce0b6bba95e83a968180cf089d1e00019b89c58a50a74d5297c9df9387",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/LOCAL_CONTINUATION_EVIDENCE_PENDING_IMPORT_2026-09-02.md",
+      "source_sha256": "23996350825e6435a69a5c981881102ae19a27c530fb3dfebd8e15ec0f6a6d8c",
+      "published_path": "research/reports/results/LOCAL_CONTINUATION_EVIDENCE_PENDING_IMPORT_2026-09-02.md",
+      "published_sha256": "7cb8a766fa4ff7bf59c81bf8055f596baac97903b105c52ebb1f76e1f43c4b83",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/MAST_VERTICAL_CHALLENGE_COHORT_RESULT_2026-09-02.md",
+      "source_sha256": "a454f40ae4203c06106bcef99414d9b7da21a234e0fd2bfdfecb386a3fe89626",
+      "published_path": "research/reports/results/MAST_VERTICAL_CHALLENGE_COHORT_RESULT_2026-09-02.md",
+      "published_sha256": "b3306a50e9d76fb11cf5c50bdfa2b2ee56ba049e13f1ed05feca124e315029fb",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/MATERIAL_RELEASE_EVIDENCE_2026-09-07.md",
+      "source_sha256": "dfbc4bebdfe69c707297f90865f743d41ca3a32bcbcb5f39b90ed331f87eb55c",
+      "published_path": "research/reports/results/MATERIAL_RELEASE_EVIDENCE_2026-09-07.md",
+      "published_sha256": "09e59ff0dbebd5077cdaf2662939eedf120594985712bd47c118ac9e57519cf2",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/MEASURED_CIRCULATOR_DECISION_2026-09-07.md",
+      "source_sha256": "501a53f055cc98a88253d15bd40ce5b96792daf06727a2e49517542bdd7b35f5",
+      "published_path": "research/reports/results/MEASURED_CIRCULATOR_DECISION_2026-09-07.md",
+      "published_sha256": "501a53f055cc98a88253d15bd40ce5b96792daf06727a2e49517542bdd7b35f5",
+      "privacy_transform_applied": false
+    },
+    {
+      "source_path": "results/OBSERVER_AWARE_PROTECTION_REDIRECTION_2026-09-01.md",
+      "source_sha256": "d68e2d3415f923e164f5066bee67e4819e5c63606735ce7630329c7b2c0c775d",
+      "published_path": "research/reports/results/OBSERVER_AWARE_PROTECTION_REDIRECTION_2026-09-01.md",
+      "published_sha256": "7b1725fbac9659fed37186abd6489d299e6b7de7f6979be3ac5d1bcfd060591e",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/PERIODIC_FUEL_OPERABILITY_2026-09-07.md",
+      "source_sha256": "b0002174662c48754ce08a572b643c6a3c3867237c5e3f26554466d7c510a158",
+      "published_path": "research/reports/results/PERIODIC_FUEL_OPERABILITY_2026-09-07.md",
+      "published_sha256": "51e073461dbd90c3877f9bbcfbe16397db1909da2f7a0b9a7c41e9386c82fbc4",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/PERIODIC_FUEL_SERIALIZATION_NOTE_2026-09-07.md",
+      "source_sha256": "0ffea5ba29ee28a62b182c7147ff93570a16db301f0819c5335b1deff507580a",
+      "published_path": "research/reports/results/PERIODIC_FUEL_SERIALIZATION_NOTE_2026-09-07.md",
+      "published_sha256": "153be94d3e4d1eb7dbfe77a696590aef601fd24eb6153b48bd82adb16f020a46",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/PLANT_CLOSURE_AUDIT_2026-09-06.md",
+      "source_sha256": "0ebcfcdd54a60305f4e899db4d32fb3291b4a89dcd9df220dc22689fb2ae04e6",
+      "published_path": "research/reports/results/PLANT_CLOSURE_AUDIT_2026-09-06.md",
+      "published_sha256": "c4ba55d532de25ea8703617db83f9b5a9a6e1b8e3f085e5c3cceecaae86bb1f1",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/PROFILE_DISTURBANCE_OBSERVER_CHECKPOINT_2026-09-01.md",
+      "source_sha256": "f49b368f659e234604c3c179b229485f6a3694aae098666f595cedb4190c8091",
+      "published_path": "research/reports/results/PROFILE_DISTURBANCE_OBSERVER_CHECKPOINT_2026-09-01.md",
+      "published_sha256": "5dc4568271e85de2345967ab954a0988da01673abe9eed2e4fa72911b9f8d3ec",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/REAL_DATA_ROUTE_STATUS_POINTER_2026-09-02.md",
+      "source_sha256": "3923ef0d46ac6eed890524bb634797faba0f4757820162477d0b59475896d700",
+      "published_path": "research/reports/results/REAL_DATA_ROUTE_STATUS_POINTER_2026-09-02.md",
+      "published_sha256": "e7afb5b7278332f5ae20f5e39505e7fbe162e508c303993eede604d043210abc",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/SURFACE_RECOVERY_AND_NVIDIA_2026-09-07.md",
+      "source_sha256": "bb71de4894e2e8c9cd9e4b704a6c7442ac1c4b8021114ad7520c78801a659f47",
+      "published_path": "research/reports/results/SURFACE_RECOVERY_AND_NVIDIA_2026-09-07.md",
+      "published_sha256": "e5ecec9117a517a10505e8b15c043203d1420852691c052be1d10313894ab6af",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/TOKAMAKER_DIIID_REPEATABILITY_2026-08-29.md",
+      "source_sha256": "d9fedd0ea0413737a0da4b98ca27c5d418af9302cfb4abc8b816deed79e84591",
+      "published_path": "research/reports/results/TOKAMAKER_DIIID_REPEATABILITY_2026-08-29.md",
+      "published_sha256": "be20eff4e037e8d166886953572ad5b5ff5b796262c810701f741b53df5e3b12",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/TOKAMAKER_DIIID_REPRODUCTION_2026-08-29.md",
+      "source_sha256": "238341d08d5d222e7ddf896306babdc5904b5996243fd3760e5f6d2ec0fa3a86",
+      "published_path": "research/reports/results/TOKAMAKER_DIIID_REPRODUCTION_2026-08-29.md",
+      "published_sha256": "51a43c946e4b3fedc9210225503678514ca71d970532346bc5ad9f4da9ed50a0",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/TOKAMAKER_V26_6_DIIID_PREFLIGHT_RESULT_2026-08-28.md",
+      "source_sha256": "a7c371898fbe34a50b6f4143fe4fd54bf51d768a35bf5f968eb947547010375e",
+      "published_path": "research/reports/results/TOKAMAKER_V26_6_DIIID_PREFLIGHT_RESULT_2026-08-28.md",
+      "published_sha256": "5666945d90b810f8470ebb9a6cd7b927a41b3fda0d1007cea5b63027638c1f0e",
+      "privacy_transform_applied": true
+    },
+    {
+      "source_path": "results/UPSTREAM_FATIGUE_REVIEW_PACKET_2026-09-07.md",
+      "source_sha256": "e1c4d4fcb6ecdf593b995c0963f5e238b86a634096faba917f8d2e788ffe8037",
+      "published_path": "research/reports/results/UPSTREAM_FATIGUE_REVIEW_PACKET_2026-09-07.md",
+      "published_sha256": "343dc6401a907a1bc6ae2fef29b66bad8ce50ff4bb30c29c3f077c3b7f3cd63d",
+      "privacy_transform_applied": true
+    }
+  ],
+  "excluded": [
+    {
+      "path": "docs/DATA_ACCESS_OUTREACH_DRAFT_2026-09-02.md",
+      "reason": "correspondence/access record requires separate review"
+    },
+    {
+      "path": "docs/OUTREACH_DECISION_2026-09-02.md",
+      "reason": "correspondence/access record requires separate review"
+    },
+    {
+      "path": "docs/OUTREACH_NO_RESTRICTED_DATA_POLICY_2026-09-02.md",
+      "reason": "correspondence/access record requires separate review"
+    },
+    {
+      "path": "docs/PUBLIC_MAST_DATA_REQUEST_2026-09-02.md",
+      "reason": "correspondence/access record requires separate review"
+    },
+    {
+      "path": "results/DATA_ACCESS_OUTREACH_SENTINEL_2026-09-02.md",
+      "reason": "correspondence/access record requires separate review"
+    },
+    {
+      "path": "results/DATA_ACCESS_OUTREACH_STATUS_2026-09-02.md",
+      "reason": "correspondence/access record requires separate review"
+    },
+    {
+      "path": "results/OUTREACH_PRECONDITIONS_COMPLETE_2026-09-02.md",
+      "reason": "correspondence/access record requires separate review"
+    }
+  ],
+  "raw_archive_policy": "Private correspondence, original raw logs and unreviewed binary archives are not included. Hashes attest source lineage, not availability of raw data.",
+  "coverage": "Current tracked Python research code and eligible narrative records, plus two approved reproducible systems inputs. Historical raw archives/data are not all released or integrated; no historical full-suite execution claimed.",
+  "source_code_records": [
+    {
+      "source_path": "experiments/confinement_dependency_2026_09_07/audit_results.py",
+      "source_sha256": "1f414bd6518017da0490c3806fcd942b41b8b969e8239faa0d80d020f8bf202c",
+      "published_path": "research/source/experiments/confinement_dependency_2026_09_07/audit_results.py",
+      "published_sha256": "1f414bd6518017da0490c3806fcd942b41b8b969e8239faa0d80d020f8bf202c",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/confinement_dependency_2026_09_07/execute_bounded.py",
+      "source_sha256": "f37f3c3e9761ca2b432f038f42db531c161444e90c7ab970be33840f205d7b42",
+      "published_path": "research/source/experiments/confinement_dependency_2026_09_07/execute_bounded.py",
+      "published_sha256": "f37f3c3e9761ca2b432f038f42db531c161444e90c7ab970be33840f205d7b42",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/confinement_dependency_2026_09_07/min_h_objective.py",
+      "source_sha256": "9d1f9987988bdc2f4db145fe99d5a9c662de33cb740b72c1ecab30d98b98bbb8",
+      "published_path": "research/source/experiments/confinement_dependency_2026_09_07/min_h_objective.py",
+      "published_sha256": "9d1f9987988bdc2f4db145fe99d5a9c662de33cb740b72c1ecab30d98b98bbb8",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/confinement_dependency_2026_09_07/replay.py",
+      "source_sha256": "7fbecdd552c5020dd682eb850d145bd8304719b834add6bd4904e7ff4d2240ec",
+      "published_path": "research/source/experiments/confinement_dependency_2026_09_07/replay.py",
+      "published_sha256": "7fbecdd552c5020dd682eb850d145bd8304719b834add6bd4904e7ff4d2240ec",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/confinement_dependency_2026_09_07/run_case.py",
+      "source_sha256": "b8230495052d9e910f33ab01bd9a0d06c13a70eee8e04f73546602daa77b4475",
+      "published_path": "research/source/experiments/confinement_dependency_2026_09_07/run_case.py",
+      "published_sha256": "b8230495052d9e910f33ab01bd9a0d06c13a70eee8e04f73546602daa77b4475",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/confinement_dependency_2026_09_07/run_inverse.py",
+      "source_sha256": "9cde4408707263cf9f860409187eb691e6d5dd545e8d849b1fa703f0a403d30e",
+      "published_path": "research/source/experiments/confinement_dependency_2026_09_07/run_inverse.py",
+      "published_sha256": "9cde4408707263cf9f860409187eb691e6d5dd545e8d849b1fa703f0a403d30e",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/confinement_dependency_2026_09_07/run_native_validation.py",
+      "source_sha256": "31bfd0a176d80f507ddaff07755b1aadaef06f1f4318c94af91c4ca0b4bc4cc8",
+      "published_path": "research/source/experiments/confinement_dependency_2026_09_07/run_native_validation.py",
+      "published_sha256": "31bfd0a176d80f507ddaff07755b1aadaef06f1f4318c94af91c4ca0b4bc4cc8",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/confinement_dependency_2026_09_07/support/adaptive_fatigue.py",
+      "source_sha256": "96be69c05abbfa9786591b652dac5c81262d7fb03c4a8fe3471fe42a5974949d",
+      "published_path": "research/source/experiments/confinement_dependency_2026_09_07/support/adaptive_fatigue.py",
+      "published_sha256": "96be69c05abbfa9786591b652dac5c81262d7fb03c4a8fe3471fe42a5974949d",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/confinement_dependency_2026_09_07/support/audit_full_runs.py",
+      "source_sha256": "24a701e3b05d1c5f73d63fbcb7f87625d0710d35369246baafeee5dbbe2bfe55",
+      "published_path": "research/source/experiments/confinement_dependency_2026_09_07/support/audit_full_runs.py",
+      "published_sha256": "24a701e3b05d1c5f73d63fbcb7f87625d0710d35369246baafeee5dbbe2bfe55",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/confinement_dependency_2026_09_07/support/mission_constraint.py",
+      "source_sha256": "d25a629240275457f24e0d3a27ff2a324e1a5100995cb31996f5104de57459db",
+      "published_path": "research/source/experiments/confinement_dependency_2026_09_07/support/mission_constraint.py",
+      "published_sha256": "d25a629240275457f24e0d3a27ff2a324e1a5100995cb31996f5104de57459db",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/confinement_dependency_2026_09_07/support/run_full_process.py",
+      "source_sha256": "40bae045aae0036568226076ddb184d97cdc42135f09f9d5ded63cd1c5714603",
+      "published_path": "research/source/experiments/confinement_dependency_2026_09_07/support/run_full_process.py",
+      "published_sha256": "40bae045aae0036568226076ddb184d97cdc42135f09f9d5ded63cd1c5714603",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/confinement_dependency_2026_09_07/support/run_warm_fixed_process.py",
+      "source_sha256": "3c65c901fbee719bad63e0e8a12ff48d2cc6b0674181ce27c43efda6cabe270e",
+      "published_path": "research/source/experiments/confinement_dependency_2026_09_07/support/run_warm_fixed_process.py",
+      "published_sha256": "3c65c901fbee719bad63e0e8a12ff48d2cc6b0674181ce27c43efda6cabe270e",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/confinement_dependency_2026_09_07/support/windows_output_fix.py",
+      "source_sha256": "b8f70409ce24ee9bda76e34b22e55289f60cb500697ebb2b445bea634ac0fdc7",
+      "published_path": "research/source/experiments/confinement_dependency_2026_09_07/support/windows_output_fix.py",
+      "published_sha256": "b8f70409ce24ee9bda76e34b22e55289f60cb500697ebb2b445bea634ac0fdc7",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/confinement_dependency_2026_09_07/test_confinement.py",
+      "source_sha256": "a4bf2a7863a898b3f8f3181d3e2867656a435b4a9cd7e424e2aab09aa1d588d9",
+      "published_path": "research/source/experiments/confinement_dependency_2026_09_07/test_confinement.py",
+      "published_sha256": "a4bf2a7863a898b3f8f3181d3e2867656a435b4a9cd7e424e2aab09aa1d588d9",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/cooling_interface_2026_09_07/coolant_volume_gate.py",
+      "source_sha256": "a908bbb2bdf09363f1a7b1f816871449fbc9d502b50062ba5b1f8c2bacae9f94",
+      "published_path": "research/source/experiments/cooling_interface_2026_09_07/coolant_volume_gate.py",
+      "published_sha256": "a908bbb2bdf09363f1a7b1f816871449fbc9d502b50062ba5b1f8c2bacae9f94",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/cooling_interface_2026_09_07/evaluate_frozen_fw_final.py",
+      "source_sha256": "520df2244f1bcf80d3288a33445933be8002ef4de9291c13cdd31a3d1ad77668",
+      "published_path": "research/source/experiments/cooling_interface_2026_09_07/evaluate_frozen_fw_final.py",
+      "published_sha256": "520df2244f1bcf80d3288a33445933be8002ef4de9291c13cdd31a3d1ad77668",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/cooling_interface_2026_09_07/replay_cooling_gate.py",
+      "source_sha256": "b64a91b6a8defb2169c0051ed7df5b48ab330484e036a32f965f4c5b10082eb6",
+      "published_path": "research/source/experiments/cooling_interface_2026_09_07/replay_cooling_gate.py",
+      "published_sha256": "b64a91b6a8defb2169c0051ed7df5b48ab330484e036a32f965f4c5b10082eb6",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/cooling_interface_2026_09_07/split_fw_intervention.py",
+      "source_sha256": "a60c6474f6de02e7f7ce0f65e8858a0ba8aff784438770c87e62dcea77f463d8",
+      "published_path": "research/source/experiments/cooling_interface_2026_09_07/split_fw_intervention.py",
+      "published_sha256": "a60c6474f6de02e7f7ce0f65e8858a0ba8aff784438770c87e62dcea77f463d8",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/flow_balance_2026_09_07/branch_balance.py",
+      "source_sha256": "a6bdb6a0fdc68655aa08bf0d8445f55ad337b54f53dedb2012556f65b6b37a45",
+      "published_path": "research/source/experiments/flow_balance_2026_09_07/branch_balance.py",
+      "published_sha256": "a6bdb6a0fdc68655aa08bf0d8445f55ad337b54f53dedb2012556f65b6b37a45",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/flow_balance_2026_09_07/evaluate_frozen_fw_final.py",
+      "source_sha256": "773ab997cad8265708eab529d08723f807db168e0ec9fd5d2a26cd28fb684dae",
+      "published_path": "research/source/experiments/flow_balance_2026_09_07/evaluate_frozen_fw_final.py",
+      "published_sha256": "773ab997cad8265708eab529d08723f807db168e0ec9fd5d2a26cd28fb684dae",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/flow_balance_2026_09_07/replay.py",
+      "source_sha256": "dfb9a0ed05d261af503140e4515fafc7410555d7dcae8911f90d7ae8bb50680d",
+      "published_path": "research/source/experiments/flow_balance_2026_09_07/replay.py",
+      "published_sha256": "dfb9a0ed05d261af503140e4515fafc7410555d7dcae8911f90d7ae8bb50680d",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/flow_balance_2026_09_07/test_branch_balance.py",
+      "source_sha256": "fd6fb1e2e8e47107d39e3f720a684578a666fbf507ed62146c1bb36f46d480c4",
+      "published_path": "research/source/experiments/flow_balance_2026_09_07/test_branch_balance.py",
+      "published_sha256": "fd6fb1e2e8e47107d39e3f720a684578a666fbf507ed62146c1bb36f46d480c4",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/full_process_2026_09_07/adaptive_fatigue.py",
+      "source_sha256": "e97ecba17d898d1a5b44dad8f4dbdbadedfe9c33ac05a00609bfaeb69387bd14",
+      "published_path": "research/source/experiments/full_process_2026_09_07/adaptive_fatigue.py",
+      "published_sha256": "e97ecba17d898d1a5b44dad8f4dbdbadedfe9c33ac05a00609bfaeb69387bd14",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/full_process_2026_09_07/mission_constraint.py",
+      "source_sha256": "4f14b9af6b10db18ac2bf0693a0625802e6a16c4e0cb9d63d02da2731002417a",
+      "published_path": "research/source/experiments/full_process_2026_09_07/mission_constraint.py",
+      "published_sha256": "4f14b9af6b10db18ac2bf0693a0625802e6a16c4e0cb9d63d02da2731002417a",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/full_process_2026_09_07/run_warm_fixed_process.py",
+      "source_sha256": "e194f19cf914f4187bfc513d02dcc7b8a0330caa8da0ab6a4567e3906a1275bb",
+      "published_path": "research/source/experiments/full_process_2026_09_07/run_warm_fixed_process.py",
+      "published_sha256": "e194f19cf914f4187bfc513d02dcc7b8a0330caa8da0ab6a4567e3906a1275bb",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/full_process_2026_09_07/windows_output_fix.py",
+      "source_sha256": "9d081cbeaf7348bc120b7d06cc565b47c5e41e0509929f6c9f17151be65c47c0",
+      "published_path": "research/source/experiments/full_process_2026_09_07/windows_output_fix.py",
+      "published_sha256": "9d081cbeaf7348bc120b7d06cc565b47c5e41e0509929f6c9f17151be65c47c0",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/header_inventory_2026_09_07/dependencies/branch_balance.py",
+      "source_sha256": "a6bdb6a0fdc68655aa08bf0d8445f55ad337b54f53dedb2012556f65b6b37a45",
+      "published_path": "research/source/experiments/header_inventory_2026_09_07/dependencies/branch_balance.py",
+      "published_sha256": "a6bdb6a0fdc68655aa08bf0d8445f55ad337b54f53dedb2012556f65b6b37a45",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/header_inventory_2026_09_07/dependencies/evaluate_frozen_fw_final.py",
+      "source_sha256": "773ab997cad8265708eab529d08723f807db168e0ec9fd5d2a26cd28fb684dae",
+      "published_path": "research/source/experiments/header_inventory_2026_09_07/dependencies/evaluate_frozen_fw_final.py",
+      "published_sha256": "773ab997cad8265708eab529d08723f807db168e0ec9fd5d2a26cd28fb684dae",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/header_inventory_2026_09_07/flow_recheck.py",
+      "source_sha256": "004f61ff78a77634950d9ce5f3b99fe28e8d901335ac6b6a689e0e64a153f89f",
+      "published_path": "research/source/experiments/header_inventory_2026_09_07/flow_recheck.py",
+      "published_sha256": "004f61ff78a77634950d9ce5f3b99fe28e8d901335ac6b6a689e0e64a153f89f",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/header_inventory_2026_09_07/header_inventory.py",
+      "source_sha256": "2d62348c578be4c4bc1234d0b2bb88b1b905ad61982d37c438507e2bb8bbaadd",
+      "published_path": "research/source/experiments/header_inventory_2026_09_07/header_inventory.py",
+      "published_sha256": "2d62348c578be4c4bc1234d0b2bb88b1b905ad61982d37c438507e2bb8bbaadd",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/header_inventory_2026_09_07/initial_prescribed_flow/header_inventory.py",
+      "source_sha256": "e5c8c8f942bfc590f77fe7a690758b59040e5f91290ece46231b89a579ecb46a",
+      "published_path": "research/source/experiments/header_inventory_2026_09_07/initial_prescribed_flow/header_inventory.py",
+      "published_sha256": "e5c8c8f942bfc590f77fe7a690758b59040e5f91290ece46231b89a579ecb46a",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/header_inventory_2026_09_07/preserve_packet.py",
+      "source_sha256": "c75d29ea3b0d41678efc044436cdf6bdb2e93d095dfa082f842f5cf259149b21",
+      "published_path": "research/source/experiments/header_inventory_2026_09_07/preserve_packet.py",
+      "published_sha256": "c75d29ea3b0d41678efc044436cdf6bdb2e93d095dfa082f842f5cf259149b21",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/header_inventory_2026_09_07/replay.py",
+      "source_sha256": "48732c859486dfca7fc636d22512aa13e2e2471e5ac712e9d4dbf6c968e0dbe4",
+      "published_path": "research/source/experiments/header_inventory_2026_09_07/replay.py",
+      "published_sha256": "48732c859486dfca7fc636d22512aa13e2e2471e5ac712e9d4dbf6c968e0dbe4",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/header_inventory_2026_09_07/test_header_inventory.py",
+      "source_sha256": "afa0df312c91900d2dda0f6563353565012dbc62297e51b9650d8852d2f2fbc2",
+      "published_path": "research/source/experiments/header_inventory_2026_09_07/test_header_inventory.py",
+      "published_sha256": "afa0df312c91900d2dda0f6563353565012dbc62297e51b9650d8852d2f2fbc2",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/independent_circuits_2026_09_07/compare_circuits.py",
+      "source_sha256": "6eabdf3cde3cb0a16643f697c7c740ab60134243c00ba44fea4da19828ff41df",
+      "published_path": "research/source/experiments/independent_circuits_2026_09_07/compare_circuits.py",
+      "published_sha256": "6eabdf3cde3cb0a16643f697c7c740ab60134243c00ba44fea4da19828ff41df",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/independent_circuits_2026_09_07/efficiency_requirement.py",
+      "source_sha256": "0d3d556033ef676e3d58cdbde6bf2419e308e60d2642e93b4f02d481f1d78b23",
+      "published_path": "research/source/experiments/independent_circuits_2026_09_07/efficiency_requirement.py",
+      "published_sha256": "0d3d556033ef676e3d58cdbde6bf2419e308e60d2642e93b4f02d481f1d78b23",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/independent_circuits_2026_09_07/replay.py",
+      "source_sha256": "42c363e841b36ed63abacf637b9b8a82ac5ba94f644a2b2075addc0cb984dec2",
+      "published_path": "research/source/experiments/independent_circuits_2026_09_07/replay.py",
+      "published_sha256": "42c363e841b36ed63abacf637b9b8a82ac5ba94f644a2b2075addc0cb984dec2",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/independent_circuits_2026_09_07/test_circuits.py",
+      "source_sha256": "dd256a65c1ca98b84466e75b9774d5c405135409b7c8d72b742eadf919bdaacf",
+      "published_path": "research/source/experiments/independent_circuits_2026_09_07/test_circuits.py",
+      "published_sha256": "dd256a65c1ca98b84466e75b9774d5c405135409b7c8d72b742eadf919bdaacf",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/measured_circulator_2026_09_07/assess_observations.py",
+      "source_sha256": "50749857534735f9dcad391e528251ee117c90c45cb4f2acb2fc8e386dd6ad9b",
+      "published_path": "research/source/experiments/measured_circulator_2026_09_07/assess_observations.py",
+      "published_sha256": "50749857534735f9dcad391e528251ee117c90c45cb4f2acb2fc8e386dd6ad9b",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "experiments/measured_circulator_2026_09_07/test_observations.py",
+      "source_sha256": "47d0bc10bcccf4de1391759cc8008fc440c2b9a2102ae20963f236a3358e0bc0",
+      "published_path": "research/source/experiments/measured_circulator_2026_09_07/test_observations.py",
+      "published_sha256": "47d0bc10bcccf4de1391759cc8008fc440c2b9a2102ae20963f236a3358e0bc0",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/audit_coupled_candidate.py",
+      "source_sha256": "6058bca19847e70030008c7d3fa17d66ebd4b6128480dc5940cbdcba073edef2",
+      "published_path": "research/source/scripts/audit_coupled_candidate.py",
+      "published_sha256": "6058bca19847e70030008c7d3fa17d66ebd4b6128480dc5940cbdcba073edef2",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/audit_freegsnke_operating_point_contract.py",
+      "source_sha256": "06e6206aeb9ee38274c87a8d9b2ff8e81652f627e835f45b85baff84f161aafd",
+      "published_path": "research/source/scripts/audit_freegsnke_operating_point_contract.py",
+      "published_sha256": "06e6206aeb9ee38274c87a8d9b2ff8e81652f627e835f45b85baff84f161aafd",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/audit_freegsnke_operating_point_contract_compat.py",
+      "source_sha256": "55ad5fa28b5d42d9500bf5c64c76a41cd46f1f4457fc2f7bf2a6e69e2058eb2d",
+      "published_path": "research/source/scripts/audit_freegsnke_operating_point_contract_compat.py",
+      "published_sha256": "55ad5fa28b5d42d9500bf5c64c76a41cd46f1f4457fc2f7bf2a6e69e2058eb2d",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/audit_fuel_campaign.py",
+      "source_sha256": "2855d60623b00fea4fec39a9ee7d876ec1e2df943434cd793fe6fe1aa57ad7ca",
+      "published_path": "research/source/scripts/audit_fuel_campaign.py",
+      "published_sha256": "2855d60623b00fea4fec39a9ee7d876ec1e2df943434cd793fe6fe1aa57ad7ca",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/audit_fuel_operating_limits.py",
+      "source_sha256": "cb7d9d4622dd362c543d8720e0b66d037d304c4c227746922047778d2c9a47ac",
+      "published_path": "research/source/scripts/audit_fuel_operating_limits.py",
+      "published_sha256": "cb7d9d4622dd362c543d8720e0b66d037d304c4c227746922047778d2c9a47ac",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/audit_periodic_fuel.py",
+      "source_sha256": "1903b8445b915eef58e4a4f31ff5311b0577c5c32aa8d7edbc34d158b9afc338",
+      "published_path": "research/source/scripts/audit_periodic_fuel.py",
+      "published_sha256": "1903b8445b915eef58e4a4f31ff5311b0577c5c32aa8d7edbc34d158b9afc338",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/audit_plant_closure.py",
+      "source_sha256": "ff7e81ff7df43f2f7c47ee12c23c5c1802ffdffde6507dea6d38edabddf4db36",
+      "published_path": "research/source/scripts/audit_plant_closure.py",
+      "published_sha256": "ff7e81ff7df43f2f7c47ee12c23c5c1802ffdffde6507dea6d38edabddf4db36",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/compare_freegsnke_example05_repeatability.py",
+      "source_sha256": "3dfc2e323b47937501b88ca7ba1f62dfb5e4c059cca5861d7438274573238c4f",
+      "published_path": "research/source/scripts/compare_freegsnke_example05_repeatability.py",
+      "published_sha256": "3dfc2e323b47937501b88ca7ba1f62dfb5e4c059cca5861d7438274573238c4f",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/compare_freegsnke_gate2_replicates.py",
+      "source_sha256": "6470bd4d2abedbd38362214c5a7bf39a5123d14484ce758c6c6881b095d75033",
+      "published_path": "research/source/scripts/compare_freegsnke_gate2_replicates.py",
+      "published_sha256": "6470bd4d2abedbd38362214c5a7bf39a5123d14484ce758c6c6881b095d75033",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/compare_tokamaker_diiid_repeatability.py",
+      "source_sha256": "6032c9a59d03598f1693d4977ca79a5b563357d781a96dc87b99f1bfcf1e09c9",
+      "published_path": "research/source/scripts/compare_tokamaker_diiid_repeatability.py",
+      "published_sha256": "6032c9a59d03598f1693d4977ca79a5b563357d781a96dc87b99f1bfcf1e09c9",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/discover_tokamaker_v26_6.py",
+      "source_sha256": "b4fa204585c1acb69efac00c56529b298b8c63045f83fb2d68d07b8d878fb8cb",
+      "published_path": "research/source/scripts/discover_tokamaker_v26_6.py",
+      "published_sha256": "b4fa204585c1acb69efac00c56529b298b8c63045f83fb2d68d07b8d878fb8cb",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/execute_freegsnke_example05_vde.py",
+      "source_sha256": "e8d466aa88db029f682eccdcc42c09ec0a71888e52383544f89e9ecfe7aaeccc",
+      "published_path": "research/source/scripts/execute_freegsnke_example05_vde.py",
+      "published_sha256": "e8d466aa88db029f682eccdcc42c09ec0a71888e52383544f89e9ecfe7aaeccc",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/execute_freegsnke_growth_export.py",
+      "source_sha256": "33eedc0336773ba7e7ebb881a7cfafa6052b8c61344857842362723fc761bc96",
+      "published_path": "research/source/scripts/execute_freegsnke_growth_export.py",
+      "published_sha256": "33eedc0336773ba7e7ebb881a7cfafa6052b8c61344857842362723fc761bc96",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/execute_tokamaker_diiid_v26_6_v2.py",
+      "source_sha256": "9137cbfaabf8d6e3637f60d2c46022a4bf0b890c985436ee29fbb9f6114aa645",
+      "published_path": "research/source/scripts/execute_tokamaker_diiid_v26_6_v2.py",
+      "published_sha256": "9137cbfaabf8d6e3637f60d2c46022a4bf0b890c985436ee29fbb9f6114aa645",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/material_cooldown_bounds.py",
+      "source_sha256": "de0fd80d2d6a457abd9acb2e5ff7b7720997eb63ca6155dfb7e32f4f90f3bb3b",
+      "published_path": "research/source/scripts/material_cooldown_bounds.py",
+      "published_sha256": "de0fd80d2d6a457abd9acb2e5ff7b7720997eb63ca6155dfb7e32f4f90f3bb3b",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/material_release_reference.py",
+      "source_sha256": "d1591820f9effae0b934b53d5fe9f09038b15b6d57ca0d3927f3b0aa753ad2f5",
+      "published_path": "research/source/scripts/material_release_reference.py",
+      "published_sha256": "d1591820f9effae0b934b53d5fe9f09038b15b6d57ca0d3927f3b0aa753ad2f5",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/openmc_hcpb_material_gate.py",
+      "source_sha256": "5e5e2efd617070949efea1bef039ec8014a044f9fd1f8c8097cef823295bc96a",
+      "published_path": "research/source/scripts/openmc_hcpb_material_gate.py",
+      "published_sha256": "5e5e2efd617070949efea1bef039ec8014a044f9fd1f8c8097cef823295bc96a",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/openmc_pb17li_tbr_screen.py",
+      "source_sha256": "73a942aa1ff0a4ab28d5ca0b40c9217658ad08ac73f9925e85aa08df91a2c733",
+      "published_path": "research/source/scripts/openmc_pb17li_tbr_screen.py",
+      "published_sha256": "73a942aa1ff0a4ab28d5ca0b40c9217658ad08ac73f9925e85aa08df91a2c733",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/process_fatigue_closed_power.py",
+      "source_sha256": "daada4608d6eda5c291ec9daabbe6c53faf51d57ee267af2e7952149ea35a6d1",
+      "published_path": "research/source/scripts/process_fatigue_closed_power.py",
+      "published_sha256": "daada4608d6eda5c291ec9daabbe6c53faf51d57ee267af2e7952149ea35a6d1",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/process_power_cycle_sensitivity.py",
+      "source_sha256": "4ed2fe29ae61f3e939b2d2d70d878a6d6c80b1d6b665cf2a52babd22c7cc3d68",
+      "published_path": "research/source/scripts/process_power_cycle_sensitivity.py",
+      "published_sha256": "4ed2fe29ae61f3e939b2d2d70d878a6d6c80b1d6b665cf2a52babd22c7cc3d68",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/process_reactor_feasibility.py",
+      "source_sha256": "29ba8c67e90eeb64237ebe4c96a8f1a28d81a326e549b1065785a8c0dccb335d",
+      "published_path": "research/source/scripts/process_reactor_feasibility.py",
+      "published_sha256": "29ba8c67e90eeb64237ebe4c96a8f1a28d81a326e549b1065785a8c0dccb335d",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/reproduce_upstream_fatigue.py",
+      "source_sha256": "cf07c9b5f29893deb80a556cd772628f080170259f87d1f2822372acbb58fbe2",
+      "published_path": "research/source/scripts/reproduce_upstream_fatigue.py",
+      "published_sha256": "cf07c9b5f29893deb80a556cd772628f080170259f87d1f2822372acbb58fbe2",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/run_mast_vertical_challenge_bundle.py",
+      "source_sha256": "cc8e38561aefe0a968c872965e64f820478e6661dc46e5fe688202a82a0dabab",
+      "published_path": "research/source/scripts/run_mast_vertical_challenge_bundle.py",
+      "published_sha256": "cc8e38561aefe0a968c872965e64f820478e6661dc46e5fe688202a82a0dabab",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/screen_integrated_candidate_path.py",
+      "source_sha256": "da455cd43e6c3839852c477a45ab514aecb0a18f0353faaaa9a47e218e2010ca",
+      "published_path": "research/source/scripts/screen_integrated_candidate_path.py",
+      "published_sha256": "da455cd43e6c3839852c477a45ab514aecb0a18f0353faaaa9a47e218e2010ca",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/surface_recovery_gate.py",
+      "source_sha256": "917c111db2a1e20b12522079e53c7431bdd90ea0e64bed2959dea31e07891774",
+      "published_path": "research/source/scripts/surface_recovery_gate.py",
+      "published_sha256": "917c111db2a1e20b12522079e53c7431bdd90ea0e64bed2959dea31e07891774",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/validate_freegsnke_export.py",
+      "source_sha256": "ddb1bd2abe8b02117d3ac5a34f37ced5ab28787ca8f6c942470b39ce4b831286",
+      "published_path": "research/source/scripts/validate_freegsnke_export.py",
+      "published_sha256": "ddb1bd2abe8b02117d3ac5a34f37ced5ab28787ca8f6c942470b39ce4b831286",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "scripts/validate_freegsnke_gate2_stepper.py",
+      "source_sha256": "e18191856dce408671198a95913452e07d6429ce57a5c41d7a85f615ec6d7261",
+      "published_path": "research/source/scripts/validate_freegsnke_gate2_stepper.py",
+      "published_sha256": "e18191856dce408671198a95913452e07d6429ce57a5c41d7a85f615ec6d7261",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "src/fusion_vertical_safety/__init__.py",
+      "source_sha256": "3dfba2e8db5eea930ad4f11f8417a0058dd5899f13e75490af66afed8113ec87",
+      "published_path": "research/source/src/fusion_vertical_safety/__init__.py",
+      "published_sha256": "3dfba2e8db5eea930ad4f11f8417a0058dd5899f13e75490af66afed8113ec87",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "src/fusion_vertical_safety/freegsnke_adapter.py",
+      "source_sha256": "90268c664f675331c238ab534e34f0b3c834164ba41e50bb834dac1caa581305",
+      "published_path": "research/source/src/fusion_vertical_safety/freegsnke_adapter.py",
+      "published_sha256": "90268c664f675331c238ab534e34f0b3c834164ba41e50bb834dac1caa581305",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "tests/test_coupled_candidate.py",
+      "source_sha256": "7ac4eccce6745e5e440d1180e4c632606b4f5814815eefb2bd3aaf47edd2b4d8",
+      "published_path": "research/source/tests/test_coupled_candidate.py",
+      "published_sha256": "7ac4eccce6745e5e440d1180e4c632606b4f5814815eefb2bd3aaf47edd2b4d8",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "tests/test_freegsnke_adapter.py",
+      "source_sha256": "2cde9a59645c4dbbf6d373ac4b9c7a27a5c8b40530094124b88f737afe3f8b17",
+      "published_path": "research/source/tests/test_freegsnke_adapter.py",
+      "published_sha256": "2cde9a59645c4dbbf6d373ac4b9c7a27a5c8b40530094124b88f737afe3f8b17",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "tests/test_freegsnke_operating_point_contract.py",
+      "source_sha256": "6696db32b21d686c8e2cc8614532df09d81aa37b6104bc0fefe16f822c6382bd",
+      "published_path": "research/source/tests/test_freegsnke_operating_point_contract.py",
+      "published_sha256": "6696db32b21d686c8e2cc8614532df09d81aa37b6104bc0fefe16f822c6382bd",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "tests/test_fuel_campaign.py",
+      "source_sha256": "d5d86eb26b124be75763de66a79ff439a5058250ef022f6cae21b4d7afb8fd9c",
+      "published_path": "research/source/tests/test_fuel_campaign.py",
+      "published_sha256": "d5d86eb26b124be75763de66a79ff439a5058250ef022f6cae21b4d7afb8fd9c",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "tests/test_fuel_operating_limits.py",
+      "source_sha256": "69c097e49279c1e9011b39c7f4ff27c41ef81da28fd38c1299d8f00d8ffc10ee",
+      "published_path": "research/source/tests/test_fuel_operating_limits.py",
+      "published_sha256": "69c097e49279c1e9011b39c7f4ff27c41ef81da28fd38c1299d8f00d8ffc10ee",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "tests/test_gate2_stepper_math.py",
+      "source_sha256": "d10db957a8a9d8d6ff1673dcda9446aab711daf5a8b0a3ca9d7b037e6bec9284",
+      "published_path": "research/source/tests/test_gate2_stepper_math.py",
+      "published_sha256": "d10db957a8a9d8d6ff1673dcda9446aab711daf5a8b0a3ca9d7b037e6bec9284",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "tests/test_integrated_candidate_path.py",
+      "source_sha256": "04f4b25735f73739889de9cfcb360737f92aa2d4086691521ffdae3f135716bd",
+      "published_path": "research/source/tests/test_integrated_candidate_path.py",
+      "published_sha256": "04f4b25735f73739889de9cfcb360737f92aa2d4086691521ffdae3f135716bd",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "tests/test_material_reference.py",
+      "source_sha256": "6af0bbc67f495fb524a83833833a85217f083eaae0fe063a74b7e29ed8b70ccf",
+      "published_path": "research/source/tests/test_material_reference.py",
+      "published_sha256": "6af0bbc67f495fb524a83833833a85217f083eaae0fe063a74b7e29ed8b70ccf",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "tests/test_periodic_fuel.py",
+      "source_sha256": "991f75672a025be5e82cd8c13e3a94143d8996db50e10fc8b0b19ffe9cd29bad",
+      "published_path": "research/source/tests/test_periodic_fuel.py",
+      "published_sha256": "991f75672a025be5e82cd8c13e3a94143d8996db50e10fc8b0b19ffe9cd29bad",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "tests/test_plant_closure_audit.py",
+      "source_sha256": "3eed3b6e67636834a5b2c29a32c9a1ff44279c648db45992498035ea2bab981b",
+      "published_path": "research/source/tests/test_plant_closure_audit.py",
+      "published_sha256": "3eed3b6e67636834a5b2c29a32c9a1ff44279c648db45992498035ea2bab981b",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "tests/test_surface_recovery_gate.py",
+      "source_sha256": "dffa729e660dfb553795ca59bdb98091bf55510bafb333335186cb056732b3d8",
+      "published_path": "research/source/tests/test_surface_recovery_gate.py",
+      "published_sha256": "dffa729e660dfb553795ca59bdb98091bf55510bafb333335186cb056732b3d8",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    },
+    {
+      "source_path": "tests/test_upstream_fatigue_reproduction.py",
+      "source_sha256": "d6170b04098c35568c365fa26475eedbf9782eca625284d3567fdcdd3644da3e",
+      "published_path": "research/source/tests/test_upstream_fatigue_reproduction.py",
+      "published_sha256": "d6170b04098c35568c365fa26475eedbf9782eca625284d3567fdcdd3644da3e",
+      "python310_syntax_check": "passed",
+      "transformation": "none"
+    }
+  ],
+  "matrix_operator_redaction_false_positive_corrected": true
+}

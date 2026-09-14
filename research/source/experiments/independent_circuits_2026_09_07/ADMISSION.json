@@ -1,0 +1,21 @@
+{
+  "schema": "fusion.independent-circuits-admission.v1",
+  "question": "At the same candidate heat and branch flows, what is the pumping/heat-recovery trade of the published independent IB/OB topology versus the hypothetical common-pressure balanced topology?",
+  "classification": "Reference-driven design comparison; not a new loop solver or new hydraulic principle",
+  "project_base": "91648db3ad2d6691dfe57f0b1b632ec20a36235a",
+  "prior_result_sha256": "62ee10daa0f2ca4630095e43043e83351a7ff2aa128b8e2104bde8271b5f379a",
+  "full_state_sha256": "cedcfa6d695fd45d4be17ea1ee77ae40d821064ea15eb1244822804f3001f9ea",
+  "primary_references": [
+    {"doi":"10.1016/j.pnucene.2016.08.007", "scope":"Full author manuscript read, Figure5 inspected; four independent circuits, two IB and two OB; manifold losses absent and ex-vessel components excluded in reported simulations."},
+    {"repository":"casella/ThermoPower", "commit":"e2b011ac7fd90f9cf5771f29f1aefa160550b6ee", "scope":"CompressorBase source inspected; reuse enthalpy/entropy/efficiency equations only. No Modelica execution or full GETTHEM reproduction."},
+    {"doi":"10.1016/j.fusengdes.2025.114872", "scope":"Publisher text and institutional abstract inspected; geometry-specific manifold thermomechanical issues remain despite thickness changes. No stress coefficients transferred."}
+  ],
+  "fixed_boundary": "Candidate helium pump discharge 8MPa and573.13K; branch mass flow/heat from previous solved nominal split. Eta_isentropic0.9, electrical-to-shaft0.87, recovered-heat conversion0.4 remain assumptions.",
+  "cases": "Mean and outlet property approximations, each at zero omitted equal branch loss and at the shared topology's remaining550kPa allowance. Endpoints are budgets, not measured header losses.",
+  "compression": "Solve suction temperature with real-helium entropy and enthalpy so discharge temperature remains fixed; also close a four-state heat ledger and cross-check ideal-gas algebra.",
+  "decision": "Whether to retain the published independent topology as preferred next reference and the budget for extra losses/auxiliaries before any net benefit is erased.",
+  "accounting": "Reduced compressor work also reduces recovered heat. No addition to the213.69MW reactor figure and no annual-availability claim.",
+  "not_free": "Independent circuits require their own controls, cooling trains and spatial hardware. Within-region unequal flow, compressor maps, cold-side HX feasibility, pressure-vessel stress and neutron/material allocation remain open.",
+  "stop_rule": "Complete this finite topology comparison and numerical cross-checks once; do not build a general whole-loop simulator or repeat manifold-parameter sweeps.",
+  "physical_plant_validated": false
+}

@@ -1,0 +1,60 @@
+{
+  "cases": {
+    "r838": {
+      "core_radiation_including_synchrotron_MW": 168.40956144468765,
+      "deposited_heating_MW": 613.6120249766986,
+      "difference_H": 0.021003462593981004,
+      "direct_thermal_energy_ratio_H": 1.0863930836834752,
+      "global_thermal_time_s": 2.175651934844032,
+      "internal_H_replay_error": -1.7732482149313e-12,
+      "internal_multiplier": 1.1999999999864892,
+      "not_a_measured_experimental_H98": true,
+      "plant_power_or_geometry_changed": false,
+      "relative_difference_percent": 1.971434879614331,
+      "reported_hstar_reproduced": 1.0653896210910996,
+      "same_boundary_thermal_deposited_H": 1.0863930836850806,
+      "scaling_time_at_deposited_power_s": 2.0026378734549426,
+      "synchrotron_MW": 39.88551972727468,
+      "thermal_stored_energy_MJ": 1335.006189384119,
+      "thermal_to_total_beta_energy_ratio": 0.8495420545436541,
+      "transport_power_MW": 445.2024635320109,
+      "transport_time_replay_error_s": -4.430678046674075e-12
+    },
+    "r900": {
+      "core_radiation_including_synchrotron_MW": 161.4196487152542,
+      "deposited_heating_MW": 618.0330583779139,
+      "difference_H": 0.014807290990593414,
+      "direct_thermal_energy_ratio_H": 0.9377426760678237,
+      "global_thermal_time_s": 2.258118333043533,
+      "internal_H_replay_error": -1.2075007660428128e-11,
+      "internal_multiplier": 1.0299999999825042,
+      "not_a_measured_experimental_H98": true,
+      "plant_power_or_geometry_changed": false,
+      "relative_difference_percent": 1.6043691931020732,
+      "reported_hstar_reproduced": 0.9229353850882237,
+      "same_boundary_thermal_deposited_H": 0.9377426760788171,
+      "scaling_time_at_deposited_power_s": 2.4080362243002056,
+      "synchrotron_MW": 32.560439429003445,
+      "thermal_stored_energy_MJ": 1395.5917795501314,
+      "thermal_to_total_beta_energy_ratio": 0.8540315596322914,
+      "transport_power_MW": 456.6134096626597,
+      "transport_time_replay_error_s": -3.583089380754245e-11
+    }
+  },
+  "date": "2026-09-09",
+  "disposition": "Known radiation-accounting correction applied to exact candidate records; no novelty claim. Do not equate either internal or converted factor with independent experimental support.",
+  "frozen_input_sha256": "1e6e1b82c17e8e121ae92b6d1c59cdac4807e56129309954707e75912ce3333e",
+  "prior_art": [
+    "https://github.com/ukaea/PROCESS/issues/652",
+    "https://github.com/ukaea/PROCESS/issues/3534",
+    "https://ukaea.github.io/PROCESS/physics-models/plasma_confinement/",
+    "https://arxiv.org/abs/2305.07285"
+  ],
+  "schema": "fusion.confinement-normalization-result.v1",
+  "scope": [
+    "No new solver optimization, reactor output, measured confinement, transport validation or breeding result.",
+    "The model core-radiation quantity already includes synchrotron radiation; only undo the actual subtracted quantity.",
+    "Thermal stored energy and deposited heating are held fixed; fast-particle/source power and experimental database definitions still require matching.",
+    "Original archived outputs and approved execution manifests remain unchanged."
+  ]
+}

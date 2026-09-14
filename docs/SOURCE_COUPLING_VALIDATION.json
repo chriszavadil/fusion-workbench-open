@@ -1,0 +1,21 @@
+{
+  "app_tests_passed": 202,
+  "canonical_source_sites": 131072,
+  "completion_date": "2026-09-13",
+  "export_truncated": false,
+  "global_TBR": false,
+  "native_and_browser_checks_passed": true,
+  "new_plant_electric_output": false,
+  "physical_validation": false,
+  "publicly_published": false,
+  "reader_records": 84,
+  "render_budgets_checked": [
+    64,
+    128
+  ],
+  "scored_histories": 800000,
+  "source_and_coupled_checks_passed": 13,
+  "source_coupled_runs": 4,
+  "source_weights_probabilities_observations_roundtrip_checked": true,
+  "version": "0.5.0-preview"
+}

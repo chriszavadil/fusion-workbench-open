@@ -1,0 +1,171 @@
+{
+  "candidate_assumed_product_not_directly_comparable": 0.783,
+  "current_header_envelope": {
+    "candidate_known_ratios_above_observed_points": {
+      "inboard": true,
+      "outboard": true
+    },
+    "full_budget_pressure_ratio": 1.0738255033557047,
+    "known_candidate_ratios": {
+      "inboard": 1.0489402859139816,
+      "outboard": 1.0287638872890745
+    },
+    "meaning": "Point-coverage check only; no interpolation/map or proof that an untested machine setting is impossible.",
+    "observed_interpretation_pressure_ratios": [
+      1.0177101449275363,
+      1.0180294490837736,
+      1.0273446327683615,
+      1.0281133828996283
+    ]
+  },
+  "decision": "Retain as empirical context; do not use it as a qualified fluid efficiency, similarity map, or a plant-output update.",
+  "definition_gate": {
+    "candidate_efficiency_update_authorized": false,
+    "complete_interface_evidence": false,
+    "missing_evidence": [
+      "pressure_taps_and_absolute_reference",
+      "static_to_total_state_definition",
+      "power_meter_boundary_and_heat_loss",
+      "massflow_measurement_and_uncertainty",
+      "speed_dependent_curve_with_repeats",
+      "candidate_similarity_or_same_machine",
+      "independent_validation_interval"
+    ],
+    "reason": "Even complete metadata requires physical validation; this script never updates a reactor."
+  },
+  "diagnostics": [
+    {
+      "conditional_pressure_work_electrical_ratio": 0.5766746821466827,
+      "ideal_gas_pressure_work_J_kg": 18775.068117800245,
+      "incompressible_pressure_work_ratio": 0.5796840020958881,
+      "inlet_K": 513.05,
+      "inlet_density_kg_m3": 6.362117989600766,
+      "inlet_volume_flow_m3_s": 20.009059908678037,
+      "is_reported_efficiency": false,
+      "isentropic_pressure_work_MW": 2.4324138092947076,
+      "p1_assumed_Pa": 6900000.0,
+      "p2_assumed_Pa": 7022200.0,
+      "pressure_interpretation": "absolute_inlet",
+      "pressure_ratio_assumed": 1.0177101449275363,
+      "real_He_pressure_work_J_kg": 19107.728274113964,
+      "reconstructed_entropy_error_J_kgK": 0.0,
+      "reported_motor_power_MW": 4.218,
+      "source_row": "operation_200MW",
+      "usable_as_candidate_efficiency": false
+    },
+    {
+      "conditional_pressure_work_electrical_ratio": 0.5868370989624335,
+      "ideal_gas_pressure_work_J_kg": 19111.766134615442,
+      "incompressible_pressure_work_ratio": 0.5899551804290224,
+      "inlet_K": 513.05,
+      "inlet_density_kg_m3": 6.251352883003838,
+      "inlet_volume_flow_m3_s": 20.363592070782456,
+      "is_reported_efficiency": false,
+      "isentropic_pressure_work_MW": 2.4752788834235444,
+      "p1_assumed_Pa": 6777800.0,
+      "p2_assumed_Pa": 6900000.0,
+      "pressure_interpretation": "absolute_outlet",
+      "pressure_ratio_assumed": 1.0180294490837736,
+      "real_He_pressure_work_J_kg": 19444.453129800037,
+      "reconstructed_entropy_error_J_kgK": 3.637978807091713e-12,
+      "reported_motor_power_MW": 4.218,
+      "source_row": "operation_200MW",
+      "usable_as_candidate_efficiency": false
+    },
+    {
+      "conditional_pressure_work_electrical_ratio": 0.7256824420808835,
+      "ideal_gas_pressure_work_J_kg": 28681.26205224023,
+      "incompressible_pressure_work_ratio": 0.7315341409642764,
+      "inlet_K": 509.04999999999995,
+      "inlet_density_kg_m3": 4.953633670038042,
+      "inlet_volume_flow_m3_s": 23.417153493126424,
+      "is_reported_efficiency": false,
+      "isentropic_pressure_work_MW": 3.3729719907919464,
+      "p1_assumed_Pa": 5310000.0,
+      "p2_assumed_Pa": 5455200.0,
+      "pressure_interpretation": "absolute_inlet",
+      "pressure_ratio_assumed": 1.0273446327683615,
+      "real_He_pressure_work_J_kg": 29077.344748206437,
+      "reconstructed_entropy_error_J_kgK": 0.0,
+      "reported_motor_power_MW": 4.648,
+      "source_row": "hot_function_test",
+      "usable_as_candidate_efficiency": false
+    },
+    {
+      "conditional_pressure_work_electrical_ratio": 0.745640478800265,
+      "ideal_gas_pressure_work_J_kg": 29480.93078516038,
+      "incompressible_pressure_work_ratio": 0.7518228568535968,
+      "inlet_K": 509.04999999999995,
+      "inlet_density_kg_m3": 4.81995475187934,
+      "inlet_volume_flow_m3_s": 24.066615968701914,
+      "is_reported_efficiency": false,
+      "isentropic_pressure_work_MW": 3.465736945463631,
+      "p1_assumed_Pa": 5164800.0,
+      "p2_assumed_Pa": 5310000.0,
+      "pressure_interpretation": "absolute_outlet",
+      "pressure_ratio_assumed": 1.0281133828996283,
+      "real_He_pressure_work_J_kg": 29877.042633307166,
+      "reconstructed_entropy_error_J_kgK": 0.0,
+      "reported_motor_power_MW": 4.648,
+      "source_row": "hot_function_test",
+      "usable_as_candidate_efficiency": false
+    }
+  ],
+  "excluded_rows": [
+    {
+      "id": "rated_reference",
+      "reason": "rated_design_not_measurement"
+    }
+  ],
+  "frozen_input_sha256": "d9d290b63a7c4dc0366bffaed8611e4e78a1c553cf6b102a73f711a7c6a6e298",
+  "model_versions": {
+    "CoolProp": "8.0.0",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "new_empirical_information": "Two public source-reported high-flow operating/test rows now preserved with units and exclusions; not a new measurement.",
+  "schema": "fusion.measured-circulator-assessment.v1",
+  "scope": [
+    "Static pressure-work ratio is NOT a reported shaft isentropic, polytropic, or total-to-total efficiency.",
+    "Two pressure interpretations are alternatives, not physical uncertainty bounds.",
+    "No comparison treats90%fluid efficiency as directly comparable to this electrical proxy.",
+    "No published operating procedure is implemented on real equipment; no physical test, purchase, cloud resource or new email.",
+    "Source pressure reference and instrumentation uncertainties remain unresolved.",
+    "Different pressure-work ratios at different operating conditions are not a measurement of our candidate efficiency.",
+    "Figure design contours and rated rows have not become fitted observations.",
+    "No source PDF is required for numerical replay; its hash and locator are preserved."
+  ],
+  "source_doi": "10.11884/HPLPB202436.230444",
+  "source_internal_discrepancies": [
+    "Table3hot row4648kW versus section3.1hot narrative4735.5kW at4000rpm.",
+    "Table3rated row3800rpm versus Table1rated4000rpm; preserve source distinction rather than manufacture a common map."
+  ],
+  "source_reported_rows": [
+    {
+      "classification": "reported_operation",
+      "current_A": 523.7,
+      "id": "operation_200MW",
+      "inlet_C": 239.9,
+      "massflow_kg_s": 127.3,
+      "power_kW": 4218,
+      "pressure_MPa": 6.9,
+      "pressure_rise_kPa": 122.2,
+      "source_marker": "1",
+      "speed_rpm": 3600,
+      "voltage_V": 5614
+    },
+    {
+      "classification": "reported_test",
+      "current_A": 516,
+      "id": "hot_function_test",
+      "inlet_C": 235.9,
+      "massflow_kg_s": 116.0,
+      "power_kW": 4648,
+      "pressure_MPa": 5.31,
+      "pressure_rise_kPa": 145.2,
+      "source_marker": "2",
+      "speed_rpm": 4000,
+      "voltage_V": 6147
+    }
+  ]
+}

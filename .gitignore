@@ -1,0 +1,14 @@
+.local/
+.tools/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+*.pdb
+*.pem
+.env
+native/Binaries/
+native/Intermediate/
+native/Saved/
+native/DerivedDataCache/
+release/

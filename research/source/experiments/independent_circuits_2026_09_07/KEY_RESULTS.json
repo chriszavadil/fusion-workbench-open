@@ -1,0 +1,97 @@
+{
+  "cases": [
+    {
+      "electric_saving_MW": 48.14546603234662,
+      "energy_only_added_head_limit_Pa": 103046.12690353676,
+      "external_loss_case": "channel_only",
+      "fixed_conversion_net_budget_MW": 31.390843853090107,
+      "joint_added_head_limit_Pa": 103046.12690353676,
+      "lost_conversion_output_MW": 16.75462217925651,
+      "lost_recoverable_heat_MW": 41.88655544814128,
+      "property_choice": "mean"
+    },
+    {
+      "electric_saving_MW": 49.024669463707,
+      "energy_only_added_head_limit_Pa": 103040.49786771323,
+      "external_loss_case": "equal_external_loss_at_shared_budget",
+      "fixed_conversion_net_budget_MW": 31.96408449033701,
+      "joint_added_head_limit_Pa": 0.0,
+      "lost_conversion_output_MW": 17.060584973369988,
+      "lost_recoverable_heat_MW": 42.65146243342497,
+      "property_choice": "mean"
+    },
+    {
+      "electric_saving_MW": 51.142993270569804,
+      "energy_only_added_head_limit_Pa": 109347.14295978897,
+      "external_loss_case": "channel_only",
+      "fixed_conversion_net_budget_MW": 33.34523161241161,
+      "joint_added_head_limit_Pa": 109347.14295978897,
+      "lost_conversion_output_MW": 17.797761658158198,
+      "lost_recoverable_heat_MW": 44.49440414539549,
+      "property_choice": "outlet"
+    },
+    {
+      "electric_saving_MW": 52.01156717755711,
+      "energy_only_added_head_limit_Pa": 109341.22954304129,
+      "external_loss_case": "equal_external_loss_at_shared_budget",
+      "fixed_conversion_net_budget_MW": 33.911541799767285,
+      "joint_added_head_limit_Pa": 0.0,
+      "lost_conversion_output_MW": 18.100025377789827,
+      "lost_recoverable_heat_MW": 45.25006344447456,
+      "property_choice": "outlet"
+    }
+  ],
+  "date": "2026-09-07",
+  "decision": "Prefer published independent IB/OB control as the next reference; cross-region balancing restriction is not a mandatory reactor feature.",
+  "efficiency_thresholds": [
+    {
+      "external_loss_case": "channel_only",
+      "fail_just_below": true,
+      "minimum_equal_independent_eta_before_auxiliary_penalty": 0.5577381186139532,
+      "pass_just_above": true,
+      "property_choice": "mean",
+      "root_residual_MW": 4.740741132991389e-12
+    },
+    {
+      "external_loss_case": "equal_external_loss_at_shared_budget",
+      "fail_just_below": true,
+      "minimum_equal_independent_eta_before_auxiliary_penalty": 0.7243817749269528,
+      "pass_just_above": true,
+      "property_choice": "mean",
+      "root_residual_MW": -1.4358647604240104e-11
+    },
+    {
+      "external_loss_case": "channel_only",
+      "fail_just_below": true,
+      "minimum_equal_independent_eta_before_auxiliary_penalty": 0.5600966628987099,
+      "pass_just_above": true,
+      "property_choice": "outlet",
+      "root_residual_MW": 5.88897819397971e-12
+    },
+    {
+      "external_loss_case": "equal_external_loss_at_shared_budget",
+      "fail_just_below": true,
+      "minimum_equal_independent_eta_before_auxiliary_penalty": 0.7137357838934033,
+      "pass_just_above": true,
+      "property_choice": "outlet",
+      "root_residual_MW": -1.0516032489249483e-11
+    }
+  ],
+  "existing_conditional_plant_average_MW_unchanged": 213.69131801996204,
+  "frozen_input_sha256": "76046e9f5e0dbeaa4a258b178f0f5ae1bab96f32374e2cfdecaa6de78711b133",
+  "not_achieved": [
+    "No higher reactor electricity output.",
+    "No full Modelica/GETTHEM execution.",
+    "No empirical circulator curve calibrated.",
+    "No manifold or neutron/physical plant qualification."
+  ],
+  "project_base": "91648db3ad2d6691dfe57f0b1b632ec20a36235a",
+  "raw_papers_and_third_party_source_redistributed": false,
+  "schema": "fusion.independent-circuits-key-results.v1",
+  "tests": {
+    "entire_repository_suite": false,
+    "failed": 0,
+    "passed": 23,
+    "skipped": 0
+  }
+}

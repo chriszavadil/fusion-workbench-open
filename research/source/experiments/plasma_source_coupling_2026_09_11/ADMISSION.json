@@ -1,0 +1,20 @@
+{
+ "schema":"fusion.direct-source-admission.v1",
+ "date":"2026-09-11",
+ "configuration":"r838",
+ "question":"Does the front/rear header decision survive a joint surface-position/direction source calculated from this candidate's reproduced plasma density and temperature, rather than imposed normal or cosine incidence?",
+ "prior_art":["https://doi.org/10.1016/j.fusengdes.2010.12.049","https://fusion-power-plant-framework.github.io/tokamak-neutron-source/theory/","https://doi.org/10.1080/15361055.2025.2525028","https://docs.openmc.org/en/v0.15.2/pythonapi/generated/openmc.FileSource.html"],
+ "method":"Established uncollided point-kernel / surface-source coupling, not a new transport method. Official PROCESS profile/Bosch-Hale routines; existing OpenMC local module unchanged.",
+ "source_geometry":"Self-similar Miller-style torus using reproduced R,a,kappa,triang; zero Shafranov shift is declared because no equilibrium file exists. True Jacobian weights. Not experimentally validated equilibrium.",
+ "first_wall":"Same Miller family with a increased by recorded 0.25 m gap; outboard-midplane patch unrolled to existing local module. Profile and surface-area discrepancy quantified, not assumed exact CAD.",
+ "sampling":{"scrambles":8,"sobol_power":17,"visibility_segments":64,"bank_particles_each":65536,"seed_base":931100},
+ "energy_eV":14100000.0,
+ "prior_local_geometry_unchanged":true,
+ "runs":[{"layout":"headers_rear","bank":0,"seed":931510},{"layout":"headers_front","bank":0,"seed":931520},{"layout":"headers_rear","bank":1,"seed":931610},{"layout":"headers_front","bank":1,"seed":931620}],
+ "particles_per_batch":10000,
+ "batches":20,
+ "threads":2,
+ "timeout_seconds_each":600,
+ "decision":"Report front-minus-rear yield under the jointly sampled source and its independent-run99% normal MC interval. Retain unresolved outcomes. No additional tuning or parameter sweep.",
+ "limits":["Uncollided source only: no return flux, surrounding blanket transport, ports or divertor source.","Source geometry is an explicit parameterized proxy, not transport-ready reactor CAD.","Scalar neutron rate can be normalized to the reproduced DT reaction rate, but whole-reactor TBR and electric output are not calculated.","Source Monte Carlo/integration checks do not include nuclear-data, equilibrium or physical-model uncertainty.","OpenMC may recycle a finite equal-weight source bank; finite-bank sensitivity retained separately.","No original approved input or completed study is overwritten."]
+}

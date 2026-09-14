@@ -1,0 +1,28 @@
+{
+  "schema": "fusion.pages-validation.v1",
+  "date": "2026-09-13",
+  "reviewed_source_version": "0.5.0-preview",
+  "source_tests_passed": 207,
+  "static_browser_test": {
+    "passed": true,
+    "static_subpath_works": true,
+    "actual_3d_model_loaded": true,
+    "recorded_source_case_shown": true,
+    "research_readable": true,
+    "progress_dashboard_and_update_check": true,
+    "backend_requests": 0,
+    "external_network_requests": 0,
+    "page_errors": [],
+    "http_failures": [],
+    "public_deployment_verified": false
+  },
+  "source_privacy_scan_passed": true,
+  "secret_scan_findings": 0,
+  "scientific_data_modified": false,
+  "old_repository_history_imported": false,
+  "repository_visibility_changed": false,
+  "public_deployment_verified": false,
+  "public_repository": "chriszavadil/fusion-workbench-open",
+  "repository_separate_from_private_archive": true,
+  "static_data_unchanged": true
+}

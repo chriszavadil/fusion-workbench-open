@@ -1,0 +1,44 @@
+{
+  "all_completed_tally_histories": 1600000,
+  "raw_files": [
+    {
+      "id": "cosine_rear",
+      "statepoint_hash_verified": true,
+      "tracks_hdf5_hash_verified": true,
+      "tracks_selection_before_run": true
+    },
+    {
+      "id": "cosine_front",
+      "statepoint_hash_verified": true,
+      "tracks_hdf5_hash_verified": true,
+      "tracks_selection_before_run": true
+    },
+    {
+      "id": "normal_rear",
+      "statepoint_hash_verified": true,
+      "tracks_hdf5_hash_verified": true,
+      "tracks_selection_before_run": true
+    },
+    {
+      "id": "normal_front",
+      "statepoint_hash_verified": true,
+      "tracks_hdf5_hash_verified": true,
+      "tracks_selection_before_run": true
+    }
+  ],
+  "unchanged_cosine_control_comparisons": [
+    {
+      "layout": "rear",
+      "previous_cosine_control_z": -1.2174387824969197,
+      "within_three_combined_MC_standard_errors": true
+    },
+    {
+      "layout": "front",
+      "previous_cosine_control_z": 0.26915199562971265,
+      "within_three_combined_MC_standard_errors": true
+    }
+  ],
+  "portable_arithmetic_exact": true,
+  "public_paths_are_exact_raw_export": true,
+  "physical_validation": false
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "fusion.research-coverage-audit.v1",
+  "source_revision": "2adb4b5c925dfe7c5fc7c0ab887def3c92deb601",
+  "tracked_markdown_documents": 64,
+  "included_scientific_markdown_documents": 57,
+  "withheld_correspondence_access_records": [
+    "docs/DATA_ACCESS_OUTREACH_DRAFT_2026-09-02.md",
+    "docs/OUTREACH_DECISION_2026-09-02.md",
+    "docs/OUTREACH_NO_RESTRICTED_DATA_POLICY_2026-09-02.md",
+    "docs/PUBLIC_MAST_DATA_REQUEST_2026-09-02.md",
+    "results/DATA_ACCESS_OUTREACH_SENTINEL_2026-09-02.md",
+    "results/DATA_ACCESS_OUTREACH_STATUS_2026-09-02.md",
+    "results/OUTREACH_PRECONDITIONS_COMPLETE_2026-09-02.md"
+  ],
+  "all_scientific_markdown_in_current_source_accounted_for": true,
+  "raw_runs_fully_integrated": false
+}

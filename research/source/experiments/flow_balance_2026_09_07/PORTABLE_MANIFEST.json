@@ -1,0 +1,19 @@
+{
+  "files": {
+    "ADMISSION.json": "11bddcf49ae561e2de1d58bcb7bed602de82d791c5c57256ddfd05ecf0e1147a",
+    "FROZEN_INPUT.json": "d94c75d998dde0fa8a4d724e98d71889122232e976c0d1423ee27a4b83a076e9",
+    "INPUT_STATE.json": "75c998edb5a105f54c2184d716a48d3d45822c2c2af490f512e639723b35000f",
+    "RESULT.json": "62ee10daa0f2ca4630095e43043e83351a7ff2aa128b8e2104bde8271b5f379a",
+    "UPSTREAM_LICENSE.txt": "63fb7edfe2c6a20b3dc768b95c1f80abbe4c478fa407325693528163aef141d8",
+    "branch_balance.py": "a6bdb6a0fdc68655aa08bf0d8445f55ad337b54f53dedb2012556f65b6b37a45",
+    "evaluate_frozen_fw_final.py": "773ab997cad8265708eab529d08723f807db168e0ec9fd5d2a26cd28fb684dae",
+    "replay.py": "dfb9a0ed05d261af503140e4515fafc7410555d7dcae8911f90d7ae8bb50680d",
+    "requirements-observed.txt": "0470545f4d48bcf476f9b5d469d4ee7eb910c813b9a1cb42681a952014f543c3",
+    "test_branch_balance.py": "fd6fb1e2e8e47107d39e3f720a684578a666fbf507ed62146c1bb36f46d480c4",
+    "tests.txt": "9f492353fe37727f9a56fe667e9535ebf966e6ec3a75089f7b328712055ee6cd"
+  },
+  "native_reference_commit": "c0ae5b28649f2b20fb7efc7904628b6defe4151c",
+  "original_full_state_sha256": "cedcfa6d695fd45d4be17ea1ee77ae40d821064ea15eb1244822804f3001f9ea",
+  "schema": "fusion.flow-portable-manifest.v1",
+  "subset_creation": "Exact native fields selected from verified full JSON; no values fitted or replaced."
+}

@@ -1,0 +1,12 @@
+{
+  "admission_sha256": "ba86d02abe6727e889714d9ccf33261fde4a1819dd27d1378210c21725ac29d6",
+  "banks": {
+    "0": "d54cd06ec3860072b373f65af952c5ce89fa76def692dfdac38ea9ee058ac887",
+    "1": "60d7510b2cf298b672c07d8ef43a3961152577ecb3a2eabe8b730e6e01e9b8c5"
+  },
+  "before_execution": true,
+  "driver_sha256": "e3da3d8beb306a716bb08e79f49994ddc83d2d9538e59ef2364f9e2de9814d20",
+  "model_sha256": "5dfe4cb4e2d185771d79fc576ab54c2f0f623ccc10fd03374c104a9f661734bc",
+  "same_materials": true,
+  "source_result_sha256": "761025a4606861ec3ea3ace30268d88d42d0a7da4e892f294d957ac0508c07a1"
+}

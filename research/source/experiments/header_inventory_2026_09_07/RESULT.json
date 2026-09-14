@@ -1,0 +1,842 @@
+{
+  "frozen_input_sha256": "eff8f23212c1e8e289960a060f967c40a761b93ea2d8a321d7711c89786f98d8",
+  "results": [
+    {
+      "additional_balancing_drop_Pa": {
+        "inboard": 273272.92198996665,
+        "outboard": 0.0
+      },
+      "all_nominal_FW_temperatures_below_native_limit": true,
+      "branches": {
+        "inboard": {
+          "branch": {
+            "BZ_Re": 102708.19544175464,
+            "BZ_drop_Pa": 91472.38422934078,
+            "BZ_outlet_K": 773.1311192476081,
+            "BZ_velocity_m_s": 58.11606402332431,
+            "FW_drop_Pa": 228449.90314840007,
+            "FW_exact_enthalpy_error_relative": -3.290518774431083e-06,
+            "FW_outlet_K": 645.885666592287,
+            "channel_drop_Pa": 319922.28737774084,
+            "effective_BZ_channels": 19398.2836351031,
+            "effective_FW_channels": 8614.303544411556,
+            "exact_enthalpy_heat_error_relative": -3.947333710251835e-06,
+            "flow_kg_s": 682.5721004465584,
+            "flow_relative_to_nominal": 1.0,
+            "native_massflow_identity_error_kg_s": 0.0,
+            "peak_K": 798.2410597947791,
+            "reserved_coolant_volume_m3": 5.534891340553866,
+            "side": "inboard",
+            "temperature_margin_K": 24.758940205220938
+          },
+          "dynamic_head_sum_Pa": 112573.96918416896,
+          "equal_per_header_unknown_K_allowance_if_no_external_loss": 1.7787503422777995,
+          "geometry": {
+            "cap_volume_allowance_m3": 0.05460540157147017,
+            "caps_nozzles_and_remaining_structure_qualified": false,
+            "coolant_reservation_fraction": 0.3038582650750753,
+            "header_coolant_m3": 5.534891340553866,
+            "header_count": 672,
+            "ideal_closed_barrel_hoop_Pa": 52307692.30769229,
+            "ideal_closed_barrel_von_Mises_Pa": 52227993.5820769,
+            "inner_radius_m": 0.03848705776309573,
+            "length_each_m": 1.7699480938745797,
+            "module_count": 224,
+            "native_coolant_m3": 18.215372022828937,
+            "native_steel_m3": 33.38624843844284,
+            "outer_radius_m": 0.044901567390278355,
+            "remaining_channel_coolant_m3": 12.680480682275071,
+            "remaining_nonheader_steel_m3": 31.332932275004694,
+            "shell_steel_m3": 1.998710761866675,
+            "steel_reservation_fraction": 0.06150185359172729,
+            "wall_m": 0.0064145096271826215
+          },
+          "headers": [
+            {
+              "Mach": 0.06931512449941622,
+              "Re": 1608324.0978515872,
+              "T_K": 573.13,
+              "dynamic_head_Pa": 32478.23592927235,
+              "full_flow_friction_Pa": 8497.96618430298,
+              "stage": "supply",
+              "velocity_m_s": 99.1976101708731
+            },
+            {
+              "Mach": 0.07356920437223556,
+              "Re": 1480384.3141008564,
+              "T_K": 645.885666592287,
+              "dynamic_head_Pa": 36515.917421565064,
+              "full_flow_friction_Pa": 9647.749177349639,
+              "stage": "intermediate",
+              "velocity_m_s": 111.52981797732016
+            },
+            {
+              "Mach": 0.08046900431334476,
+              "Re": 1305871.4147518661,
+              "T_K": 773.1311192476081,
+              "dynamic_head_Pa": 43579.81583333156,
+              "full_flow_friction_Pa": 11691.011042695505,
+              "stage": "return",
+              "velocity_m_s": 133.10493808122666
+            }
+          ],
+          "known_branch_pressure_Pa": 349759.013782089,
+          "maximum_header_Mach": 0.08046900431334476,
+          "native_temperature_margin_K": 24.758940205220938,
+          "not_a_validated_hardware_result": true,
+          "optimization": {
+            "bounds_m": [
+              0.005,
+              0.06437076161546122
+            ],
+            "evaluations": 12,
+            "global_plant_optimum_claim": false,
+            "neighbor_pressure_differences_Pa": [
+              70.33360565965995,
+              69.07125764724333
+            ],
+            "objective": "known branch pressure only, unknown fittings and all steel adequacy excluded"
+          },
+          "property_approximation": "mean",
+          "residual_to_full_loop_allowance_Pa": 200240.986217911,
+          "side": "inboard",
+          "split_outboard": true
+        },
+        "outboard": {
+          "branch": {
+            "BZ_Re": 103720.88810510033,
+            "BZ_drop_Pa": 107736.50741804331,
+            "BZ_outlet_K": 773.1313123879,
+            "BZ_velocity_m_s": 57.17065031686793,
+            "FW_drop_Pa": 485526.95465885714,
+            "FW_exact_enthalpy_error_relative": -1.7563257002577132e-06,
+            "FW_outlet_K": 623.9272678915281,
+            "channel_drop_Pa": 593263.4620769004,
+            "effective_BZ_channels": 48307.83486967175,
+            "effective_FW_channels": 14238.485062807149,
+            "exact_enthalpy_heat_error_relative": -5.376320444538499e-06,
+            "flow_kg_s": 1698.0094346243648,
+            "flow_relative_to_nominal": 1.0,
+            "native_massflow_identity_error_kg_s": 4.547473508864641e-13,
+            "peak_K": 779.2009876960561,
+            "reserved_coolant_volume_m3": 14.365480171799708,
+            "side": "outboard",
+            "temperature_margin_K": 43.79901230394387
+          },
+          "dynamic_head_sum_Pa": 123906.81514001536,
+          "equal_per_header_unknown_K_allowance_if_no_external_loss": -0.5894101602848009,
+          "geometry": {
+            "cap_volume_allowance_m3": 0.15104036126713907,
+            "caps_nozzles_and_remaining_structure_qualified": false,
+            "coolant_reservation_fraction": 0.2703654364889639,
+            "header_coolant_m3": 14.365480171799707,
+            "header_count": 1152,
+            "ideal_closed_barrel_hoop_Pa": 52307692.307692304,
+            "ideal_closed_barrel_von_Mises_Pa": 52227993.582076915,
+            "inner_radius_m": 0.04514116673305153,
+            "length_each_m": 1.9479250188962696,
+            "module_count": 384,
+            "native_coolant_m3": 53.133567509048426,
+            "native_steel_m3": 97.38645376304343,
+            "outer_radius_m": 0.05266469452189346,
+            "remaining_channel_coolant_m3": 38.768087337248716,
+            "remaining_nonheader_steel_m3": 92.04787889529307,
+            "shell_steel_m3": 5.187534506483228,
+            "steel_reservation_fraction": 0.05481845432774418,
+            "wall_m": 0.007523527788841922
+          },
+          "headers": [
+            {
+              "Mach": 0.07311731440561228,
+              "Re": 1989866.1354487652,
+              "T_K": 573.13,
+              "dynamic_head_Pa": 36139.06231075874,
+              "full_flow_friction_Pa": 8581.518543391143,
+              "stage": "supply",
+              "velocity_m_s": 104.63896449050131
+            },
+            {
+              "Mach": 0.07627831341387842,
+              "Re": 1876124.896016302,
+              "T_K": 623.9272678915281,
+              "dynamic_head_Pa": 39275.769740183256,
+              "full_flow_friction_Pa": 9388.907961598203,
+              "stage": "intermediate",
+              "velocity_m_s": 113.72115413068275
+            },
+            {
+              "Mach": 0.08488303618612222,
+              "Re": 1615662.449366653,
+              "T_K": 773.1313123879,
+              "dynamic_head_Pa": 48491.98308907335,
+              "full_flow_friction_Pa": 11798.047190165922,
+              "stage": "return",
+              "velocity_m_s": 140.40626878747054
+            }
+          ],
+          "known_branch_pressure_Pa": 623031.9357720556,
+          "maximum_header_Mach": 0.08488303618612222,
+          "native_temperature_margin_K": 43.79901230394387,
+          "not_a_validated_hardware_result": true,
+          "optimization": {
+            "bounds_m": [
+              0.005,
+              0.08003992211221037
+            ],
+            "evaluations": 12,
+            "global_plant_optimum_claim": false,
+            "neighbor_pressure_differences_Pa": [
+              67.55857167998329,
+              66.12325235514436
+            ],
+            "objective": "known branch pressure only, unknown fittings and all steel adequacy excluded"
+          },
+          "property_approximation": "mean",
+          "residual_to_full_loop_allowance_Pa": -73031.93577205564,
+          "side": "outboard",
+          "split_outboard": false
+        }
+      },
+      "choice": "mean",
+      "configuration": "unsplit",
+      "envelope_known_loss_within_allowance": false,
+      "known_common_pressure_Pa_after_nominal_balancing": 623031.9357720556,
+      "physical_manifold_or_plant_validated": false,
+      "remaining_common_external_pressure_Pa": -73031.93577205564,
+      "total_header_coolant_m3": 19.900371512353573,
+      "total_header_shell_cap_steel_m3": 7.391891031188512,
+      "unknown_loss_contract": "max_s(known_branch_drop_s + K_s*sum_header_dynamic_heads_s) + common_external_drop <=550000Pa; balances must be recalculated, not counted twice."
+    },
+    {
+      "additional_balancing_drop_Pa": {
+        "inboard": 0.0,
+        "outboard": 141855.52641158988
+      },
+      "all_nominal_FW_temperatures_below_native_limit": true,
+      "branches": {
+        "inboard": {
+          "branch": {
+            "BZ_Re": 102708.19544175464,
+            "BZ_drop_Pa": 91472.38422934078,
+            "BZ_outlet_K": 773.1311192476081,
+            "BZ_velocity_m_s": 58.11606402332431,
+            "FW_drop_Pa": 228449.90314840007,
+            "FW_exact_enthalpy_error_relative": -3.290518774431083e-06,
+            "FW_outlet_K": 645.885666592287,
+            "channel_drop_Pa": 319922.28737774084,
+            "effective_BZ_channels": 19398.2836351031,
+            "effective_FW_channels": 8614.303544411556,
+            "exact_enthalpy_heat_error_relative": -3.947333710251835e-06,
+            "flow_kg_s": 682.5721004465584,
+            "flow_relative_to_nominal": 1.0,
+            "native_massflow_identity_error_kg_s": 0.0,
+            "peak_K": 798.2410597947791,
+            "reserved_coolant_volume_m3": 5.534891340553866,
+            "side": "inboard",
+            "temperature_margin_K": 24.758940205220938
+          },
+          "dynamic_head_sum_Pa": 112573.96918416896,
+          "equal_per_header_unknown_K_allowance_if_no_external_loss": 1.7787503422777995,
+          "geometry": {
+            "cap_volume_allowance_m3": 0.05460540157147017,
+            "caps_nozzles_and_remaining_structure_qualified": false,
+            "coolant_reservation_fraction": 0.3038582650750753,
+            "header_coolant_m3": 5.534891340553866,
+            "header_count": 672,
+            "ideal_closed_barrel_hoop_Pa": 52307692.30769229,
+            "ideal_closed_barrel_von_Mises_Pa": 52227993.5820769,
+            "inner_radius_m": 0.03848705776309573,
+            "length_each_m": 1.7699480938745797,
+            "module_count": 224,
+            "native_coolant_m3": 18.215372022828937,
+            "native_steel_m3": 33.38624843844284,
+            "outer_radius_m": 0.044901567390278355,
+            "remaining_channel_coolant_m3": 12.680480682275071,
+            "remaining_nonheader_steel_m3": 31.332932275004694,
+            "shell_steel_m3": 1.998710761866675,
+            "steel_reservation_fraction": 0.06150185359172729,
+            "wall_m": 0.0064145096271826215
+          },
+          "headers": [
+            {
+              "Mach": 0.06931512449941622,
+              "Re": 1608324.0978515872,
+              "T_K": 573.13,
+              "dynamic_head_Pa": 32478.23592927235,
+              "full_flow_friction_Pa": 8497.96618430298,
+              "stage": "supply",
+              "velocity_m_s": 99.1976101708731
+            },
+            {
+              "Mach": 0.07356920437223556,
+              "Re": 1480384.3141008564,
+              "T_K": 645.885666592287,
+              "dynamic_head_Pa": 36515.917421565064,
+              "full_flow_friction_Pa": 9647.749177349639,
+              "stage": "intermediate",
+              "velocity_m_s": 111.52981797732016
+            },
+            {
+              "Mach": 0.08046900431334476,
+              "Re": 1305871.4147518661,
+              "T_K": 773.1311192476081,
+              "dynamic_head_Pa": 43579.81583333156,
+              "full_flow_friction_Pa": 11691.011042695505,
+              "stage": "return",
+              "velocity_m_s": 133.10493808122666
+            }
+          ],
+          "known_branch_pressure_Pa": 349759.013782089,
+          "maximum_header_Mach": 0.08046900431334476,
+          "native_temperature_margin_K": 24.758940205220938,
+          "not_a_validated_hardware_result": true,
+          "optimization": {
+            "bounds_m": [
+              0.005,
+              0.06437076161546122
+            ],
+            "evaluations": 12,
+            "global_plant_optimum_claim": false,
+            "neighbor_pressure_differences_Pa": [
+              70.33360565965995,
+              69.07125764724333
+            ],
+            "objective": "known branch pressure only, unknown fittings and all steel adequacy excluded"
+          },
+          "property_approximation": "mean",
+          "residual_to_full_loop_allowance_Pa": 200240.986217911,
+          "side": "inboard",
+          "split_outboard": true
+        },
+        "outboard": {
+          "branch": {
+            "BZ_Re": 103720.8869080756,
+            "BZ_drop_Pa": 107736.50512923724,
+            "BZ_outlet_K": 773.1313123879,
+            "BZ_velocity_m_s": 57.1706496570714,
+            "FW_drop_Pa": 70398.50625730056,
+            "FW_exact_enthalpy_error_relative": -1.7563257002577132e-06,
+            "FW_outlet_K": 623.9272678915281,
+            "channel_drop_Pa": 178135.0113865378,
+            "effective_BZ_channels": 48307.83542718407,
+            "effective_FW_channels": 28476.970125614298,
+            "exact_enthalpy_heat_error_relative": -5.376320444538499e-06,
+            "flow_kg_s": 1698.0094346243648,
+            "flow_relative_to_nominal": 1.0,
+            "native_massflow_identity_error_kg_s": 4.547473508864641e-13,
+            "peak_K": 793.4053516046565,
+            "reserved_coolant_volume_m3": 14.36547972438396,
+            "side": "outboard",
+            "temperature_margin_K": 29.594648395343484
+          },
+          "dynamic_head_sum_Pa": 123906.82285822072,
+          "equal_per_header_unknown_K_allowance_if_no_external_loss": 2.760917476037149,
+          "geometry": {
+            "cap_volume_allowance_m3": 0.15104035421086578,
+            "caps_nozzles_and_remaining_structure_qualified": false,
+            "coolant_reservation_fraction": 0.2703654280683784,
+            "header_coolant_m3": 14.365479724383958,
+            "header_count": 1152,
+            "ideal_closed_barrel_hoop_Pa": 52307692.30769232,
+            "ideal_closed_barrel_von_Mises_Pa": 52227993.58207692,
+            "inner_radius_m": 0.0451411660300862,
+            "length_each_m": 1.9479250188962696,
+            "module_count": 384,
+            "native_coolant_m3": 53.133567509048426,
+            "native_steel_m3": 97.38645376304343,
+            "outer_radius_m": 0.05266469370176723,
+            "remaining_channel_coolant_m3": 38.768087784664466,
+            "remaining_nonheader_steel_m3": 92.04787906391614,
+            "shell_steel_m3": 5.187534344916427,
+            "steel_reservation_fraction": 0.054818452596260316,
+            "wall_m": 0.007523527671681033
+          },
+          "headers": [
+            {
+              "Mach": 0.07311731668286571,
+              "Re": 1989866.166436155,
+              "T_K": 573.13,
+              "dynamic_head_Pa": 36139.064561875464,
+              "full_flow_friction_Pa": 8581.519204225135,
+              "stage": "supply",
+              "velocity_m_s": 104.63896774950285
+            },
+            {
+              "Mach": 0.0762783157895818,
+              "Re": 1876124.9252324451,
+              "T_K": 623.9272678915281,
+              "dynamic_head_Pa": 39275.77218668676,
+              "full_flow_friction_Pa": 9388.908683941921,
+              "stage": "intermediate",
+              "velocity_m_s": 113.72115767255092
+            },
+            {
+              "Mach": 0.08488303882982144,
+              "Re": 1615662.4745267185,
+              "T_K": 773.1313123879,
+              "dynamic_head_Pa": 48491.9861096585,
+              "full_flow_friction_Pa": 11798.04809579424,
+              "stage": "return",
+              "velocity_m_s": 140.40627316045197
+            }
+          ],
+          "known_branch_pressure_Pa": 207903.48737049912,
+          "maximum_header_Mach": 0.08488303882982144,
+          "native_temperature_margin_K": 29.594648395343484,
+          "not_a_validated_hardware_result": true,
+          "optimization": {
+            "bounds_m": [
+              0.005,
+              0.08003992211221037
+            ],
+            "evaluations": 12,
+            "global_plant_optimum_claim": false,
+            "neighbor_pressure_differences_Pa": [
+              67.55878117182874,
+              66.12304540650803
+            ],
+            "objective": "known branch pressure only, unknown fittings and all steel adequacy excluded"
+          },
+          "property_approximation": "mean",
+          "residual_to_full_loop_allowance_Pa": 342096.5126295009,
+          "side": "outboard",
+          "split_outboard": true
+        }
+      },
+      "choice": "mean",
+      "configuration": "outboard_split",
+      "envelope_known_loss_within_allowance": true,
+      "known_common_pressure_Pa_after_nominal_balancing": 349759.013782089,
+      "physical_manifold_or_plant_validated": false,
+      "remaining_common_external_pressure_Pa": 200240.986217911,
+      "total_header_coolant_m3": 19.900371064937822,
+      "total_header_shell_cap_steel_m3": 7.391890862565439,
+      "unknown_loss_contract": "max_s(known_branch_drop_s + K_s*sum_header_dynamic_heads_s) + common_external_drop <=550000Pa; balances must be recalculated, not counted twice."
+    },
+    {
+      "additional_balancing_drop_Pa": {
+        "inboard": 283991.41414401366,
+        "outboard": 0.0
+      },
+      "all_nominal_FW_temperatures_below_native_limit": true,
+      "branches": {
+        "inboard": {
+          "branch": {
+            "BZ_Re": 95913.46090977849,
+            "BZ_drop_Pa": 98939.01522354211,
+            "BZ_outlet_K": 773.1311192476081,
+            "BZ_velocity_m_s": 62.70999640232517,
+            "FW_drop_Pa": 242999.04250915244,
+            "FW_exact_enthalpy_error_relative": -3.290518774431083e-06,
+            "FW_outlet_K": 645.885666592287,
+            "channel_drop_Pa": 341938.05773269455,
+            "effective_BZ_channels": 19562.859361373692,
+            "effective_FW_channels": 8614.303544411556,
+            "exact_enthalpy_heat_error_relative": -3.947333710251835e-06,
+            "flow_kg_s": 682.5721004465584,
+            "flow_relative_to_nominal": 1.0,
+            "native_massflow_identity_error_kg_s": 0.0,
+            "peak_K": 798.2410597947791,
+            "reserved_coolant_volume_m3": 5.427309692764717,
+            "side": "inboard",
+            "temperature_margin_K": 24.758940205220938
+          },
+          "dynamic_head_sum_Pa": 117081.14734326812,
+          "equal_per_header_unknown_K_allowance_if_no_external_loss": 1.5095933623112896,
+          "geometry": {
+            "cap_volume_allowance_m3": 0.053021115705682575,
+            "caps_nozzles_and_remaining_structure_qualified": false,
+            "coolant_reservation_fraction": 0.29795217390909096,
+            "header_coolant_m3": 5.427309692764718,
+            "header_count": 672,
+            "ideal_closed_barrel_hoop_Pa": 52307692.30769232,
+            "ideal_closed_barrel_von_Mises_Pa": 52227993.58207692,
+            "inner_radius_m": 0.038111185997808744,
+            "length_each_m": 1.7699480938745797,
+            "module_count": 224,
+            "native_coolant_m3": 18.215372022828937,
+            "native_steel_m3": 33.38624843844284,
+            "outer_radius_m": 0.04446305033077687,
+            "remaining_channel_coolant_m3": 12.78806233006422,
+            "remaining_nonheader_steel_m3": 31.37336548923879,
+            "shell_steel_m3": 1.9598618334983697,
+            "steel_reservation_fraction": 0.060290779687792166,
+            "wall_m": 0.006351864332968124
+          },
+          "headers": [
+            {
+              "Mach": 0.07068910824688844,
+              "Re": 1624186.2024275989,
+              "T_K": 573.13,
+              "dynamic_head_Pa": 33778.582685164045,
+              "full_flow_friction_Pa": 8920.30553642277,
+              "stage": "supply",
+              "velocity_m_s": 101.16393289116213
+            },
+            {
+              "Mach": 0.07502751367849332,
+              "Re": 1494984.6119104354,
+              "T_K": 645.885666592287,
+              "dynamic_head_Pa": 37977.92277373214,
+              "full_flow_friction_Pa": 10126.591011721119,
+              "stage": "intermediate",
+              "velocity_m_s": 113.74059316334272
+            },
+            {
+              "Mach": 0.08206408338014697,
+              "Re": 1318750.5782061028,
+              "T_K": 773.1311192476081,
+              "dynamic_head_Pa": 45324.64188437193,
+              "full_flow_friction_Pa": 12270.122837973957,
+              "stage": "return",
+              "velocity_m_s": 135.74338132074564
+            }
+          ],
+          "known_branch_pressure_Pa": 373255.07711881236,
+          "maximum_header_Mach": 0.08206408338014697,
+          "native_temperature_margin_K": 24.758940205220938,
+          "not_a_validated_hardware_result": true,
+          "optimization": {
+            "bounds_m": [
+              0.005,
+              0.06437076161546122
+            ],
+            "evaluations": 12,
+            "global_plant_optimum_claim": false,
+            "neighbor_pressure_differences_Pa": [
+              73.3206342154881,
+              71.95817617233843
+            ],
+            "objective": "known branch pressure only, unknown fittings and all steel adequacy excluded"
+          },
+          "property_approximation": "outlet",
+          "residual_to_full_loop_allowance_Pa": 176744.92288118764,
+          "side": "inboard",
+          "split_outboard": true
+        },
+        "outboard": {
+          "branch": {
+            "BZ_Re": 95776.04338070343,
+            "BZ_drop_Pa": 118480.4768643237,
+            "BZ_outlet_K": 773.1313123879,
+            "BZ_velocity_m_s": 62.62017663154295,
+            "FW_drop_Pa": 507165.49022371613,
+            "FW_exact_enthalpy_error_relative": -1.7563257002577132e-06,
+            "FW_outlet_K": 623.9272678915281,
+            "channel_drop_Pa": 625645.9670880398,
+            "effective_BZ_channels": 48735.61976414473,
+            "effective_FW_channels": 14238.485062807149,
+            "exact_enthalpy_heat_error_relative": -5.376320444538499e-06,
+            "flow_kg_s": 1698.0094346243648,
+            "flow_relative_to_nominal": 1.0,
+            "native_massflow_identity_error_kg_s": 4.547473508864641e-13,
+            "peak_K": 779.2009876960561,
+            "reserved_coolant_volume_m3": 14.02217349711171,
+            "side": "outboard",
+            "temperature_margin_K": 43.79901230394387
+          },
+          "dynamic_head_sum_Pa": 130048.34074493896,
+          "equal_per_header_unknown_K_allowance_if_no_external_loss": -0.824666355975785,
+          "geometry": {
+            "cap_volume_allowance_m3": 0.14565848875177428,
+            "caps_nozzles_and_remaining_structure_qualified": false,
+            "coolant_reservation_fraction": 0.2639042352035517,
+            "header_coolant_m3": 14.02217349711171,
+            "header_count": 1152,
+            "ideal_closed_barrel_hoop_Pa": 52307692.30769229,
+            "ideal_closed_barrel_von_Mises_Pa": 52227993.5820769,
+            "inner_radius_m": 0.044598512560598845,
+            "length_each_m": 1.9479250188962696,
+            "module_count": 384,
+            "native_coolant_m3": 53.133567509048426,
+            "native_steel_m3": 97.38645376304343,
+            "outer_radius_m": 0.05203159798736532,
+            "remaining_channel_coolant_m3": 39.11139401193672,
+            "remaining_nonheader_steel_m3": 92.17723262255687,
+            "shell_steel_m3": 5.063562651734786,
+            "steel_reservation_fraction": 0.05349020258157685,
+            "wall_m": 0.0074330854267664745
+          },
+          "headers": [
+            {
+              "Mach": 0.07490745500513331,
+              "Re": 2014077.9106633845,
+              "T_K": 573.13,
+              "dynamic_head_Pa": 37930.31952505038,
+              "full_flow_friction_Pa": 9110.50400801001,
+              "stage": "supply",
+              "velocity_m_s": 107.20085369757956
+            },
+            {
+              "Mach": 0.07814584515810633,
+              "Re": 1898952.7201838072,
+              "T_K": 623.9272678915281,
+              "dynamic_head_Pa": 41222.49999258985,
+              "full_flow_friction_Pa": 9967.112908969131,
+              "stage": "intermediate",
+              "velocity_m_s": 116.50540375320578
+            },
+            {
+              "Mach": 0.08696123846314306,
+              "Re": 1635321.0863723753,
+              "T_K": 773.1313123879,
+              "dynamic_head_Pa": 50895.521227298734,
+              "full_flow_friction_Pa": 12522.907257807055,
+              "stage": "return",
+              "velocity_m_s": 143.84385349947718
+            }
+          ],
+          "known_branch_pressure_Pa": 657246.491262826,
+          "maximum_header_Mach": 0.08696123846314306,
+          "native_temperature_margin_K": 43.79901230394387,
+          "not_a_validated_hardware_result": true,
+          "optimization": {
+            "bounds_m": [
+              0.005,
+              0.08003992211221037
+            ],
+            "evaluations": 12,
+            "global_plant_optimum_claim": false,
+            "neighbor_pressure_differences_Pa": [
+              71.21733023354318,
+              69.6594180399552
+            ],
+            "objective": "known branch pressure only, unknown fittings and all steel adequacy excluded"
+          },
+          "property_approximation": "outlet",
+          "residual_to_full_loop_allowance_Pa": -107246.49126282602,
+          "side": "outboard",
+          "split_outboard": false
+        }
+      },
+      "choice": "outlet",
+      "configuration": "unsplit",
+      "envelope_known_loss_within_allowance": false,
+      "known_common_pressure_Pa_after_nominal_balancing": 657246.491262826,
+      "physical_manifold_or_plant_validated": false,
+      "remaining_common_external_pressure_Pa": -107246.49126282602,
+      "total_header_coolant_m3": 19.449483189876428,
+      "total_header_shell_cap_steel_m3": 7.222104089690613,
+      "unknown_loss_contract": "max_s(known_branch_drop_s + K_s*sum_header_dynamic_heads_s) + common_external_drop <=550000Pa; balances must be recalculated, not counted twice."
+    },
+    {
+      "additional_balancing_drop_Pa": {
+        "inboard": 0.0,
+        "outboard": 149577.80660441975
+      },
+      "all_nominal_FW_temperatures_below_native_limit": true,
+      "branches": {
+        "inboard": {
+          "branch": {
+            "BZ_Re": 95913.46090977849,
+            "BZ_drop_Pa": 98939.01522354211,
+            "BZ_outlet_K": 773.1311192476081,
+            "BZ_velocity_m_s": 62.70999640232517,
+            "FW_drop_Pa": 242999.04250915244,
+            "FW_exact_enthalpy_error_relative": -3.290518774431083e-06,
+            "FW_outlet_K": 645.885666592287,
+            "channel_drop_Pa": 341938.05773269455,
+            "effective_BZ_channels": 19562.859361373692,
+            "effective_FW_channels": 8614.303544411556,
+            "exact_enthalpy_heat_error_relative": -3.947333710251835e-06,
+            "flow_kg_s": 682.5721004465584,
+            "flow_relative_to_nominal": 1.0,
+            "native_massflow_identity_error_kg_s": 0.0,
+            "peak_K": 798.2410597947791,
+            "reserved_coolant_volume_m3": 5.427309692764717,
+            "side": "inboard",
+            "temperature_margin_K": 24.758940205220938
+          },
+          "dynamic_head_sum_Pa": 117081.14734326812,
+          "equal_per_header_unknown_K_allowance_if_no_external_loss": 1.5095933623112896,
+          "geometry": {
+            "cap_volume_allowance_m3": 0.053021115705682575,
+            "caps_nozzles_and_remaining_structure_qualified": false,
+            "coolant_reservation_fraction": 0.29795217390909096,
+            "header_coolant_m3": 5.427309692764718,
+            "header_count": 672,
+            "ideal_closed_barrel_hoop_Pa": 52307692.30769232,
+            "ideal_closed_barrel_von_Mises_Pa": 52227993.58207692,
+            "inner_radius_m": 0.038111185997808744,
+            "length_each_m": 1.7699480938745797,
+            "module_count": 224,
+            "native_coolant_m3": 18.215372022828937,
+            "native_steel_m3": 33.38624843844284,
+            "outer_radius_m": 0.04446305033077687,
+            "remaining_channel_coolant_m3": 12.78806233006422,
+            "remaining_nonheader_steel_m3": 31.37336548923879,
+            "shell_steel_m3": 1.9598618334983697,
+            "steel_reservation_fraction": 0.060290779687792166,
+            "wall_m": 0.006351864332968124
+          },
+          "headers": [
+            {
+              "Mach": 0.07068910824688844,
+              "Re": 1624186.2024275989,
+              "T_K": 573.13,
+              "dynamic_head_Pa": 33778.582685164045,
+              "full_flow_friction_Pa": 8920.30553642277,
+              "stage": "supply",
+              "velocity_m_s": 101.16393289116213
+            },
+            {
+              "Mach": 0.07502751367849332,
+              "Re": 1494984.6119104354,
+              "T_K": 645.885666592287,
+              "dynamic_head_Pa": 37977.92277373214,
+              "full_flow_friction_Pa": 10126.591011721119,
+              "stage": "intermediate",
+              "velocity_m_s": 113.74059316334272
+            },
+            {
+              "Mach": 0.08206408338014697,
+              "Re": 1318750.5782061028,
+              "T_K": 773.1311192476081,
+              "dynamic_head_Pa": 45324.64188437193,
+              "full_flow_friction_Pa": 12270.122837973957,
+              "stage": "return",
+              "velocity_m_s": 135.74338132074564
+            }
+          ],
+          "known_branch_pressure_Pa": 373255.07711881236,
+          "maximum_header_Mach": 0.08206408338014697,
+          "native_temperature_margin_K": 24.758940205220938,
+          "not_a_validated_hardware_result": true,
+          "optimization": {
+            "bounds_m": [
+              0.005,
+              0.06437076161546122
+            ],
+            "evaluations": 12,
+            "global_plant_optimum_claim": false,
+            "neighbor_pressure_differences_Pa": [
+              73.3206342154881,
+              71.95817617233843
+            ],
+            "objective": "known branch pressure only, unknown fittings and all steel adequacy excluded"
+          },
+          "property_approximation": "outlet",
+          "residual_to_full_loop_allowance_Pa": 176744.92288118764,
+          "side": "inboard",
+          "split_outboard": true
+        },
+        "outboard": {
+          "branch": {
+            "BZ_Re": 95776.0423106844,
+            "BZ_drop_Pa": 118480.47443243927,
+            "BZ_outlet_K": 773.1313123879,
+            "BZ_velocity_m_s": 62.62017593194441,
+            "FW_drop_Pa": 73596.2694752827,
+            "FW_exact_enthalpy_error_relative": -1.7563257002577132e-06,
+            "FW_outlet_K": 623.9272678915281,
+            "channel_drop_Pa": 192076.74390772195,
+            "effective_BZ_channels": 48735.62030862369,
+            "effective_FW_channels": 28476.970125614298,
+            "exact_enthalpy_heat_error_relative": -5.376320444538499e-06,
+            "flow_kg_s": 1698.0094346243648,
+            "flow_relative_to_nominal": 1.0,
+            "native_massflow_identity_error_kg_s": 4.547473508864641e-13,
+            "peak_K": 793.4053516046565,
+            "reserved_coolant_volume_m3": 14.022173060155504,
+            "side": "outboard",
+            "temperature_margin_K": 29.594648395343484
+          },
+          "dynamic_head_sum_Pa": 130048.3488500209,
+          "equal_per_header_unknown_K_allowance_if_no_external_loss": 2.5092416195298344,
+          "geometry": {
+            "cap_volume_allowance_m3": 0.14565848194330264,
+            "caps_nozzles_and_remaining_structure_qualified": false,
+            "coolant_reservation_fraction": 0.26390422697981997,
+            "header_coolant_m3": 14.022173060155502,
+            "header_count": 1152,
+            "ideal_closed_barrel_hoop_Pa": 52307692.30769229,
+            "ideal_closed_barrel_von_Mises_Pa": 52227993.5820769,
+            "inner_radius_m": 0.04459851186571381,
+            "length_each_m": 1.9479250188962696,
+            "module_count": 384,
+            "native_coolant_m3": 53.133567509048426,
+            "native_steel_m3": 97.38645376304343,
+            "outer_radius_m": 0.05203159717666611,
+            "remaining_channel_coolant_m3": 39.11139444889292,
+            "remaining_nonheader_steel_m3": 92.17723278715509,
+            "shell_steel_m3": 5.063562493945045,
+            "steel_reservation_fraction": 0.05349020089142173,
+            "wall_m": 0.007433085310952301
+          },
+          "headers": [
+            {
+              "Mach": 0.07490745733938474,
+              "Re": 2014077.9420445343,
+              "T_K": 573.13,
+              "dynamic_head_Pa": 37930.32188900479,
+              "full_flow_friction_Pa": 9110.504710227655,
+              "stage": "supply",
+              "velocity_m_s": 107.20085703815155
+            },
+            {
+              "Mach": 0.07814584759327184,
+              "Re": 1898952.749771203,
+              "T_K": 623.9272678915281,
+              "dynamic_head_Pa": 41222.502561724825,
+              "full_flow_friction_Pa": 9967.113676501302,
+              "stage": "intermediate",
+              "velocity_m_s": 116.50540738372433
+            },
+            {
+              "Mach": 0.08696124117301211,
+              "Re": 1635321.1118521523,
+              "T_K": 773.1313123879,
+              "dynamic_head_Pa": 50895.52439929129,
+              "full_flow_friction_Pa": 12522.908219941706,
+              "stage": "return",
+              "velocity_m_s": 143.84385798191113
+            }
+          ],
+          "known_branch_pressure_Pa": 223677.2705143926,
+          "maximum_header_Mach": 0.08696124117301211,
+          "native_temperature_margin_K": 29.594648395343484,
+          "not_a_validated_hardware_result": true,
+          "optimization": {
+            "bounds_m": [
+              0.005,
+              0.08003992211221037
+            ],
+            "evaluations": 12,
+            "global_plant_optimum_claim": false,
+            "neighbor_pressure_differences_Pa": [
+              71.21755122285686,
+              69.65919994437718
+            ],
+            "objective": "known branch pressure only, unknown fittings and all steel adequacy excluded"
+          },
+          "property_approximation": "outlet",
+          "residual_to_full_loop_allowance_Pa": 326322.72948560736,
+          "side": "outboard",
+          "split_outboard": true
+        }
+      },
+      "choice": "outlet",
+      "configuration": "outboard_split",
+      "envelope_known_loss_within_allowance": true,
+      "known_common_pressure_Pa_after_nominal_balancing": 373255.07711881236,
+      "physical_manifold_or_plant_validated": false,
+      "remaining_common_external_pressure_Pa": 176744.92288118764,
+      "total_header_coolant_m3": 19.44948275292022,
+      "total_header_shell_cap_steel_m3": 7.2221039250924,
+      "unknown_loss_contract": "max_s(known_branch_drop_s + K_s*sum_header_dynamic_heads_s) + common_external_drop <=550000Pa; balances must be recalculated, not counted twice."
+    }
+  ],
+  "schema": "fusion.header-inventory-comparison.v1",
+  "scope": [
+    "No actual header distribution CFD or geometry-qualified pressure vessel",
+    "No experimentally calibrated performance or neutron TBR",
+    "Optimization is of an explicitly assumed envelope, not global plant optimality",
+    "Numerical headroom is not a safe operating margin; full pressure, thermal stress, heat peaking and reliability remain unvalidated",
+    "Three circular envelopes per native module are a chosen topology, not an actual HCPB CAD reproduction.",
+    "Known friction charges full module flow over each full header length; it is NOT a bound on omitted junction/distribution losses.",
+    "Reallocating steel from the remaining blanket may compromise its support; no structural or breeding benefit is assumed.",
+    "Caps have volume only; local cap/nozzle/weld stresses, irradiated allowable values and thermal stress are not evaluated.",
+    "The repeated branch temperature calculation assumes prescribed nominal flow maintained by unspecified balancing.",
+    "No power-output update or tritium breeding tally was made."
+  ]
+}

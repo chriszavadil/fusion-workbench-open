@@ -1,0 +1,59 @@
+{
+  "branch_model_sha256": "a6bdb6a0fdc68655aa08bf0d8445f55ad337b54f53dedb2012556f65b6b37a45",
+  "claim_boundary": [
+    "No actual header distribution CFD or geometry-qualified pressure vessel",
+    "No experimentally calibrated performance or neutron TBR",
+    "Optimization is of an explicitly assumed envelope, not global plant optimality",
+    "Numerical headroom is not a safe operating margin; full pressure, thermal stress, heat peaking and reliability remain unvalidated"
+  ],
+  "conservation": "Subtract allocated header coolant from blanket channels; subtract header wall/cap steel from recorded blanket steel. No material fraction is increased. Remaining structure adequacy is unproven.",
+  "created_utc": "2026-09-07T23:12:47.611120+00:00",
+  "driver_sha256": "e5c8c8f942bfc590f77fe7a690758b59040e5f91290ece46231b89a579ecb46a",
+  "hydraulic_feasibility_not_adoption": true,
+  "hydraulics": "Each header charged full module flow along its length using fixed-temperature mean/outlet helium properties. Missing junction, external pipe/HX, cap/nozzle effects remain residual requirements, not zero-loss assertions.",
+  "modules_from_native_fields": {
+    "inboard": "n_toroidal*n_poloidal =32*7",
+    "outboard": "48*8"
+  },
+  "objective": "Two 1D radius minimizations per configuration/property model, split and unsplit references; choose lowest known channel+header friction under inventory constraint. Validate extrema with local perturbations. No broader parameter sweep.",
+  "outputs": [
+    "Required coolant and steel allocations",
+    "Nominal balancing pressure and remaining shared-loop headroom",
+    "Unknown-fitting loss allowance and ideal barrel-stress requirement",
+    "Reject if inventory exhausted or known loss exceeds total budget"
+  ],
+  "prior_art": [
+    {
+      "doi": "10.1016/j.pnucene.2016.08.007",
+      "scope": "Author/publisher abstract; institutional manuscript retrieval returned403; Modelica code not obtained. No claim to reproduce it."
+    },
+    {
+      "doi": "10.1016/j.fusengdes.2018.04.099",
+      "scope": "Author/publisher abstract and introduction; established BSS parallel manifold model, CFD comparison; no source/geometry files obtained."
+    },
+    {
+      "doi": "10.3390/en16145377",
+      "scope": "Publisher indexed design description: FW feed -> intermediate mixing -> breeder -> outlet. Actual pin design is different from this candidate."
+    },
+    {
+      "doi": "10.1016/j.fusengdes.2025.114924",
+      "scope": "Parsed publisher/repository text; PDF screenshot failed. Proposed mockup test, not a calibrated dataset for this candidate."
+    }
+  ],
+  "project_ref": "91648db3ad2d6691dfe57f0b1b632ec20a36235a",
+  "proposed_geometry": "Three straight circular equal-radius headers per module, each length equal to native module poloidal dimension; one supply, one intermediate, one return. This is a newly declared conceptual envelope, NOT copied CAD or a manufactured design.",
+  "question": "Can an explicitly allocated three-header-per-module envelope retain pressure headroom after removing its void and steel from the existing blanket inventory?",
+  "radius_search_domain": "0.005m to radius consuming85%of each native coolant inventory; minima must be interior; not a physically validated domain.",
+  "reuse": "Pinned PROCESS friction and prior candidate branch-temperature/heat models. No new whole-loop solver or fitted hydraulic correlation.",
+  "schema": "fusion.header-inventory-admission.v1",
+  "steel_allowable_stress_adopted": null,
+  "stop_rule": "Complete this stated volume/pressure comparison and checks, save once. No electricity gain credited and no generic manifold optimizer built.",
+  "thermal_model_sha256": "773ab997cad8265708eab529d08723f807db168e0ec9fd5d2a26cd28fb684dae",
+  "unchanged": [
+    "Inherited heat, 8MPa property pressure, inlet temperature, nominal total flow, 550kPa loop allowance",
+    "No improved power conversion or pumping efficiency",
+    "Existing local temperature model and peaking1.0"
+  ],
+  "upstream_PROCESS": "c0ae5b28649f2b20fb7efc7904628b6defe4151c",
+  "wall_geometry": "Thickness r/6; cylindrical wall plus two flat-cap volume allowances. Elastic barrel stress will be reported; end-cap/nozzle/weld/irradiation qualification is explicitly absent."
+}

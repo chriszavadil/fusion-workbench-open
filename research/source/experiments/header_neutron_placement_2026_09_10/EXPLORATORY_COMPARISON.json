@@ -1,0 +1,12 @@
+{
+  "classification": "post-evaluation interpretation, not new preregistered primary endpoint",
+  "front_vs_rear_difference": -0.017105400129819315,
+  "front_vs_rear_relative_percent": -2.5047010454742558,
+  "effect_threshold_test": "front - 0.98*uniform; negative means a loss greater than2%",
+  "physical_validation": false,
+  "front_minus_0_98_uniform_interval99": [
+    -0.0029933940434157995,
+    0.0023254385710366103
+  ],
+  "loss_greater_than_2percent_resolved_at_99percent_MC": false
+}
