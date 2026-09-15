@@ -1,5 +1,8 @@
 # Fusion Workbench
 
+**Research update, 2026-09-14:** the live browser now includes **Benchmarks & prior work**, an attributed lithium-fluoride measurement comparison, all original spectrum bins, and a searchable reuse register. Close code-to-code agreement does not establish experimental reactor validation. Read the new benchmark and HCPB-selection reports in the research library. The downloadable Windows binary remains the separately versioned0.5.0 build.
+
+
 **Open research for humanity.** Explore conceptual fusion devices, inspect the evidence, reproduce calculations and help improve the models. This is a research preview—not a working fusion reactor or proof of generated net electricity.
 
 [**Open the browser workbench**](https://chriszavadil.github.io/fusion-workbench-open/) · [**Download the Windows Unreal preview**](https://github.com/chriszavadil/fusion-workbench-open/releases/tag/v0.5.1-public) · [**Contribute**](https://github.com/chriszavadil/fusion-workbench-open/issues/new/choose) · [**Research update feed**](https://chriszavadil.github.io/fusion-workbench-open/feed.xml)
@@ -7,7 +10,7 @@
 ![Actual native source-context view](media/source-context.png)
 
 ## What is available
-The browser workbench contains two separate reactor concepts, component inspection and cutaways, recorded electrical profiles, six source/header transport cases, particle playback, selectable heating slices, 84 readable research records, source hashes, dated updates and an explicit what-works/what-is-unresolved dashboard. It is a static GitHub Pages application: your browser renders the visuals, and the research computer does not need to stay on.
+The browser workbench contains two separate reactor concepts, component inspection and cutaways, recorded electrical profiles, six source/header transport cases, particle playback, selectable heating slices, 90 readable research records, source hashes, dated updates and an explicit what-works/what-is-unresolved dashboard. It is a static GitHub Pages application: your browser renders the visuals, and the research computer does not need to stay on.
 
 The packaged Unreal Windows application additionally provides a source-to-wall overview and an optional, explicitly configured local PROCESS worker. The public website does not run Unreal, execute scientific solvers, contact the research workstation or automatically run contributor code. A published snapshot or a passing software test is not experimental reactor validation.
 

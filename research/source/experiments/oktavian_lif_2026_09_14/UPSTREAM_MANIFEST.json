@@ -1,0 +1,87 @@
+[
+  {
+    "repository": "IAEA-NDS/open-benchmarks",
+    "revision": "09bacd7927b581d5e0f90468a0599fec8e95f972",
+    "path": "jade_open_benchmarks/inputs/Oktavian/Oktavian_LiF/mcnp/Oktavian_LiF.i",
+    "local_name": "IAEA_Oktavian_LiF.i",
+    "sha256": "0445f17edd04ca28a5a35e101ca0e2ee74883e73c57ad1ca46686a8193c40629",
+    "git_blob_sha": "71ce6d1b9f54c83a8b3d23ea25f3257768389362",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "repository": "IAEA-NDS/open-benchmarks",
+    "revision": "09bacd7927b581d5e0f90468a0599fec8e95f972",
+    "path": "jade_open_benchmarks/exp_results/Oktavian/Oktavian_LiF Neutron flux.csv",
+    "local_name": "IAEA_Oktavian_LiF Neutron flux.csv",
+    "sha256": "3e4e2553fbccfedce34be298c964cfa04764e3110489b8483b34547d602a1da3",
+    "git_blob_sha": "7377c8b264c97d7952c4855007fdc04cb1196778",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "repository": "IAEA-NDS/open-benchmarks",
+    "revision": "09bacd7927b581d5e0f90468a0599fec8e95f972",
+    "path": "jade_open_benchmarks/exp_results/Oktavian/Oktavian_LiF Gamma flux.csv",
+    "local_name": "IAEA_Oktavian_LiF Gamma flux.csv",
+    "sha256": "3232f9626e09899d05b6c6e621a64cd690e3a546477a5b07b791bc580fae93bd",
+    "git_blob_sha": "bba67b3a2ea5cc6ab03a1d30e495bf7912e6e425",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "repository": "IAEA-NDS/open-benchmarks",
+    "revision": "09bacd7927b581d5e0f90468a0599fec8e95f972",
+    "path": "LICENSE",
+    "local_name": "IAEA_LICENSE",
+    "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+    "git_blob_sha": "4ea99c213c5c0c005ae4e80df8e52169d06896ec",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "repository": "IAEA-NDS/open-benchmarks",
+    "revision": "09bacd7927b581d5e0f90468a0599fec8e95f972",
+    "path": "README.md",
+    "local_name": "IAEA_README.md",
+    "sha256": "be3eeb2440d01082c50edeb16670874fd53a5873346268b9660ad4d7ea7b5d73",
+    "git_blob_sha": "9ffdefa4a70ccea5c0c744b9151334d65810e0bd",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "repository": "eepeterson/openmc_fusion_benchmarks",
+    "revision": "c47fc573a7e2a9ca11a8958dc67155b1146adf51",
+    "path": "models/oktavian/oktavian_lif/openmc_model.py",
+    "local_name": "ofb_openmc_model.py",
+    "sha256": "2439b784b32a8f5f403ec9919f74e49634bef53afb305e2ba68dd78d3ec3e7db",
+    "license": "MIT; experimental data also matched to IAEA CC-BY-4.0 original below"
+  },
+  {
+    "repository": "eepeterson/openmc_fusion_benchmarks",
+    "revision": "c47fc573a7e2a9ca11a8958dc67155b1146adf51",
+    "path": "models/oktavian/oktavian_lif/helpers.py",
+    "local_name": "ofb_helpers.py",
+    "sha256": "58228bda74c431ad51607b67f646cc4c5ff339774fc6664eafb052e12d47f108",
+    "license": "MIT; experimental data also matched to IAEA CC-BY-4.0 original below"
+  },
+  {
+    "repository": "eepeterson/openmc_fusion_benchmarks",
+    "revision": "c47fc573a7e2a9ca11a8958dc67155b1146adf51",
+    "path": "results_database/oktavian_lif/experiment.h5",
+    "local_name": "ofb_experiment.h5",
+    "sha256": "651a549c72d33487b7c31060880edee3a7b1f91a2540e4df73f25988583e3bba",
+    "license": "MIT; experimental data also matched to IAEA CC-BY-4.0 original below"
+  },
+  {
+    "repository": "eepeterson/openmc_fusion_benchmarks",
+    "revision": "c47fc573a7e2a9ca11a8958dc67155b1146adf51",
+    "path": "results_database/oktavian_lif/openmc-0-14-0_endfb80.h5",
+    "local_name": "ofb_openmc_endfb80.h5",
+    "sha256": "1e257725640c2459459aecd65d30264dcd2546380a092a253607913948223031",
+    "license": "MIT; experimental data also matched to IAEA CC-BY-4.0 original below"
+  },
+  {
+    "repository": "eepeterson/openmc_fusion_benchmarks",
+    "revision": "c47fc573a7e2a9ca11a8958dc67155b1146adf51",
+    "path": "LICENSE",
+    "local_name": "OFB_LICENSE",
+    "sha256": "29094020034a5805db985cec356ad98d26525b1751ab8a52ba1023eab71c4a1a",
+    "license": "MIT; experimental data also matched to IAEA CC-BY-4.0 original below"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "schema": "fusion.lif-independent-normalization-review.v1",
+  "uses_existing_completed_run": true,
+  "new_transport_runs": 0,
+  "computed_sum_fsum": 0.5863978109613958,
+  "primary_table_integral_fsum": 0.6273728771366036,
+  "legacy_transformed_table_integral": 1.0456144771015776,
+  "first_bin_log_width": 0.04004328898608786,
+  "first_bin_reported_factor_times_width": 20.694063571138194,
+  "first_bin_legacy_minus_primary_integrated": 0.41824391071358025,
+  "unqualified_ratio_using_legacy_table": 0.5608164613279636,
+  "conditional_ratio_using_primary_table": 0.9346878584196652,
+  "interpretation": "Using the flagged legacy measurement transform would give an apparent integral ratio about0.5608 rather than0.9347 with the primary table. The first bin accounts for effectively all of that change; the remaining difference is at rounding scale. A missing log-bin-width factor alone does not explain the516.79 ratio. Origin remains unresolved; no empirical correction or physical bias is inferred.",
+  "experimental_validation": false,
+  "first_bin_alone_explains_integral_difference_fraction": 1.0000055249133668,
+  "remaining_bins_net_integral_difference": -2.3107486062379223e-06,
+  "simple_missing_log_width_explanation_rejected": true
+}

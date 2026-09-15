@@ -1,0 +1,28 @@
+{
+  "schema": "fusion.benchmark-admission.v1",
+  "date": "2026-09-14",
+  "question": "Can the installed transport stack reproduce the published OKTAVIAN LiF leakage spectrum with exact data normalization and explicit measurement comparison? This is a lithium-material qualification step, NOT beryllium breeding validation.",
+  "classification": "existing benchmark reproduction, no novelty claim",
+  "original_experiment": "Ichihara, Hayashi, Kobayashi, Kimura, Yamamoto, Izumi, Takahashi; OKTAVIAN measured sphere leakage reported at Nuclear Data for Science and Technology 1988",
+  "upstream_model_revision": "c47fc573a7e2a9ca11a8958dc67155b1146adf51",
+  "primary_data_revision": "09bacd7927b581d5e0f90468a0599fec8e95f972",
+  "model_sha256": "2439b784b32a8f5f403ec9919f74e49634bef53afb305e2ba68dd78d3ec3e7db",
+  "runs": [
+    {
+      "seed": 144140,
+      "batches": 40,
+      "particles_per_batch": 25000,
+      "threads": 2,
+      "timeout_seconds": 600
+    }
+  ],
+  "frozen_geometry_and_materials": true,
+  "no_parameter_fit": true,
+  "preexisting_data_issue": "OFB helper radius is19.95cm while tally radius is30.5cm; archive first spectrum bin does not appear normalized like later bins. Preserve and audit before using any C/E label.",
+  "score_plan": "Use original F1-compatible surface current per source, no empirical scaling. Convert to per-lethargy using exact high/low bin log ratio, match IAEA CSV by energy endpoint. Report all bins with errors, residuals, code-to-code agreement and limitations; no automatic reactor-validation label.",
+  "reopen_condition": "No further runs unless missing files, failed geometry/unit tests or a decision-relevant declared precision gap is identified. Do not tune to make experimental agreement look better.",
+  "physical_validation": false,
+  "reactor_geometry_changed": false,
+  "reactor_TBR_inferred": false,
+  "private_until_reviewed": true
+}

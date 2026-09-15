@@ -23,7 +23,7 @@ def test_all_scientific_data_byte_identical_to_reviewed_app():
 def test_snapshot_not_live_compute_or_experimental_success():
  s=json.loads((SITE/'release-status.json').read_text());assert s['snapshot_only'] and not s['solver_hosted']
  assert any('Experimental' in r['title'] and r['status']=='Not established' for r in s['readiness'])
- assert s['data_date']=='2026-09-13' and s['public_collaboration_open']
+ assert s['data_date']==json.loads((ROOT/'app/data/research_library.json').read_text(encoding='utf-8'))['updated_date'] and s['public_collaboration_open']
 
 def test_feed_has_dated_evidence_not_future_promise():
  tree=ET.parse(SITE/'feed.xml');ns={'a':'http://www.w3.org/2005/Atom'}

@@ -110,5 +110,23 @@
     "track": "project",
     "status": "current update",
     "scope_notice": "Recovered source-coupling results and current 3D visualization; existing repository retained, no public visibility change."
+  },
+  "research/reports/results/LIF_BENCHMARK_AND_REUSE_2026-09-14.md": {
+    "configuration_scope": "reference_or_project",
+    "track": "neutronics",
+    "status": "current update: known benchmark reproduction",
+    "scope_notice": "Existing OKTAVIAN experiment, not a candidate-reactor test. Computation closely replays its numerical archive; primary measurement comparison remains unqualified. Original authors and data licenses credited."
+  },
+  "research/source/experiments/oktavian_lif_2026_09_14/ATTRIBUTION.md": {
+    "configuration_scope": "reference_or_project",
+    "track": "neutronics",
+    "status": "attribution and reuse scope",
+    "scope_notice": "Original experimental authors, data custodians, licenses and our modifications; no endorsement implied."
+  },
+  "research/reports/results/BREEDING_BENCHMARK_SELECTION_2026-09-14.md": {
+    "configuration_scope": "reference_or_project",
+    "track": "neutronics",
+    "status": "prior work reviewed",
+    "scope_notice": "Published HCPB validation by Novais and Peterson already exists; abstract-level review, not our experiment and not a correction to our reactor."
   }
 }

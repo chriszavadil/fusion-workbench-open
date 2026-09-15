@@ -39,6 +39,20 @@
   ],
   "milestones": [
     {
+      "id": "lif-reference-and-prior-work-2026-09-14",
+      "date": "2026-09-14",
+      "title": "Existing lithium benchmark checked; prior-work register published",
+      "summary": "Recovered one-million-history LiF leakage replay; preserved original measurements, normalization disagreement, all bins, credits and reopen conditions. No reactor validation or power improvement claimed.",
+      "search": "Existing lithium benchmark"
+    },
+    {
+      "id": "hcpb-prior-art-20260914",
+      "date": "2026-09-14",
+      "title": "Existing HCPB validation identified and credited",
+      "summary": "Novais and Peterson already published the relevant OpenMC tritium benchmark. Full reproduction remains open; its9% mean discrepancy is not a correction to our candidate. The credited prior-work register prevents duplicate discovery claims.",
+      "search": "Breeding benchmark selection"
+    },
+    {
       "id": "source-coupling-20260913",
       "date": "2026-09-13",
       "title": "Plasma-to-blanket source coupling",

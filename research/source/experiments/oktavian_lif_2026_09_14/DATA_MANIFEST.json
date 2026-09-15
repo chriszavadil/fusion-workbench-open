@@ -1,0 +1,275 @@
+{
+  "files": [
+    {
+      "bytes": 1386016,
+      "file": "ENDFB-8.0-NNDC_Li6.h5",
+      "materials": [
+        "Li6"
+      ],
+      "sha256": "3e85c1a46c73ddf8e49f14ac3da0f48b9540bcc1fc17a55f9582fbe605212e7a",
+      "type": "neutron"
+    },
+    {
+      "bytes": 1198568,
+      "file": "ENDFB-8.0-NNDC_Li7.h5",
+      "materials": [
+        "Li7"
+      ],
+      "sha256": "c0f0908c935dffc6f9f4745cac0fde06bd3efbdf1092a1b570c793eaebeafc9c",
+      "type": "neutron"
+    },
+    {
+      "bytes": 8650648,
+      "file": "ENDFB-8.0-NNDC_O16.h5",
+      "materials": [
+        "O16"
+      ],
+      "sha256": "86d87c47de9260c887c3574a0d12fefc365326931934e4d24c081719a5379b3a",
+      "type": "neutron"
+    },
+    {
+      "bytes": 8036808,
+      "file": "ENDFB-8.0-NNDC_Si28.h5",
+      "materials": [
+        "Si28"
+      ],
+      "sha256": "2b8a5195649c2d7bdfd503db933a6c7b39cca4945daca15023c8854ec1ed82f8",
+      "type": "neutron"
+    },
+    {
+      "bytes": 7794520,
+      "file": "ENDFB-8.0-NNDC_Si29.h5",
+      "materials": [
+        "Si29"
+      ],
+      "sha256": "9e0b2597cec49565801e98021e541f7e5eb1d437621b23c81feaee781da38958",
+      "type": "neutron"
+    },
+    {
+      "bytes": 4892920,
+      "file": "ENDFB-8.0-NNDC_Si30.h5",
+      "materials": [
+        "Si30"
+      ],
+      "sha256": "d4b1b000312cf1ee3818e6ef86e24f5a9f640f97be0e1416b118d44b2a56b53a",
+      "type": "neutron"
+    },
+    {
+      "bytes": 12522920,
+      "file": "ENDFB-8.0-NNDC_Cr50.h5",
+      "materials": [
+        "Cr50"
+      ],
+      "sha256": "4f52b06a1a1133cfab98e03404d96bde4a48a8d93d6106d8c6515d83b413b543",
+      "type": "neutron"
+    },
+    {
+      "bytes": 12524200,
+      "file": "ENDFB-8.0-NNDC_Cr52.h5",
+      "materials": [
+        "Cr52"
+      ],
+      "sha256": "1c431abbe5063ff6820c46ca8239a4adf88e348bca3df12ebc1cd9b2afd84cfb",
+      "type": "neutron"
+    },
+    {
+      "bytes": 10549640,
+      "file": "ENDFB-8.0-NNDC_Cr53.h5",
+      "materials": [
+        "Cr53"
+      ],
+      "sha256": "693b30a2241e1c1f74e8f25c251b32570ce593c7c28c692b2d5a92fcac33f0eb",
+      "type": "neutron"
+    },
+    {
+      "bytes": 6821800,
+      "file": "ENDFB-8.0-NNDC_Cr54.h5",
+      "materials": [
+        "Cr54"
+      ],
+      "sha256": "40cfb6225e169ac2572c3c69114f5719dbbdd020c68167beca8c7faeb9ba7b85",
+      "type": "neutron"
+    },
+    {
+      "bytes": 44368272,
+      "file": "ENDFB-8.0-NNDC_Fe54.h5",
+      "materials": [
+        "Fe54"
+      ],
+      "sha256": "4ba04cd0c8810e3c8efbb775e2cb4c52292819c9a58578a0e1dd4c4974bf1ff0",
+      "type": "neutron"
+    },
+    {
+      "bytes": 57405104,
+      "file": "ENDFB-8.0-NNDC_Fe56.h5",
+      "materials": [
+        "Fe56"
+      ],
+      "sha256": "c9757aeb4dbf0cc560a04cd4ba395dc2d797d8dce2c2bc5f62d177b5be8561eb",
+      "type": "neutron"
+    },
+    {
+      "bytes": 22030176,
+      "file": "ENDFB-8.0-NNDC_Fe57.h5",
+      "materials": [
+        "Fe57"
+      ],
+      "sha256": "5568f95057b38abae110cd8876597aedb118b6e96eb4cdda6f0c16544a8f5427",
+      "type": "neutron"
+    },
+    {
+      "bytes": 24452440,
+      "file": "ENDFB-8.0-NNDC_Fe58.h5",
+      "materials": [
+        "Fe58"
+      ],
+      "sha256": "30c7672fde0f672f5cdad33e2ec54610f59fc82852fa0416301d608a772f6550",
+      "type": "neutron"
+    },
+    {
+      "bytes": 21306872,
+      "file": "ENDFB-8.0-NNDC_Ni58.h5",
+      "materials": [
+        "Ni58"
+      ],
+      "sha256": "8e8822ace56a5464251b7101dfe09a0f06304880e0f22cfa559c9afc8545dc5e",
+      "type": "neutron"
+    },
+    {
+      "bytes": 17719584,
+      "file": "ENDFB-8.0-NNDC_Ni60.h5",
+      "materials": [
+        "Ni60"
+      ],
+      "sha256": "476c29f186d3a887c6dcd36faa75df1006204c01c3dac3e10a57705d3f0653b8",
+      "type": "neutron"
+    },
+    {
+      "bytes": 9341184,
+      "file": "ENDFB-8.0-NNDC_Ni61.h5",
+      "materials": [
+        "Ni61"
+      ],
+      "sha256": "94d8d87f87d72c5d4ff27fe81d34de166e03f807bcaa5503494a0bb044aa828a",
+      "type": "neutron"
+    },
+    {
+      "bytes": 9166576,
+      "file": "ENDFB-8.0-NNDC_Ni62.h5",
+      "materials": [
+        "Ni62"
+      ],
+      "sha256": "633abb5c89d6f3f6e27638417a40271c14da4fbb8f40e12d1c44943298969811",
+      "type": "neutron"
+    },
+    {
+      "bytes": 8444704,
+      "file": "ENDFB-8.0-NNDC_Ni64.h5",
+      "materials": [
+        "Ni64"
+      ],
+      "sha256": "ae4a15868433e8253893332335f96f489588ba5eade15bd8dcd7f2a51e6f22e1",
+      "type": "neutron"
+    },
+    {
+      "bytes": 303096,
+      "file": "ENDFB-8.0-NNDC_Li.h5",
+      "materials": [
+        "Li"
+      ],
+      "sha256": "3f4953380678d60a8b72233287a404b03c077d0dcb5a5f8c5e01a25d7f7aac91",
+      "type": "photon"
+    },
+    {
+      "bytes": 450600,
+      "file": "ENDFB-8.0-NNDC_O.h5",
+      "materials": [
+        "O"
+      ],
+      "sha256": "620692c786cbca688b87dc03a940e95a899117565f9c1ebb2e89bc81a9d00cf4",
+      "type": "photon"
+    },
+    {
+      "bytes": 782064,
+      "file": "ENDFB-8.0-NNDC_Si.h5",
+      "materials": [
+        "Si"
+      ],
+      "sha256": "d0d544e0e64157a05abfe48288a854af36988f790a003a3b34cb37e35a3987ed",
+      "type": "photon"
+    },
+    {
+      "bytes": 1046944,
+      "file": "ENDFB-8.0-NNDC_Cr.h5",
+      "materials": [
+        "Cr"
+      ],
+      "sha256": "af0bd31e7ffc6f39ef68284dbf998b1764c5e3e109a36b07f7b544ffc6fb1064",
+      "type": "photon"
+    },
+    {
+      "bytes": 1078832,
+      "file": "ENDFB-8.0-NNDC_Fe.h5",
+      "materials": [
+        "Fe"
+      ],
+      "sha256": "3b04690282a282cb205477af6d493a31d2c254e387ff8d0f5f23326096683aa2",
+      "type": "photon"
+    },
+    {
+      "bytes": 1023416,
+      "file": "ENDFB-8.0-NNDC_Ni.h5",
+      "materials": [
+        "Ni"
+      ],
+      "sha256": "ca8fe494a083e91a93884b7599754fc66854d18807f285c4d243e176d9c73d0e",
+      "type": "photon"
+    },
+    {
+      "bytes": 328056,
+      "file": "ENDFB-8.0-NNDC_H1.h5",
+      "materials": [
+        "H1"
+      ],
+      "sha256": "6b639ad552dfbb83042fd2705408ab8be2d3b346c7750c2afe4b67e9f48bcfe5",
+      "type": "neutron"
+    },
+    {
+      "bytes": 4664304,
+      "file": "ENDFB-8.0-NNDC_F19.h5",
+      "materials": [
+        "F19"
+      ],
+      "sha256": "36a890c312a866507c5cb0895aa194a846088f6bc4edfcd0a09cf755bca9b306",
+      "type": "neutron"
+    },
+    {
+      "bytes": 241264,
+      "file": "ENDFB-8.0-NNDC_H.h5",
+      "materials": [
+        "H"
+      ],
+      "sha256": "29bc7ecc95b38b322e49443cf16cc895cbb5a73d61ae6d9e345a438a2e9574db",
+      "type": "photon"
+    },
+    {
+      "bytes": 446840,
+      "file": "ENDFB-8.0-NNDC_F.h5",
+      "materials": [
+        "F"
+      ],
+      "sha256": "aaee0ad211974cfbb6062dc67d97522fdc052da61919fd7a7df173a651997c33",
+      "type": "photon"
+    }
+  ],
+  "library": "ENDFB-8.0-NNDC",
+  "new_nuclides": [
+    "F19",
+    "H1"
+  ],
+  "new_photoatomic_elements": [
+    "F",
+    "H"
+  ],
+  "old_library_changed": false
+}

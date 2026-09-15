@@ -1,0 +1,16 @@
+{
+  "schema": "fusion.lif-research-update.v1",
+  "date": "2026-09-14",
+  "completed_prior_transport_histories": 1000000,
+  "new_transport_runs_in_continuation": 0,
+  "raw_hdf5_rechecked": true,
+  "source_tests_passed": 224,
+  "all_neutron_bins": 134,
+  "all_photon_bins": 49,
+  "research_library_records": 90,
+  "attributed_prior_work_entries": 6,
+  "reactor_geometry_or_power_changed": false,
+  "physical_reactor_validation": false,
+  "live_deployment_verified": false,
+  "native_executable_rebuilt": false
+}

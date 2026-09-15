@@ -1,0 +1,153 @@
+{
+  "schema": "fusion.prior-work-register.v1",
+  "updated_date": "2026-09-14",
+  "policy": "Search this register and primary literature before admitting new work. Replication is useful only when it closes a named reproducibility or validation gap. These entries are not an exhaustive novelty search.",
+  "entries": [
+    {
+      "id": "oktavian-lif-measurement-1988",
+      "title": "OKTAVIAN lithium-fluoride neutron leakage measurements",
+      "attribution": "Chihiro Ichihara, Shu A. Hayashi, Katsuhei Kobayashi, Itsuro Kimura, Junji Yamamoto, Mikio Izumi and Akito Takahashi; Kyoto University and Osaka University",
+      "original_date": "1988 proceedings; archive labels measurement July1987",
+      "classification": "existing experiment reproduced computationally",
+      "our_status": "One-million-history transport replay completed; experiment agreement remains unqualified",
+      "our_use": "Compare frozen neutron/photon surface scores with an archived calculation and the IAEA-hosted neutron table, without fitting or dropping bins.",
+      "already_known": "These leakage experiments and transport-code comparisons predate this project by decades.",
+      "do_not_repeat": "Do not rebuild this benchmark or rerun identical histories as a discovery task; do not infer blanket breeding from LiF leakage.",
+      "reopen_when": "A documented normalization, measurement-response, source/nuclear-data or precision question can change an acceptance decision.",
+      "reading_scope": "Original authors'1988 abstract; exact pinned IAEA tables/input; OFB model/helper/archives; no claim to have read the full proceedings paper.",
+      "sources": [
+        {
+          "title": "Original authors' abstract",
+          "url": "https://wwwndc.jaea.go.jp/nd1988/abstracts/12916-0319.html"
+        },
+        {
+          "title": "Frozen benchmark provenance and licenses",
+          "url": "https://github.com/chriszavadil/fusion-workbench-open/blob/main/research/source/experiments/oktavian_lif_2026_09_14/ATTRIBUTION.md"
+        }
+      ],
+      "license_scope": "IAEA tabular data CC-BY-4.0; exact upstream notices retained; no paper fulltext redistributed.",
+      "report_search": "Existing lithium benchmark"
+    },
+    {
+      "id": "ofb-lif-model",
+      "title": "Existing OpenMC LiF model and archived numerical reference",
+      "attribution": "OpenMC Fusion Benchmarks contributors; copyright2025 MIT PSFC",
+      "original_date": "Archived calculation September2024; pinned code revision c47fc573a7e2a9ca11a8958dc67155b1146adf51",
+      "classification": "reused existing code and numerical reference",
+      "our_status": "Model reused unchanged; normalization and zero-score issues explicitly audited",
+      "our_use": "Execute published geometry/material/source with declared run statistics, then compare all original bins and retain both original and derived values.",
+      "already_known": "An OpenMC model and a billion-history archived comparison already exist; a replacement neutron solver is unnecessary.",
+      "do_not_repeat": "No duplicate model implementation, no blind use of the19.95cm helper as physical30.5cm radius, no Gaussian significance for an unscored bin.",
+      "reopen_when": "Exact upstream/source/data changes or a reproducibility defect needs a scoped test.",
+      "reading_scope": "Pinned model, helper, HDF5 reference and license read; present work is not an author-validated correction.",
+      "sources": [
+        {
+          "title": "Pinned OFB repository",
+          "url": "https://github.com/eepeterson/openmc_fusion_benchmarks/tree/c47fc573a7e2a9ca11a8958dc67155b1146adf51"
+        }
+      ],
+      "license_scope": "MIT; copyright and permission notice included.",
+      "report_search": "Existing lithium benchmark"
+    },
+    {
+      "id": "iaea-open-benchmarks",
+      "title": "IAEA-NDS open benchmark tables and inputs",
+      "attribution": "IAEA Nuclear Data Section and original experimental contributors; CoNDERC/SINBAD provenance as documented by the repository",
+      "original_date": "Pinned09bacd7927b581d5e0f90468a0599fec8e95f972",
+      "classification": "reused openly licensed data",
+      "our_status": "LiF input and both measurement tables retrieved, hashed and credited",
+      "our_use": "Use original table values and reported errors instead of silently inheriting a conflicting transformed first bin.",
+      "already_known": "A curated, explicitly licensed source of the selected input and measurements is available.",
+      "do_not_repeat": "Do not recreate tables by digitizing plots or relabel third-party data as project-owned; do not assume one repository license covers separately restricted benchmarks.",
+      "reopen_when": "Upstream corrections, missing units or a new benchmark's provenance/rights need verification.",
+      "reading_scope": "Pinned input, complete selected CSVs, README and license.",
+      "sources": [
+        {
+          "title": "Pinned IAEA-NDS release",
+          "url": "https://github.com/IAEA-NDS/open-benchmarks/tree/09bacd7927b581d5e0f90468a0599fec8e95f972"
+        },
+        {
+          "title": "CC BY4.0 license",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "license_scope": "CC-BY-4.0 for the selected repository data; original authors and changes identified.",
+      "report_search": "Attribution and reuse scope"
+    },
+    {
+      "id": "jade-vv-framework",
+      "title": "JADE nuclear-data verification and validation framework",
+      "attribution": "Davide Laghi et al.; JADE contributors",
+      "original_date": "2020 publication",
+      "classification": "existing framework reviewed, not reimplemented",
+      "our_status": "Documentation reviewed; no full JADE execution claimed",
+      "our_use": "Use established benchmark descriptions and distinguish numerical reproduction from measurement validation.",
+      "already_known": "Automated nuclear-data benchmark generation, comparison and reporting already exist.",
+      "do_not_repeat": "Do not build another generic V&V framework or present generic comparison plots as novel physics.",
+      "reopen_when": "A specific model/data interface requires an adaptation not already supported by the established framework.",
+      "reading_scope": "Project and experimental-benchmark documentation; not a full code audit.",
+      "sources": [
+        {
+          "title": "JADE original publication",
+          "url": "https://doi.org/10.1016/j.fusengdes.2020.112075"
+        },
+        {
+          "title": "JADE documentation",
+          "url": "https://jade-a-nuclear-data-libraries-vv-tool.readthedocs.io/en/latest/"
+        }
+      ],
+      "license_scope": "Documentation linked; no JADE GPL source copied or relicensed.",
+      "report_search": "Existing lithium benchmark"
+    },
+    {
+      "id": "fng-hcpb-2005",
+      "title": "FNG HCPB lithium-carbonate / beryllium tritium benchmark",
+      "attribution": "P. Batistoni, P. Carconi, R. Villari, M. Angelone, M. Pillon and G. Zappa; ENEA experiment, as cited by JADE",
+      "original_date": "2005 experiment and ENEA report;2006 consistency assessment",
+      "classification": "known more relevant experiment; not yet reproduced here",
+      "our_status": "Detailed public benchmark description located; complete usable input/data packet not acquired in this continuation",
+      "our_use": "Select the next qualification target because it measures tritium production in a lithium/beryllium assembly rather than leakage alone.",
+      "already_known": "Measurements and MCNP/OpenMC model descriptions exist; a new generic experiment is not required just to establish this validation question.",
+      "do_not_repeat": "Do not substitute aluminium or LiF leakage for tritium-production validation; do not invent pellet activity normalization or claim the documented model has been run.",
+      "reopen_when": "Complete geometry, source, pellet measurements, normalization and redistribution rights are available for a pinned reproduction.",
+      "reading_scope": "JADE description and NEA SINBAD NEA-1553/71 summary read; underlying experiment package and full original reports not obtained. The new OpenMC paper is recorded separately at abstract-level reading.",
+      "sources": [
+        {
+          "title": "FNG-HCPB geometry, measurements and normalization",
+          "url": "https://jade-a-nuclear-data-libraries-vv-tool.readthedocs.io/en/latest/benchmarks/experimental.html#fng-helium-cooled-pebble-bed-hcpb-tritium-breeder-module-tbm-mock-up"
+        },
+        {
+          "title": "NEA SINBAD original experiment summary and file inventory",
+          "url": "https://www.oecd-nea.org/science/wprs/shielding/sinbad/fng_hcpb/fnghcpb-a.htm"
+        }
+      ],
+      "license_scope": "Description linked; no restricted input files or paper fulltext redistributed.",
+      "report_search": "Existing lithium benchmark"
+    },
+    {
+      "id": "novais-peterson-fng-hcpb-2025",
+      "title": "Published OpenMC HCPB tritium benchmark and nuclear-data uncertainty study",
+      "attribution": "Felipe S. Novais and Ethan E. Peterson; Massachusetts Institute of Technology Plasma Science and Fusion Center",
+      "original_date": "Published online 23 October 2025; Fusion Science and Technology 82(4), 2026, pp.844-852",
+      "classification": "existing directly relevant validation study; not reproduced here",
+      "our_status": "Author/publisher abstract and metadata located; complete model, per-detector numerical data and uncertainty files not acquired here",
+      "our_use": "Replace the assumption that an OpenMC HCPB validation study must be invented. Seek the existing reproducible package before another model implementation.",
+      "already_known": "The authors compared OpenMC with MCNP-4C and SINBAD measurements for Li2CO3 pellets in a beryllium mock-up, including SANDY-based nuclear-data uncertainty; their abstract reports roughly9% mean tritium-production underprediction.",
+      "do_not_repeat": "Do not rebrand their benchmark or uncertainty method as a discovery. Do not multiply our candidate result by1/0.91, subtract9% from it, or treat9% as an uncertainty bound on our2.71% header contrast.",
+      "reopen_when": "The exact model/source version, pellet normalization, experimental uncertainties and reusable data terms are available for a declared independent reproduction or a demonstrated missing sensitivity test.",
+      "reading_scope": "Publisher and ANS abstract plus bibliographic metadata only; no full-text or per-detector data reproduction claimed.",
+      "sources": [
+        {
+          "title": "Novais and Peterson, original published study",
+          "url": "https://doi.org/10.1080/15361055.2025.2567167"
+        },
+        {
+          "title": "American Nuclear Society abstract",
+          "url": "https://www.ans.org/pubs/journals/fst/article-60202/"
+        }
+      ],
+      "license_scope": "Cited and paraphrased; no article PDF, model or restricted dataset redistributed.",
+      "report_search": "Breeding benchmark selection"
+    }
+  ]
+}

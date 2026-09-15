@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="1">
+    <density units="g/cm3" value="1.76361"/>
+    <nuclide ao="0.0002463685" name="H1"/>
+    <nuclide ao="0.037010570799" name="Li6"/>
+    <nuclide ao="0.45639801426" name="Li7"/>
+    <nuclide ao="5.796062e-05" name="O16"/>
+    <nuclide ao="0.5062419525" name="F19"/>
+    <nuclide ao="3.08671e-05" name="Si28"/>
+    <nuclide ao="1.567284e-06" name="Si29"/>
+    <nuclide ao="1.033143e-06" name="Si30"/>
+    <nuclide ao="6.828722e-07" name="Fe54"/>
+    <nuclide ao="1.071963e-05" name="Fe56"/>
+    <nuclide ao="2.475631e-07" name="Fe57"/>
+    <nuclide ao="3.29461e-08" name="Fe58"/>
+  </material>
+  <material id="2">
+    <density units="g/cm3" value="7.824"/>
+    <nuclide name="Cr50" wo="0.00803825"/>
+    <nuclide name="Cr52" wo="0.15501"/>
+    <nuclide name="Cr53" wo="0.0175768"/>
+    <nuclide name="Cr54" wo="0.00437525"/>
+    <nuclide name="Fe54" wo="0.0411488"/>
+    <nuclide name="Fe56" wo="0.645948"/>
+    <nuclide name="Fe57" wo="0.0149178"/>
+    <nuclide name="Fe58" wo="0.00198528"/>
+    <nuclide name="Ni58" wo="0.0755655"/>
+    <nuclide name="Ni60" wo="0.0291075"/>
+    <nuclide name="Ni61" wo="0.0012654"/>
+    <nuclide name="Ni62" wo="0.00403374"/>
+    <nuclide name="Ni64" wo="0.00102786"/>
+  </material>
+</materials>

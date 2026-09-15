@@ -1,0 +1,11 @@
+# Prior-work register and research admission
+
+The public register is `research/prior_work_register.json`, displayed in **Benchmarks & prior work**. It is a maintained memory of established results and completed repetitions, not a claim that a literature search can prove novelty. The initial entries cover the current lithium reference, its experimental authors, IAEA tables, the OFB model, JADE and the known FNG HCPB tritium benchmark. Older studies remain searchable in Research library and should be added to the register as their workstreams reopen.
+
+Before changing a physical model or starting a calculation, search the register and current primary sources. Record the closest existing result, exact sources and reading scope. Explain the unresolved decision, what the calculation adds and what result would reject the proposed change. A known result may be reproduced to verify an implementation or data interface, but it must be labeled as replication with proper attribution, not discovery.
+
+After execution, retain the inputs, hashes, failures, uncertainty limitations, original investigators, code/data licenses and changes. State explicitly what should not be repeated and what new evidence would justify reopening it. Publish reviewed text and data to the live viewer, update its dated progress feed, and verify the deployed files. Do not replace measured data with a fitted curve merely to get agreement. Do not remove no-score bins or equate another code's agreement with experimental validation.
+
+A task is not complete because a solver ran or a document was written. Its result must change or verify a specific engineering/evidence decision. Here, the LiF replay distinguishes very close numerical reproduction from an unresolved measured-spectrum comparison; it does not close the tritium-production gate. A correctly attributed negative or inconclusive result is useful evidence, not a reason to manufacture a success.
+
+The public webpage is a completed-results viewer. The native-source reader packet is generated from the same reports, but updating it does not automatically replace the already downloadable Windows binary. GitHub deployment/test state and actual solver execution are separate concepts. No public arbitrary-code or unattended-compute service is introduced by this policy.

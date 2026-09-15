@@ -1,12 +1,14 @@
 {
   "schema": "fusion.pages-publication.v1",
-  "viewer_version": "0.5.1-public",
-  "data_date": "2026-09-13",
-  "research_records": 84,
+  "viewer_version": "0.5.2-benchmark-update",
+  "data_date": "2026-09-14",
+  "research_records": 90,
   "data_sha256": {
     "catalog.json": "ec18c81e4c7505c37f341a8eaee3ed3df0fdda63ead8648ce534c96c29e13da7",
+    "lif_benchmark.json": "d2109b5c2648e7e1e702325ac0a3aff91d13b1fbd9739b498ee0cd8a5c131bc1",
     "neutronics.json": "8775de27179749257beb0313ab4dfdf576b206485ce76c9e0c2bfc3483cb0ac0",
-    "research_library.json": "c5107dbe1b2fee318eec015911898f4e3bda1b8e9678aea37ef3538dadeedd73",
+    "prior_work.json": "165011db5eccdffa950facc6d2cf4302b36b242c1950c4dfd5d9874380ecf97b",
+    "research_library.json": "aabb12141efbca17418dd792e4e7fec5de59ed9df199c44dc8b3e1c0a812d729",
     "source_context.bin": "7aa5de4dc4ac40b49172f67ac8c225641fe113c6bfd05732d75489d52ae2cb38",
     "transport_lab.json": "b9bd41d7686668e3341d7df76f6f47637ea383418bf644368d757e8a0b02c8c9"
   },
@@ -56,6 +58,20 @@
   ],
   "milestones": [
     {
+      "id": "lif-reference-and-prior-work-2026-09-14",
+      "date": "2026-09-14",
+      "title": "Existing lithium benchmark checked; prior-work register published",
+      "summary": "Recovered one-million-history LiF leakage replay; preserved original measurements, normalization disagreement, all bins, credits and reopen conditions. No reactor validation or power improvement claimed.",
+      "search": "Existing lithium benchmark"
+    },
+    {
+      "id": "hcpb-prior-art-20260914",
+      "date": "2026-09-14",
+      "title": "Existing HCPB validation identified and credited",
+      "summary": "Novais and Peterson already published the relevant OpenMC tritium benchmark. Full reproduction remains open; its9% mean discrepancy is not a correction to our candidate. The credited prior-work register prevents duplicate discovery claims.",
+      "search": "Breeding benchmark selection"
+    },
+    {
       "id": "source-coupling-20260913",
       "date": "2026-09-13",
       "title": "Plasma-to-blanket source coupling",
@@ -91,5 +107,5 @@
       "search": "full process"
     }
   ],
-  "revision_id": "5b328a6d194a113bc17fc64e8cf4b57e9423696a1482a12420ebadb76bf7e4f5"
+  "revision_id": "ab342612b87150454cf740c9b5966cb25a7e9023ed0711baa2d2d8a813b2db85"
 }
