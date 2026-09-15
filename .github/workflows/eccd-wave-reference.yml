@@ -1,0 +1,57 @@
+name: Bounded EC wave reference qualification
+on:
+  push:
+    branches: [research/eccd-wave-gate-20260915]
+    paths: [.github/workflows/eccd-wave-reference.yml]
+permissions:
+  contents: read
+jobs:
+  reference:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 15
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          repository: compxco/genray
+          ref: ee443d16e5aaf9bc7227fb3e95581e3ba374df89
+          path: upstream-genray
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.11'
+      - name: Install upstream-documented build dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends gfortran libnetcdff-dev pgplot5 libx11-dev
+          python -m pip install numpy==2.2.6 scipy==1.15.3
+      - name: Compile pinned official GENRAY without changing equations
+        working-directory: upstream-genray
+        run: |
+          test "$(git rev-parse HEAD)" = ee443d16e5aaf9bc7227fb3e95581e3ba374df89
+          make -j1 -f makefile_gfortran64 LOCATION=-L/usr/lib/x86_64-linux-gnu CSPECIAL='-O2 -frecord-marker=4 -fno-align-commons -fallow-argument-mismatch -std=legacy'
+      - name: Run only the two admitted public EC reference cases
+        run: python research/source/experiments/eccd_wave_gate_2026_09_15/run_reference.py --upstream upstream-genray --output wave-results
+      - name: Preserve full numerical reference evidence with short retention
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ec-reference-evidence
+          retention-days: 1
+          compression-level: 9
+          if-no-files-found: warn
+          path: |
+            wave-results/SUMMARY.json
+            wave-results/UPSTREAM_LICENSE
+            wave-results/*/RESULT.json
+            wave-results/*/DATA.json
+            wave-results/*/genray.nc
+            wave-results/*/genray.dat
+            wave-results/*/g521022.01000
+            wave-results/*/execution.log
