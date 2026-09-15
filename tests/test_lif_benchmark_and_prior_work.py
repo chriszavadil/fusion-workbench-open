@@ -10,8 +10,10 @@ def test_all_bins_retained_exact_normalization(name,count):
  s=K['spectra'][name];raw=R['spectra'][name];lo=np.asarray(s['energy_low_eV']);hi=np.asarray(s['energy_high_eV']);w=np.log(hi/lo)
  assert len(lo)==len(hi)==len(s['current_per_source'])==count
  assert s['current_per_source']==raw['current_per_source']
- assert np.array_equal(w,s['lethargy_width'])
- assert np.array_equal(np.asarray(raw['current_per_source'])/w,s['current_per_source_lethargy'])
+ assert np.array_equal(lo,raw['energy_low_eV']) and np.array_equal(hi,raw['energy_high_eV'])
+ # libm/SIMD logarithms can differ by a few ULP across operating systems; raw data remains exact.
+ np.testing.assert_array_max_ulp(w,np.asarray(s['lethargy_width']),maxulp=8)
+ np.testing.assert_array_max_ulp(np.asarray(raw['current_per_source'])/w,np.asarray(s['current_per_source_lethargy']),maxulp=8)
  assert w.sum()==pytest.approx(math.log(hi[-1]/lo[0]),rel=1e-12)
  archived=np.array(A['computed_reference']['spectra'][name]['mean'])*4*math.pi*19.95**2
  assert np.allclose(archived,s['archived_current_recovered'],rtol=1e-14)

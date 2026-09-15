@@ -539,7 +539,7 @@
     "research/source/tests/test_upstream_fatigue_reproduction.py": "d6170b04098c35568c365fa26475eedbf9782eca625284d3567fdcdd3644da3e",
     "tests/test_complete_source_export.py": "3d1b0f15e70517bee31c42595669bed065bc39f38002693683ec748c4596f941",
     "tests/test_confinement_normalization.py": "aed891f3b422586d200dfcd1ecc1d749636bb060b60b59ba03f637408155852f",
-    "tests/test_lif_benchmark_and_prior_work.py": "5569016e3ab9816f99871c875babf9fb0a4d5851bf08bf7744b94718b8b8ed25",
+    "tests/test_lif_benchmark_and_prior_work.py": "a859e54575d9497fc1c1c9d5fe14238c5ab3c54372b90af18cfe65229cafff3c",
     "tests/test_neutronics_view.py": "ad7a153c9f22cfe30998380573feb81bd10c3a5855724a13453d92581f2bf545",
     "tests/test_pages_static.py": "ec8747e60b3172e77eaaf8a3e246451655e76a6a6726706d34575778c1416533",
     "tests/test_release_inputs.py": "cd76107e19d9da8f4a17acbc045851a9ce5598b40143d294bd265c500e95d0b8",
