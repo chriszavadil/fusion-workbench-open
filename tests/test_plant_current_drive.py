@@ -46,7 +46,8 @@ def test_failed_solves_remain_visible_without_feasible_output():
 
 def test_static_view_is_read_only_and_scoped():
  html=(ROOT/'docs/plant-decision/index.html').read_text(encoding='utf-8');js=(ROOT/'docs/plant-decision/view.js').read_text(encoding='utf-8')
- assert 'has <em>not</em> been shown sufficient' in html and 'not identical' in html.lower() or 'not identical' in json.dumps(D).lower()
+ assert 'has <em>not</em> been shown sufficient' in html
+ assert D['conditions']['constant_major_radius_not_identical_full_geometry']
  assert "fetch('data.json')" in js and 'innerHTML' not in js and 'eval(' not in js
  assert '/api/' not in js and '127.0.0.1' not in js and 'localhost' not in js and 'method:' not in js
  assert "connect-src 'self'" in html and 'Content-Security-Policy' in html
