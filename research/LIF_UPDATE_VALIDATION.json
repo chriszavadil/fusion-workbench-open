@@ -27,6 +27,6 @@
   "reactor_geometry_or_power_changed": false,
   "research_library_records": 90,
   "schema": "fusion.lif-research-update.v1",
-  "source_tests_passed": 224,
+  "source_tests_passed": 225,
   "viewer_change": "Skip hidden-device rendering and render unchanged static geometry only after view changes; particle playback remains animated."
 }

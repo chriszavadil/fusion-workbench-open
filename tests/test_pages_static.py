@@ -29,3 +29,8 @@ def test_feed_has_dated_evidence_not_future_promise():
  tree=ET.parse(SITE/'feed.xml');ns={'a':'http://www.w3.org/2005/Atom'}
  entries=tree.findall('a:entry',ns);assert len(entries)>=5
  assert all(e.find('a:updated',ns) is not None and e.find('a:summary',ns) is not None for e in entries)
+
+def test_static_status_never_claims_a_local_worker_connection():
+ html=(SITE/'index.html').read_text(encoding='utf-8')
+ assert 'Published snapshot - no hosted solver' in html
+ assert 'Checking local worker' not in html

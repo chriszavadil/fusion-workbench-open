@@ -32,6 +32,8 @@ def build(root=ROOT):
  html=(web/'index.html').read_text(encoding='utf-8')
  html=re.sub(r'((?:src|href)=\")/(?!/)',r'\1./',html).replace('"/vendor/','"./vendor/')
  html=html.replace('src="./app.js"','src="./app-public.js"')
+ html=re.sub(r'(<span id="connection" class="connection">).*?(</span>)',r'\1Published snapshot - no hosted solver\2',html)
+ html=re.sub(r'(<span id="footer-status">).*?(</span>)',r'\1OPEN RESEARCH - PUBLISHED RESULTS, NOT LIVE COMPUTE\2',html)
  html=html.replace('<button class="tab selected" data-tab="device">','<button class="tab selected" data-tab="overview">Overview & progress</button><button class="tab" data-tab="device">')
  html=html.replace('id="device" class="view active"','id="device" class="view"')
  html=html.replace('<span id="connection" class="connection">Checking local workerâ€¦</span>','<span id="connection" class="connection">Published snapshot Â· no remote solver</span>')
