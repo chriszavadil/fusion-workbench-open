@@ -11,11 +11,12 @@ def build(root=ROOT):
   dst=out/name
   if dst.exists():shutil.rmtree(dst)
   shutil.copytree(web/name,dst)
- for name in ['catalog.json','neutronics.json','research_library.json','transport_lab.json','source_context.bin']:
+ for name in ['catalog.json','neutronics.json','research_library.json','transport_lab.json','source_context.bin','lif_benchmark.json','prior_work.json']:
   dst=out/'data'/name;dst.parent.mkdir(exist_ok=True);shutil.copyfile(data/name,dst)
- for name in ['style.css','viewer.js','research.js','neutronics.js','transport-lab.js']:
+ for name in ['style.css','viewer.js','research.js','neutronics.js','transport-lab.js','benchmarks.js']:
   text=(web/name).read_text(encoding='utf-8')
   for a,b in [('/api/research','./data/research_library.json'),('/api/neutronics','./data/neutronics.json'),('/api/transportlab','./data/transport_lab.json')]:text=text.replace(a,b)
+  text=text.replace("'/data/","'./data/")
   text=text.replace("'/assets/","'./assets/").replace('`/assets/','`./assets/')
   (out/name).write_text(text,encoding='utf-8')
  app=(web/'app.js').read_text(encoding='utf-8')
@@ -31,6 +32,8 @@ def build(root=ROOT):
  html=(web/'index.html').read_text(encoding='utf-8')
  html=re.sub(r'((?:src|href)=\")/(?!/)',r'\1./',html).replace('"/vendor/','"./vendor/')
  html=html.replace('src="./app.js"','src="./app-public.js"')
+ html=re.sub(r'(<span id="connection" class="connection">).*?(</span>)',r'\1Published snapshot - no hosted solver\2',html)
+ html=re.sub(r'(<span id="footer-status">).*?(</span>)',r'\1OPEN RESEARCH - PUBLISHED RESULTS, NOT LIVE COMPUTE\2',html)
  html=html.replace('<button class="tab selected" data-tab="device">','<button class="tab selected" data-tab="overview">Overview & progress</button><button class="tab" data-tab="device">')
  html=html.replace('id="device" class="view active"','id="device" class="view"')
  html=html.replace('<span id="connection" class="connection">Checking local workerâ€¦</span>','<span id="connection" class="connection">Published snapshot Â· no remote solver</span>')
@@ -55,7 +58,7 @@ def build(root=ROOT):
   p=root/'media'/name
   if p.exists():dst=out/'media'/name;dst.parent.mkdir(exist_ok=True);shutil.copyfile(p,dst)
  catalog=json.loads((data/'catalog.json').read_text());library=json.loads((data/'research_library.json').read_text());proof=json.loads((root/'project-status.json').read_text())
- published={'schema':'fusion.pages-publication.v1','viewer_version':'0.5.1-public','data_date':library['updated_date'],'research_records':len(library['records']),'data_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in data.iterdir() if p.is_file()},'repository':REPO,'source_branch':BRANCH,'solver_hosted':False,'snapshot_only':True,'public_collaboration_open':True,'release_gate':'Clean public repository; see public-deployment.json for independent hosting verification.','readiness':proof['readiness'],'milestones':proof['milestones']}
+ published={'schema':'fusion.pages-publication.v1','viewer_version':'0.5.2-benchmark-update','data_date':library['updated_date'],'research_records':len(library['records']),'data_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in data.iterdir() if p.is_file()},'repository':REPO,'source_branch':BRANCH,'solver_hosted':False,'snapshot_only':True,'public_collaboration_open':True,'release_gate':'Clean public repository; see public-deployment.json for independent hosting verification.','readiness':proof['readiness'],'milestones':proof['milestones']}
  published['revision_id']=hashlib.sha256(json.dumps(published,sort_keys=True).encode()).hexdigest()
  (out/'release-status.json').write_text(json.dumps(published,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
  from xml.etree.ElementTree import Element,SubElement,tostring,register_namespace

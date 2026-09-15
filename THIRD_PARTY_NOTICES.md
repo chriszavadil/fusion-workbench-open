@@ -9,3 +9,8 @@ UKAEA PROCESS provides the conceptual systems model. Approved inputs pin version
 The native Windows release contains Unreal Engine runtime object code as an inseparable part of the application, governed by Epic's terms; it is not wholly MIT software. Engine source, editor tools, compiler installations, debugging symbols and private logs are not part of the public source snapshot. See `ENGINE_RUNTIME_NOTICE.md`. Applicable engine third-party notices accompany the Windows distribution in `ThirdPartyLicenses/`.
 
 Blender is a separate, independently licensed tool used to generate the visualization meshes; it is not bundled. Scientific publications and external experimental data retain their source-specific rights. A citation is not permission to redistribute a full paper or restricted dataset. Research correspondence and private evidence archives are withheld.
+
+
+## OKTAVIAN LiF benchmark and measurement data (2026-09-14 update)
+
+The original measurements are credited to Chihiro Ichihara, Shu A. Hayashi, Katsuhei Kobayashi, Itsuro Kimura, Junji Yamamoto, Mikio Izumi and Akito Takahashi (1988 proceedings). Selected IAEA-NDS/open-benchmarks data and inputs retain CC BY4.0; OpenMC Fusion Benchmarks code/reference material retains the MIT PSFC MIT notice. See `research/source/experiments/oktavian_lif_2026_09_14/ATTRIBUTION.md`, unchanged licenses and exact per-file source hashes. Our transformations, comparison uncertainty limits and reading scope are disclosed. No affiliation or endorsement is implied. These data are not relabeled solely under the workbench MIT license.

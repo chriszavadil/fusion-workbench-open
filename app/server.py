@@ -132,6 +132,8 @@ class Handler(BaseHTTPRequestHandler):
             return self.respond(200,(self.server.root/'app/data/neutronics.json').read_bytes())
         if route in ('/api/research','/data/research_library.json'):
             return self.respond(200,(self.server.root/'app/data/research_library.json').read_bytes())
+        if route in ('/data/lif_benchmark.json','/data/prior_work.json'):
+            return self.respond(200,(self.server.root/'app/data'/route.rsplit('/',1)[1]).read_bytes())
         if route=='/api/status':
             with self.server.manager.lock:
                 jobs=[self.server.manager.public(j) for j in self.server.manager.jobs.values()]
@@ -142,7 +144,7 @@ class Handler(BaseHTTPRequestHandler):
                 job=self.server.manager.jobs.get(route.split('/')[-1])
                 return self.respond(200,self.server.manager.public(job)) if job else self.respond(404,{'error':'Unknown experiment'})
         if route=='/':route='/index.html'
-        if route not in ('/index.html','/style.css','/app.js','/viewer.js','/research.js','/neutronics.js','/transport-lab.js') and not route.startswith(('/assets/','/vendor/')):
+        if route not in ('/index.html','/style.css','/app.js','/viewer.js','/research.js','/neutronics.js','/transport-lab.js','/benchmarks.js') and not route.startswith(('/assets/','/vendor/')):
             return self.respond(404,{'error':'Not a public resource'})
         base=self.server.root/'app/web';target=(base/route.lstrip('/')).resolve()
         try:target.relative_to(base.resolve())

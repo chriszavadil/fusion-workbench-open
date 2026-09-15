@@ -1,0 +1,10 @@
+{
+  "admission_sha256": "e16c1b66f128deaf40b3fb82d42c40f02fda65a9f9ffa110dbe4f6db442c2470",
+  "before_execution": true,
+  "geometry_sha256": "0e9da6b42a3b74f12999f65c4846e4007130426add848484b59ee079e604f009",
+  "materials_sha256": "59c9b7b936595aeb22438c3ad9cdfe5a799cb7dd4c93290b36ef6856ff460d45",
+  "model_sha256": "2439b784b32a8f5f403ec9919f74e49634bef53afb305e2ba68dd78d3ec3e7db",
+  "openmc": "0.15.2",
+  "settings_sha256": "222f25eba177427aed6e82ded2e575baed74618660e0e6acea3c771b2ff9b32a",
+  "tallies_sha256": "4ae9dd8f503c326e67482ce99acfae3a59ac61b50aa7f17db352d0c5eb32bf93"
+}

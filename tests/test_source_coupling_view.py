@@ -39,7 +39,7 @@ def test_new_report_searchable_and_scoped():
  row=next(x for x in lib['records'] if x['title'].startswith('Plasma source coupling:'))
  assert row['configuration_scope']=='r838' and row['status']=='current update'
  assert '2.407%' in row['body'] and 'not a fusion breakthrough' in row['body']
- assert lib['updated_date']=='2026-09-13'
+ assert lib['updated_date']>=row['date'] and row['date']=='2026-09-13'
 def test_native_readers_support_new_source_and_preserve_configuration():
  lab=(ROOT/'native/Source/FusionWorkbench/FusionTransportLab.cpp').read_text(encoding='utf-8')
  ui=(ROOT/'native/Source/FusionWorkbench/FusionTransportUI.cpp').read_text(encoding='utf-8')
