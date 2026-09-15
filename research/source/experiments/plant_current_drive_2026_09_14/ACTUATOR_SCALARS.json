@@ -1,0 +1,36 @@
+{
+  "pulsedFixedR30": {
+    "mfile_sha256": "7820f58cdf129d0f67000c570a4de0e969aa94f712c6cae03e34f0ba27d65cad",
+    "values": {
+      "eta_cd_dimensionless_hcd_primary": 0.5581537146807583,
+      "eta_cd_hcd_primary": 0.04469299861648357,
+      "eta_cd_norm_ecrh": 0.3,
+      "f_c_plasma_auxiliary": 0.36474911548686373,
+      "nd_plasma_electrons_vol_avg": 8.010542921207195e+19,
+      "p_hcd_injected_max": 200.0,
+      "p_hcd_primary_extra_heat_mw": 30.0,
+      "p_hcd_primary_injected_mw": 169.99999999563437,
+      "plasma_current": 20830234.92590409,
+      "rmajor": 8.379532870755202,
+      "temp_plasma_electron_on_axis_kev": 39.92819059042857,
+      "temp_plasma_electron_vol_avg_kev": 17.59911232885824
+    }
+  },
+  "pulsedFixedR75": {
+    "mfile_sha256": "cb678430169d8ccfca0f75fe9b2e7efb4613a919fd60f3ba349a1989ab2c5817",
+    "values": {
+      "eta_cd_dimensionless_hcd_primary": 0.582909290974956,
+      "eta_cd_hcd_primary": 0.04709497924843331,
+      "eta_cd_norm_ecrh": 0.3,
+      "f_c_plasma_auxiliary": 0.2978006015557013,
+      "nd_plasma_electrons_vol_avg": 7.601981982117665e+19,
+      "p_hcd_injected_max": 200.0,
+      "p_hcd_primary_extra_heat_mw": 75.0,
+      "p_hcd_primary_injected_mw": 124.9999999957535,
+      "plasma_current": 19767832.48623855,
+      "rmajor": 8.379532870755202,
+      "temp_plasma_electron_on_axis_kev": 37.85579240326188,
+      "temp_plasma_electron_vol_avg_kev": 16.85169557858049
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "reason": "Both steady-current architecture attempts returned ifail5 without a feasible point. They are retained as numerical failures, not impossibility proofs. Use the third and last admitted run on a smaller pulse-compatible intervention rather than a third unproductive steady restart.",
+  "prior_art": "EU-DEMO HCD functions and localized control requirements: https://doi.org/10.1016/j.fusengdes.2022.113159 ; JA-DEMO current-profile control: https://doi.org/10.1088/1741-4326/ad49b6 . The zero-extra-heat allocation is an optimistic bound, not demonstrated controllability.",
+  "test": "pulsed200allocated: same pulsed plant, all27 constraints and20 variables, adaptive30-year pulse-duty requirement restored; set heating-only allocation75MW to0 while retaining same wall-plug and normalized drive efficiencies and same200MW total limit. Globally required plasma heat still enforced by power balance.",
+  "falsification": "If no feasible solution or no meaningful net/size improvement, do not pursue power-reallocation hardware; if beneficial, require deposition/current-profile stability and retained control reserve before claiming an engineering improvement.",
+  "changed_physical_requirement": "The dedicated heating/control-only reserve is removed as an explicitly optimistic allocation limit; this is NOT equal demonstrated control capability.",
+  "budget": "Replaces optional thirdcase; total newsolver runs remains3;240seconds1thread; no additional sweep.",
+  "initial_guess_note": "Two steady cases used a rounded0.0013 xenon starting value, not exact0.00128850278937939666. This is only an optimizer initial guess. Third case uses exact final reference Xe from raw MFILE."
+}

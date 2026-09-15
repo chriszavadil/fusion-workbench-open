@@ -1,0 +1,34 @@
+{
+  "question": "Can removing pulsed operation improve useful average electricity while satisfying current closure and the existing plant constraints, without assuming a better H-factor, bootstrap law, drive efficiency, or turbine efficiency?",
+  "classification": "Candidate-specific architecture falsification using maintained PROCESS; not novel steady-state physics or validated reactor.",
+  "prior_art": [
+    {
+      "title": "EU-DEMO design space exploration and design drivers, 2022",
+      "url": "https://doi.org/10.1016/j.fusengdes.2022.113080",
+      "reused": "Published pulsed-vs-steady current-drive/recirculating-power trade; already known, no rediscovery claim."
+    },
+    {
+      "title": "UKAEA PROCESS official systems code",
+      "url": "https://www.ukaea.org/service/process/",
+      "reused": "Use the full installed pinned solver and existing current-drive/bootstrap/power equations."
+    }
+  ],
+  "max_new_solver_runs": 3,
+  "timeout_seconds_per_run": 240,
+  "threads_per_run": 1,
+  "cases": [
+    "steady200: noninductive current fraction1, same200MW injection ceiling and75MW extra heat",
+    "steady350: same assumptions, explicitly enlarged350MW injection ceiling",
+    "if200fails and350converges: one200MW warm restart from the350point; otherwise optional no-extra-heat350scenario as a clearly labelled allocation-bound test"
+  ],
+  "same_bounds": "8-9m radius,14T TF field,3GW fusion power,2MW/m2 neutron wall-load,original beta/density/divertor/magnet limits,50% EC wall-plug,40% turbine,80% assumed availability and H<=1.2. No blanket/cooling result imported.",
+  "constraint_change": "Remove only pulse burn duration constraint13, not applicable to continuous sustainment. Keep fatigue90 with fixed required76464.585515 cycles from reference as conservative screening, with adaptive fatigue but WITHOUT pulsed mission recalculation. Not a validated continuous magnet lifetime.",
+  "unchanged_references": true,
+  "not_computed": [
+    "experimental plasma validation",
+    "whole-reactor fuel closure",
+    "full current-profile stability",
+    "new costs or availability demonstration"
+  ],
+  "stop_rule": "At most listed cases; retain failed solves, do not equate nonconvergence with global impossibility; no expensive sweeps or optimization-tolerance changes."
+}

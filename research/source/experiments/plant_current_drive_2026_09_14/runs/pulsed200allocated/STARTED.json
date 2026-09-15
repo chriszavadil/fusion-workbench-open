@@ -1,0 +1,8 @@
+{
+  "input_sha256": "f840137822256a73fc18b2900d6aea88bff5bef1fecdfb546fd6aa091f1d4ddd",
+  "driver_sha256": "8b97b2da9797d7fefdd28f317351f9a54e73ade50be8d156c8fd29c79448539a",
+  "upstream": "c0ae5b28649f2b20fb7efc7904628b6defe4151c",
+  "adaptive_sha256": "96be69c05abbfa9786591b652dac5c81262d7fb03c4a8fe3471fe42a5974949d",
+  "windows_shim_sha256": "b8f70409ce24ee9bda76e34b22e55289f60cb500697ebb2b445bea634ac0fdc7",
+  "pulsed_mission_patch_installed": true
+}

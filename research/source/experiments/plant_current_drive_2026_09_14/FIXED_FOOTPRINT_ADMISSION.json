@@ -1,0 +1,12 @@
+{
+  "reason": "The first pulsed comparisons minimize radius while enforcing400MWnet, so comparing their near-constant output cannot test an electricity gain. Correct that objective mismatch with a controlled two-case comparison rather than misinterpreting the smaller-radius result.",
+  "question": "At the identical accepted8.379532870755202m major radius, does changing only75to30MW heat-only allocation increase modeled net electricity with all27constraints and dynamic30-year fatigue retained?",
+  "method": "Existing native PROCESS objective -17 maximizes flat-top net electrical output. Remove only radius iterationvariable3 and fix its value; retain19other variables. Compute cycle-average independently afterwards; no custom solver equations.",
+  "cases": [
+    "pulsedFixedR75",
+    "pulsedFixedR30"
+  ],
+  "same_seed": "Exact reference r838 for both; same bounds and physics except allocation; no improved efficiency/bootstrap/confinement or pulse timing assumptions.",
+  "budget_amendment": "Two additional240second/1thread solves; total6. This explicitly supersedes the earlier4-run stopping statement because its radius objective could not answer the stated electricity question. No subsequent sweep.",
+  "scope": "Optimized deposition/control reserve not experimentally established;30MW is a sensitivity scenario, not a sufficiency claim; fixed major radius is not identical full component geometry."
+}

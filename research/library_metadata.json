@@ -128,5 +128,11 @@
     "track": "neutronics",
     "status": "prior work reviewed",
     "scope_notice": "Published HCPB validation by Novais and Peterson already exists; abstract-level review, not our experiment and not a correction to our reactor."
+  },
+  "research/reports/results/PLANT_CURRENT_DRIVE_DECISION_2026-09-14.md": {
+    "configuration_scope": "r838 project",
+    "track": "systems",
+    "status": "current update",
+    "scope_notice": "Controlled whole-plant allocation sensitivity. Extra current-drive credit and remaining control capacity are unvalidated; no accepted design or native binary was changed."
   }
 }

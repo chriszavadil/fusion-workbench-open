@@ -1,0 +1,17 @@
+{
+  "control_case": "pulsedFixedR75",
+  "alternative_case": "pulsedFixedR30",
+  "net_flat_top_delta_MW": 100.0002132714045,
+  "conditional_average_delta_MW": 59.328145324252034,
+  "conditional_average_delta_percent": 27.635215675906455,
+  "same_major_radius_m": 8.379532870755202,
+  "same_total_injected_power_MW": 200,
+  "same_wallplug_power_MW": 400,
+  "allocated_current_drive_increase_MW": 45,
+  "same_27_constraints": true,
+  "same_19_variables": true,
+  "input_files_differ_only_in_final_heat_allocation": true,
+  "full_geometry_identical": false,
+  "control_and_current_profile_validated": false,
+  "global_optimality_proven": false
+}
