@@ -66,7 +66,7 @@
     "vendor/manifest.json": "1549f5bc7f0c0e73717d31b5a5b12af45f8a9b595f405eeab527326246cbe607",
     "vendor/three.core.js": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
     "vendor/three.module.js": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
-    "viewer.js": "f6cfa24ad9b8cf8aeaaf52ad481da201c0c70ae20398589e2108ee865017ca34",
+    "viewer.js": "8b3ba9d9092f628896f6864e651afa8427e74b2f4a38d16818f63135e0627058",
     "X_POST_DRAFT.txt": "afa707af56d97ff116df06c0cc243d4f9cfb27f030cf0df2abaa963e9b9000d5"
   }
 }

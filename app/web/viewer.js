@@ -33,12 +33,13 @@ export class DeviceViewer {
       if(hits.length){const id=this.component(hits[0].object);if(id){this.select(id);this.onSelect(id);}}
     });
     this.resizeObserver=new ResizeObserver(()=>this.resize());this.resizeObserver.observe(container);this.resize();this.reset();
-    this.renderer.setAnimationLoop(()=>{this.controls.update();this.renderer.render(this.scene,this.camera);});
+    this.needsRender=true;this.controls.addEventListener('change',()=>{this.needsRender=true;});
+    this.renderer.setAnimationLoop(()=>{if(document.hidden||!this.container.clientWidth||!this.container.clientHeight)return;this.controls.update();if(this.needsRender){this.renderer.render(this.scene,this.camera);this.needsRender=false;}});
   }
   isVisible(o){for(let p=o;p;p=p.parent)if(!p.visible)return false;return true;}
   component(o){for(let p=o;p;p=p.parent)if(p.userData.component_id)return p.userData.component_id;return null;}
-  resize(){const w=this.container.clientWidth,h=this.container.clientHeight;if(!w||!h)return;this.renderer.setSize(w,h,false);this.camera.aspect=w/h;this.camera.updateProjectionMatrix();}
-  reset(){this.camera.position.set(26,18,28);this.controls.target.set(0,0,0);this.controls.update();}
+  resize(){this.needsRender=true;const w=this.container.clientWidth,h=this.container.clientHeight;if(!w||!h)return;this.renderer.setSize(w,h,false);this.camera.aspect=w/h;this.camera.updateProjectionMatrix();}
+  reset(){this.needsRender=true;this.camera.position.set(26,18,28);this.controls.target.set(0,0,0);this.controls.update();}
   async load(id){
     const ticket=++this.loading;
     const asset=await new GLTFLoader().loadAsync(`/assets/${id}.glb`);
@@ -49,13 +50,13 @@ export class DeviceViewer {
     this.scene.add(this.model);this.applyVisibility();this.reset();this.select('solenoid');
     window.workbenchModelReady=id;
   }
-  applyVisibility(){if(!this.model)return;this.model.traverse(o=>{
+  applyVisibility(){this.needsRender=true;if(!this.model)return;this.model.traverse(o=>{
     const ownId=o.userData.component_id;
     if(ownId)o.visible=this.layers.get(ownId)!==false&&!(this.cutaway&&o.userData.cutaway_segment===true);
   });}
   setCutaway(value){this.cutaway=value;this.applyVisibility();}
   setLayer(id,value){this.layers.set(id,value);this.applyVisibility();}
-  select(id){if(!this.model)return;this.model.traverse(o=>{
+  select(id){this.needsRender=true;if(!this.model)return;this.model.traverse(o=>{
     if(!o.isMesh||!o.material.emissive)return;
     if(o.userData.baseEmission)o.material.emissive.copy(o.userData.baseEmission);
     o.material.emissiveIntensity=o.userData.baseIntensity??1;
