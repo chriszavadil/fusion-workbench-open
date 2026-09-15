@@ -1,0 +1,118 @@
+{
+  "accepted_reference_replaced": false,
+  "admission_sha256": "3716f6429c402e98c8666b7d2a4e58e4b37f6a557bfbbc57ea2c0a2550be2751",
+  "cases": [
+    {
+      "booked_efficiency_kA_per_MW": 44.69299861648357,
+      "case": "pulsedFixedR30",
+      "examples": [
+        {
+          "efficiency_kA_per_MW": 35.0,
+          "fixed_point_total_current_condition_met": false,
+          "new_net_power_prediction": null,
+          "remaining_power_after_reserve_MW": -47.080278988774126,
+          "required_drive_MW": 217.08027898877413,
+          "reserved_heat_MW": 30.0
+        },
+        {
+          "efficiency_kA_per_MW": 40.0,
+          "fixed_point_total_current_condition_met": false,
+          "new_net_power_prediction": null,
+          "remaining_power_after_reserve_MW": -19.94524411517736,
+          "required_drive_MW": 189.94524411517736,
+          "reserved_heat_MW": 30.0
+        },
+        {
+          "efficiency_kA_per_MW": 43.0,
+          "fixed_point_total_current_condition_met": false,
+          "new_net_power_prediction": null,
+          "remaining_power_after_reserve_MW": -6.693250339699887,
+          "required_drive_MW": 176.6932503396999,
+          "reserved_heat_MW": 30.0
+        },
+        {
+          "efficiency_kA_per_MW": 46.0,
+          "fixed_point_total_current_condition_met": true,
+          "new_net_power_prediction": null,
+          "remaining_power_after_reserve_MW": 4.830222508541425,
+          "required_drive_MW": 165.16977749145858,
+          "reserved_heat_MW": 30.0
+        }
+      ],
+      "injected_ceiling_MW": 200.0,
+      "minimum_efficiency_at_retained_reserve_kA_per_MW": 44.69299861533585,
+      "model_dimensionless_efficiency": 0.5581537146807583,
+      "model_normalized_gamma": 0.3,
+      "physical_validation": false,
+      "required_current_MA": 7.597809764607095,
+      "retained_heat_only_allocation_MW": 30.0,
+      "source_sha256": "7820f58cdf129d0f67000c570a4de0e969aa94f712c6cae03e34f0ba27d65cad"
+    },
+    {
+      "booked_efficiency_kA_per_MW": 47.09497924843331,
+      "case": "pulsedFixedR75",
+      "examples": [
+        {
+          "efficiency_kA_per_MW": 35.0,
+          "fixed_point_total_current_condition_met": false,
+          "new_net_power_prediction": null,
+          "remaining_power_after_reserve_MW": -43.19635445297641,
+          "required_drive_MW": 168.1963544529764,
+          "reserved_heat_MW": 75.0
+        },
+        {
+          "efficiency_kA_per_MW": 40.0,
+          "fixed_point_total_current_condition_met": false,
+          "new_net_power_prediction": null,
+          "remaining_power_after_reserve_MW": -22.171810146354375,
+          "required_drive_MW": 147.17181014635437,
+          "reserved_heat_MW": 75.0
+        },
+        {
+          "efficiency_kA_per_MW": 43.0,
+          "fixed_point_total_current_condition_met": false,
+          "new_net_power_prediction": null,
+          "remaining_power_after_reserve_MW": -11.904009438469188,
+          "required_drive_MW": 136.9040094384692,
+          "reserved_heat_MW": 75.0
+        },
+        {
+          "efficiency_kA_per_MW": 46.0,
+          "fixed_point_total_current_condition_met": false,
+          "new_net_power_prediction": null,
+          "remaining_power_after_reserve_MW": -2.9754870837864047,
+          "required_drive_MW": 127.9754870837864,
+          "reserved_heat_MW": 75.0
+        }
+      ],
+      "injected_ceiling_MW": 200.0,
+      "minimum_efficiency_at_retained_reserve_kA_per_MW": 47.0949792468334,
+      "model_dimensionless_efficiency": 0.582909290974956,
+      "model_normalized_gamma": 0.3,
+      "physical_validation": false,
+      "required_current_MA": 5.886872405854175,
+      "retained_heat_only_allocation_MW": 75.0,
+      "source_sha256": "cb678430169d8ccfca0f75fe9b2e7efb4613a919fd60f3ba349a1989ab2c5817"
+    }
+  ],
+  "new_solver_runs": 0,
+  "normalized_gamma_is_not_dimensionless_zeta": true,
+  "physical_validation": false,
+  "schema": "fusion.actuator-requirement-gate.v1",
+  "scope": "Necessary fixed-operating-point total-current budget, not sufficient profile/control/heating feasibility. No new output-power estimate is generated.",
+  "source_scalars_sha256": "3400ba407f0a7f7d49f84b7410f47682816e0ec51fc86fad4e5a4852d528c09a",
+  "sources": [
+    {
+      "authors": "T. Seino, K. Yanagihara, H. Takahashi, K. Tobita, K. Nagasaki, A. Fukuyama, A. Matsuyama, T. Oishi and T. Maekawa",
+      "reading_scope": "Publisher abstract and author-university bibliographic record; no numerical reproduction.",
+      "role": "Their 35-46 kA/MW simulated JA-DEMO examples are different-plasma context, not a bound or a distribution for this candidate.",
+      "url": "https://doi.org/10.1016/j.fusengdes.2024.114460"
+    },
+    {
+      "authors": "N. A. Lopez, A. Alieva, S. A. M. McNamara and X. Zhang",
+      "reading_scope": "Public preprint abstract and method sections. Method not executed here.",
+      "role": "Existing HARE-guided reverse ray tracing avoids an unstructured launcher scan; requires a matching equilibrium and a suitable authorized ray solver.",
+      "url": "https://arxiv.org/abs/2501.04619"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "fusion.current-drive-gate-admission.v1",
+  "question": "What externally driven current and effective current per injected MW must a deposition/control model deliver to support each frozen final operating point?",
+  "classification": "Deterministic actuator-requirement extraction from completed systems results; not another optimizer or ray-tracing run.",
+  "formula": "I_required = f_auxiliary * I_plasma = eta_cd_A_per_W * P_drive_MW * 1e6; with separate heating-only allocation R and total injected ceiling P, the fixed-point requirement is efficiency_kA_per_MW >= I_required_kA/(P-R).",
+  "cases": ["pulsedFixedR75", "pulsedFixedR30"],
+  "scope": "Necessary total-current condition only, not sufficient current-profile, heating, stability or controls validation. Varying efficiency in this gate does not predict a new plant output.",
+  "selected_literature_examples_kA_per_MW": [35,40,43,46],
+  "literature_rule": "The Seino et al. 2024 JA-DEMO simulated values are different-plasma context, not a bound, distribution, measurement, or transferable qualification of this candidate.",
+  "prior_art": ["https://doi.org/10.1016/j.fusengdes.2024.114460", "https://arxiv.org/abs/2501.04619", "https://doi.org/10.1088/1741-4326/ad49b6"],
+  "stop_rule": "One arithmetic export and tests. Preserve all six existing solver outcomes. No new solver, arbitrary efficiency optimization, or claim that the next model has already run.",
+  "physical_validation": false
+}

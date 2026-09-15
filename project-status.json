@@ -39,6 +39,13 @@
   ],
   "milestones": [
     {
+      "id": "plant-current-drive-20260914",
+      "date": "2026-09-14",
+      "title": "Whole-plant heating/current-drive allocation tested",
+      "summary": "At fixed major radius and heating electricity, a controlled systems comparison gives100MW greater modeled burn net output. The remaining control allocation is unvalidated; higher heat loads and changed components remain obligations. Six solves and both failures preserved.",
+      "search": "Whole-plant decision"
+    },
+    {
       "id": "lif-reference-and-prior-work-2026-09-14",
       "date": "2026-09-14",
       "title": "Existing lithium benchmark checked; prior-work register published",

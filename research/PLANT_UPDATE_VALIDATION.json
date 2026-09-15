@@ -1,0 +1,47 @@
+{
+  "accepted_reactor_replaced": false,
+  "actuator_current_targets_MA": {
+    "pulsedFixedR30": 7.597809764607095,
+    "pulsedFixedR75": 5.886872405854175
+  },
+  "actuator_gate_is_not_a_ray_or_profile_solve": true,
+  "actuator_requirement_gate_added": true,
+  "browser_navigation_attempt": "Administrator-blocked local navigation; no bypass attempted.",
+  "browser_verification": "Local browser navigation was administrator-blocked in the prior attempt; not bypassed or retried.",
+  "continuation_new_solver_runs": 0,
+  "controlled_pair_exact_input_roundtrip": true,
+  "controlled_pair_only_final_allocation_differs": true,
+  "controlled_pair_shared_constraints": 27,
+  "controlled_pair_shared_variables": 19,
+  "converged_pulsed_runs": 4,
+  "existing_HCPB_uncommitted_work_published": false,
+  "failed_runs_preserved": 2,
+  "fresh_browser_interaction_check_completed": false,
+  "full_framework_runs_completed": 6,
+  "identifier_scan_passed": true,
+  "live_deployment_verified": false,
+  "native_executable_rebuilt": false,
+  "physical_plant_validated": false,
+  "power_and_current_balance_checked": true,
+  "preexisting_blocked_publication_operations_retried": false,
+  "prior_work_entries": 9,
+  "pulse_energy_independently_integrated": true,
+  "schema": "fusion.plant-decision-verification.v1",
+  "source_tests_before_generated_update": 234,
+  "source_tests_passed": 246,
+  "static_javascript_syntax": [
+    {
+      "file": "view.js",
+      "passed": true
+    },
+    {
+      "file": "actuator.js",
+      "passed": true
+    }
+  ],
+  "windows_legacy_locale_regression": {
+    "fix": "Explicit UTF-8 reads in new actuator source/test; no physics or tolerance changes.",
+    "passed": true,
+    "tests": 246
+  }
+}

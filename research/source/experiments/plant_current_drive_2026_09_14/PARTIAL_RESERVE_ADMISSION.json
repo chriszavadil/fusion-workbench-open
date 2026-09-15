@@ -1,0 +1,11 @@
+{
+  "classification": "Decision-relevant followup after optimistic allocation bound, admitted before execution",
+  "prior_result": "Zero dedicated heat-only allocation converged to R8m,709.039MWrecirculating,400.013MWnet; this is not accepted because control/deposition flexibility was removed.",
+  "question": "Does a partial allocation retaining30MW dedicated heating/control-only power retain any size/internal-power benefit without improved efficiency/confinement assumptions?",
+  "why30": "Published EU-DEMO HCD preconcept description separately allocates30MW to NTMcontrol and30MW burncontrol.30MW here is an explicit sensitivity scenario, not an established total reserve for this different reactor and not a claim to cover both roles.",
+  "source": "https://doi.org/10.1016/j.fusengdes.2022.113159",
+  "total_budget_amended": "One additional run, total4; same240secondlimit/1thread. Original3 failures/success preserved. No further optimizer search in this continuation.",
+  "warm_start": "Exact accepted r838 seed as in zero-reserve case, not the favorable reallocated output.",
+  "change": "p_hcd_primary_extra_heat_mw30 instead of75; every other input and runtime coupling identical to zero-reserve bound.",
+  "decision": "A result worthwhile only as a deposition/current-profile design lead; no blanket/cooling/fuel/availability/physics margin promoted."
+}

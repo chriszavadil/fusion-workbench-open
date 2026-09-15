@@ -1,0 +1,69 @@
+{
+  "upstream": "c0ae5b28649f2b20fb7efc7904628b6defe4151c",
+  "reference": {
+    "r838": {
+      "input_sha256": "2bc99ba58a1a9305a8e395a21d9ab9a2bba64fb31c06486d05617d89d3ecb9b4",
+      "mfile_sha256": "92b7e95564e4890b3f2f3860f70d5e5834c4f838dde4eff77fbf5d1f6b5ccb8c",
+      "values": {
+        "rmajor": 8.379532870755202,
+        "rminor": 2.7931776235850676,
+        "plasma_current": 19750445.14869698,
+        "hfact": 1.1999999999864892,
+        "p_fusion_total_mw": 2152.7603750513326,
+        "p_hcd_injected_total_mw": 199.99999998172459,
+        "p_hcd_primary_injected_mw": 124.99999998172459,
+        "p_hcd_primary_extra_heat_mw": 75.0,
+        "f_c_plasma_bootstrap": 0.3766641116866581,
+        "f_c_plasma_auxiliary": 0.29832517084459703,
+        "f_c_plasma_inductive": 0.3250107174687449,
+        "f_c_plasma_non_inductive": 0.6749892825312551,
+        "p_plant_electric_gross_mw": 1210.4425586971252,
+        "p_plant_electric_net_mw": 400.0000000179575,
+        "p_hcd_electric_total_mw": 399.99999996344917,
+        "p_plant_electric_recirc_mw": 810.4425586791676,
+        "p_plant_core_systems_elec_mw": 129.65343998198088,
+        "p_coolant_pump_elec_total_mw": 280.7891187337376,
+        "n_cycle": 76464.5855395387,
+        "n_cycle_min": 76464.58551466823,
+        "e_plant_net_electric_pulse_kwh": 734935.5578748204,
+        "t_plant_pulse_total": 9905.008899246712,
+        "t_plant_pulse_burn": 7199.999996272772,
+        "eta_cd_hcd_primary": 0.04713643939282646,
+        "eta_cd_norm_ecrh": 0.3,
+        "eta_hcd_primary_injector_wall_plug": 0.5
+      }
+    },
+    "r900": {
+      "input_sha256": "e90c73910e7f1011deed185a6b6c43ade15cd3fe5f9ebfb9dbfc89862ab72e0c",
+      "mfile_sha256": "2566fdf898d61e46c82cedcb2476cf77869cf940c5e0930f8f5b565cf2929f5a",
+      "values": {
+        "rmajor": 8.998463065871626,
+        "rminor": 2.999487688623875,
+        "plasma_current": 21378726.78478266,
+        "hfact": 1.0299999999825042,
+        "p_fusion_total_mw": 2174.786115050785,
+        "p_hcd_injected_total_mw": 199.99999996761005,
+        "p_hcd_primary_injected_mw": 124.99999996761004,
+        "p_hcd_primary_extra_heat_mw": 75.0,
+        "f_c_plasma_bootstrap": 0.31046395377531094,
+        "f_c_plasma_auxiliary": 0.27341889902590727,
+        "f_c_plasma_inductive": 0.4161171471987818,
+        "f_c_plasma_non_inductive": 0.5838828528012182,
+        "p_plant_electric_gross_mw": 1221.6625853402652,
+        "p_plant_electric_net_mw": 399.99999997757845,
+        "p_hcd_electric_total_mw": 399.9999999352201,
+        "p_plant_electric_recirc_mw": 821.6625853626867,
+        "p_plant_core_systems_elec_mw": 139.13782501069983,
+        "p_coolant_pump_elec_total_mw": 282.5247604167668,
+        "n_cycle": 76214.00967127546,
+        "n_cycle_min": 76214.00956459333,
+        "e_plant_net_electric_pulse_kwh": 729973.8449128772,
+        "t_plant_pulse_total": 9937.574526348715,
+        "t_plant_pulse_burn": 7199.999990653062,
+        "eta_cd_hcd_primary": 0.046762783532684746,
+        "eta_cd_norm_ecrh": 0.3,
+        "eta_hcd_primary_injector_wall_plug": 0.5
+      }
+    }
+  }
+}

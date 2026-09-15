@@ -1,0 +1,92 @@
+{
+  "r838": {
+    "pulse_profile_verification": {
+      "passed": true,
+      "energy_disagreement_kWh": 0.0,
+      "maximum_balance_disagreement_MW": 2.842170943040401e-14,
+      "recomputed_pulse_energy_kWh": 734935.5578748204,
+      "conditional_average_net_MW": 213.69131801996207,
+      "source_artifact_sha256": "92b7e95564e4890b3f2f3860f70d5e5834c4f838dde4eff77fbf5d1f6b5ccb8c",
+      "kind": "recorded_output_verification",
+      "physical_validation": false
+    },
+    "equality_count": 3,
+    "inequality_count": 24,
+    "maximum_equality_residual": 9.841016890277388e-13,
+    "minimum_inequality_residual": -5.176705730747244e-10,
+    "gross_minus_internal_matches_net": true,
+    "current_fractions_close": true
+  },
+  "pulsed200allocated": {
+    "pulse_profile_verification": {
+      "passed": true,
+      "energy_disagreement_kWh": 1.1641532182693481e-10,
+      "maximum_balance_disagreement_MW": 1.4210854715202004e-14,
+      "recomputed_pulse_energy_kWh": 757622.8038057269,
+      "conditional_average_net_MW": 216.75763678390786,
+      "source_artifact_sha256": "81b5ffd56d6f21879a8ae4b2074da7395eac18333f2701c2c1f2ef742190d604",
+      "kind": "recorded_output_verification",
+      "physical_validation": false
+    },
+    "equality_count": 3,
+    "inequality_count": 24,
+    "maximum_equality_residual": 1.5933920849420247e-11,
+    "minimum_inequality_residual": 5.714494995534558e-06,
+    "gross_minus_internal_matches_net": true,
+    "current_fractions_close": true
+  },
+  "pulsed200reserve30": {
+    "pulse_profile_verification": {
+      "passed": true,
+      "energy_disagreement_kWh": 1.1641532182693481e-10,
+      "maximum_balance_disagreement_MW": 1.1368683772161603e-13,
+      "recomputed_pulse_energy_kWh": 737347.5507840748,
+      "conditional_average_net_MW": 214.52914956724624,
+      "source_artifact_sha256": "ea18b72f4446cb55b8e54345bda439f1f5f60fb2b1ff37bd25ad4a3ef071ed18",
+      "kind": "recorded_output_verification",
+      "physical_validation": false
+    },
+    "equality_count": 3,
+    "inequality_count": 24,
+    "maximum_equality_residual": 5.861977570020827e-14,
+    "minimum_inequality_residual": -6.992328938082437e-11,
+    "gross_minus_internal_matches_net": true,
+    "current_fractions_close": true
+  },
+  "pulsedFixedR75": {
+    "pulse_profile_verification": {
+      "passed": true,
+      "energy_disagreement_kWh": 1.1641532182693481e-10,
+      "maximum_balance_disagreement_MW": 0.0,
+      "recomputed_pulse_energy_kWh": 738372.5480749138,
+      "conditional_average_net_MW": 214.6831275718135,
+      "source_artifact_sha256": "cb678430169d8ccfca0f75fe9b2e7efb4613a919fd60f3ba349a1989ab2c5817",
+      "kind": "recorded_output_verification",
+      "physical_validation": false
+    },
+    "equality_count": 3,
+    "inequality_count": 24,
+    "maximum_equality_residual": 5.123013124830322e-12,
+    "minimum_inequality_residual": -4.41310732401945e-09,
+    "gross_minus_internal_matches_net": true,
+    "driven_current_power_relation_checked": true
+  },
+  "pulsedFixedR30": {
+    "pulse_profile_verification": {
+      "passed": true,
+      "energy_disagreement_kWh": 1.1641532182693481e-10,
+      "maximum_balance_disagreement_MW": 1.1368683772161603e-13,
+      "recomputed_pulse_energy_kWh": 944444.9961818244,
+      "conditional_average_net_MW": 274.01127289606546,
+      "source_artifact_sha256": "7820f58cdf129d0f67000c570a4de0e969aa94f712c6cae03e34f0ba27d65cad",
+      "kind": "recorded_output_verification",
+      "physical_validation": false
+    },
+    "equality_count": 3,
+    "inequality_count": 24,
+    "maximum_equality_residual": 2.667865928174251e-13,
+    "minimum_inequality_residual": 8.852918398360998e-13,
+    "gross_minus_internal_matches_net": true,
+    "driven_current_power_relation_checked": true
+  }
+}

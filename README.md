@@ -1,7 +1,6 @@
 # Fusion Workbench
 
-**Research update, 2026-09-14:** the live browser now includes **Benchmarks & prior work**, an attributed lithium-fluoride measurement comparison, all original spectrum bins, and a searchable reuse register. Close code-to-code agreement does not establish experimental reactor validation. Read the new benchmark and HCPB-selection reports in the research library. The downloadable Windows binary remains the separately versioned0.5.0 build.
-
+**Whole-plant design study:** a controlled, fixed-radius PROCESS comparison gives a conditional +100 MW burn-phase net output and +59.3 MW pulse/availability-adjusted average when more of the same heating power is credited with driving current. This is not achieved power: the required current-drive/deposition/control capability is unvalidated. [Inspect the recorded comparison and actuator rejection target](https://chriszavadil.github.io/fusion-workbench-open/plant-decision/) and read the full study in the research library. The released Unreal executable and accepted reactor configurations are unchanged.
 
 **Open research for humanity.** Explore conceptual fusion devices, inspect the evidence, reproduce calculations and help improve the models. This is a research preview—not a working fusion reactor or proof of generated net electricity.
 

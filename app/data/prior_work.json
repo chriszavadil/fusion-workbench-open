@@ -4,6 +4,35 @@
   "policy": "Search this register and primary literature before admitting new work. Replication is useful only when it closes a named reproducibility or validation gap. These entries are not an exhaustive novelty search.",
   "entries": [
     {
+      "id": "whole-plant-current-drive-allocation-20260914",
+      "title": "Established pulsed/current-drive trade-offs; candidate-specific power allocation test",
+      "attribution": "UKAEA PROCESS contributors; generic tokamak input by James Morris; Kembleton et al. EU-DEMO design-space work; EU-DEMO HCD contributors; Sugiyama, Aiba, Asakura, Hayashi and Sakamoto",
+      "original_date": "2022 EU-DEMO studies;2024 JA-DEMO scenario study;2026 candidate-specific comparison",
+      "classification": "Reused existing methods; new conditional systems-design comparison, not experimental discovery",
+      "our_status": "Six bounded PROCESS solves completed: two steady-state failures and four pulsed points. Final controlled pair differs only in75vs30MW extra-heating allocation.",
+      "our_use": "Quantify useful power at fixed major radius using native output objective and unchanged drive/turbine efficiencies and constraints. Preserve all attempts and qualification gaps.",
+      "already_known": "Heating/current-drive, current-profile control and recirculating-power trade-offs already exist in reactor design literature. Systems-code feasibility is not integrated plasma validation.",
+      "do_not_repeat": "No generic steady-state demonstration or another scalar allocation sweep. Do not call the75MW heating-only pool wasted power; do not apply benchmark discrepancy factors or reuse old blanket results on altered geometry.",
+      "reopen_when": "A candidate-specific, substantiated deposition/control constraint, numerical defect or declared optimization-robustness question can change the design decision.",
+      "reading_scope": "Accessible publisher and contributing-author records, existing official PROCESS source. No reproduction of the papers' integrated plasma scenario models.",
+      "sources": [
+        {
+          "title": "EU-DEMO design space and drivers",
+          "url": "https://doi.org/10.1016/j.fusengdes.2022.113080"
+        },
+        {
+          "title": "EU-DEMO heating and current-drive roles",
+          "url": "https://doi.org/10.1016/j.fusengdes.2022.113159"
+        },
+        {
+          "title": "Integrated JA-DEMO pulsed/current-profile scenario",
+          "url": "https://doi.org/10.1088/1741-4326/ad49b6"
+        }
+      ],
+      "license_scope": "Original workbench integration MIT; referenced papers linked, not reproduced. Existing upstream PROCESS/input terms and credits retained.",
+      "report_search": "Whole-plant decision"
+    },
+    {
       "id": "oktavian-lif-measurement-1988",
       "title": "OKTAVIAN lithium-fluoride neutron leakage measurements",
       "attribution": "Chihiro Ichihara, Shu A. Hayashi, Katsuhei Kobayashi, Itsuro Kimura, Junji Yamamoto, Mikio Izumi and Akito Takahashi; Kyoto University and Osaka University",
@@ -148,6 +177,52 @@
       ],
       "license_scope": "Cited and paraphrased; no article PDF, model or restricted dataset redistributed.",
       "report_search": "Breeding benchmark selection"
+    },
+    {
+      "id": "seino-jademo-eccd-2024",
+      "title": "JA-DEMO launch geometry and current-profile ECCD study",
+      "attribution": "T. Seino, K. Yanagihara, H. Takahashi, K. Tobita, K. Nagasaki, A. Fukuyama, A. Matsuyama, T. Oishi and T. Maekawa",
+      "original_date": "2024",
+      "classification": "Existing numerical study, reviewed but not reproduced here",
+      "our_status": "Publisher abstract and author-university bibliography read; used only for nontransferable efficiency examples",
+      "our_use": "Context for the current-budget gate; 35-46 kA/MW from a different plasma does not certify our 44.693 kA/MW requirement.",
+      "already_known": "Efficient launch geometries and harmful higher-harmonic absorption have already been studied.",
+      "do_not_repeat": "Do not claim the published efficiency is our achieved performance, a probability distribution or a physical upper bound.",
+      "reopen_when": "Matching candidate equilibrium and deposition/current-profile requirements support a licensed targeted reproduction.",
+      "reading_scope": "Abstract and bibliographic record, not a full-code or full-paper reproduction.",
+      "sources": [
+        {
+          "title": "Original study",
+          "url": "https://doi.org/10.1016/j.fusengdes.2024.114460"
+        },
+        {
+          "title": "Author-university bibliography",
+          "url": "https://plasma.iae.kyoto-u.ac.jp/ronbun.html"
+        }
+      ],
+      "license_scope": "References linked; no third-party full text or solver copied.",
+      "report_search": "Whole-plant decision"
+    },
+    {
+      "id": "lopez-hare-launcher-search-2025",
+      "title": "Physics-guided reverse/forward ray tracing for ECCD launchers",
+      "attribution": "N. A. Lopez, A. Alieva, S. A. M. McNamara and X. Zhang",
+      "original_date": "2025",
+      "classification": "Existing method reviewed, not implemented or benchmarked here",
+      "our_status": "Public preprint abstract and method sections read",
+      "our_use": "Select targeted physics-guided launch reconstruction rather than inventing a large brute-force scan for the next current-drive qualification.",
+      "already_known": "HARE-guided launcher reconstruction and ray-tracing validation exist.",
+      "do_not_repeat": "Do not claim the authors' speedup or successful profiles as ours. Do not equate normalized gamma with dimensionless zeta or fabricate a candidate equilibrium.",
+      "reopen_when": "A traceable candidate equilibrium, profile requirements and authorized appropriate ray solver are ready.",
+      "reading_scope": "Accessible preprint method sections; no new HARE or GENRAY execution.",
+      "sources": [
+        {
+          "title": "Original preprint",
+          "url": "https://arxiv.org/abs/2501.04619"
+        }
+      ],
+      "license_scope": "Linked reference and original paraphrase only; no third-party code copied.",
+      "report_search": "Whole-plant decision"
     }
   ]
 }

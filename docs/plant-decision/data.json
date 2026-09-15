@@ -1,0 +1,63 @@
+{
+  "schema": "fusion.plant-current-drive-decision.v1",
+  "date": "2026-09-14",
+  "upstream_revision": "c0ae5b28649f2b20fb7efc7904628b6defe4151c",
+  "source": "UKAEA PROCESS 3.4.2; original large-tokamak input credited to James Morris, UKAEA; candidate-specific study by Fusion Workbench contributors",
+  "cases": [
+    {
+      "id": "control75", "label": "75 MW heating-only allocation", "reserve_MW": 75.0,
+      "radius_m": 8.379532870755202, "field_T": 5.011594518477491, "plasma_current_MA": 19.76783248623855,
+      "fusion_MW": 2156.935796652556, "injected_MW": 199.9999999957535, "drive_MW": 124.9999999957535,
+      "heating_electric_MW": 399.999999991507, "gross_MW": 1212.635754238866, "internal_MW": 810.9766901053542,
+      "net_MW": 401.6590641335117, "pumps_MW": 281.3351772915845, "average_MW": 214.68312757181343,
+      "pulse_energy_kWh": 738372.5480749137, "fatigue_cycles": 76461.90148000239, "required_cycles": 76461.90129363727,
+      "plant_accounting_residual_MW": -0.5555494051791356,
+      "input_sha256": "0fa5c072789a60f79d75be047f74333893aac884a8450f8b265dbee621086433",
+      "output_sha256": "cb678430169d8ccfca0f75fe9b2e7efb4613a919fd60f3ba349a1989ab2c5817",
+      "time_s": [0.0,500.0,697.6783248623855,707.6783248623855,7907.678293088013,8105.356617950398,9905.356617950398],
+      "net_profile_MW": [-126.57807319427516,-129.64151282226268,401.6590641335117,401.6590641335117,401.6590641335117,-126.57807319427516,-126.57807319427516],
+      "numerically_converged": true, "physical_validation": false, "accepted_reference_replaced": false
+    },
+    {
+      "id": "alternative30", "label": "30 MW heating-only allocation (unvalidated)", "reserve_MW": 30.0,
+      "radius_m": 8.379532870755202, "field_T": 5.280937667069363, "plasma_current_MA": 20.83023492590409,
+      "fusion_MW": 2413.360935163836, "injected_MW": 199.99999999563437, "drive_MW": 169.99999999563437,
+      "heating_electric_MW": 399.99999999126874, "gross_MW": 1347.2274639049701, "internal_MW": 845.5681865000539,
+      "net_MW": 501.6592774049162, "pumps_MW": 314.8043735671805, "average_MW": 274.01127289606546,
+      "pulse_energy_kWh": 944444.9961818242, "fatigue_cycles": 76298.23318405861, "required_cycles": 76298.23318195062,
+      "plant_accounting_residual_MW": -0.46553149281089645,
+      "input_sha256": "6335932f13fe7962a3e81829a6da4ff9055909e8257c275df0a742b723a46f2a",
+      "output_sha256": "7820f58cdf129d0f67000c570a4de0e969aa94f712c6cae03e34f0ba27d65cad",
+      "time_s": [0.0,500.0,708.302349259041,718.302349259041,7918.3023493563,8126.604698615341,9926.604698615341],
+      "net_profile_MW": [-127.72922122780996,-130.7638129416047,501.6592774049161,501.6592774049161,501.6592774049161,-127.72922122780996,-127.72922122780996],
+      "numerically_converged": true, "physical_validation": false, "accepted_reference_replaced": false
+    }
+  ],
+  "conditions": {
+    "availability_assumed": 0.8, "wallplug_efficiency_assumed": 0.5, "turbine_efficiency_assumed": 0.4,
+    "normalized_current_drive_efficiency_assumed": 0.3, "internal_confinement_limit": 1.2,
+    "constraints_retained": 27, "variables_shared": 19,
+    "objective": "Native -17: maximize flat-top net electricity with fixed major radius; cycle average integrated afterwards",
+    "constant_major_radius_not_identical_full_geometry": true, "control_reserve_validated": false,
+    "extra_unscheduled_outage_energy_modelled": false,
+    "heating_only_allocation_is_not_a_demonstrated_control_requirement": true
+  },
+  "delta": {"net_MW": 100.0002132714045, "average_MW": 59.328145324252034, "average_percent": 27.635215675906455},
+  "attempts": [
+    {"id":"steady200","result":"not converged","ifail":5,"feasible_power_MW":null},
+    {"id":"steady350","result":"not converged","ifail":5,"feasible_power_MW":null},
+    {"id":"pulsed200allocated","result":"converged; optimistic zero-reserve / minimum-radius bound","radius_m":8.000000000486823,"average_MW":216.75763678390786},
+    {"id":"pulsed200reserve30","result":"converged; minimum-radius sensitivity, not the controlled power comparison","radius_m":8.066452766647732,"average_MW":214.52914956724624},
+    {"id":"pulsedFixedR75","result":"converged; fixed-radius power control"},
+    {"id":"pulsedFixedR30","result":"converged; fixed-radius power alternative"}
+  ],
+  "limitations": [
+    "No measured electricity, proven control reserve, current-profile stability or global optimum.",
+    "Higher fusion power, field, current and cooling demand require matched geometry/source/thermal/fuel analysis.",
+    "Empirical confinement, drive efficiency, 80% availability and material life remain assumptions.",
+    "Failed steady solves are not proof of impossibility; their raw output fields are not feasible power results.",
+    "No existing accepted reactor or native executable was changed."
+  ],
+  "sources": ["https://doi.org/10.1016/j.fusengdes.2022.113080","https://doi.org/10.1016/j.fusengdes.2022.113159","https://doi.org/10.1088/1741-4326/ad49b6","https://github.com/ukaea/PROCESS/tree/c0ae5b28649f2b20fb7efc7904628b6defe4151c"],
+  "physical_validation": false
+}

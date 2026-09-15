@@ -1,0 +1,18 @@
+{
+  "r838": {
+    "same_plasma_steady_injected_MW": 336.1814008425202,
+    "same_plasma_steady_wallplug_MW": 672.3628016850404,
+    "injection_ceiling_MW": 200,
+    "f_inductive": 0.3250107174687449,
+    "recirculating_fraction": 0.6695423527998697,
+    "classification": "fixed-profile necessary current-balance screen only"
+  },
+  "r900": {
+    "same_plasma_steady_injected_MW": 390.237922699649,
+    "same_plasma_steady_wallplug_MW": 780.475845399298,
+    "injection_ceiling_MW": 200,
+    "f_inductive": 0.4161171471987818,
+    "recirculating_fraction": 0.6725773509170964,
+    "classification": "fixed-profile necessary current-balance screen only"
+  }
+}
