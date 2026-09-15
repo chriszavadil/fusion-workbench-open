@@ -38,5 +38,10 @@
       "file": "actuator.js",
       "passed": true
     }
-  ]
+  ],
+  "windows_legacy_locale_regression": {
+    "fix": "Explicit UTF-8 reads in new actuator source/test; no physics or tolerance changes.",
+    "passed": true,
+    "tests": 246
+  }
 }

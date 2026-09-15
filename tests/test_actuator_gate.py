@@ -4,10 +4,10 @@ import hashlib,importlib.util,json,math
 import pytest
 ROOT=Path(__file__).resolve().parents[1];E=ROOT/'research/source/experiments/plant_current_drive_2026_09_14'
 spec=importlib.util.spec_from_file_location('actuator_gate_test',E/'actuator_gate.py');m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
-D=json.loads((E/'ACTUATOR_GATE.json').read_text());S=json.loads((E/'ACTUATOR_SCALARS.json').read_text())
+D=json.loads((E/'ACTUATOR_GATE.json').read_text(encoding='utf-8'));S=json.loads((E/'ACTUATOR_SCALARS.json').read_text(encoding='utf-8'))
 @pytest.mark.parametrize('c',D['cases'],ids=lambda c:c['case'])
 def test_same_current_by_independent_identities(c):
- v=S[c['case']]['values'];r=json.loads((E/'runs'/c['case']/'RESULT.json').read_text())
+ v=S[c['case']]['values'];r=json.loads((E/'runs'/c['case']/'RESULT.json').read_text(encoding='utf-8'))
  assert c['source_sha256']==r['mfile_sha256']==S[c['case']]['mfile_sha256']
  assert c['required_current_MA']==pytest.approx(v['plasma_current']*v['f_c_plasma_auxiliary']/1e6,abs=1e-12)
  assert c['required_current_MA']==pytest.approx(v['eta_cd_hcd_primary']*v['p_hcd_primary_injected_mw'],abs=1e-8)
@@ -39,7 +39,7 @@ def test_complete_export_hashes_attribution_and_no_new_plant_claim():
  assert all(s['authors'] and s['url'] and s['reading_scope'] for s in D['sources'])
 
 def test_panel_cannot_silently_modify_the_recorded_power_view():
- js=(ROOT/'docs/plant-decision/actuator.js').read_text();html=(ROOT/'docs/plant-decision/index.html').read_text()
+ js=(ROOT/'docs/plant-decision/actuator.js').read_text(encoding='utf-8');html=(ROOT/'docs/plant-decision/index.html').read_text(encoding='utf-8')
  assert '<script src="actuator.js" type="module">' in html
  assert "fetch('actuator.json')" in js and "$('timeline')" not in js and "$('case-select')" not in js
  assert 'innerHTML' not in js and 'eval(' not in js and 'method:' not in js

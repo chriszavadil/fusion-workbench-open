@@ -13,9 +13,9 @@ def evaluate(current_kA,efficiency_kA_MW,total_MW,reserve_MW):
  required=current_kA/efficiency_kA_MW;slack=total_MW-reserve_MW-required
  return {'required_drive_MW':required,'reserved_heat_MW':reserve_MW,'remaining_power_after_reserve_MW':slack,'fixed_point_total_current_condition_met':slack>=-1e-8,'new_net_power_prediction':None}
 def run():
- source=json.loads((HERE/'ACTUATOR_SCALARS.json').read_text());rows=[]
+ source=json.loads((HERE/'ACTUATOR_SCALARS.json').read_text(encoding='utf-8'));rows=[]
  for name,record in source.items():
-  result=json.loads((HERE/'runs'/name/'RESULT.json').read_text());v=record['values']
+  result=json.loads((HERE/'runs'/name/'RESULT.json').read_text(encoding='utf-8'));v=record['values']
   assert result['mfile_sha256']==record['mfile_sha256'] and result['numerically_converged']
   current=v['plasma_current']*v['f_c_plasma_auxiliary']/1000
   efficiency=v['eta_cd_hcd_primary']*1000
