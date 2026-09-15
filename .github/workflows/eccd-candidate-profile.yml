@@ -1,0 +1,47 @@
+name: Bounded candidate profile export
+on:
+  push:
+    branches: [research/eccd-wave-gate-20260915]
+    paths: [.github/workflows/eccd-candidate-profile.yml]
+permissions:
+  contents: read
+jobs:
+  profile:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 12
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      NUMBA_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with: {persist-credentials: false}
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          repository: ukaea/PROCESS
+          ref: c0ae5b28649f2b20fb7efc7904628b6defe4151c
+          path: upstream-process
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with: {python-version: '3.11'}
+      - name: Install pinned-source solver and verified published equilibrium library
+        run: |
+          python -m pip install ./upstream-process
+          python -m pip download --only-binary=:all: --no-deps OpenFUSIONToolkit==26.6 -d wheels
+          echo '249bcb741355b3e7b20a1d8abbd9fd10fc62464b3815c15868aba51a9012190f  wheels/openfusiontoolkit-26.6-py3-none-manylinux_2_28_x86_64.whl' | sha256sum -c -
+          python -m pip install wheels/*.whl
+      - name: Reproduce exactly one candidate for missing profile export
+        run: python research/source/experiments/eccd_wave_gate_2026_09_15/export_candidate_profiles.py --root . --source upstream-process --output candidate-profiles
+      - name: Preserve numerical profile and interface evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: candidate-profile-evidence
+          retention-days: 1
+          compression-level: 9
+          if-no-files-found: warn
+          path: |
+            candidate-profiles/*.json
+            candidate-profiles/*.txt
+            candidate-profiles/profile-execution.log
+            candidate-profiles/case_IN.DAT
