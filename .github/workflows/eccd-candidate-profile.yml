@@ -8,7 +8,7 @@ permissions:
 jobs:
   profile:
     runs-on: ubuntu-22.04
-    timeout-minutes: 12
+    timeout-minutes: 15
     env:
       OMP_NUM_THREADS: '1'
       OPENBLAS_NUM_THREADS: '1'
@@ -30,13 +30,15 @@ jobs:
           python -m pip download --only-binary=:all: --no-deps OpenFUSIONToolkit==26.6 -d wheels
           echo '249bcb741355b3e7b20a1d8abbd9fd10fc62464b3815c15868aba51a9012190f  wheels/openfusiontoolkit-26.6-py3-none-manylinux_2_28_x86_64.whl' | sha256sum -c -
           python -m pip install wheels/*.whl
-      - name: Reproduce exactly one candidate for missing profile export
+      - name: Recover profile export after the documented slotted-data serialization bug
         run: python research/source/experiments/eccd_wave_gate_2026_09_15/export_candidate_profiles.py --root . --source upstream-process --output candidate-profiles
-      - name: Preserve numerical profile and interface evidence
+      - name: Compute only two admitted provisional equilibrium meshes
+        run: python research/source/experiments/eccd_wave_gate_2026_09_15/equilibrium_proxy.py --profiles candidate-profiles/PROFILES.json --output equilibrium-results
+      - name: Preserve all profile and provisional-equilibrium evidence
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: candidate-profile-evidence
+          name: candidate-equilibrium-evidence
           retention-days: 1
           compression-level: 9
           if-no-files-found: warn
@@ -45,3 +47,6 @@ jobs:
             candidate-profiles/*.txt
             candidate-profiles/profile-execution.log
             candidate-profiles/case_IN.DAT
+            equilibrium-results/*/*.json
+            equilibrium-results/*/*.geqdsk
+            equilibrium-results/*/execution.log
