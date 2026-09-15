@@ -1,0 +1,46 @@
+name: Bounded equilibrium export recovery
+on:
+  push:
+    branches: [research/eccd-wave-gate-20260915]
+    paths: [.github/workflows/eccd-equilibrium-recovery.yml]
+permissions:
+  contents: read
+  actions: read
+jobs:
+  equilibrium:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 8
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with: {persist-credentials: false}
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: candidate-equilibrium-evidence
+          run-id: 35037058554
+          github-token: ${{ github.token }}
+          path: prior-profile
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with: {python-version: '3.11'}
+      - name: Verify input profile and install pinned equilibrium package
+        run: |
+          echo '598f2a42100123962b5fb3d6612813dd1ed2bd2f206bd53aeff30cfc37db9a42  prior-profile/candidate-profiles/PROFILES.json' | sha256sum -c -
+          python -m pip download --only-binary=:all: --no-deps OpenFUSIONToolkit==26.6 -d wheels
+          echo '249bcb741355b3e7b20a1d8abbd9fd10fc62464b3815c15868aba51a9012190f  wheels/openfusiontoolkit-26.6-py3-none-manylinux_2_28_x86_64.whl' | sha256sum -c -
+          python -m pip install wheels/*.whl numpy==2.2.6 scipy==1.15.3
+      - name: Two same-physics export-recovery runs only
+        run: python research/source/experiments/eccd_wave_gate_2026_09_15/equilibrium_proxy.py --profiles prior-profile/candidate-profiles/PROFILES.json --output recovered-equilibrium
+      - name: Retain all recovered equilibrium fields and status
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: recovered-equilibrium-evidence
+          retention-days: 1
+          compression-level: 9
+          if-no-files-found: warn
+          path: |
+            recovered-equilibrium/*/*.json
+            recovered-equilibrium/*/*.geqdsk
+            recovered-equilibrium/*/execution.log
