@@ -1,6 +1,6 @@
 """One admitted profile reproduction and solver-interface inspection. Original MIT."""
 from pathlib import Path
-import argparse,hashlib,importlib.util,inspect,json,os,shutil,subprocess,sys
+import argparse,dataclasses,hashlib,importlib.util,inspect,json,os,shutil,subprocess,sys
 for key in ['OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','NUMBA_NUM_THREADS','MKL_NUM_THREADS']:os.environ[key]='1'
 os.environ['MPLBACKEND']='Agg'
 import numpy as np
@@ -27,8 +27,10 @@ def child(root,source,out):
  (out/'REPRODUCTION_CHECK.json').write_text(json.dumps(checks,indent=2)+'\n',encoding='utf-8')
  if checks['ifail']!=1 or checks['net_power_relative_difference']>1e-4 or checks['radius_difference_m']>1e-6:raise ValueError('Candidate reproduction mismatch; do not transfer profiles')
  p=run.data.physics;pr=run.models.plasma_profile
- scalars={k:numeric(val) for k,val in vars(p).items() if isinstance(val,(int,float,bool,np.integer,np.floating)) and np.isfinite(val)}
- arrays={k:val.tolist() for k,val in vars(p).items() if isinstance(val,np.ndarray) and val.size<=10000 and np.issubdtype(val.dtype,np.number) and np.isfinite(val).all()}
+ names=[f.name for f in dataclasses.fields(p)] if dataclasses.is_dataclass(p) else [k for k in dir(p) if not k.startswith('_')]
+ items={k:getattr(p,k) for k in names}
+ scalars={k:numeric(val) for k,val in items.items() if isinstance(val,(int,float,bool,np.integer,np.floating)) and np.isfinite(val)}
+ arrays={k:val.tolist() for k,val in items.items() if isinstance(val,np.ndarray) and val.size<=10000 and np.issubdtype(val.dtype,np.number) and np.isfinite(val).all()}
  data={'schema':'fusion.higher-output-plasma.v1','input_sha256':sha(inp),'mfile_sha256':sha(out/'case_MFILE.DAT'),'upstream_pin':PIN,'physics_scalars':scalars,'physics_arrays':arrays,'rho':pr.neprofile.profile_x.tolist(),'ne_m3':pr.neprofile.profile_y.tolist(),'te_keV':pr.teprofile.profile_y.tolist(),'profile_coordinate':'PROCESS normalized minor radius; not yet a magnetic-flux coordinate','checks':checks,'matched_equilibrium_available':False,'physical_validation':False}
  (out/'PROFILES.json').write_text(json.dumps(data,indent=2,allow_nan=False)+'\n',encoding='utf-8')
  print('PROFILE_EXPORT '+json.dumps({'checks':checks,'rho_points':len(data['rho']),'scalars':scalars}),flush=True)
