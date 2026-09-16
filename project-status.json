@@ -39,6 +39,13 @@
   ],
   "milestones": [
     {
+      "id": "plain-language-entry-20260916",
+      "date": "2026-09-16",
+      "title": "Start-here view explains the research and plays our recorded particles",
+      "summary": "The homepage leads with no physical fusion or electricity demonstrated, an interactive reference design and a direct particle replay. What-if power remains in advanced data. This is an interface improvement, not new power or fusion progress.",
+      "search": "Start here: what the models"
+    },
+    {
       "id": "power-progress-dashboard-20260916",
       "date": "2026-09-16",
       "title": "Power score, full study history and physical benchmarks made visible",

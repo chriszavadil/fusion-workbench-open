@@ -1,5 +1,7 @@
 # Fusion Workbench
 
+**New here?** [Start with the plain-language visual guide](https://chriszavadil.github.io/fusion-workbench-open/) or [watch our recorded particle calculation](https://chriszavadil.github.io/fusion-workbench-open/#watch). We have not produced fusion or generated electricity. This project tests design ideas in software; numerical power estimates are not hardware results.
+
 **Browser verification repaired:** actual installed-Edge checks now cover the homepage, Power progress, EC-wave and plant-decision pages, including power-history CSV export, reference-ray animation and the narrow-screen power layout. [Dated verification and repeatable procedure](docs/BROWSER_VERIFICATION_2026-09-16.md). Security policies remain enabled; this is application verification, not new fusion evidence.
 
 **Power progress:** [best recorded model, historical results and real-world experiments](https://chriszavadil.github.io/fusion-workbench-open/power-progress/). The headline is conditional modeled net electricity, not physical output. Failed and retired claims stay visible; JET, TFTR and NIF measurements are separately labeled and sourced.

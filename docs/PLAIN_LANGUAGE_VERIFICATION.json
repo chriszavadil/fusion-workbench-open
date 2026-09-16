@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "security_changed": false,
+  "physical_validation": false,
+  "recorded_case": "profile_headers_rear",
+  "marker_status": "Playing recorded paths / 17 visible markers / slow motion, not live fusion",
+  "whole_reference_mesh_visible": true,
+  "hypothetical_score_not_headline": true,
+  "actual_recorded_particle_frames_changed": true,
+  "controls_and_direct_links_passed": true,
+  "narrow_viewport_rendered": true,
+  "browser": "153.0.4234.32",
+  "scientific_jobs": 0,
+  "page_errors": [],
+  "http_failures": [],
+  "scope": "Local reviewed-source preview, not yet post-deployment verification",
+  "source_tests": 305,
+  "accepted_science_changed": false,
+  "native_binary_changed": false,
+  "new_scientific_runs": 0
+}

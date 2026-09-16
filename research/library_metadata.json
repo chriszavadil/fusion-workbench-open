@@ -152,5 +152,11 @@
     "track": "project",
     "status": "current update",
     "scope_notice": "Actual installed-Edge public-page verification and test repair; no reactor or scientific result changed."
+  },
+  "docs/PLAIN_LANGUAGE_ENTRY_2026-09-16.md": {
+    "configuration_scope": "r838 project",
+    "track": "project",
+    "status": "current update",
+    "scope_notice": "Presentation correction: no physical fusion or generated electricity; same reference mesh and recorded particle dataset. No new scientific result."
   }
 }
