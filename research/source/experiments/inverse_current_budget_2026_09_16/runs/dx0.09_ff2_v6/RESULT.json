@@ -1,0 +1,155 @@
+{
+  "id": "dx0.09_ff2_v6",
+  "admission_sha256": "317ac94b7f44651873d3395b29ce021cd9cbda17dd3345bf50cc1cb7219049b1",
+  "driver_sha256": "2196ee67f9148ef2fbc9ba00320e1435d7cf024bfac3f4911b623b9ef3d5f9e5",
+  "kinetic_sha256": "ae0fff99166a81e8f5cf432ffc5ac453bfc1a8fdcc8222e9808dc43e6fdd3fc4",
+  "old_solution_sha256": "bf18cf1950383dc0fabb14b92c5c3c017951ddff3c4599fb779bda524f6ce76a",
+  "physical_validation": false,
+  "candidate_current_qualified": false,
+  "restoration": {
+    "q_relative_error": 2.513810648085979e-06,
+    "Ip_A": 20830234.925505605,
+    "energy_J": 1725376739.2920592,
+    "nonlinear_iterations": 27,
+    "psi_bounds": [
+      0.0,
+      14.71063846289282
+    ],
+    "q": [
+      1.8698037528171754,
+      1.9145100868336313,
+      2.502737687403481,
+      3.8367900092026965,
+      3.8796262810219426
+    ],
+    "psi_convention": 0
+  },
+  "diagnostic": {
+    "psi_abs_0_1": [
+      14.71063846289282,
+      0.0
+    ],
+    "profile_sample": {
+      "F": [
+        43.404506854837976,
+        44.140262963724524,
+        44.25178363461501
+      ],
+      "Fp": [
+        -0.1762366634304035,
+        -0.04509293871038356,
+        -7.054884534661922e-05
+      ],
+      "Pp": [
+        133193.85087638747,
+        85420.44051505462,
+        68017.0704312893
+      ],
+      "q": [
+        1.8698037528171754,
+        2.494229332860418,
+        3.8796206908292707
+      ],
+      "fc": [
+        0.7572869651220842,
+        0.440947648446005,
+        0.37077745835137954
+      ]
+    },
+    "sauter_field_shape": [
+      2,
+      401
+    ],
+    "field_at_axis": [
+      6.31943560816324e-14,
+      4.822483337113516,
+      -1.9112501053328905e-10
+    ],
+    "jB_samples": [
+      -1008776.1825349561,
+      -1622352.4625995131,
+      -1526431.1292908608
+    ],
+    "jtotal_samples": [
+      517742.8190025402,
+      516318.8190233484,
+      522027.3526260452
+    ],
+    "field_probe": [
+      [
+        -3.5396560489885364e-05,
+        4.1725366200317096,
+        -0.982154860963407
+      ],
+      [
+        0.15669186723869274,
+        4.189391385229587,
+        -0.9658486432894701
+      ],
+      [
+        0.3002648967160485,
+        4.239681618117501,
+        -0.9182324121125448
+      ]
+    ],
+    "grad_probe": [
+      [
+        -10.39075342197691,
+        0.0003744795720663774
+      ],
+      [
+        -10.17712520247801,
+        -1.6510586437923962
+      ],
+      [
+        -9.560627239236652,
+        -3.126355280713156
+      ]
+    ],
+    "points_probe": [
+      [
+        10.579546907484138,
+        7.769088657031231e-06
+      ],
+      [
+        10.536977271941877,
+        0.5260553649337848
+      ],
+      [
+        10.411990595322093,
+        1.0388460367027852
+      ]
+    ]
+  },
+  "result": {
+    "total_current_in_tested_shell_A": 20151173.366546288,
+    "bootstrap_current_in_tested_shell_A": 11621250.293927327,
+    "remaining_current_in_tested_shell_A": 8529923.072618961,
+    "countercurrent_lower_bound_in_shell_A": 0.0,
+    "positive_remaining_current_in_shell_A": 8529923.072618961,
+    "same_shell_ampere_current_A": 20147266.056814115,
+    "ampere_relative_error": 0.0001939374663120219,
+    "bootstrap_201_vs_401_relative_change": 0.001484066673201001,
+    "native_approximate_projection_integral_A": 12119141.851414317,
+    "tested_poloidal_flux_interval": [
+      0.01,
+      0.98
+    ],
+    "complete_reactor_bootstrap_integral": false,
+    "uncomputed_axis_edge_current_A": 682968.8686914891,
+    "bootstrap_rescale_used": false,
+    "inductive_rescale_used": false,
+    "original_inductive_total_A": 5451805.907255148,
+    "original_EC_total_A": 7597809.764607094,
+    "original_bootstrap_total_A": 7780619.25404185,
+    "EC_shell_lower_bound_with_original_inductive_total_A": 3078117.1653638138,
+    "no_countercurrent_profile_possible_on_proxy": true
+  },
+  "completed": true,
+  "sign_convention": "Redl outward-positive poloidal flux = -TokaMaker absolute flux for psi_convention0; physical toroidal current checked via minus ccw RZ Ampere circulation",
+  "runtime_s": 19.10618682499998,
+  "passed_numerical_checks": true,
+  "assumed_parallel_current_projection": true,
+  "full_current_profile_or_equilibrium_self_consistency_solved": false,
+  "fields_sha256": "ffb37efd479e652c8d9975ed95fa692e416801f9f7412130605ecb632045a4f4"
+}

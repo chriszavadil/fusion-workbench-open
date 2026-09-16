@@ -10,6 +10,8 @@ def build(root=ROOT):
  build_power_progress(root)
  from build_progress_roadmap import build as build_progress_roadmap
  build_progress_roadmap(root)
+ from build_current_budget import build as build_current_budget
+ build_current_budget(root)
  root=root.resolve();out=root/'docs';out.mkdir(exist_ok=True);web=root/'app/web';data=root/'app/data'
  for name in ['assets','vendor']:
   dst=out/name
@@ -63,7 +65,7 @@ def build(root=ROOT):
   p=root/'media'/name
   if p.exists():dst=out/'media'/name;dst.parent.mkdir(exist_ok=True);shutil.copyfile(p,dst)
  catalog=json.loads((data/'catalog.json').read_text());library=json.loads((data/'research_library.json').read_text());proof=json.loads((root/'project-status.json').read_text())
- published={'schema':'fusion.pages-publication.v1','viewer_version':'0.5.8-progress-roadmap','data_date':library['updated_date'],'research_records':len(library['records']),'data_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in data.iterdir() if p.is_file()},'repository':REPO,'source_branch':BRANCH,'solver_hosted':False,'snapshot_only':True,'public_collaboration_open':True,'release_gate':'Clean public repository; see public-deployment.json for independent hosting verification.','readiness':proof['readiness'],'milestones':proof['milestones']}
+ published={'schema':'fusion.pages-publication.v1','viewer_version':'0.5.9-current-budget','data_date':library['updated_date'],'research_records':len(library['records']),'data_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in data.iterdir() if p.is_file()},'repository':REPO,'source_branch':BRANCH,'solver_hosted':False,'snapshot_only':True,'public_collaboration_open':True,'release_gate':'Clean public repository; see public-deployment.json for independent hosting verification.','readiness':proof['readiness'],'milestones':proof['milestones']}
  published['plant_decision_sha256']={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((out/'plant-decision').iterdir()) if p.is_file()}
  published['ec_equilibrium_sha256']={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((out/'ec-wave').iterdir()) if p.is_file()}
  published['power_progress_sha256']={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((out/'power-progress').iterdir()) if p.is_file()}

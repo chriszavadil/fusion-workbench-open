@@ -1,0 +1,9 @@
+{
+  "id": "dx0.09_ff2_v6",
+  "admission_sha256": "317ac94b7f44651873d3395b29ce021cd9cbda17dd3345bf50cc1cb7219049b1",
+  "driver_sha256": "2196ee67f9148ef2fbc9ba00320e1435d7cf024bfac3f4911b623b9ef3d5f9e5",
+  "kinetic_sha256": "ae0fff99166a81e8f5cf432ffc5ac453bfc1a8fdcc8222e9808dc43e6fdd3fc4",
+  "old_solution_sha256": "bf18cf1950383dc0fabb14b92c5c3c017951ddff3c4599fb779bda524f6ce76a",
+  "physical_validation": false,
+  "candidate_current_qualified": false
+}

@@ -1,16 +1,16 @@
 {
   "schema": "fusion.pages-publication.v1",
-  "viewer_version": "0.5.8-progress-roadmap",
+  "viewer_version": "0.5.9-current-budget",
   "data_date": "2026-09-16",
-  "research_records": 99,
+  "research_records": 101,
   "data_sha256": {
     "catalog.json": "ec18c81e4c7505c37f341a8eaee3ed3df0fdda63ead8648ce534c96c29e13da7",
     "lif_benchmark.json": "d2109b5c2648e7e1e702325ac0a3aff91d13b1fbd9739b498ee0cd8a5c131bc1",
     "neutronics.json": "8775de27179749257beb0313ab4dfdf576b206485ce76c9e0c2bfc3483cb0ac0",
     "power_progress.json": "4cf103c00741a04c4b3fc4066b403f7852ab5dbd3ff6ed8d9f1b68fd82c574d1",
-    "prior_work.json": "d9a8f4974581eab149a6afff1fd824b6392e08778786a58599b38cbe29645db7",
-    "progress_roadmap.json": "ee4e75fbf5e551ad8089588e547277b96ca04ff3606c6e2e3ac39f4abecce6f5",
-    "research_library.json": "62dcb014eb5126645d252c6b7f3cbbe36d6bd7bae9af71cc6f4f589970c579a0",
+    "prior_work.json": "8a6e2572a7ac0fed10d200e63970c2642a3c3d46bb7c82e32041722775702a96",
+    "progress_roadmap.json": "de13cb85974fa42594dfd952436766c41d1e6adac5960fb3a06c06814fc5c971",
+    "research_library.json": "feb90c173355b980c6892810fb219d3a828e538173b9e0cbadfc29528150ae82",
     "source_context.bin": "7aa5de4dc4ac40b49172f67ac8c225641fe113c6bfd05732d75489d52ae2cb38",
     "transport_lab.json": "b9bd41d7686668e3341d7df76f6f47637ea383418bf644368d757e8a0b02c8c9"
   },
@@ -59,6 +59,13 @@
     }
   ],
   "milestones": [
+    {
+      "id": "inverse-current-budget-20260916",
+      "date": "2026-09-16",
+      "title": "Tested self-generated current before demanding more microwave drive",
+      "summary": "Four existing plasma approximations give10.87â€“11.62MA thermal self-current in the tested interior, versus7.78MA originally assumed for the whole plasma. This changes the allocation question, not qualified current or power output.",
+      "search": "Inverse current budget"
+    },
     {
       "id": "progress-goals-20260916",
       "date": "2026-09-16",
@@ -153,9 +160,11 @@
     "view.js": "177cf88d8bf18ff171140fdde3a51630bddf061c235fc85b6651f6ac6c7ce1e1"
   },
   "ec_equilibrium_sha256": {
+    "current-budget.js": "b2088955958bfbb4c6a49a0ff4a2ef82fa738875787ee137c2219f01359dbc5f",
+    "current-budget.json": "927a8c581264fbc71cd0ffdd05981eb620e8f410b3b00cac62d1b34e594464a7",
     "data.json": "e9b294fe128547fb7e9f31bbfeac2fb9109692f8f7ab1aebc482ebfcb8966d9c",
-    "index.html": "116a34ec9e5f28024e0028aaba07973c46692cbf9e935d3b52bb6d6d56617f76",
-    "style.css": "8705d1a0212c470390b40e9a437c062bc0e75b5bc0cff25de6e52e5f2c3172ae",
+    "index.html": "cf0c5327245ef3334cb738f3e8877621ed5439b14f05175844fc490a877aa1d1",
+    "style.css": "6e17fc0594ef4bb675cc44c742799b6b3b63719593c81310dd7001f5a4861497",
     "view.js": "6d1b84d2de026398410ceabe575be8d1487562cc5cf2f6c80fa2ad2f2a16e906"
   },
   "power_progress_sha256": {
@@ -166,10 +175,10 @@
   },
   "progress_roadmap_sha256": {
     "chart.js": "d3c6af068686176c27e67c3504c25a35ebd4123ac6e4884f946c1f5e5bff4134",
-    "data.json": "ee4e75fbf5e551ad8089588e547277b96ca04ff3606c6e2e3ac39f4abecce6f5",
+    "data.json": "de13cb85974fa42594dfd952436766c41d1e6adac5960fb3a06c06814fc5c971",
     "index.html": "2165cf5e405e824fb76a5ef7319c83d410ece10774b29ba03f56fd8420a40f39",
     "style.css": "dedc4db30ed87bb8838a1b6249a6e9bade13b0de0d7f44142f00ad14f4bf8446",
     "view.js": "6ce7f07f26892e0ed738a964c3f04a886e54c201e6356996add74257b409722c"
   },
-  "revision_id": "1cbb4b92e2c5226555dfc8004b9080393bb22a084f520e6c292db8e6f4d190d9"
+  "revision_id": "7141e3c58b4fce12e17dae2630d15d9389f06fcf5c08f897ad4a5709462fb35b"
 }

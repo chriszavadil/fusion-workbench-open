@@ -39,6 +39,13 @@
   ],
   "milestones": [
     {
+      "id": "inverse-current-budget-20260916",
+      "date": "2026-09-16",
+      "title": "Tested self-generated current before demanding more microwave drive",
+      "summary": "Four existing plasma approximations give10.87â€“11.62MA thermal self-current in the tested interior, versus7.78MA originally assumed for the whole plasma. This changes the allocation question, not qualified current or power output.",
+      "search": "Inverse current budget"
+    },
+    {
       "id": "progress-goals-20260916",
       "date": "2026-09-16",
       "title": "Progress graph, goals and repeat-work checks",
