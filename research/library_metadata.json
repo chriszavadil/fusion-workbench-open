@@ -146,5 +146,11 @@
     "track": "systems",
     "status": "current update",
     "scope_notice": "Power-focused presentation of existing model records and separately attributed physical milestones. No new solver run, hardware measurement or qualification."
+  },
+  "docs/BROWSER_VERIFICATION_2026-09-16.md": {
+    "configuration_scope": "project",
+    "track": "project",
+    "status": "current update",
+    "scope_notice": "Actual installed-Edge public-page verification and test repair; no reactor or scientific result changed."
   }
 }
