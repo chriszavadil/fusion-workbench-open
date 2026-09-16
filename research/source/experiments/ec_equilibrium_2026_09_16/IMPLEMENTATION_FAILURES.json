@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "stage": "OFT API preflight",
+      "failure": "rtol not an accepted attribute; corrected to documented nl_tol",
+      "scientific_acceptance": false
+    },
+    {
+      "stage": "OFT return-value adapter",
+      "failure": "solve returns equilibrium object, not integer status; corrected per installed API",
+      "scientific_acceptance": false
+    },
+    {
+      "stage": "Flux-volume interface",
+      "failure": "FSA derivative returned zero at some edge locations; retained raw diagnostics and replaced volume mapping with independent closed-contour volume integration",
+      "scientific_acceptance": false
+    },
+    {
+      "stage": "gEQDSK export",
+      "failure": "COCOS3 unsupported; repeated export construction using documented supported COCOS7; no q values tuned",
+      "scientific_acceptance": false
+    },
+    {
+      "stage": "GENRAY linkage",
+      "failure": "Missing PGPLOT; added project-local official Giza compatibility libraries, no system PATH change",
+      "scientific_acceptance": false
+    },
+    {
+      "stage": "GENRAY reference output",
+      "failure": "VCPS graphics device rejected; exit0 had no completed ray; isolated output-only device adapterCPS enabled final checked NetCDF",
+      "scientific_acceptance": false
+    }
+  ],
+  "raw_logs_retained_locally": true,
+  "no_private_traceback_published": true,
+  "repeated_API_attempts_not_new_physics_cases": true
+}

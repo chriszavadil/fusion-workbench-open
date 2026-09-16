@@ -4,6 +4,52 @@
   "policy": "Search this register and primary literature before admitting new work. Replication is useful only when it closes a named reproducibility or validation gap. These entries are not an exhaustive novelty search.",
   "entries": [
     {
+      "id": "tokamaker-candidate-equilibrium-20260916",
+      "title": "Established fixed-boundary Gradâ€“Shafranov construction; candidate interface checked",
+      "attribution": "Open FUSION Toolkit / TokaMaker original investigators and contributors; UKAEA PROCESS profile and systems authors; Workbench coupling/verification",
+      "original_date": "Existing TokaMaker method; official v26.6 example and v26.9 implementation reviewed",
+      "classification": "Reused numerical solver; new explicitly unqualified candidate construction and closure/refinement comparison",
+      "our_status": "Four completed current/pressure-energy-matched constructions; q95 mismatch persists under declared refinement; no candidate ray/current qualification.",
+      "our_use": "Map exact archived pressure shape through enclosed volume and test whether assumed scalar safety factors survive a force-balanced construction.",
+      "already_known": "Gradâ€“Shafranov solves, fixed-boundary profiles and mesh convergence are established. A prescribed boundary is not a PF-coil or plasma-stability demonstration.",
+      "do_not_repeat": "Do not repeat the earlier official DIII-D example as a new reactor result. Do not equate matching integrated current and energy with matching a full physical equilibrium.",
+      "reopen_when": "A physically substantiated diverted boundary/current/fast-pressure profile, numerical defect or new declared compatibility question changes the interface.",
+      "reading_scope": "Official example and installed26.9 source/API; no experimentally reconstructed candidate equilibrium was available.",
+      "sources": [
+        {
+          "title": "Open FUSION Toolkit",
+          "url": "https://openfusiontoolkit.github.io/OpenFUSIONToolkit/"
+        },
+        {
+          "title": "Official fixed-boundary example",
+          "url": "https://openfusiontoolkit.github.io/OpenFUSIONToolkit/docs/v26.6/doc_tMaker_fixed_ex1.html"
+        }
+      ],
+      "license_scope": "Original Workbench coupling MIT; solver maintains upstream terms, no numerical library distribution.",
+      "report_search": "EC equilibrium interface"
+    },
+    {
+      "id": "genray-canonical-iter-reference-20260916",
+      "title": "GENRAY canonical ITER EC ray, existing Prater reference",
+      "attribution": "GENRAY / A.P.Smirnov, R.W.Harvey and collaborators; reference case with R.Prater",
+      "original_date": "Canonical2004 ITER reference; upstream February2026 code pin",
+      "classification": "Existing reference execution and extraction check, not new method or candidate current result",
+      "our_status": "One complete reference ray with343 recorded points and checked power-termination status; no comparison against archived numerical reference or experiment claimed.",
+      "our_use": "Establish usable ray-code execution/result format before a matched candidate interface.",
+      "already_known": "GENRAY and canonical EC code comparisons already exist. A successful reference cannot supply another reactor's current-drive credit.",
+      "do_not_repeat": "Do not count exit0 without completed ray/NetCDF as success. Do not rescale the canonical reference current into candidate7.598MA.",
+      "reopen_when": "A changed numerical build, interface or a documented reference discrepancy warrants a new check.",
+      "reading_scope": "Pinned official source, makefile, regression guide and completed numerical output; output-device-only compatibility adapter recorded.",
+      "sources": [
+        {
+          "title": "GENRAY pinned source and regression tests",
+          "url": "https://github.com/compxco/genray/tree/ee443d16e5aaf9bc7227fb3e95581e3ba374df89"
+        }
+      ],
+      "license_scope": "GENRAY GPL-3.0-or-later source/binary not bundled; original extraction and result projections credited separately.",
+      "report_search": "EC equilibrium interface"
+    },
+    {
       "id": "whole-plant-current-drive-allocation-20260914",
       "title": "Established pulsed/current-drive trade-offs; candidate-specific power allocation test",
       "attribution": "UKAEA PROCESS contributors; generic tokamak input by James Morris; Kembleton et al. EU-DEMO design-space work; EU-DEMO HCD contributors; Sugiyama, Aiba, Asakura, Hayashi and Sakamoto",

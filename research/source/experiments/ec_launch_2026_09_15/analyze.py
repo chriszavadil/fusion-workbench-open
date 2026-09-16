@@ -49,9 +49,8 @@ def hare(n:float,T:float,B:float,R:float,width:float,cos_theta:float)->dict:
     root=brentq(polynomial,gamma+1e-12,gamma+2*u+1,xtol=1e-13)
     return {'frequency_GHz':wc*ratio_f/(2*pi*1e9),'N_parallel_magnitude':Npar,'f_over_fc':ratio_f,'resonant_energy_keV':energy,'gamma':gamma,'u_parallel_magnitude':u,'onset_R_m':R+width*cos_theta,'R_dep_over_R_onset':ratio_R,'log_argument':argument,'angular_frequency_units_used':True,'resonance_error':abs(gamma-Npar*u-1/ratio_f),'onset_error':abs(ratio_R/ratio_f-math.sqrt(1-Npar*Npar)),'N_formula_disagreement':abs(Npar-second_N),'independent_root_error':abs(root-ratio_f),'unsquared_resonance_at_root_error':abs(fun(root))}
 
-def resonance_crossings(fc_GHz:float, f_GHzH:float, Npar:float)->dict:
+def resonance_crossings(fc_GHz:float, f_GHz:float, Npar:float)->dict:
     """Exact u_perp=0 relativistic resonance intersections, no absorption solver."""
-    f_GHz=f_GHzH
     positive(fc_GHz,f_GHz)
     if not math.isfinite(Npar) or abs(Npar)>=1:raise ValueError('Requires |Nparallel|<1')
     x=fc_GHz/f_GHz

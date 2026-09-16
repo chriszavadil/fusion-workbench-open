@@ -1,0 +1,12 @@
+{
+  "scope": "Output-device compatibility only; no physics equation change",
+  "source_pin": "ee443d16e5aaf9bc7227fb3e95581e3ba374df89",
+  "path": "contour.f",
+  "original_sha256": "70dc400d38fdffe3ef337b1ff3b916a18f0f4978a25e2359404511b92399c956",
+  "modified_sha256": "b75f89b4ba68e304ef7eaf30763f76bb9d31ba5d2c12f89cbdbe5df24e28efd0",
+  "old_device": "plot.ps/VCPS",
+  "new_device": "plot.ps/CPS",
+  "reason": "Project-local Giza PGPLOT replacement rejected VCPS; earlier exit0 was not a complete ray.",
+  "license": "GPL-3.0-or-later",
+  "validated_ray_result": false
+}

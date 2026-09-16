@@ -1,0 +1,15 @@
+{
+  "schema": "fusion.equilibrium-ray-admission.v1",
+  "date": "2026-09-16",
+  "question": "Does a force-balanced equilibrium constructed from the higher-output concept's current, boundary and stored pressure energy support using its scalar q0/q95 and toroidal-only HARE target locations?",
+  "prior_art": ["https://openfusiontoolkit.github.io/OpenFUSIONToolkit/docs/v26.6/doc_tMaker_fixed_ex1.html", "https://arxiv.org/html/2501.04619v2", "https://github.com/compxco/genray"],
+  "existing_project_work": "Official TokaMaker DIII-D reproduction already exists. Do not repeat that as new reactor evidence. HARE analytical wave screen completed September15; no candidate equilibrium or rays were solved.",
+  "method": "Use maintained TokaMaker26.9 fixed-boundary finite elements, current/pressure-energy targets and exact archived201-point thermal-pressure shape. Parameterize smooth boundary with original R,a,kappa,delta. Map profile through normalized enclosed volume rather than declaring geometric radius to equal poloidal flux.",
+  "closure_assumptions": ["Smooth limited boundary is a construction proxy, not the candidate's single-null separatrix or validated PF coil set.", "Unresolved fast-particle pressure is represented as an isotropic component co-shaped with thermal pressure; total stored pressure energy is matched, not inferred as measured.", "Two poloidal-current derivative shapes (1-psi_norm)^1 and (1-psi_norm)^2 bracket a specified closure sensitivity; neither is measured or claimed to bracket all possibilities."],
+  "compute_budget": {"mesh_sizes_m": [0.18,0.09], "ffprime_shape_exponents": [1,2], "maximum_profile_mapping_iterations_per_case": 6, "maximum_nonlinear_iterations_per_solve":100,"timeout_seconds_per_case":180,"threads":1},
+  "acceptance": "Preserve all converged/nonconverged cases. Check imposed current/energy to0.2%, mesh differences, volume-map iteration change, nonnegative pressure and valid field. Compare (do not force) q0/q95 to assumed1/3; failure of those construction checks prevents presenting the proxy as the original reactor equilibrium.",
+  "ray_gate": "Candidate rays only after a declared equilibrium is numerically verified and its nonqualified assumptions are preserved. Do not label proxy rays as validation of the7.598MA target. A reference GENRAY smoke run checks the installed solver, not candidate current drive.",
+  "reopening": "Only new pressure/current-profile or diverted-boundary constraints, a numerical issue, or qualified launcher inputs justify more equilibrium/source sweeps.",
+  "physical_validation": false,
+  "accepted_design_changes": false
+}

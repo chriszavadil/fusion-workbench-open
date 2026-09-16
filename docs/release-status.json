@@ -1,14 +1,14 @@
 {
   "schema": "fusion.pages-publication.v1",
-  "viewer_version": "0.5.4-plant-decision",
-  "data_date": "2026-09-14",
-  "research_records": 92,
+  "viewer_version": "0.5.5-ec-equilibrium",
+  "data_date": "2026-09-16",
+  "research_records": 95,
   "data_sha256": {
     "catalog.json": "ec18c81e4c7505c37f341a8eaee3ed3df0fdda63ead8648ce534c96c29e13da7",
     "lif_benchmark.json": "d2109b5c2648e7e1e702325ac0a3aff91d13b1fbd9739b498ee0cd8a5c131bc1",
     "neutronics.json": "8775de27179749257beb0313ab4dfdf576b206485ce76c9e0c2bfc3483cb0ac0",
-    "prior_work.json": "4aa01bb29d7b0ddf287a556d35621eb077b70cfbe5eac1a74578474fb91f6219",
-    "research_library.json": "b184aeb40e4eb9cbf5ba5433f7a57e4f44299c2582308e96dac85ffd7a55da1b",
+    "prior_work.json": "92b1426165cd4507b659411d5c694b9ac7dff33254838783cc7305731e65cd70",
+    "research_library.json": "16bc9386acca0715f0e285ff08f904c0a5fef2077827cf7063b8f6e403e46e9e",
     "source_context.bin": "7aa5de4dc4ac40b49172f67ac8c225641fe113c6bfd05732d75489d52ae2cb38",
     "transport_lab.json": "b9bd41d7686668e3341d7df76f6f47637ea383418bf644368d757e8a0b02c8c9"
   },
@@ -57,6 +57,13 @@
     }
   ],
   "milestones": [
+    {
+      "id": "ec-equilibrium-interface-20260916",
+      "date": "2026-09-16",
+      "title": "Magnetic equilibrium tested before actuator qualification",
+      "summary": "Four current/energy-matched fixed-boundary constructions give q95 of3.83â€“3.90 instead of assumed3; refinement changes under0.053%. Restored56 analytic seeds and a separately labeled343-point canonical ITER ray. Candidate current drive remains unqualified.",
+      "search": "EC equilibrium interface"
+    },
     {
       "id": "plant-current-drive-20260914",
       "date": "2026-09-14",
@@ -122,5 +129,11 @@
     "style.css": "ba93f07780cf888ff1d163d8e37f9326c1af5d95206ef700ac477c6bc3722213",
     "view.js": "177cf88d8bf18ff171140fdde3a51630bddf061c235fc85b6651f6ac6c7ce1e1"
   },
-  "revision_id": "0e3e415c392e83ed028ab8b964c5358464d177c25a5b8c9db142fd4b0a92d687"
+  "ec_equilibrium_sha256": {
+    "data.json": "e9b294fe128547fb7e9f31bbfeac2fb9109692f8f7ab1aebc482ebfcb8966d9c",
+    "index.html": "116a34ec9e5f28024e0028aaba07973c46692cbf9e935d3b52bb6d6d56617f76",
+    "style.css": "8705d1a0212c470390b40e9a437c062bc0e75b5bc0cff25de6e52e5f2c3172ae",
+    "view.js": "6d1b84d2de026398410ceabe575be8d1487562cc5cf2f6c80fa2ad2f2a16e906"
+  },
+  "revision_id": "9a200566a39eed48159f6d04060ab65f4c9a245e51ff3680680644903bf4162a"
 }

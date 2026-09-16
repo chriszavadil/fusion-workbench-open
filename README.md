@@ -1,5 +1,7 @@
 # Fusion Workbench
 
+**September16 research update:** [Equilibrium and EC-wave explorer](https://chriszavadil.github.io/fusion-workbench-open/ec-wave/) shows four force-balanced construction cases, the restored56-point analytical study and a separately labeled canonical ITER reference ray. The construction does not match the original scalar-q assumptions; candidate current drive remains unqualified. Read the dated research report and preserved failures before using the values. The released Unreal binary is unchanged.
+
 **Whole-plant design study:** a controlled, fixed-radius PROCESS comparison gives a conditional +100 MW burn-phase net output and +59.3 MW pulse/availability-adjusted average when more of the same heating power is credited with driving current. This is not achieved power: the required current-drive/deposition/control capability is unvalidated. [Inspect the recorded comparison and actuator rejection target](https://chriszavadil.github.io/fusion-workbench-open/plant-decision/) and read the full study in the research library. The released Unreal executable and accepted reactor configurations are unchanged.
 
 **Open research for humanity.** Explore conceptual fusion devices, inspect the evidence, reproduce calculations and help improve the models. This is a research preview—not a working fusion reactor or proof of generated net electricity.

@@ -1,0 +1,31 @@
+{
+  "schema": "fusion.ec-equilibrium-validation.v1",
+  "date": "2026-09-16",
+  "remote_command_execution_restored": true,
+  "force_balanced_proxy_cases_completed": 4,
+  "analytic_seed_cases_restored": 56,
+  "candidate_ray_or_current_prediction_completed": false,
+  "canonical_ITER_reference_rays_completed": 1,
+  "canonical_reference_points_preserved": 343,
+  "complete_canonical_finite_element_fields_preserved": true,
+  "mesh_refinement_check_completed": true,
+  "source_tests_passed": 264,
+  "javascript_syntax_check_passed": true,
+  "node_DOM_contract": {
+    "passed": true,
+    "scope": "Node DOM contract only; not browser rendering or interaction verification",
+    "equilibrium_selections": 4,
+    "analytic_selections": 8,
+    "all_reference_points_accessible": true,
+    "network_requests": 0,
+    "browser_navigation": 0,
+    "scientific_jobs": 0
+  },
+  "real_browser_rendering_checked": false,
+  "prior_administrator_navigation_block_bypassed": false,
+  "private_logs_or_original_MFILE_uploaded": false,
+  "accepted_plant_or_source_data_changed": false,
+  "native_binary_rebuilt": false,
+  "physical_validation": false,
+  "publishing_deployment_verification": "pending separate release record"
+}
