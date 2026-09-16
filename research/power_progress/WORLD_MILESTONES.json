@@ -1,0 +1,312 @@
+{
+  "schema": "fusion.world-fusion-milestones.v1",
+  "verified_date": "2026-09-16",
+  "selection": "Selected primary-source magnetic and laser-fusion power/energy milestones, including non-record follow-ups. Not every discharge, all devices or a global performance ranking.",
+  "sources": {
+    "jet_history": {
+      "publisher": "UKAEA",
+      "title": "JET set for its 40th birthday",
+      "url": "https://www.gov.uk/government/news/jet-set-for-its-40th-birthday",
+      "published_date": null,
+      "checked_date": "2026-09-16",
+      "scope": "Historical 1997 peak-power and pulse-energy achievements; no claim they are the same shot."
+    },
+    "jet_2021": {
+      "publisher": "UKAEA / UK government",
+      "title": "Fusion energy record demonstrates powerplant future",
+      "url": "https://www.gov.uk/government/news/fusion-energy-record-demonstrates-powerplant-future",
+      "published_date": "2022-02-09",
+      "checked_date": "2026-09-16",
+      "scope": "59 MJ in a reported five-second fusion interval; not net electricity."
+    },
+    "jet_2023": {
+      "publisher": "UKAEA",
+      "title": "JET final tritium experiments yield new fusion energy record",
+      "url": "https://www.gov.uk/government/news/jets-final-tritium-experiments-yield-new-fusion-energy-record",
+      "published_date": "2024-02-08",
+      "checked_date": "2026-09-16",
+      "scope": "69 MJ; agency describes five seconds. Alternate collaborating-institute description gives5.2seconds."
+    },
+    "jet_2023_ipp": {
+      "publisher": "Max Planck Institute for Plasma Physics",
+      "title": "Energy record JET",
+      "url": "https://www.ipp.mpg.de/5405892/jet_rekord_2024",
+      "published_date": null,
+      "checked_date": "2026-09-16",
+      "scope": "October3,2023, pulse104522;69MJ and5.2seconds. Both reported durations retained, not treated as a confidence interval."
+    },
+    "pppl_tftr": {
+      "publisher": "Princeton Plasma Physics Laboratory",
+      "title": "TFTR annual environmental report1994 abstract",
+      "url": "https://bp-pub.pppl.gov/pub_report/1996/PPPL-3159-abs.html",
+      "published_date": null,
+      "checked_date": "2026-09-16",
+      "scope": "November2,1994 controlled fusion power10.7MW, not electricity."
+    },
+    "nif_timeline": {
+      "publisher": "LLNL / National Ignition Facility",
+      "title": "Achieving Fusion Ignition",
+      "url": "https://lasers.llnl.gov/science/achieving-fusion-ignition",
+      "published_date": null,
+      "checked_date": "2026-09-16",
+      "scope": "Selected reported shots, dates, fusion yields and laser-on-target energies; includes June20,2026 follow-up. Not total facility electricity."
+    },
+    "nif_record": {
+      "publisher": "Lawrence Livermore National Laboratory",
+      "title": "National Ignition Facility fiscal2025 annual report",
+      "url": "https://annual.llnl.gov/fy-2025/national-ignition-facility-2025",
+      "published_date": null,
+      "checked_date": "2026-09-16",
+      "scope": "April7,2025 yield8.6MJ, laser-on-target2.08MJ, reported target gain4.13."
+    }
+  },
+  "records": [
+    {
+      "id": "tftr-1994-peak",
+      "facility": "TFTR",
+      "experiment_date": "1994-11-02",
+      "date_precision": "day",
+      "metric_kind": "peak_fusion_power",
+      "value": 10.7,
+      "unit": "MW_fusion",
+      "evidence": "reported_physical_measurement",
+      "source_ids": [
+        "pppl_tftr"
+      ],
+      "net_electric_MW": null,
+      "net_electric_status": "Not reported as electricity; this is fusion reaction output",
+      "uncertainty": null,
+      "measured_by_workbench": false,
+      "note": "Magnetic-confinement fusion power; not electrical power."
+    },
+    {
+      "id": "jet-1997-peak",
+      "facility": "JET",
+      "experiment_date": "1997",
+      "date_precision": "year",
+      "metric_kind": "peak_fusion_power",
+      "value": 16.1,
+      "unit": "MW_fusion",
+      "evidence": "reported_physical_measurement",
+      "source_ids": [
+        "jet_history"
+      ],
+      "net_electric_MW": null,
+      "net_electric_status": "Not reported as electricity; this is fusion reaction output",
+      "uncertainty": null,
+      "measured_by_workbench": false,
+      "note": "Peak fusion-power milestone; do not combine with a separate pulse-energy record as one shot."
+    },
+    {
+      "id": "jet-1997-energy",
+      "facility": "JET",
+      "experiment_date": "1997",
+      "date_precision": "year",
+      "metric_kind": "fusion_energy_per_pulse",
+      "value": 21.7,
+      "unit": "MJ",
+      "evidence": "reported_physical_measurement",
+      "source_ids": [
+        "jet_history"
+      ],
+      "net_electric_MW": null,
+      "net_electric_status": "Not reported as electricity; this is fusion reaction output",
+      "uncertainty": null,
+      "measured_by_workbench": false,
+      "note": "Historical energy record; pulse duration not inferred from a separate peak-power milestone."
+    },
+    {
+      "id": "jet-2021-energy",
+      "facility": "JET",
+      "experiment_date": "2021",
+      "date_precision": "year",
+      "metric_kind": "fusion_energy_per_pulse",
+      "value": 59.0,
+      "unit": "MJ",
+      "evidence": "reported_physical_measurement",
+      "source_ids": [
+        "jet_2021"
+      ],
+      "net_electric_MW": null,
+      "net_electric_status": "Not reported as electricity; this is fusion reaction output",
+      "uncertainty": null,
+      "measured_by_workbench": false,
+      "duration_reports": [
+        {
+          "seconds": 5.0,
+          "source_id": "jet_2021",
+          "precision": "reported/rounded"
+        }
+      ],
+      "note": "Measured reaction energy during a reported5-second interval. Energy divided by duration is a derived mean, not a peak."
+    },
+    {
+      "id": "jet-2023-energy",
+      "facility": "JET",
+      "experiment_date": "2023-10-03",
+      "date_precision": "day",
+      "metric_kind": "fusion_energy_per_pulse",
+      "value": 69.0,
+      "unit": "MJ",
+      "evidence": "reported_physical_measurement",
+      "source_ids": [
+        "jet_2023",
+        "jet_2023_ipp"
+      ],
+      "net_electric_MW": null,
+      "net_electric_status": "Not reported as electricity; this is fusion reaction output",
+      "uncertainty": null,
+      "measured_by_workbench": false,
+      "pulse_id": "104522",
+      "duration_reports": [
+        {
+          "seconds": 5.0,
+          "source_id": "jet_2023",
+          "precision": "agency rounded interval"
+        },
+        {
+          "seconds": 5.2,
+          "source_id": "jet_2023_ipp",
+          "precision": "collaborating institute interval"
+        }
+      ],
+      "note": "Both published duration conventions retained; do not use the range as an uncertainty interval."
+    },
+    {
+      "id": "nif-2022-12-05",
+      "facility": "NIF",
+      "experiment_date": "2022-12-05",
+      "date_precision": "day",
+      "metric_kind": "fusion_energy_per_pulse",
+      "value": 3.15,
+      "unit": "MJ",
+      "evidence": "reported_physical_measurement",
+      "source_ids": [
+        "nif_timeline"
+      ],
+      "net_electric_MW": null,
+      "net_electric_status": "Not reported as electricity; this is fusion reaction output",
+      "uncertainty": null,
+      "measured_by_workbench": false,
+      "laser_energy_on_target_MJ": 2.05,
+      "reported_target_gain": null,
+      "note": "Single-shot fusion energy; laser-on-target gain excludes the rest of the facility. No pulse-duration-to-power conversion is made."
+    },
+    {
+      "id": "nif-2023-07-30",
+      "facility": "NIF",
+      "experiment_date": "2023-07-30",
+      "date_precision": "day",
+      "metric_kind": "fusion_energy_per_pulse",
+      "value": 3.88,
+      "unit": "MJ",
+      "evidence": "reported_physical_measurement",
+      "source_ids": [
+        "nif_timeline"
+      ],
+      "net_electric_MW": null,
+      "net_electric_status": "Not reported as electricity; this is fusion reaction output",
+      "uncertainty": null,
+      "measured_by_workbench": false,
+      "laser_energy_on_target_MJ": 2.05,
+      "reported_target_gain": null,
+      "note": "Single-shot fusion energy; laser-on-target gain excludes the rest of the facility. No pulse-duration-to-power conversion is made."
+    },
+    {
+      "id": "nif-2024-02-12",
+      "facility": "NIF",
+      "experiment_date": "2024-02-12",
+      "date_precision": "day",
+      "metric_kind": "fusion_energy_per_pulse",
+      "value": 5.2,
+      "unit": "MJ",
+      "evidence": "reported_physical_measurement",
+      "source_ids": [
+        "nif_timeline"
+      ],
+      "net_electric_MW": null,
+      "net_electric_status": "Not reported as electricity; this is fusion reaction output",
+      "uncertainty": null,
+      "measured_by_workbench": false,
+      "laser_energy_on_target_MJ": 2.2,
+      "reported_target_gain": null,
+      "note": "Source describes5.2MJ as an estimated experimental yield. Single-shot reaction energy, not electricity; no pulse-duration-to-power conversion is made."
+    },
+    {
+      "id": "nif-2025-02-23",
+      "facility": "NIF",
+      "experiment_date": "2025-02-23",
+      "date_precision": "day",
+      "metric_kind": "fusion_energy_per_pulse",
+      "value": 5.0,
+      "unit": "MJ",
+      "evidence": "reported_physical_measurement",
+      "source_ids": [
+        "nif_timeline"
+      ],
+      "net_electric_MW": null,
+      "net_electric_status": "Not reported as electricity; this is fusion reaction output",
+      "uncertainty": null,
+      "measured_by_workbench": false,
+      "laser_energy_on_target_MJ": 2.05,
+      "reported_target_gain": 2.44,
+      "note": "Single-shot fusion energy; laser-on-target gain excludes the rest of the facility. No pulse-duration-to-power conversion is made."
+    },
+    {
+      "id": "nif-2025-04-07",
+      "facility": "NIF",
+      "experiment_date": "2025-04-07",
+      "date_precision": "day",
+      "metric_kind": "fusion_energy_per_pulse",
+      "value": 8.6,
+      "unit": "MJ",
+      "evidence": "reported_physical_measurement",
+      "source_ids": [
+        "nif_timeline",
+        "nif_record"
+      ],
+      "net_electric_MW": null,
+      "net_electric_status": "Not reported as electricity; this is fusion reaction output",
+      "uncertainty": {
+        "plus_minus_MJ": 0.45,
+        "interpretation": "Measurement uncertainty as reported; confidence level not specified here"
+      },
+      "measured_by_workbench": false,
+      "laser_energy_on_target_MJ": 2.08,
+      "reported_target_gain": 4.13,
+      "note": "Single-shot fusion energy; laser-on-target gain excludes the rest of the facility. No pulse-duration-to-power conversion is made."
+    },
+    {
+      "id": "nif-2026-06-20",
+      "facility": "NIF",
+      "experiment_date": "2026-06-20",
+      "date_precision": "day",
+      "metric_kind": "fusion_energy_per_pulse",
+      "value": 7.9,
+      "unit": "MJ",
+      "evidence": "reported_physical_measurement",
+      "source_ids": [
+        "nif_timeline"
+      ],
+      "net_electric_MW": null,
+      "net_electric_status": "Not reported as electricity; this is fusion reaction output",
+      "uncertainty": {
+        "plus_minus_MJ": 0.4,
+        "interpretation": "Measurement uncertainty as reported; confidence level not specified here"
+      },
+      "measured_by_workbench": false,
+      "laser_energy_on_target_MJ": null,
+      "reported_target_gain": 3.8,
+      "note": "Single-shot fusion energy; laser-on-target gain excludes the rest of the facility. No pulse-duration-to-power conversion is made."
+    }
+  ],
+  "metrics_kept_separate": [
+    "Fusion energy per pulse inMJ",
+    "Reported peak reaction power inMW",
+    "Derived mean reaction power only when a matching duration is reported",
+    "Laser energy delivered to the target; not total facility electricity"
+  ],
+  "net_electric_world_record_claimed": false,
+  "missing_values_are_null_not_zero": true,
+  "ongoing_live_monitoring": false
+}
