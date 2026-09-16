@@ -39,6 +39,13 @@
   ],
   "milestones": [
     {
+      "id": "ec-equilibrium-interface-20260916",
+      "date": "2026-09-16",
+      "title": "Magnetic equilibrium tested before actuator qualification",
+      "summary": "Four current/energy-matched fixed-boundary constructions give q95 of3.83â€“3.90 instead of assumed3; refinement changes under0.053%. Restored56 analytic seeds and a separately labeled343-point canonical ITER ray. Candidate current drive remains unqualified.",
+      "search": "EC equilibrium interface"
+    },
+    {
       "id": "plant-current-drive-20260914",
       "date": "2026-09-14",
       "title": "Whole-plant heating/current-drive allocation tested",

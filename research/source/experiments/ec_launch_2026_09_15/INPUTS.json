@@ -1,0 +1,56 @@
+{
+  "schema": "fusion.ec-analytic-input.v1",
+  "source_commit": "f297593e9d4f30b647fe4042c9f364b0bcec437f",
+  "process_commit": "c0ae5b28649f2b20fb7efc7904628b6defe4151c",
+  "candidate_parameters": {
+    "control75": {
+      "case_id": "pulsedFixedR75",
+      "R0_m": 8.379532870755202,
+      "a_m": 2.7931776235850676,
+      "B0_T": 5.011594518477491,
+      "Ip_A": 19767832.48623855,
+      "ne_volume_average_m3": 7.601981982117665e19,
+      "Te_axis_keV": 37.85579240326188,
+      "Te_volume_average_keV": 16.85169557858049,
+      "auxiliary_current_fraction": 0.2978006015557013,
+      "credited_drive_MW": 124.9999999957535,
+      "heating_only_MW": 75.0,
+      "original_output_sha256": "cb678430169d8ccfca0f75fe9b2e7efb4613a919fd60f3ba349a1989ab2c5817"
+    },
+    "alternative30": {
+      "case_id": "pulsedFixedR30",
+      "R0_m": 8.379532870755202,
+      "a_m": 2.7931776235850676,
+      "B0_T": 5.280937667069363,
+      "Ip_A": 20830234.92590409,
+      "ne_volume_average_m3": 8.010542921207195e19,
+      "Te_axis_keV": 39.92819059042857,
+      "Te_volume_average_keV": 17.59911232885824,
+      "auxiliary_current_fraction": 0.36474911548686373,
+      "credited_drive_MW": 169.99999999563437,
+      "heating_only_MW": 30.0,
+      "original_output_sha256": "7820f58cdf129d0f67000c570a4de0e969aa94f712c6cae03e34f0ba27d65cad"
+    }
+  },
+  "profile_parameters": {
+    "alpha_n": 1.0,
+    "alpha_T": 1.45,
+    "beta_T": 2.0,
+    "rho_ped_n": 0.94,
+    "rho_ped_T": 0.94,
+    "Te_ped_keV": 5.5,
+    "Te_sep_keV": 0.1,
+    "density_pedestal_mode": 1,
+    "greenwald_fraction_ped": 0.85,
+    "greenwald_fraction_sep": 0.5,
+    "reconstruction_status": "Equations/defaults from pinned PROCESS plus published candidate scalars and executed input parameters. Full original profile-array round trip is NOT available while the workstation is paused."
+  },
+  "geometry_assumption": "High-field midplane R=R0-a*rho, B=B0*R0/R, no Shafranov shift and no poloidal B; rho is normalized geometric minor radius, NOT the paper example's normalized poloidal flux. No equilibrium solution is constructed.",
+  "provenance": [
+    {"file": "research/source/experiments/plant_current_drive_2026_09_14/ACTUATOR_SCALARS.json", "git_blob": "1c126cef7bd614a532334cd49abae68789d1b47b", "fields": "candidate Ip, nbar, Te0, Tbar, current fractions and drive power"},
+    {"file": "docs/plant-decision/data.json", "fields": "B0, R0 and controlled-case identity"},
+    {"file": "research/source/experiments/plant_current_drive_2026_09_14/runs/pulsedFixedR30/case_IN.DAT", "git_blob": "cef3f33174dc709112a11655f74f94fac1ecf162", "fields": "aspect, pedestal radii, temperature endpoints, profile exponents and separatrix fraction"},
+    {"upstream_file": "process/data_structure/physics_variables.py", "git_blob": "910ce574c185c9ea3e342c669431006cd9a700ed", "fields": "default density mode1 and pedestal Greenwald fraction0.85"},
+    {"upstream_file": "process/models/physics/profiles.py", "git_blob": "2a655789b2cbf6eb59235858041683fa4488a82b", "fields": "analytic density/temperature profile equations"}
+  ]
+}

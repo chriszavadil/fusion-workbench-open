@@ -1,0 +1,95 @@
+{
+  "id": "dx0.09_ff2_v6",
+  "dx_m": 0.09,
+  "ffprime_exponent": 2,
+  "input_sha256": "95348675e99f12760d088bc317493e16f7e3322327c4e4aeba62d927e382257b",
+  "admission_sha256": "f2bca0c66905549d5ff0e03c52dcacb61838d81a789409a44c7bbd2b745e749f",
+  "physical_validation": false,
+  "scope": "fixed-boundary construction, not original diverted reactor",
+  "mapping_iterations": [
+    {
+      "iteration": 0,
+      "nonlinear_iterations": 30,
+      "maximum_rho_map_change": 0.05534693488531339
+    },
+    {
+      "iteration": 1,
+      "nonlinear_iterations": 33,
+      "maximum_rho_map_change": 0.0076728773270993145
+    },
+    {
+      "iteration": 2,
+      "nonlinear_iterations": 28,
+      "maximum_rho_map_change": 0.003167956389416804
+    },
+    {
+      "iteration": 3,
+      "nonlinear_iterations": 27,
+      "maximum_rho_map_change": 0.0008030363781391103
+    }
+  ],
+  "numerically_solved": true,
+  "stats": {
+    "Ip": 20830234.926398866,
+    "Ip_centroid": [
+      8.378968448164953,
+      -2.4895138391275905e-05
+    ],
+    "kappa": 1.8455715202191014,
+    "kappaU": 1.8455679046917566,
+    "kappaL": 1.8455751357464465,
+    "delta": 0.501797007307229,
+    "deltaU": 0.5017955938548773,
+    "deltaL": 0.5017984207595807,
+    "R_geo": 8.3848992673288,
+    "a_geo": 2.7774521215628436,
+    "vol": 2211.021617152991,
+    "q_0": 1.8809544255890456,
+    "q_95": 3.836787276478889,
+    "P_ax": 1292640.9120975547,
+    "P_max": 1292640.9120975547,
+    "W_MHD": 1725376734.451816,
+    "beta_pol": 124.56379171387943,
+    "dflux": -0.9653111940926871,
+    "tflux": 247.9220033669849,
+    "l_i": 0.4937077761950563,
+    "beta_tor": 4.694329262832484,
+    "beta_n": 3.303383246893112
+  },
+  "Ip_A": 20830234.926398866,
+  "volume_m3": 2211.021617152991,
+  "pressure_energy_J": 1725376734.451816,
+  "q_sample_psi": [
+    0.01,
+    0.05,
+    0.5,
+    0.95,
+    0.98
+  ],
+  "q_sample": [
+    1.8698037268631416,
+    1.9145099714772704,
+    2.502737972457199,
+    3.8367868321317355,
+    3.879616528400603
+  ],
+  "magnetic_axis_m": [
+    8.99501511562248,
+    7.769081035078363e-06
+  ],
+  "mapping_converged": true,
+  "current_relative_error": 2.3752777522645374e-11,
+  "energy_relative_error": -1.5545604803435253e-09,
+  "volume_relative_to_PROCESS": 0.018971798265793316,
+  "q0_reference": 1.0,
+  "q95_reference": 3.000000000006114,
+  "q95_relative_difference": 0.2789289440413052,
+  "axis_shift_from_geometric_center_m": 0.6154822448672768,
+  "matched_integrals": true,
+  "proxy_matches_reference_q_screen": false,
+  "geqdsk_cocos": 7,
+  "export_completed": true,
+  "geqdsk_sha256": "b7742839903499c1ec86a6e59ff5b34c78be4ef310769b4ddfa87b8481262617",
+  "solution_sha256": "bf18cf1950383dc0fabb14b92c5c3c017951ddff3c4599fb779bda524f6ce76a",
+  "runtime_s": 69.36091139999999
+}

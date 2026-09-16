@@ -134,5 +134,11 @@
     "track": "systems",
     "status": "current update",
     "scope_notice": "Controlled whole-plant allocation sensitivity. Extra current-drive credit and remaining control capacity are unvalidated; no accepted design or native binary was changed."
+  },
+  "research/reports/results/EC_EQUILIBRIUM_INTERFACE_2026-09-16.md": {
+    "configuration_scope": "r838 project",
+    "track": "plasma",
+    "status": "current update",
+    "scope_notice": "Four force-balanced fixed-boundary constructions fail scalar-q compatibility; canonical ITER ray is a different reference. No candidate current or new electricity is qualified."
   }
 }

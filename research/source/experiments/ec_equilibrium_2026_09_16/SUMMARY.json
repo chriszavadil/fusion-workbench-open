@@ -1,0 +1,107 @@
+{
+  "candidate_qualified": false,
+  "cases": [
+    {
+      "axis_shift_from_geometric_center_m": 0.5271788271131364,
+      "current_relative_error": 1.606355048977548e-10,
+      "derived_axis_Bt_T": 4.895270805974283,
+      "energy_relative_error": -1.8350733155259036e-09,
+      "geqdsk_sha256": "1a0c273ccc7ba9f219ccf9f461a12aa7ed5bf6e6a0809e1bd5d50e132bdc80ed",
+      "id": "dx0.09_ff1_v6",
+      "mapping_converged": true,
+      "proxy_matches_reference_q_screen": false,
+      "q95_relative_difference": 0.2985546626292215,
+      "q_sample": [
+        1.5214499230036613,
+        1.5622636336343878,
+        2.214516414838436,
+        3.895663987895604,
+        3.9240801602568003
+      ],
+      "solution_sha256": "16277c19054135bf4f0a3c5fb7a9a34dc91d72fef0a6cef37da4e8884a5ab6dc",
+      "volume_relative_to_PROCESS": 0.018971798265793316
+    },
+    {
+      "axis_shift_from_geometric_center_m": 0.6154822448672768,
+      "current_relative_error": 2.3752777522645374e-11,
+      "derived_axis_Bt_T": 4.8224833422013695,
+      "energy_relative_error": -1.5545604803435253e-09,
+      "geqdsk_sha256": "b7742839903499c1ec86a6e59ff5b34c78be4ef310769b4ddfa87b8481262617",
+      "id": "dx0.09_ff2_v6",
+      "mapping_converged": true,
+      "proxy_matches_reference_q_screen": false,
+      "q95_relative_difference": 0.2789289440413052,
+      "q_sample": [
+        1.8698037268631416,
+        1.9145099714772704,
+        2.502737972457199,
+        3.8367868321317355,
+        3.879616528400603
+      ],
+      "solution_sha256": "bf18cf1950383dc0fabb14b92c5c3c017951ddff3c4599fb779bda524f6ce76a",
+      "volume_relative_to_PROCESS": 0.018971798265793316
+    },
+    {
+      "axis_shift_from_geometric_center_m": 0.527038714888592,
+      "current_relative_error": 7.325162698634813e-11,
+      "derived_axis_Bt_T": 4.895273509741781,
+      "energy_relative_error": -8.350755642538843e-10,
+      "geqdsk_sha256": "a1b8c077678101ad9cd1dc6baea13608cbe1097120d3a8bbf0c1fde35a9a2c09",
+      "id": "dx0.18_ff1_v6",
+      "mapping_converged": true,
+      "proxy_matches_reference_q_screen": false,
+      "q95_relative_difference": 0.29788631128789067,
+      "q_sample": [
+        1.5213682509242694,
+        1.56189190095112,
+        2.2141411804661644,
+        3.8936589338716074,
+        3.919855372146678
+      ],
+      "solution_sha256": "dfb551cfccda80546ac4111819cb24ce52a6bdd46d2469c1adcbe8167944ff77",
+      "volume_relative_to_PROCESS": 0.01868094309892343
+    },
+    {
+      "axis_shift_from_geometric_center_m": 0.6149754879153875,
+      "current_relative_error": 3.367506273832532e-11,
+      "derived_axis_Bt_T": 4.822778117594088,
+      "energy_relative_error": -1.1078896688943018e-09,
+      "geqdsk_sha256": "55483896fdf84e7db9880343daf0929086f5e8041eb5c62d5b58970be92887ec",
+      "id": "dx0.18_ff2_v6",
+      "mapping_converged": true,
+      "proxy_matches_reference_q_screen": false,
+      "q95_relative_difference": 0.27825223623529194,
+      "q_sample": [
+        1.8688743527184082,
+        1.9135744834769484,
+        2.501315715959898,
+        3.8347567087136913,
+        3.8748461796664575
+      ],
+      "solution_sha256": "0139d254f7b139b56f718f235acaf51378e5b98f07abeaf62e2cf7f24b68732b",
+      "volume_relative_to_PROCESS": 0.01868094309892343
+    }
+  ],
+  "date": "2026-09-16",
+  "mesh_comparisons": [
+    {
+      "axis_shift_mesh_change_m": 0.00014011222454435313,
+      "coarse_id": "dx0.18_ff1_v6",
+      "ffprime_exponent": 1,
+      "fine_id": "dx0.09_ff1_v6",
+      "near_axis_q_relative_mesh_change": 5.3683307340124387e-05,
+      "q95_relative_mesh_change": 0.0005149536870201477,
+      "volume_relative_mesh_change": 0.00028552135861592554
+    },
+    {
+      "axis_shift_mesh_change_m": 0.0005067569518892867,
+      "coarse_id": "dx0.18_ff2_v6",
+      "ffprime_exponent": 2,
+      "fine_id": "dx0.09_ff2_v6",
+      "near_axis_q_relative_mesh_change": 0.0004972908656921682,
+      "q95_relative_mesh_change": 0.0005294008387628502,
+      "volume_relative_mesh_change": 0.00028552135861592554
+    }
+  ],
+  "physical_validation": false
+}
