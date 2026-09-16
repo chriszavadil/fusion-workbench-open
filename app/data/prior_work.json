@@ -1,6 +1,6 @@
 {
   "schema": "fusion.prior-work-register.v1",
-  "updated_date": "2026-09-14",
+  "updated_date": "2026-09-16",
   "policy": "Search this register and primary literature before admitting new work. Replication is useful only when it closes a named reproducibility or validation gap. These entries are not an exhaustive novelty search.",
   "entries": [
     {
@@ -298,6 +298,35 @@
       ],
       "license_scope": "Linked reference and original paraphrase only; no third-party code copied.",
       "report_search": "Whole-plant decision"
+    },
+    {
+      "id": "redl-bootstrap-current-2021",
+      "title": "Established self-generated plasma-current formulas and equilibrium iteration",
+      "attribution": "A. Redl, C. Angioni, E. Belli, O. Sauter, ASDEX Upgrade and EUROfusion MST1 teams; Open FUSION Toolkit maintainers for its separate example",
+      "original_date": "2021 paper; official TokaMaker example reviewed 2026-09-16",
+      "classification": "Existing method identified for reuse, not a completed Workbench candidate result",
+      "our_status": "Already identified in issue7; added here so roadmap checks can cite it. No new bootstrap-current run.",
+      "our_use": "Use established current/equilibrium methods once the matched candidate profiles are defined.",
+      "already_known": "Bootstrap-current modeling and self-consistent equilibrium iteration already exist; a generic demonstration is not our unresolved design question.",
+      "do_not_repeat": "Do not write another generic bootstrap-current solver or repeat an ITER example as a candidate validation. Do not tune current profiles to recover a desired power number.",
+      "reopen_when": "New candidate inputs, a concrete numerical/interface defect or a declared validation need requires an independent check.",
+      "reading_scope": "Original-contributor General Atomics summary, official TokaMaker example and existing issue7 record; no full independent reproduction of the paper claimed.",
+      "sources": [
+        {
+          "title": "Original paper",
+          "url": "https://doi.org/10.1063/5.0012664"
+        },
+        {
+          "title": "General Atomics contributor summary",
+          "url": "https://fusion.gat.com/global/theory/weekly/0721"
+        },
+        {
+          "title": "Official bootstrap-equilibrium example",
+          "url": "https://openfusiontoolkit.github.io/OpenFUSIONToolkit/docs/v26.6/doc_tMaker_ITER_ex3.html"
+        }
+      ],
+      "license_scope": "Linked prior work and original summary only; no article or third-party code redistributed.",
+      "report_search": "Progress, goals and reuse"
     }
   ]
 }

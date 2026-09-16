@@ -1,0 +1,14 @@
+// MIT. Shared categorical timeline; y position is not a performance score.
+const NS='http://www.w3.org/2000/svg';
+export const types={model_finding:{label:'Design insight (model)',color:'#7cdeca'},unresolved_test:{label:'Unresolved / not passed',color:'#f1bb82'},verification_reuse:{label:'Checked existing work',color:'#93c3f0'},interface:{label:'Website / tools only',color:'#a2afbc'}};
+export function svg(tag,attrs={},text){const n=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>n.setAttribute(k,String(v)));if(text!==undefined)n.textContent=String(text);return n;}
+export function drawTimeline(g,data,onSelect,showTools=true){g.replaceChildren();const start=Date.parse(data.summary.period_start+'T00:00:00Z'),end=Date.parse(data.summary.period_end+'T00:00:00Z'),x=date=>230+(Date.parse(date+'T00:00:00Z')-start)/Math.max(86400000,end-start)*850;
+const keys=Object.keys(types),rows=Object.fromEntries(keys.map((k,i)=>[k,82+i*88]));
+for(const [i,k]of keys.entries()){const y=rows[k];g.append(svg('rect',{x:215,y:y-35,width:900,height:70,rx:4,fill:i%2?'#122630':'#0b1b24'}),svg('text',{x:202,y:y+4,'text-anchor':'end',fill:types[k].color,'font-size':14},types[k].label));}
+const dates=[...new Set(data.events.map(e=>e.date))].sort();for(const date of dates){g.append(svg('line',{x1:x(date),x2:x(date),y1:36,y2:384,stroke:'#33505b','stroke-dasharray':'2 5'}),svg('text',{x:x(date),y:406,'text-anchor':'middle',fill:'#b6cbd4','font-size':13},date.slice(8)+' Sep'));}
+g.append(svg('text',{x:230,y:22,fill:'#b6cbd4','font-size':13},'2026 · recorded study dates; multiple items can share a date'));
+const clusters=new Map();data.events.forEach((e,i)=>{if(!showTools&&e.kind==='interface')return;const key=e.kind+e.date;if(!clusters.has(key))clusters.set(key,[]);clusters.get(key).push({...e,index:i+1});});
+for(const group of clusters.values())group.forEach((e,j)=>{const dx=group.length>1?(j-(group.length-1)/2)*31:0,px=x(e.date)+dx,py=rows[e.kind],c=types[e.kind].color;const n=svg('g',{'data-event':e.id,role:'button',tabindex:0,'aria-label':e.date+' — '+e.title+' — '+types[e.kind].label});
+if(e.kind==='unresolved_test')n.append(svg('polygon',{points:`${px},${py-17} ${px+17},${py+14} ${px-17},${py+14}`,fill:c}));else if(e.kind==='model_finding')n.append(svg('polygon',{points:`${px},${py-19} ${px+19},${py} ${px},${py+19} ${px-19},${py}`,fill:c}));else if(e.kind==='interface')n.append(svg('rect',{x:px-14,y:py-14,width:28,height:28,rx:3,fill:c}));else n.append(svg('circle',{cx:px,cy:py,r:15,fill:c}));
+n.append(svg('text',{x:px,y:py+5,'text-anchor':'middle',fill:'#091318','font-size':12,'font-weight':'700'},e.index),svg('title',{},e.title+'\n'+e.result));n.onclick=()=>onSelect(e);n.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();onSelect(e);}};g.append(n);});
+}

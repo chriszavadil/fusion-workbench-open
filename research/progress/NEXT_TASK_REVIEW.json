@@ -1,0 +1,21 @@
+{
+  "decision": "Can the higher-output concept's magnetic equilibrium, self-generated current, inductive current and heating-driven current be made mutually consistent without fitting away the qualification gap?",
+  "closest_prior_work_ids": [
+    "tokamaker-candidate-equilibrium-20260916",
+    "redl-bootstrap-current-2021",
+    "lopez-hare-launcher-search-2025"
+  ],
+  "what_changes": "Replace the earlier freely specified current-profile closure with candidate-specific, declared current sources and a matched boundary; not a rerun of the four completed proxy cases.",
+  "success_test": "Before execution, freeze profile/current/geometry tolerances and reproduce a compatible candidate input; keep numerical agreement separate from stability and hardware validation.",
+  "falsification": "Report incompatible current/boundary/profile requirements or failure to close within the admitted assumptions; do not tune solely for higher electrical output.",
+  "execution_budget": "Not admitted yet: a finite run count and timeout must be written after the G1 input review. This record launches no calculation.",
+  "reopen_condition": "New substantiated candidate inputs or a specific numerical/interface defect; do not repeat unchanged proxy construction or canonical examples.",
+  "inputs_complete": false,
+  "same_inputs_and_question_as_completed": false,
+  "independent_verification_gap": null,
+  "reviewed_by_person_or_agent": true,
+  "review_scope": "Existing issue7 and primary-method documentation reviewed; candidate input readiness remains unresolved.",
+  "approved_for_execution": false,
+  "max_runs": null,
+  "timeout_seconds": null
+}

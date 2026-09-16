@@ -1,0 +1,803 @@
+{
+  "schema": "fusion.progress-roadmap.v1",
+  "summary": {
+    "reviewed_through": "2026-09-16",
+    "period_start": "2026-09-07",
+    "period_end": "2026-09-16",
+    "latest_scientific_event_id": "ec-equilibrium-interface-20260916",
+    "latest_scientific_date": "2026-09-16",
+    "last_model_power_date": "2026-09-14",
+    "new_power_record_since_last_model_study": false,
+    "physical_fusion": "Not demonstrated by this project",
+    "measured_net_electricity": "Not measured",
+    "hardware_date": null,
+    "whole_reactor_qualified": false,
+    "current_goal_id": "G1",
+    "project_stage": "Computer-based design studies; not a proven complete reactor",
+    "change_statement": "The latest scientific test exposed a mismatch in the plasma assumptions. The later graphs, animations and access fixes improve the tools, not fusion performance.",
+    "timeline_notice": "Historical dates are recorded study dates. The next-work timeline is a dependency order, not promised completion dates. No unattended research worker is implied."
+  },
+  "event_scope": "All existing dated public project milestones from 7–16 September 2026, explicitly classified. Older work remains in the research library; this is not a log of every action.",
+  "events": [
+    {
+      "id": "lifetime-20260907",
+      "date": "2026-09-07",
+      "date_precision": "study_day",
+      "kind": "model_finding",
+      "title": "A more complete reference calculation",
+      "result": "Added the intended magnet-lifetime requirement to the whole-plant calculation.",
+      "decision": "Keep this as the numerical reference; do not reuse the earlier optimistic power screen.",
+      "limit": "Numerical lifetime and output, not a qualified magnet or working reactor.",
+      "source_paths": [
+        "research/reports/results/FULL_PROCESS_LIFECYCLE_2026-09-07.md"
+      ],
+      "milestone_id": "lifetime-20260907",
+      "sources": [
+        {
+          "path": "research/reports/results/FULL_PROCESS_LIFECYCLE_2026-09-07.md",
+          "sha256": "0354ca7036fa9b44871947ee982ed1ce32082678f1e5627664f43151d513b4ae"
+        }
+      ],
+      "physical_fusion_demonstrated": false,
+      "net_electricity_measured_MW": null
+    },
+    {
+      "id": "evidence-reader-20260909",
+      "date": "2026-09-09",
+      "date_precision": "study_day",
+      "kind": "verification_reuse",
+      "title": "Accounting and evidence made inspectable",
+      "result": "Reviewed established confinement/accounting conventions and made reports searchable.",
+      "decision": "Use the corrected conventions; do not count the same finding as new physics.",
+      "limit": "This does not demonstrate a better plasma or new generated power.",
+      "source_paths": [
+        "project-status.json"
+      ],
+      "milestone_id": "evidence-reader-20260909",
+      "sources": [
+        {
+          "path": "project-status.json",
+          "sha256": "9c1573780d2e39548529c7b0ee34d1a01b7e552cf2c6669962900281daaafe61"
+        }
+      ],
+      "physical_fusion_demonstrated": false,
+      "net_electricity_measured_MW": null
+    },
+    {
+      "id": "header-transport-20260910",
+      "date": "2026-09-10",
+      "date_precision": "study_day",
+      "kind": "model_finding",
+      "title": "Pipe placement changes a local result",
+      "result": "Compared two pipe arrangements in a simplified particle-transport section.",
+      "decision": "Do not approve the more convenient cooling layout without its neutron effects.",
+      "limit": "A local calculated effect, not whole-reactor fuel supply.",
+      "source_paths": [
+        "project-status.json"
+      ],
+      "milestone_id": "header-transport-20260910",
+      "sources": [
+        {
+          "path": "project-status.json",
+          "sha256": "9c1573780d2e39548529c7b0ee34d1a01b7e552cf2c6669962900281daaafe61"
+        }
+      ],
+      "physical_fusion_demonstrated": false,
+      "net_electricity_measured_MW": null
+    },
+    {
+      "id": "spatial-lab-20260910",
+      "date": "2026-09-10",
+      "date_precision": "study_day",
+      "kind": "interface",
+      "title": "Made the particle results visible",
+      "result": "Linked saved particle paths and deposited-energy fields to the 3D views.",
+      "decision": "Use the replay to inspect a calculation that already exists.",
+      "limit": "Adding animation is not a new physical result.",
+      "source_paths": [
+        "project-status.json"
+      ],
+      "milestone_id": "spatial-lab-20260910",
+      "sources": [
+        {
+          "path": "project-status.json",
+          "sha256": "9c1573780d2e39548529c7b0ee34d1a01b7e552cf2c6669962900281daaafe61"
+        }
+      ],
+      "physical_fusion_demonstrated": false,
+      "net_electricity_measured_MW": null
+    },
+    {
+      "id": "source-coupling-20260913",
+      "date": "2026-09-13",
+      "date_precision": "study_day",
+      "kind": "model_finding",
+      "title": "The local pipe penalty survives a better source model",
+      "result": "Used candidate-linked particle directions instead of only simple angle assumptions.",
+      "decision": "The front-pipe layout still cannot be approved on cooling alone.",
+      "limit": "Source geometry and surrounding-material return effects remain incomplete.",
+      "source_paths": [
+        "research/reports/results/PLASMA_SOURCE_COUPLING_2026-09-13.md"
+      ],
+      "milestone_id": "source-coupling-20260913",
+      "sources": [
+        {
+          "path": "research/reports/results/PLASMA_SOURCE_COUPLING_2026-09-13.md",
+          "sha256": "9b8eebdf156cb1efa4b162009ff662af7dbd7e2cb9feb3ee1c6b7f52ace94ebe"
+        }
+      ],
+      "physical_fusion_demonstrated": false,
+      "net_electricity_measured_MW": null
+    },
+    {
+      "id": "hcpb-prior-art-20260914",
+      "date": "2026-09-14",
+      "date_precision": "study_day",
+      "kind": "verification_reuse",
+      "title": "Found the relevant work already published",
+      "result": "Identified the existing tritium-production benchmark study and credited its authors.",
+      "decision": "Reuse it; do not invent a new benchmark or borrow its discrepancy as a reactor correction.",
+      "limit": "Finding prior work does not validate our reactor.",
+      "source_paths": [
+        "project-status.json"
+      ],
+      "milestone_id": "hcpb-prior-art-20260914",
+      "sources": [
+        {
+          "path": "project-status.json",
+          "sha256": "9c1573780d2e39548529c7b0ee34d1a01b7e552cf2c6669962900281daaafe61"
+        }
+      ],
+      "physical_fusion_demonstrated": false,
+      "net_electricity_measured_MW": null
+    },
+    {
+      "id": "lif-reference-and-prior-work-2026-09-14",
+      "date": "2026-09-14",
+      "date_precision": "study_day",
+      "kind": "verification_reuse",
+      "title": "A software replay exposed a measurement gap",
+      "result": "Recovered an existing lithium calculation and checked its comparison data.",
+      "decision": "Separate reproduction of a calculation from agreement with measurement.",
+      "limit": "No whole-reactor breeding validation or new power.",
+      "source_paths": [
+        "project-status.json"
+      ],
+      "milestone_id": "lif-reference-and-prior-work-2026-09-14",
+      "sources": [
+        {
+          "path": "project-status.json",
+          "sha256": "9c1573780d2e39548529c7b0ee34d1a01b7e552cf2c6669962900281daaafe61"
+        }
+      ],
+      "physical_fusion_demonstrated": false,
+      "net_electricity_measured_MW": null
+    },
+    {
+      "id": "plant-current-drive-20260914",
+      "date": "2026-09-14",
+      "date_precision": "study_day",
+      "kind": "model_finding",
+      "title": "A conditional power lead worth testing",
+      "result": "A fixed-radius comparison predicted higher output if more heating can also drive current.",
+      "decision": "Test that physical capability before accepting the modeled gain.",
+      "limit": "The condition is unproven. This is not electricity generated.",
+      "source_paths": [
+        "research/reports/results/PLANT_CURRENT_DRIVE_DECISION_2026-09-14.md"
+      ],
+      "milestone_id": "plant-current-drive-20260914",
+      "sources": [
+        {
+          "path": "research/reports/results/PLANT_CURRENT_DRIVE_DECISION_2026-09-14.md",
+          "sha256": "34aa27134b50a941da7c18c77993af72e253f87627455eab0f3a982e1971d1e4"
+        }
+      ],
+      "physical_fusion_demonstrated": false,
+      "net_electricity_measured_MW": null
+    },
+    {
+      "id": "ec-equilibrium-interface-20260916",
+      "date": "2026-09-16",
+      "date_precision": "study_day",
+      "kind": "unresolved_test",
+      "title": "The plasma assumptions did not line up",
+      "result": "The detailed constructed magnetic fields did not match the simpler design assumptions.",
+      "decision": "Do not treat the higher-power estimate as proven. Test a consistent plasma/current model next.",
+      "limit": "The simplified constructions do not prove the original concept impossible.",
+      "source_paths": [
+        "research/reports/results/EC_EQUILIBRIUM_INTERFACE_2026-09-16.md"
+      ],
+      "milestone_id": "ec-equilibrium-interface-20260916",
+      "sources": [
+        {
+          "path": "research/reports/results/EC_EQUILIBRIUM_INTERFACE_2026-09-16.md",
+          "sha256": "901dbfbe0809ca5e2825bb80fcfb235e7dbd0be75f0b21d2dd3ac58e4bebd21c"
+        }
+      ],
+      "physical_fusion_demonstrated": false,
+      "net_electricity_measured_MW": null
+    },
+    {
+      "id": "power-progress-dashboard-20260916",
+      "date": "2026-09-16",
+      "date_precision": "study_day",
+      "kind": "interface",
+      "title": "Published power history and external experiments",
+      "result": "Made existing model records and others’ measurements easier to inspect.",
+      "decision": "Keep the two evidence types separate and preserve failures.",
+      "limit": "The dashboard added no scientific power point.",
+      "source_paths": [
+        "research/reports/results/POWER_PROGRESS_DASHBOARD_2026-09-16.md"
+      ],
+      "milestone_id": "power-progress-dashboard-20260916",
+      "sources": [
+        {
+          "path": "research/reports/results/POWER_PROGRESS_DASHBOARD_2026-09-16.md",
+          "sha256": "5cdcfdc5652f2e0bb140b44af322621de6c8267947f60fb3cc514e545b41f2ef"
+        }
+      ],
+      "physical_fusion_demonstrated": false,
+      "net_electricity_measured_MW": null
+    },
+    {
+      "id": "plain-language-entry-20260916",
+      "date": "2026-09-16",
+      "date_precision": "study_day",
+      "kind": "interface",
+      "title": "Explained the research and opened the animation",
+      "result": "Put the concept and recorded particles in a plain-language entry.",
+      "decision": "Make clear that we have not produced fusion or electricity.",
+      "limit": "A usability improvement, not progress in reactor performance.",
+      "source_paths": [
+        "docs/PLAIN_LANGUAGE_ENTRY_2026-09-16.md"
+      ],
+      "milestone_id": "plain-language-entry-20260916",
+      "sources": [
+        {
+          "path": "docs/PLAIN_LANGUAGE_ENTRY_2026-09-16.md",
+          "sha256": "d4d63e14c8a7ca01ca8548937ce17293e5ca34d5b6a53f6638710c8c94f00792"
+        }
+      ],
+      "physical_fusion_demonstrated": false,
+      "net_electricity_measured_MW": null
+    },
+    {
+      "id": "progress-goals-20260916",
+      "date": "2026-09-16",
+      "date_precision": "publication_day",
+      "kind": "interface",
+      "title": "Added a progress graph and gated roadmap",
+      "result": "Made existing decisions, setbacks, future goals and reuse rules visible together.",
+      "decision": "Review the actual next question before spending compute; keep app work separate.",
+      "limit": "This graph and plan are not a new fusion result or an executed scientific study.",
+      "source_paths": [
+        "docs/PROGRESS_GOALS_AND_REUSE_2026-09-16.md"
+      ],
+      "milestone_id": "progress-goals-20260916",
+      "sources": [
+        {
+          "path": "docs/PROGRESS_GOALS_AND_REUSE_2026-09-16.md",
+          "sha256": "0b38e537063507eed728c754e31bead5d14e29c5c1cea4c10938267e512bfdc3"
+        }
+      ],
+      "physical_fusion_demonstrated": false,
+      "net_electricity_measured_MW": null
+    }
+  ],
+  "goals": [
+    {
+      "id": "G1",
+      "title": "Agree on one consistent plasma input",
+      "phase": "NEXT INPUT REVIEW",
+      "status": "Needs inputs",
+      "depends_on": [],
+      "checkpoint": "Before the next scientific run",
+      "deliverable": "A versioned boundary, pressure and current-profile packet with units, assumptions and source hashes.",
+      "pass_rule": "Every required profile is supplied or explicitly labeled an unqualified assumption; no hidden substitution of a different plasma. Numerical tolerances and a finite run budget are written before execution.",
+      "stop_rule": "Stop qualification when essential inputs are missing. A proxy may be tested only under a separately labeled, decision-relevant admission.",
+      "reuse_ids": [
+        "tokamaker-candidate-equilibrium-20260916",
+        "redl-bootstrap-current-2021"
+      ],
+      "issue": 7,
+      "missing_inputs": [
+        "Matched diverted boundary",
+        "Separated inductive / self-generated / driven current profiles",
+        "Substantiated fast-particle pressure and control requirements"
+      ],
+      "start_date": null,
+      "due_date": null,
+      "execution_status": "not_running",
+      "timing_kind": "dependency_order_not_calendar_promise"
+    },
+    {
+      "id": "G2",
+      "title": "Make the plasma-current calculation agree with itself",
+      "phase": "AFTER INPUT REVIEW",
+      "status": "Not yet passed",
+      "depends_on": [
+        "G1"
+      ],
+      "checkpoint": "Next bounded candidate calculation, after G1",
+      "deliverable": "A reproducible equilibrium/current comparison with failed and successful cases retained.",
+      "pass_rule": "Current and pressure profiles are mutually consistent under stated tolerances and assumptions. Either support the intended operating point or report a named redesign; do not fit a scalar merely to restore the desired power.",
+      "stop_rule": "Reject or revise the operating point when closure or compatibility fails. Keep nonconvergence distinct from proof of impossibility.",
+      "reuse_ids": [
+        "tokamaker-candidate-equilibrium-20260916",
+        "redl-bootstrap-current-2021"
+      ],
+      "issue": 7,
+      "missing_inputs": [
+        "G1 input packet",
+        "Prespecified numerical/compatibility criteria"
+      ],
+      "start_date": null,
+      "due_date": null,
+      "execution_status": "not_running",
+      "timing_kind": "dependency_order_not_calendar_promise"
+    },
+    {
+      "id": "G3",
+      "title": "Test whether the heating can do both jobs",
+      "phase": "AFTER A MATCHED PLASMA",
+      "status": "Waiting on G2",
+      "depends_on": [
+        "G2"
+      ],
+      "checkpoint": "After a consistent candidate plasma is available",
+      "deliverable": "Actual ray, absorption and driven-current profiles with the retained heating/control functions.",
+      "pass_rule": "Meet the approximately 7.598 MA external-current requirement within 170 MW credited drive power AND the required heating/control/current-profile conditions. The current total alone is insufficient.",
+      "stop_rule": "Reject or reduce the higher-power allocation if those functions cannot coexist; do not import current from the unrelated ITER reference.",
+      "reuse_ids": [
+        "lopez-hare-launcher-search-2025",
+        "seino-jademo-eccd-2024",
+        "genray-canonical-iter-reference-20260916"
+      ],
+      "issue": 7,
+      "missing_inputs": [
+        "Matched candidate equilibrium",
+        "Qualified launch geometry and power definition",
+        "Heating/control acceptance criteria"
+      ],
+      "start_date": null,
+      "due_date": null,
+      "execution_status": "not_running",
+      "timing_kind": "dependency_order_not_calendar_promise"
+    },
+    {
+      "id": "G4",
+      "title": "Check cooling, fuel and materials on that same design",
+      "phase": "PARALLEL EVIDENCE; THEN INTEGRATION",
+      "status": "Unresolved",
+      "depends_on": [
+        "G2",
+        "G3"
+      ],
+      "checkpoint": "Prior-data review can proceed now; full design integration follows G2/G3",
+      "deliverable": "One traceable nuclear-to-thermal/fuel/structural model, with benchmark support and missing data explicit.",
+      "pass_rule": "Use the same geometry and source throughout; satisfy stated cooling, fuel-recovery and material limits without mixing favorable results from different designs.",
+      "stop_rule": "Do not promote the design when fuel/cooling/material constraints fail or the experimental comparison is unsupported.",
+      "reuse_ids": [
+        "fng-hcpb-2005",
+        "novais-peterson-fng-hcpb-2025",
+        "jade-vv-framework"
+      ],
+      "issue": 3,
+      "missing_inputs": [
+        "Compatible permitted benchmark inputs",
+        "Same-design geometry and nuclear loads",
+        "Fuel recovery / thermal / material evidence"
+      ],
+      "start_date": null,
+      "due_date": null,
+      "execution_status": "not_running",
+      "timing_kind": "dependency_order_not_calendar_promise"
+    },
+    {
+      "id": "G5",
+      "title": "Obtain relevant physical validation",
+      "phase": "LATER; NO EXPERIMENT BOOKED",
+      "status": "Not scheduled",
+      "depends_on": [
+        "G4"
+      ],
+      "checkpoint": "Only after a credible design and an authorized measurement plan",
+      "deliverable": "Independent, calibrated physical tests of the relevant design claims, with uncertainty and provenance.",
+      "pass_rule": "A qualified partner or facility tests the relevant claims; unrelated laboratory records and simulations do not count as our hardware result.",
+      "stop_rule": "No hardware or fusion claim without traceable measurements and the necessary resources and approvals.",
+      "reuse_ids": [
+        "power-progress-measurement-boundaries-20260916"
+      ],
+      "issue": null,
+      "missing_inputs": [
+        "Facility / partner and resources",
+        "Experiment-specific safety and review",
+        "Measurement and calibration plan"
+      ],
+      "start_date": null,
+      "due_date": null,
+      "execution_status": "not_running",
+      "timing_kind": "dependency_order_not_calendar_promise"
+    },
+    {
+      "id": "G6",
+      "title": "Demonstrate useful net electricity",
+      "phase": "LONG-TERM GOAL; NO DATE ESTABLISHED",
+      "status": "Not demonstrated",
+      "depends_on": [
+        "G5"
+      ],
+      "checkpoint": "No credible completion date is established",
+      "deliverable": "An independently checked complete energy account over operation, including internal loads.",
+      "pass_rule": "Measured electricity delivered exceeds electricity consumed at the declared whole-system boundary over the stated period; shot yield or a model estimate is not enough.",
+      "stop_rule": "Do not declare success from reaction energy, target gain, or positive hypothetical plant power.",
+      "reuse_ids": [
+        "power-progress-measurement-boundaries-20260916"
+      ],
+      "issue": null,
+      "missing_inputs": [
+        "Working, independently validated physical system",
+        "Full operating energy measurements"
+      ],
+      "start_date": null,
+      "due_date": null,
+      "execution_status": "not_running",
+      "timing_kind": "dependency_order_not_calendar_promise"
+    }
+  ],
+  "plan_notice": "Past dates are factual study dates. Future order is dependency-based. No reactor-completion date, start booking or unattended worker is implied.",
+  "plan_status": "Proposed next-work checkpoints based on the open research tasks; not executed by this dashboard",
+  "prior_work": {
+    "schema": "fusion.prior-work-register.v1",
+    "updated_date": "2026-09-16",
+    "policy": "Search this register and primary literature before admitting new work. Replication is useful only when it closes a named reproducibility or validation gap. These entries are not an exhaustive novelty search.",
+    "entries": [
+      {
+        "id": "power-progress-measurement-boundaries-20260916",
+        "title": "Published fusion measurements and explicit power/energy accounting boundaries",
+        "attribution": "PPPL TFTR investigators; UKAEA/EUROfusion JET teams; LLNL/NIF and collaborators; UKAEA PROCESS for the separate Workbench models",
+        "original_date": "Selected physical experiments1994â€“2026; primary records checked16September2026",
+        "classification": "Attributed measurement-history consolidation and model-score presentation; no new experiment, solver or discovery",
+        "our_status": "Twelve computational history records and11 selected physical milestones retained with separate units, original-source links and qualification status.",
+        "our_use": "Make best conditional modeled net electricity and its limitations visible without ranking it against measured reaction energy or peak fusion power.",
+        "already_known": "MJ yield, peak fusion MW, mean reaction MW, target gain and net electric MW are distinct physical boundaries. The original experimental records belong to their investigators.",
+        "do_not_repeat": "Do not label the superseded406.53MW cross-study estimate as a coupled best result. Do not turn absent measurements into zero, NIF shot energy into continuous power, or a new report into a new power point.",
+        "reopen_when": "A new sourced experiment, corrected measurement statement, changed model result or qualification changes the records. Preserve non-record and rejected results.",
+        "reading_scope": "Primary laboratory/agency HTML statements; not raw experimental datasets or independent reproduction of the measurements.",
+        "sources": [
+          {
+            "title": "UKAEA JET result",
+            "url": "https://www.gov.uk/government/news/jets-final-tritium-experiments-yield-new-fusion-energy-record"
+          },
+          {
+            "title": "LLNL NIF ignition and yield history",
+            "url": "https://lasers.llnl.gov/science/achieving-fusion-ignition"
+          },
+          {
+            "title": "PPPL TFTR original site report abstract",
+            "url": "https://bp-pub.pppl.gov/pub_report/1996/PPPL-3159-abs.html"
+          }
+        ],
+        "license_scope": "Original Workbench integration MIT; numerical facts and short original summaries with attribution, no copied full articles or upstream relicensing.",
+        "report_search": "Power progress: best model output"
+      },
+      {
+        "id": "tokamaker-candidate-equilibrium-20260916",
+        "title": "Established fixed-boundary Gradâ€“Shafranov construction; candidate interface checked",
+        "attribution": "Open FUSION Toolkit / TokaMaker original investigators and contributors; UKAEA PROCESS profile and systems authors; Workbench coupling/verification",
+        "original_date": "Existing TokaMaker method; official v26.6 example and v26.9 implementation reviewed",
+        "classification": "Reused numerical solver; new explicitly unqualified candidate construction and closure/refinement comparison",
+        "our_status": "Four completed current/pressure-energy-matched constructions; q95 mismatch persists under declared refinement; no candidate ray/current qualification.",
+        "our_use": "Map exact archived pressure shape through enclosed volume and test whether assumed scalar safety factors survive a force-balanced construction.",
+        "already_known": "Gradâ€“Shafranov solves, fixed-boundary profiles and mesh convergence are established. A prescribed boundary is not a PF-coil or plasma-stability demonstration.",
+        "do_not_repeat": "Do not repeat the earlier official DIII-D example as a new reactor result. Do not equate matching integrated current and energy with matching a full physical equilibrium.",
+        "reopen_when": "A physically substantiated diverted boundary/current/fast-pressure profile, numerical defect or new declared compatibility question changes the interface.",
+        "reading_scope": "Official example and installed26.9 source/API; no experimentally reconstructed candidate equilibrium was available.",
+        "sources": [
+          {
+            "title": "Open FUSION Toolkit",
+            "url": "https://openfusiontoolkit.github.io/OpenFUSIONToolkit/"
+          },
+          {
+            "title": "Official fixed-boundary example",
+            "url": "https://openfusiontoolkit.github.io/OpenFUSIONToolkit/docs/v26.6/doc_tMaker_fixed_ex1.html"
+          }
+        ],
+        "license_scope": "Original Workbench coupling MIT; solver maintains upstream terms, no numerical library distribution.",
+        "report_search": "EC equilibrium interface"
+      },
+      {
+        "id": "genray-canonical-iter-reference-20260916",
+        "title": "GENRAY canonical ITER EC ray, existing Prater reference",
+        "attribution": "GENRAY / A.P.Smirnov, R.W.Harvey and collaborators; reference case with R.Prater",
+        "original_date": "Canonical2004 ITER reference; upstream February2026 code pin",
+        "classification": "Existing reference execution and extraction check, not new method or candidate current result",
+        "our_status": "One complete reference ray with343 recorded points and checked power-termination status; no comparison against archived numerical reference or experiment claimed.",
+        "our_use": "Establish usable ray-code execution/result format before a matched candidate interface.",
+        "already_known": "GENRAY and canonical EC code comparisons already exist. A successful reference cannot supply another reactor's current-drive credit.",
+        "do_not_repeat": "Do not count exit0 without completed ray/NetCDF as success. Do not rescale the canonical reference current into candidate7.598MA.",
+        "reopen_when": "A changed numerical build, interface or a documented reference discrepancy warrants a new check.",
+        "reading_scope": "Pinned official source, makefile, regression guide and completed numerical output; output-device-only compatibility adapter recorded.",
+        "sources": [
+          {
+            "title": "GENRAY pinned source and regression tests",
+            "url": "https://github.com/compxco/genray/tree/ee443d16e5aaf9bc7227fb3e95581e3ba374df89"
+          }
+        ],
+        "license_scope": "GENRAY GPL-3.0-or-later source/binary not bundled; original extraction and result projections credited separately.",
+        "report_search": "EC equilibrium interface"
+      },
+      {
+        "id": "whole-plant-current-drive-allocation-20260914",
+        "title": "Established pulsed/current-drive trade-offs; candidate-specific power allocation test",
+        "attribution": "UKAEA PROCESS contributors; generic tokamak input by James Morris; Kembleton et al. EU-DEMO design-space work; EU-DEMO HCD contributors; Sugiyama, Aiba, Asakura, Hayashi and Sakamoto",
+        "original_date": "2022 EU-DEMO studies;2024 JA-DEMO scenario study;2026 candidate-specific comparison",
+        "classification": "Reused existing methods; new conditional systems-design comparison, not experimental discovery",
+        "our_status": "Six bounded PROCESS solves completed: two steady-state failures and four pulsed points. Final controlled pair differs only in75vs30MW extra-heating allocation.",
+        "our_use": "Quantify useful power at fixed major radius using native output objective and unchanged drive/turbine efficiencies and constraints. Preserve all attempts and qualification gaps.",
+        "already_known": "Heating/current-drive, current-profile control and recirculating-power trade-offs already exist in reactor design literature. Systems-code feasibility is not integrated plasma validation.",
+        "do_not_repeat": "No generic steady-state demonstration or another scalar allocation sweep. Do not call the75MW heating-only pool wasted power; do not apply benchmark discrepancy factors or reuse old blanket results on altered geometry.",
+        "reopen_when": "A candidate-specific, substantiated deposition/control constraint, numerical defect or declared optimization-robustness question can change the design decision.",
+        "reading_scope": "Accessible publisher and contributing-author records, existing official PROCESS source. No reproduction of the papers' integrated plasma scenario models.",
+        "sources": [
+          {
+            "title": "EU-DEMO design space and drivers",
+            "url": "https://doi.org/10.1016/j.fusengdes.2022.113080"
+          },
+          {
+            "title": "EU-DEMO heating and current-drive roles",
+            "url": "https://doi.org/10.1016/j.fusengdes.2022.113159"
+          },
+          {
+            "title": "Integrated JA-DEMO pulsed/current-profile scenario",
+            "url": "https://doi.org/10.1088/1741-4326/ad49b6"
+          }
+        ],
+        "license_scope": "Original workbench integration MIT; referenced papers linked, not reproduced. Existing upstream PROCESS/input terms and credits retained.",
+        "report_search": "Whole-plant decision"
+      },
+      {
+        "id": "oktavian-lif-measurement-1988",
+        "title": "OKTAVIAN lithium-fluoride neutron leakage measurements",
+        "attribution": "Chihiro Ichihara, Shu A. Hayashi, Katsuhei Kobayashi, Itsuro Kimura, Junji Yamamoto, Mikio Izumi and Akito Takahashi; Kyoto University and Osaka University",
+        "original_date": "1988 proceedings; archive labels measurement July1987",
+        "classification": "existing experiment reproduced computationally",
+        "our_status": "One-million-history transport replay completed; experiment agreement remains unqualified",
+        "our_use": "Compare frozen neutron/photon surface scores with an archived calculation and the IAEA-hosted neutron table, without fitting or dropping bins.",
+        "already_known": "These leakage experiments and transport-code comparisons predate this project by decades.",
+        "do_not_repeat": "Do not rebuild this benchmark or rerun identical histories as a discovery task; do not infer blanket breeding from LiF leakage.",
+        "reopen_when": "A documented normalization, measurement-response, source/nuclear-data or precision question can change an acceptance decision.",
+        "reading_scope": "Original authors'1988 abstract; exact pinned IAEA tables/input; OFB model/helper/archives; no claim to have read the full proceedings paper.",
+        "sources": [
+          {
+            "title": "Original authors' abstract",
+            "url": "https://wwwndc.jaea.go.jp/nd1988/abstracts/12916-0319.html"
+          },
+          {
+            "title": "Frozen benchmark provenance and licenses",
+            "url": "https://github.com/chriszavadil/fusion-workbench-open/blob/main/research/source/experiments/oktavian_lif_2026_09_14/ATTRIBUTION.md"
+          }
+        ],
+        "license_scope": "IAEA tabular data CC-BY-4.0; exact upstream notices retained; no paper fulltext redistributed.",
+        "report_search": "Existing lithium benchmark"
+      },
+      {
+        "id": "ofb-lif-model",
+        "title": "Existing OpenMC LiF model and archived numerical reference",
+        "attribution": "OpenMC Fusion Benchmarks contributors; copyright2025 MIT PSFC",
+        "original_date": "Archived calculation September2024; pinned code revision c47fc573a7e2a9ca11a8958dc67155b1146adf51",
+        "classification": "reused existing code and numerical reference",
+        "our_status": "Model reused unchanged; normalization and zero-score issues explicitly audited",
+        "our_use": "Execute published geometry/material/source with declared run statistics, then compare all original bins and retain both original and derived values.",
+        "already_known": "An OpenMC model and a billion-history archived comparison already exist; a replacement neutron solver is unnecessary.",
+        "do_not_repeat": "No duplicate model implementation, no blind use of the19.95cm helper as physical30.5cm radius, no Gaussian significance for an unscored bin.",
+        "reopen_when": "Exact upstream/source/data changes or a reproducibility defect needs a scoped test.",
+        "reading_scope": "Pinned model, helper, HDF5 reference and license read; present work is not an author-validated correction.",
+        "sources": [
+          {
+            "title": "Pinned OFB repository",
+            "url": "https://github.com/eepeterson/openmc_fusion_benchmarks/tree/c47fc573a7e2a9ca11a8958dc67155b1146adf51"
+          }
+        ],
+        "license_scope": "MIT; copyright and permission notice included.",
+        "report_search": "Existing lithium benchmark"
+      },
+      {
+        "id": "iaea-open-benchmarks",
+        "title": "IAEA-NDS open benchmark tables and inputs",
+        "attribution": "IAEA Nuclear Data Section and original experimental contributors; CoNDERC/SINBAD provenance as documented by the repository",
+        "original_date": "Pinned09bacd7927b581d5e0f90468a0599fec8e95f972",
+        "classification": "reused openly licensed data",
+        "our_status": "LiF input and both measurement tables retrieved, hashed and credited",
+        "our_use": "Use original table values and reported errors instead of silently inheriting a conflicting transformed first bin.",
+        "already_known": "A curated, explicitly licensed source of the selected input and measurements is available.",
+        "do_not_repeat": "Do not recreate tables by digitizing plots or relabel third-party data as project-owned; do not assume one repository license covers separately restricted benchmarks.",
+        "reopen_when": "Upstream corrections, missing units or a new benchmark's provenance/rights need verification.",
+        "reading_scope": "Pinned input, complete selected CSVs, README and license.",
+        "sources": [
+          {
+            "title": "Pinned IAEA-NDS release",
+            "url": "https://github.com/IAEA-NDS/open-benchmarks/tree/09bacd7927b581d5e0f90468a0599fec8e95f972"
+          },
+          {
+            "title": "CC BY4.0 license",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        ],
+        "license_scope": "CC-BY-4.0 for the selected repository data; original authors and changes identified.",
+        "report_search": "Attribution and reuse scope"
+      },
+      {
+        "id": "jade-vv-framework",
+        "title": "JADE nuclear-data verification and validation framework",
+        "attribution": "Davide Laghi et al.; JADE contributors",
+        "original_date": "2020 publication",
+        "classification": "existing framework reviewed, not reimplemented",
+        "our_status": "Documentation reviewed; no full JADE execution claimed",
+        "our_use": "Use established benchmark descriptions and distinguish numerical reproduction from measurement validation.",
+        "already_known": "Automated nuclear-data benchmark generation, comparison and reporting already exist.",
+        "do_not_repeat": "Do not build another generic V&V framework or present generic comparison plots as novel physics.",
+        "reopen_when": "A specific model/data interface requires an adaptation not already supported by the established framework.",
+        "reading_scope": "Project and experimental-benchmark documentation; not a full code audit.",
+        "sources": [
+          {
+            "title": "JADE original publication",
+            "url": "https://doi.org/10.1016/j.fusengdes.2020.112075"
+          },
+          {
+            "title": "JADE documentation",
+            "url": "https://jade-a-nuclear-data-libraries-vv-tool.readthedocs.io/en/latest/"
+          }
+        ],
+        "license_scope": "Documentation linked; no JADE GPL source copied or relicensed.",
+        "report_search": "Existing lithium benchmark"
+      },
+      {
+        "id": "fng-hcpb-2005",
+        "title": "FNG HCPB lithium-carbonate / beryllium tritium benchmark",
+        "attribution": "P. Batistoni, P. Carconi, R. Villari, M. Angelone, M. Pillon and G. Zappa; ENEA experiment, as cited by JADE",
+        "original_date": "2005 experiment and ENEA report;2006 consistency assessment",
+        "classification": "known more relevant experiment; not yet reproduced here",
+        "our_status": "Detailed public benchmark description located; complete usable input/data packet not acquired in this continuation",
+        "our_use": "Select the next qualification target because it measures tritium production in a lithium/beryllium assembly rather than leakage alone.",
+        "already_known": "Measurements and MCNP/OpenMC model descriptions exist; a new generic experiment is not required just to establish this validation question.",
+        "do_not_repeat": "Do not substitute aluminium or LiF leakage for tritium-production validation; do not invent pellet activity normalization or claim the documented model has been run.",
+        "reopen_when": "Complete geometry, source, pellet measurements, normalization and redistribution rights are available for a pinned reproduction.",
+        "reading_scope": "JADE description and NEA SINBAD NEA-1553/71 summary read; underlying experiment package and full original reports not obtained. The new OpenMC paper is recorded separately at abstract-level reading.",
+        "sources": [
+          {
+            "title": "FNG-HCPB geometry, measurements and normalization",
+            "url": "https://jade-a-nuclear-data-libraries-vv-tool.readthedocs.io/en/latest/benchmarks/experimental.html#fng-helium-cooled-pebble-bed-hcpb-tritium-breeder-module-tbm-mock-up"
+          },
+          {
+            "title": "NEA SINBAD original experiment summary and file inventory",
+            "url": "https://www.oecd-nea.org/science/wprs/shielding/sinbad/fng_hcpb/fnghcpb-a.htm"
+          }
+        ],
+        "license_scope": "Description linked; no restricted input files or paper fulltext redistributed.",
+        "report_search": "Existing lithium benchmark"
+      },
+      {
+        "id": "novais-peterson-fng-hcpb-2025",
+        "title": "Published OpenMC HCPB tritium benchmark and nuclear-data uncertainty study",
+        "attribution": "Felipe S. Novais and Ethan E. Peterson; Massachusetts Institute of Technology Plasma Science and Fusion Center",
+        "original_date": "Published online 23 October 2025; Fusion Science and Technology 82(4), 2026, pp.844-852",
+        "classification": "existing directly relevant validation study; not reproduced here",
+        "our_status": "Author/publisher abstract and metadata located; complete model, per-detector numerical data and uncertainty files not acquired here",
+        "our_use": "Replace the assumption that an OpenMC HCPB validation study must be invented. Seek the existing reproducible package before another model implementation.",
+        "already_known": "The authors compared OpenMC with MCNP-4C and SINBAD measurements for Li2CO3 pellets in a beryllium mock-up, including SANDY-based nuclear-data uncertainty; their abstract reports roughly9% mean tritium-production underprediction.",
+        "do_not_repeat": "Do not rebrand their benchmark or uncertainty method as a discovery. Do not multiply our candidate result by1/0.91, subtract9% from it, or treat9% as an uncertainty bound on our2.71% header contrast.",
+        "reopen_when": "The exact model/source version, pellet normalization, experimental uncertainties and reusable data terms are available for a declared independent reproduction or a demonstrated missing sensitivity test.",
+        "reading_scope": "Publisher and ANS abstract plus bibliographic metadata only; no full-text or per-detector data reproduction claimed.",
+        "sources": [
+          {
+            "title": "Novais and Peterson, original published study",
+            "url": "https://doi.org/10.1080/15361055.2025.2567167"
+          },
+          {
+            "title": "American Nuclear Society abstract",
+            "url": "https://www.ans.org/pubs/journals/fst/article-60202/"
+          }
+        ],
+        "license_scope": "Cited and paraphrased; no article PDF, model or restricted dataset redistributed.",
+        "report_search": "Breeding benchmark selection"
+      },
+      {
+        "id": "seino-jademo-eccd-2024",
+        "title": "JA-DEMO launch geometry and current-profile ECCD study",
+        "attribution": "T. Seino, K. Yanagihara, H. Takahashi, K. Tobita, K. Nagasaki, A. Fukuyama, A. Matsuyama, T. Oishi and T. Maekawa",
+        "original_date": "2024",
+        "classification": "Existing numerical study, reviewed but not reproduced here",
+        "our_status": "Publisher abstract and author-university bibliography read; used only for nontransferable efficiency examples",
+        "our_use": "Context for the current-budget gate; 35-46 kA/MW from a different plasma does not certify our 44.693 kA/MW requirement.",
+        "already_known": "Efficient launch geometries and harmful higher-harmonic absorption have already been studied.",
+        "do_not_repeat": "Do not claim the published efficiency is our achieved performance, a probability distribution or a physical upper bound.",
+        "reopen_when": "Matching candidate equilibrium and deposition/current-profile requirements support a licensed targeted reproduction.",
+        "reading_scope": "Abstract and bibliographic record, not a full-code or full-paper reproduction.",
+        "sources": [
+          {
+            "title": "Original study",
+            "url": "https://doi.org/10.1016/j.fusengdes.2024.114460"
+          },
+          {
+            "title": "Author-university bibliography",
+            "url": "https://plasma.iae.kyoto-u.ac.jp/ronbun.html"
+          }
+        ],
+        "license_scope": "References linked; no third-party full text or solver copied.",
+        "report_search": "Whole-plant decision"
+      },
+      {
+        "id": "lopez-hare-launcher-search-2025",
+        "title": "Physics-guided reverse/forward ray tracing for ECCD launchers",
+        "attribution": "N. A. Lopez, A. Alieva, S. A. M. McNamara and X. Zhang",
+        "original_date": "2025",
+        "classification": "Existing method reviewed, not implemented or benchmarked here",
+        "our_status": "Public preprint abstract and method sections read",
+        "our_use": "Select targeted physics-guided launch reconstruction rather than inventing a large brute-force scan for the next current-drive qualification.",
+        "already_known": "HARE-guided launcher reconstruction and ray-tracing validation exist.",
+        "do_not_repeat": "Do not claim the authors' speedup or successful profiles as ours. Do not equate normalized gamma with dimensionless zeta or fabricate a candidate equilibrium.",
+        "reopen_when": "A traceable candidate equilibrium, profile requirements and authorized appropriate ray solver are ready.",
+        "reading_scope": "Accessible preprint method sections; no new HARE or GENRAY execution.",
+        "sources": [
+          {
+            "title": "Original preprint",
+            "url": "https://arxiv.org/abs/2501.04619"
+          }
+        ],
+        "license_scope": "Linked reference and original paraphrase only; no third-party code copied.",
+        "report_search": "Whole-plant decision"
+      },
+      {
+        "id": "redl-bootstrap-current-2021",
+        "title": "Established self-generated plasma-current formulas and equilibrium iteration",
+        "attribution": "A. Redl, C. Angioni, E. Belli, O. Sauter, ASDEX Upgrade and EUROfusion MST1 teams; Open FUSION Toolkit maintainers for its separate example",
+        "original_date": "2021 paper; official TokaMaker example reviewed 2026-09-16",
+        "classification": "Existing method identified for reuse, not a completed Workbench candidate result",
+        "our_status": "Already identified in issue7; added here so roadmap checks can cite it. No new bootstrap-current run.",
+        "our_use": "Use established current/equilibrium methods once the matched candidate profiles are defined.",
+        "already_known": "Bootstrap-current modeling and self-consistent equilibrium iteration already exist; a generic demonstration is not our unresolved design question.",
+        "do_not_repeat": "Do not write another generic bootstrap-current solver or repeat an ITER example as a candidate validation. Do not tune current profiles to recover a desired power number.",
+        "reopen_when": "New candidate inputs, a concrete numerical/interface defect or a declared validation need requires an independent check.",
+        "reading_scope": "Original-contributor General Atomics summary, official TokaMaker example and existing issue7 record; no full independent reproduction of the paper claimed.",
+        "sources": [
+          {
+            "title": "Original paper",
+            "url": "https://doi.org/10.1063/5.0012664"
+          },
+          {
+            "title": "General Atomics contributor summary",
+            "url": "https://fusion.gat.com/global/theory/weekly/0721"
+          },
+          {
+            "title": "Official bootstrap-equilibrium example",
+            "url": "https://openfusiontoolkit.github.io/OpenFUSIONToolkit/docs/v26.6/doc_tMaker_ITER_ex3.html"
+          }
+        ],
+        "license_scope": "Linked prior work and original summary only; no article or third-party code redistributed.",
+        "report_search": "Progress, goals and reuse"
+      }
+    ]
+  },
+  "next_task_review": {
+    "ready_for_admission_review": false,
+    "reasons": [
+      "Missing positive bounded max_runs",
+      "Missing positive bounded timeout_seconds",
+      "Required inputs are not complete"
+    ],
+    "novelty_proven": false,
+    "automatic_execution": false
+  },
+  "existing_power_view": "../power-progress/",
+  "existing_particles_view": "../#watch",
+  "metric_policy": "No combined score or percentage of fusion solved. Marker rows classify evidence, not its scientific magnitude. Unknown or absent physical measurements are not plotted as zero.",
+  "new_scientific_runs": 0,
+  "source_hashes": {
+    "research/progress/EVENTS.json": "5cb9794488e37bb9c1fda7fb92c69c11d8240848e4a24b4c3fb35ec4fb29d115",
+    "research/progress/GOALS.json": "65c7d1dd2ef648880ad53981b934fa5202c73f22844eae1fd94dea1f4ffa5d3c",
+    "project-status.json": "9c1573780d2e39548529c7b0ee34d1a01b7e552cf2c6669962900281daaafe61",
+    "research/prior_work_register.json": "00db5a2c018c2121f80c99299fc542cfe064d1238b9c99af8da613923cc2c19d"
+  },
+  "base_commit": "b9539c1b8d7db1e70ddc8c355341fb4bc15e3b9c"
+}

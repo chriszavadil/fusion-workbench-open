@@ -158,5 +158,11 @@
     "track": "project",
     "status": "current update",
     "scope_notice": "Presentation correction: no physical fusion or generated electricity; same reference mesh and recorded particle dataset. No new scientific result."
+  },
+  "docs/PROGRESS_GOALS_AND_REUSE_2026-09-16.md": {
+    "configuration_scope": "r838 project",
+    "track": "project",
+    "status": "current update",
+    "scope_notice": "Presentation and proposed research checkpoints only; no new physics run, demonstrated energy or promised fusion-completion date."
   }
 }
