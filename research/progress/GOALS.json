@@ -32,7 +32,7 @@
       "id": "G2",
       "title": "Make the plasma-current calculation agree with itself",
       "phase": "AFTER INPUT REVIEW",
-      "status": "Not yet passed",
+      "status": "Interior current-budget diagnostic completed; full consistency not passed",
       "depends_on": [
         "G1"
       ],
@@ -64,7 +64,7 @@
       ],
       "checkpoint": "After a consistent candidate plasma is available",
       "deliverable": "Actual ray, absorption and driven-current profiles with the retained heating/control functions.",
-      "pass_rule": "Meet the approximately 7.598 MA external-current requirement within 170 MW credited drive power AND the required heating/control/current-profile conditions. The current total alone is insufficient.",
+      "pass_rule": "Meet the external-current profile required by the matched G2 plasma, within the declared drive/heating budget AND the retained control requirements. The original 7.598 MA within 170 MW is a reference operating-point requirement, not a fixed target transferable to a different bootstrap/equilibrium model.",
       "stop_rule": "Reject or reduce the higher-power allocation if those functions cannot coexist; do not import current from the unrelated ITER reference.",
       "reuse_ids": [
         "lopez-hare-launcher-search-2025",

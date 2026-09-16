@@ -4,7 +4,7 @@
     "reviewed_through": "2026-09-16",
     "period_start": "2026-09-07",
     "period_end": "2026-09-16",
-    "latest_scientific_event_id": "ec-equilibrium-interface-20260916",
+    "latest_scientific_event_id": "inverse-current-budget-20260916",
     "latest_scientific_date": "2026-09-16",
     "last_model_power_date": "2026-09-14",
     "new_power_record_since_last_model_study": false,
@@ -14,7 +14,7 @@
     "whole_reactor_qualified": false,
     "current_goal_id": "G1",
     "project_stage": "Computer-based design studies; not a proven complete reactor",
-    "change_statement": "The latest scientific test exposed a mismatch in the plasma assumptions. The later graphs, animations and access fixes improve the tools, not fusion performance.",
+    "change_statement": "The latest current-budget diagnostic questions the fixed microwave-current requirement. Full plasma/current consistency and physical performance remain unqualified.",
     "timeline_notice": "Historical dates are recorded study dates. The next-work timeline is a dependency order, not promised completion dates. No unattended research worker is implied."
   },
   "event_scope": "All existing dated public project milestones from 7–16 September 2026, explicitly classified. Older work remains in the research library; this is not a log of every action.",
@@ -57,7 +57,7 @@
       "sources": [
         {
           "path": "project-status.json",
-          "sha256": "9c1573780d2e39548529c7b0ee34d1a01b7e552cf2c6669962900281daaafe61"
+          "sha256": "70cb0c6a84481913c9174cc81eda923ff39fd2166030b92dc4df1d4854e653c1"
         }
       ],
       "physical_fusion_demonstrated": false,
@@ -79,7 +79,7 @@
       "sources": [
         {
           "path": "project-status.json",
-          "sha256": "9c1573780d2e39548529c7b0ee34d1a01b7e552cf2c6669962900281daaafe61"
+          "sha256": "70cb0c6a84481913c9174cc81eda923ff39fd2166030b92dc4df1d4854e653c1"
         }
       ],
       "physical_fusion_demonstrated": false,
@@ -101,7 +101,7 @@
       "sources": [
         {
           "path": "project-status.json",
-          "sha256": "9c1573780d2e39548529c7b0ee34d1a01b7e552cf2c6669962900281daaafe61"
+          "sha256": "70cb0c6a84481913c9174cc81eda923ff39fd2166030b92dc4df1d4854e653c1"
         }
       ],
       "physical_fusion_demonstrated": false,
@@ -145,7 +145,7 @@
       "sources": [
         {
           "path": "project-status.json",
-          "sha256": "9c1573780d2e39548529c7b0ee34d1a01b7e552cf2c6669962900281daaafe61"
+          "sha256": "70cb0c6a84481913c9174cc81eda923ff39fd2166030b92dc4df1d4854e653c1"
         }
       ],
       "physical_fusion_demonstrated": false,
@@ -167,7 +167,7 @@
       "sources": [
         {
           "path": "project-status.json",
-          "sha256": "9c1573780d2e39548529c7b0ee34d1a01b7e552cf2c6669962900281daaafe61"
+          "sha256": "70cb0c6a84481913c9174cc81eda923ff39fd2166030b92dc4df1d4854e653c1"
         }
       ],
       "physical_fusion_demonstrated": false,
@@ -282,6 +282,28 @@
       ],
       "physical_fusion_demonstrated": false,
       "net_electricity_measured_MW": null
+    },
+    {
+      "id": "inverse-current-budget-20260916",
+      "date": "2026-09-16",
+      "date_precision": "study_day",
+      "kind": "model_finding",
+      "title": "The plasma may supply more of its own current than assumed",
+      "result": "A new current-profile diagnostic on four saved magnetic-field approximations estimated a larger thermal self-current contribution than the simpler design budget.",
+      "decision": "Test the plasma and supplied current together before treating the old microwave-current requirement as fixed.",
+      "limit": "These are unqualified proxy fields and an interior calculation, not a full current solution, achieved microwave performance or extra electricity.",
+      "source_paths": [
+        "research/reports/results/INVERSE_CURRENT_BUDGET_2026-09-16.md"
+      ],
+      "milestone_id": "inverse-current-budget-20260916",
+      "sources": [
+        {
+          "path": "research/reports/results/INVERSE_CURRENT_BUDGET_2026-09-16.md",
+          "sha256": "d9cd18191eaf2144358bc6857d92b068ded26ebfc2f1a49e223e215f03bb5f10"
+        }
+      ],
+      "physical_fusion_demonstrated": false,
+      "net_electricity_measured_MW": null
     }
   ],
   "goals": [
@@ -314,7 +336,7 @@
       "id": "G2",
       "title": "Make the plasma-current calculation agree with itself",
       "phase": "AFTER INPUT REVIEW",
-      "status": "Not yet passed",
+      "status": "Interior current-budget diagnostic completed; full consistency not passed",
       "depends_on": [
         "G1"
       ],
@@ -346,7 +368,7 @@
       ],
       "checkpoint": "After a consistent candidate plasma is available",
       "deliverable": "Actual ray, absorption and driven-current profiles with the retained heating/control functions.",
-      "pass_rule": "Meet the approximately 7.598 MA external-current requirement within 170 MW credited drive power AND the required heating/control/current-profile conditions. The current total alone is insufficient.",
+      "pass_rule": "Meet the external-current profile required by the matched G2 plasma, within the declared drive/heating budget AND the retained control requirements. The original 7.598 MA within 170 MW is a reference operating-point requirement, not a fixed target transferable to a different bootstrap/equilibrium model.",
       "stop_rule": "Reject or reduce the higher-power allocation if those functions cannot coexist; do not import current from the unrelated ITER reference.",
       "reuse_ids": [
         "lopez-hare-launcher-search-2025",
@@ -754,8 +776,8 @@
         "attribution": "A. Redl, C. Angioni, E. Belli, O. Sauter, ASDEX Upgrade and EUROfusion MST1 teams; Open FUSION Toolkit maintainers for its separate example",
         "original_date": "2021 paper; official TokaMaker example reviewed 2026-09-16",
         "classification": "Existing method identified for reuse, not a completed Workbench candidate result",
-        "our_status": "Already identified in issue7; added here so roadmap checks can cite it. No new bootstrap-current run.",
-        "our_use": "Use established current/equilibrium methods once the matched candidate profiles are defined.",
+        "our_status": "Four current-budget diagnostics on previous unqualified equilibria now completed. Bootstrap and residual profiles evaluated without fitting current amplitudes; this is not a complete self-consistent candidate solve.",
+        "our_use": "Reused the installed Redl thermal-bootstrap model with explicit flux-sign and toroidal-projection checks to test the assumed current allocation; full qualification remains open.",
         "already_known": "Bootstrap-current modeling and self-consistent equilibrium iteration already exist; a generic demonstration is not our unresolved design question.",
         "do_not_repeat": "Do not write another generic bootstrap-current solver or repeat an ITER example as a candidate validation. Do not tune current profiles to recover a desired power number.",
         "reopen_when": "New candidate inputs, a concrete numerical/interface defect or a declared validation need requires an independent check.",
@@ -775,7 +797,7 @@
           }
         ],
         "license_scope": "Linked prior work and original summary only; no article or third-party code redistributed.",
-        "report_search": "Progress, goals and reuse"
+        "report_search": "Inverse current budget"
       }
     ]
   },
@@ -794,10 +816,10 @@
   "metric_policy": "No combined score or percentage of fusion solved. Marker rows classify evidence, not its scientific magnitude. Unknown or absent physical measurements are not plotted as zero.",
   "new_scientific_runs": 0,
   "source_hashes": {
-    "research/progress/EVENTS.json": "5cb9794488e37bb9c1fda7fb92c69c11d8240848e4a24b4c3fb35ec4fb29d115",
-    "research/progress/GOALS.json": "65c7d1dd2ef648880ad53981b934fa5202c73f22844eae1fd94dea1f4ffa5d3c",
-    "project-status.json": "9c1573780d2e39548529c7b0ee34d1a01b7e552cf2c6669962900281daaafe61",
-    "research/prior_work_register.json": "00db5a2c018c2121f80c99299fc542cfe064d1238b9c99af8da613923cc2c19d"
+    "research/progress/EVENTS.json": "e294f655a9759495ab8587f7a3634c8345a810a5aac8e69447f5585ecb6733e0",
+    "research/progress/GOALS.json": "57119531f59c03a5f1851a07e9f95f6a3cb27083b4440f9867f6740633e6902e",
+    "project-status.json": "70cb0c6a84481913c9174cc81eda923ff39fd2166030b92dc4df1d4854e653c1",
+    "research/prior_work_register.json": "ccb3e8dd92dfe96d7d15d203c4530fc3dabb96d2a26ed8bf475927969e857ca2"
   },
   "base_commit": "b9539c1b8d7db1e70ddc8c355341fb4bc15e3b9c"
 }

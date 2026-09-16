@@ -1,0 +1,34 @@
+{
+  "schema": "fusion.current-budget-continuation-review.v1",
+  "date": "2026-09-16",
+  "original_study_cases": 4,
+  "recovered_completed_cases": 4,
+  "new_equilibrium_solver_runs_this_resumption": 0,
+  "saved_field_arithmetic_replay_identical": true,
+  "additional_checks": [
+    "Independent composite-Simpson summation from every saved profile",
+    "Full three-term bootstrap decomposition and coefficient identities",
+    "Restored pressure-energy target",
+    "Flux-surface-average residual distinguished from untested local counter-current"
+  ],
+  "source_tests_passed": 342,
+  "local_real_browser": {
+    "passed": true,
+    "security_changed": false,
+    "scientific_jobs": 0,
+    "revision": "7141e3c58b4fce12e17dae2630d15d9389f06fcf5c08f897ad4a5709462fb35b",
+    "browser": "153.0.4234.32",
+    "all_four_current_profiles": true,
+    "new_scientific_event": true,
+    "narrow_layout_no_overflow": true,
+    "physical_validation": false,
+    "page_errors": [],
+    "http_failures": []
+  },
+  "original_fields_modified": false,
+  "physical_validation": false,
+  "new_power_result": null,
+  "projection_primary_reference": "https://arxiv.org/html/2507.05166v1",
+  "projection_reference_equation": "2",
+  "live_deployment_check": "pending"
+}

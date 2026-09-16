@@ -1,5 +1,7 @@
 # Fusion Workbench
 
+**New scientific diagnostic:** [inverse plasma-current budget](https://chriszavadil.github.io/fusion-workbench-open/ec-wave/#current-budget). Four existing unqualified equilibria now have thermal bootstrap and residual-current profiles. This tests the assumed current allocation; it does not establish generated power or completed actuator qualification.
+
 [**Progress graph, timeline and goals**](https://chriszavadil.github.io/fusion-workbench-open/progress/) separates design findings, unresolved tests, reused work and website changes. Goals have explicit pass/stop rules and dependencies, not a promise of when fusion will work.
 
 **New here?** [Start with the plain-language visual guide](https://chriszavadil.github.io/fusion-workbench-open/) or [watch our recorded particle calculation](https://chriszavadil.github.io/fusion-workbench-open/#watch). We have not produced fusion or generated electricity. This project tests design ideas in software; numerical power estimates are not hardware results.

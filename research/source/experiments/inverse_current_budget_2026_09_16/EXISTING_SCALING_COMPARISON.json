@@ -1,0 +1,20 @@
+{
+  "source_mfile_sha256": "7820f58cdf129d0f67000c570a4de0e969aa94f712c6cae03e34f0ba27d65cad",
+  "active_model_code": 4.0,
+  "active_model": "Sauter",
+  "active_fraction": 0.37352527620156684,
+  "original_other_model_outputs": {
+    "f_c_plasma_bootstrap_iter89": 0.3861403866171912,
+    "f_c_plasma_bootstrap_nevins": 0.3948657316837343,
+    "f_c_plasma_bootstrap_wilson": 0.479452175689035,
+    "f_c_plasma_bootstrap_sauter": 0.37352527620156684,
+    "f_c_plasma_bootstrap_sakai": 0.34323388810186234,
+    "f_c_plasma_bootstrap_aries": 0.5183077721447887,
+    "f_c_plasma_bootstrap_andrade": 0.3457608669355741,
+    "f_c_plasma_bootstrap_hoang": 0.3673397520045056,
+    "f_c_plasma_bootstrap_wong": 0.6882840263412227,
+    "f_c_plasma_bootstrap_sugiyama_l": 0.6458683966578926,
+    "f_c_plasma_bootstrap_sugiyama_h": 0.6643657480624935
+  },
+  "scope": "These alternate bootstrap fractions were ALREADY present in the original systems output. They are different correlations, not experiments or a physical uncertainty distribution. Larger self-current estimates are not a new discovery; the new work evaluates spatial budgets on the saved force-balanced proxies."
+}

@@ -18,8 +18,8 @@ def test_event_sources_and_nonphysical_boundary(e):
 
 def test_current_scientific_status_is_not_latest_app_change():
  latest=next(e for e in D['events'] if e['id']==D['summary']['latest_scientific_event_id'])
- assert latest['id']=='ec-equilibrium-interface-20260916' and latest['kind']=='unresolved_test'
- assert D['events'][-1]['kind']=='interface'
+ assert latest['id']=='inverse-current-budget-20260916' and latest['kind']=='model_finding'
+ assert any(e['id']=='progress-goals-20260916' and e['kind']=='interface' for e in D['events'])
  assert D['summary']['last_model_power_date']=='2026-09-14'
  assert not D['summary']['whole_reactor_qualified'] and D['new_scientific_runs']==0
  assert D['summary']['hardware_date'] is None

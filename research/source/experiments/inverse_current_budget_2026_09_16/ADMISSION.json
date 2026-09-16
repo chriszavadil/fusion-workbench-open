@@ -1,0 +1,19 @@
+{
+ "schema":"fusion.inverse-current-budget-admission.v1",
+ "date":"2026-09-16",
+ "decision":"Can the two previously constructed plasma closures be supplied by the declared current sources, without automatically increasing inductive current or fitting the bootstrap amplitude?",
+ "approach":"Inverse necessary-condition screen: evaluate established Redl thermal bootstrap current on the four existing current/energy-matched proxy equilibria; compare the residual current demand. Do not optimize a launcher or claim a matched diverted equilibrium.",
+ "new_information":"Previous study chose FF-prime shapes and checked q. It did not compute their kinetic bootstrap-current demands or spatial residuals. Those are the new outputs, not another discovery of Grad-Shafranov equilibrium or Redl theory.",
+ "prior_sources":["https://doi.org/10.1063/5.0012664","https://openfusiontoolkit.github.io/OpenFUSIONToolkit/docs/v26.6/doc_tMaker_ITER_ex3.html","https://arxiv.org/abs/2507.05166"],
+ "scope":"A narrower diagnostic can proceed on fully labeled existing proxies while original roadmap G1/G2 remain physically unqualified. All existing limited-boundary, pressure-shape and missing control/deposition constraints remain unresolved.",
+ "budget":{"proxy_restorations":4,"timeout_seconds_each":180,"threads_each":1,"nonlinear_iterations_max":100,"flux_grids":[201,401],"contour_points":256},
+ "frozen_conditions":"Original saved mesh, pressure mapping, FF exponents1/2, plasma current, F0 and pressure-energy target. Restore only needed unexported geometry coefficients; do not change operating point, current target or physics margins.",
+ "kinetics":"Archived ion/electron thermal pressure; reconstructed electron temperature/density checked against archived pressure. Common Ti/Te profile ratio is checked in pinned PROCESS. No invented fast-particle bootstrap contribution or posthoc Zeff normalization.",
+ "model":"Installed TokaMaker26.9 Redl implementation; NRL electron Coulomb log and Zavg/Koh effective-ion conventions as its documented native workflow. Compare its approximate toroidal projection with a contour-integrated parallel-current projection. Preserve coefficients, signs, coordinate conventions and every point; no nan-to-zero cleanup.",
+ "domain":"Use interior normalized poloidal flux0.01..0.98 for the quantitative current-shell comparison. Uncomputed axis/edge contributions remain explicit; do not present an interior bootstrap integral as complete reactor bootstrap current.",
+ "acceptance":"Restored q sample values agree with saved values within0.02%; Ip/energy within prior0.2%. Density/temperature positive; trapped fractions0..1, q finite and signed conversion explicit. Independent contour integral of total current agrees with Ampere circulation within1% on the tested shell. Change in final interior integral under201vs401 quadrature below1% required for a quoted resolved comparison.",
+ "falsification":"An interior current surplus requiring counter-current, or a current-budget discrepancy, rejects only the declared proxy with its stated current-source assumptions. Preserve deficits and failures. A consistent interior budget is only necessary, not actuator/stability/whole-device qualification.",
+ "not_allowed":"No automatic scale-up of inductive/EC current, no fit of bootstrap strength, no retuning pressure/geometry to recover the old power number, no generic canonical example rerun, no new power claim.",
+ "stop_rule":"Four bounded restorations/evaluations only, plus read-only arithmetic verification. Implementation errors are preserved and corrected without changing physical assumptions; no extra design sweep.",
+ "physical_validation":false
+}

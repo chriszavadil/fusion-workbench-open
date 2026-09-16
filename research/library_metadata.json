@@ -164,5 +164,11 @@
     "track": "project",
     "status": "current update",
     "scope_notice": "Presentation and proposed research checkpoints only; no new physics run, demonstrated energy or promised fusion-completion date."
+  },
+  "research/reports/results/INVERSE_CURRENT_BUDGET_2026-09-16.md": {
+    "configuration_scope": "r838 project",
+    "track": "plasma",
+    "status": "current update",
+    "scope_notice": "New bootstrap/residual current diagnostic on unchanged unqualified proxies; interior current only, no current rescaling, candidate qualification or power gain."
   }
 }

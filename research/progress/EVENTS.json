@@ -168,6 +168,20 @@
         "docs/PROGRESS_GOALS_AND_REUSE_2026-09-16.md"
       ],
       "milestone_id": "progress-goals-20260916"
+    },
+    {
+      "id": "inverse-current-budget-20260916",
+      "date": "2026-09-16",
+      "date_precision": "study_day",
+      "kind": "model_finding",
+      "title": "The plasma may supply more of its own current than assumed",
+      "result": "A new current-profile diagnostic on four saved magnetic-field approximations estimated a larger thermal self-current contribution than the simpler design budget.",
+      "decision": "Test the plasma and supplied current together before treating the old microwave-current requirement as fixed.",
+      "limit": "These are unqualified proxy fields and an interior calculation, not a full current solution, achieved microwave performance or extra electricity.",
+      "source_paths": [
+        "research/reports/results/INVERSE_CURRENT_BUDGET_2026-09-16.md"
+      ],
+      "milestone_id": "inverse-current-budget-20260916"
     }
   ]
 }
