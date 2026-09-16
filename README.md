@@ -1,5 +1,7 @@
 # Fusion Workbench
 
+[**Progress graph, timeline and goals**](https://chriszavadil.github.io/fusion-workbench-open/progress/) separates design findings, unresolved tests, reused work and website changes. Goals have explicit pass/stop rules and dependencies, not a promise of when fusion will work.
+
 **New here?** [Start with the plain-language visual guide](https://chriszavadil.github.io/fusion-workbench-open/) or [watch our recorded particle calculation](https://chriszavadil.github.io/fusion-workbench-open/#watch). We have not produced fusion or generated electricity. This project tests design ideas in software; numerical power estimates are not hardware results.
 
 **Browser verification repaired:** actual installed-Edge checks now cover the homepage, Power progress, EC-wave and plant-decision pages, including power-history CSV export, reference-ray animation and the narrow-screen power layout. [Dated verification and repeatable procedure](docs/BROWSER_VERIFICATION_2026-09-16.md). Security policies remain enabled; this is application verification, not new fusion evidence.

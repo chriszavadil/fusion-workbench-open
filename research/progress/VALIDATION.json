@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "security_changed": false,
+  "scientific_runs": 0,
+  "real_browser": true,
+  "revision": "b952000c8746c37745859acf94ffce091ea806daed2a69f44b84c144e8a48c56",
+  "browser": "153.0.4234.32",
+  "event_markers": 12,
+  "goals": 6,
+  "reuse_entries": 13,
+  "interactive_filters": true,
+  "shared_homepage_graph": true,
+  "narrow_layout_no_page_overflow": true,
+  "scope": "Local prepublication browser pass; exact deployed revision will be checked after publication",
+  "page_errors": [],
+  "http_failures": [],
+  "artifacts": {
+    "goal-timeline.png": "a61f49b90f301e4d5d307d4eb7dc8ccedf9ff3b4be7b8bc4f37790988ce4e811",
+    "progress-desktop.png": "b1c925c307802355117e20b890ab6d3e264c725f8a2ca834989ff36421538f1f",
+    "progress-graph.png": "fec797cd41f48a60baed1f8c3aef5a49e0fb0f08a8cd205e4f6d254bc674778d",
+    "progress-mobile.png": "bc5c5a8e6e0d1cc87b3bb42571e3b9f844ad1761980463337eb143f8908da38a"
+  }
+}

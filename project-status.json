@@ -39,6 +39,13 @@
   ],
   "milestones": [
     {
+      "id": "progress-goals-20260916",
+      "date": "2026-09-16",
+      "title": "Progress graph, goals and repeat-work checks",
+      "summary": "Existing scientific findings, unresolved tests, reused work and interface changes have separate timeline lanes. Goals show missing inputs, pass/stop rules and dependencies; no new scientific result or hardware date is asserted.",
+      "search": "Progress, goals and reuse"
+    },
+    {
       "id": "plain-language-entry-20260916",
       "date": "2026-09-16",
       "title": "Start-here view explains the research and plays our recorded particles",

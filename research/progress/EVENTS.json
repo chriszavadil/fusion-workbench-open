@@ -1,0 +1,173 @@
+{
+  "scope": "All existing dated public project milestones from 7–16 September 2026, explicitly classified. Older work remains in the research library; this is not a log of every action.",
+  "events": [
+    {
+      "id": "lifetime-20260907",
+      "date": "2026-09-07",
+      "date_precision": "study_day",
+      "kind": "model_finding",
+      "title": "A more complete reference calculation",
+      "result": "Added the intended magnet-lifetime requirement to the whole-plant calculation.",
+      "decision": "Keep this as the numerical reference; do not reuse the earlier optimistic power screen.",
+      "limit": "Numerical lifetime and output, not a qualified magnet or working reactor.",
+      "source_paths": [
+        "research/reports/results/FULL_PROCESS_LIFECYCLE_2026-09-07.md"
+      ],
+      "milestone_id": "lifetime-20260907"
+    },
+    {
+      "id": "evidence-reader-20260909",
+      "date": "2026-09-09",
+      "date_precision": "study_day",
+      "kind": "verification_reuse",
+      "title": "Accounting and evidence made inspectable",
+      "result": "Reviewed established confinement/accounting conventions and made reports searchable.",
+      "decision": "Use the corrected conventions; do not count the same finding as new physics.",
+      "limit": "This does not demonstrate a better plasma or new generated power.",
+      "source_paths": [
+        "project-status.json"
+      ],
+      "milestone_id": "evidence-reader-20260909"
+    },
+    {
+      "id": "header-transport-20260910",
+      "date": "2026-09-10",
+      "date_precision": "study_day",
+      "kind": "model_finding",
+      "title": "Pipe placement changes a local result",
+      "result": "Compared two pipe arrangements in a simplified particle-transport section.",
+      "decision": "Do not approve the more convenient cooling layout without its neutron effects.",
+      "limit": "A local calculated effect, not whole-reactor fuel supply.",
+      "source_paths": [
+        "project-status.json"
+      ],
+      "milestone_id": "header-transport-20260910"
+    },
+    {
+      "id": "spatial-lab-20260910",
+      "date": "2026-09-10",
+      "date_precision": "study_day",
+      "kind": "interface",
+      "title": "Made the particle results visible",
+      "result": "Linked saved particle paths and deposited-energy fields to the 3D views.",
+      "decision": "Use the replay to inspect a calculation that already exists.",
+      "limit": "Adding animation is not a new physical result.",
+      "source_paths": [
+        "project-status.json"
+      ],
+      "milestone_id": "spatial-lab-20260910"
+    },
+    {
+      "id": "source-coupling-20260913",
+      "date": "2026-09-13",
+      "date_precision": "study_day",
+      "kind": "model_finding",
+      "title": "The local pipe penalty survives a better source model",
+      "result": "Used candidate-linked particle directions instead of only simple angle assumptions.",
+      "decision": "The front-pipe layout still cannot be approved on cooling alone.",
+      "limit": "Source geometry and surrounding-material return effects remain incomplete.",
+      "source_paths": [
+        "research/reports/results/PLASMA_SOURCE_COUPLING_2026-09-13.md"
+      ],
+      "milestone_id": "source-coupling-20260913"
+    },
+    {
+      "id": "hcpb-prior-art-20260914",
+      "date": "2026-09-14",
+      "date_precision": "study_day",
+      "kind": "verification_reuse",
+      "title": "Found the relevant work already published",
+      "result": "Identified the existing tritium-production benchmark study and credited its authors.",
+      "decision": "Reuse it; do not invent a new benchmark or borrow its discrepancy as a reactor correction.",
+      "limit": "Finding prior work does not validate our reactor.",
+      "source_paths": [
+        "project-status.json"
+      ],
+      "milestone_id": "hcpb-prior-art-20260914"
+    },
+    {
+      "id": "lif-reference-and-prior-work-2026-09-14",
+      "date": "2026-09-14",
+      "date_precision": "study_day",
+      "kind": "verification_reuse",
+      "title": "A software replay exposed a measurement gap",
+      "result": "Recovered an existing lithium calculation and checked its comparison data.",
+      "decision": "Separate reproduction of a calculation from agreement with measurement.",
+      "limit": "No whole-reactor breeding validation or new power.",
+      "source_paths": [
+        "project-status.json"
+      ],
+      "milestone_id": "lif-reference-and-prior-work-2026-09-14"
+    },
+    {
+      "id": "plant-current-drive-20260914",
+      "date": "2026-09-14",
+      "date_precision": "study_day",
+      "kind": "model_finding",
+      "title": "A conditional power lead worth testing",
+      "result": "A fixed-radius comparison predicted higher output if more heating can also drive current.",
+      "decision": "Test that physical capability before accepting the modeled gain.",
+      "limit": "The condition is unproven. This is not electricity generated.",
+      "source_paths": [
+        "research/reports/results/PLANT_CURRENT_DRIVE_DECISION_2026-09-14.md"
+      ],
+      "milestone_id": "plant-current-drive-20260914"
+    },
+    {
+      "id": "ec-equilibrium-interface-20260916",
+      "date": "2026-09-16",
+      "date_precision": "study_day",
+      "kind": "unresolved_test",
+      "title": "The plasma assumptions did not line up",
+      "result": "The detailed constructed magnetic fields did not match the simpler design assumptions.",
+      "decision": "Do not treat the higher-power estimate as proven. Test a consistent plasma/current model next.",
+      "limit": "The simplified constructions do not prove the original concept impossible.",
+      "source_paths": [
+        "research/reports/results/EC_EQUILIBRIUM_INTERFACE_2026-09-16.md"
+      ],
+      "milestone_id": "ec-equilibrium-interface-20260916"
+    },
+    {
+      "id": "power-progress-dashboard-20260916",
+      "date": "2026-09-16",
+      "date_precision": "study_day",
+      "kind": "interface",
+      "title": "Published power history and external experiments",
+      "result": "Made existing model records and others’ measurements easier to inspect.",
+      "decision": "Keep the two evidence types separate and preserve failures.",
+      "limit": "The dashboard added no scientific power point.",
+      "source_paths": [
+        "research/reports/results/POWER_PROGRESS_DASHBOARD_2026-09-16.md"
+      ],
+      "milestone_id": "power-progress-dashboard-20260916"
+    },
+    {
+      "id": "plain-language-entry-20260916",
+      "date": "2026-09-16",
+      "date_precision": "study_day",
+      "kind": "interface",
+      "title": "Explained the research and opened the animation",
+      "result": "Put the concept and recorded particles in a plain-language entry.",
+      "decision": "Make clear that we have not produced fusion or electricity.",
+      "limit": "A usability improvement, not progress in reactor performance.",
+      "source_paths": [
+        "docs/PLAIN_LANGUAGE_ENTRY_2026-09-16.md"
+      ],
+      "milestone_id": "plain-language-entry-20260916"
+    },
+    {
+      "id": "progress-goals-20260916",
+      "date": "2026-09-16",
+      "date_precision": "publication_day",
+      "kind": "interface",
+      "title": "Added a progress graph and gated roadmap",
+      "result": "Made existing decisions, setbacks, future goals and reuse rules visible together.",
+      "decision": "Review the actual next question before spending compute; keep app work separate.",
+      "limit": "This graph and plan are not a new fusion result or an executed scientific study.",
+      "source_paths": [
+        "docs/PROGRESS_GOALS_AND_REUSE_2026-09-16.md"
+      ],
+      "milestone_id": "progress-goals-20260916"
+    }
+  ]
+}

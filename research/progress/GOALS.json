@@ -1,0 +1,166 @@
+{
+  "as_of": "2026-09-16",
+  "plan_status": "Proposed next-work checkpoints based on the open research tasks; not executed by this dashboard",
+  "schedule_notice": "Past dates are factual study dates. Future order is dependency-based. No reactor-completion date, start booking or unattended worker is implied.",
+  "goals": [
+    {
+      "id": "G1",
+      "title": "Agree on one consistent plasma input",
+      "phase": "NEXT INPUT REVIEW",
+      "status": "Needs inputs",
+      "depends_on": [],
+      "checkpoint": "Before the next scientific run",
+      "deliverable": "A versioned boundary, pressure and current-profile packet with units, assumptions and source hashes.",
+      "pass_rule": "Every required profile is supplied or explicitly labeled an unqualified assumption; no hidden substitution of a different plasma. Numerical tolerances and a finite run budget are written before execution.",
+      "stop_rule": "Stop qualification when essential inputs are missing. A proxy may be tested only under a separately labeled, decision-relevant admission.",
+      "reuse_ids": [
+        "tokamaker-candidate-equilibrium-20260916",
+        "redl-bootstrap-current-2021"
+      ],
+      "issue": 7,
+      "missing_inputs": [
+        "Matched diverted boundary",
+        "Separated inductive / self-generated / driven current profiles",
+        "Substantiated fast-particle pressure and control requirements"
+      ],
+      "start_date": null,
+      "due_date": null,
+      "execution_status": "not_running",
+      "timing_kind": "dependency_order_not_calendar_promise"
+    },
+    {
+      "id": "G2",
+      "title": "Make the plasma-current calculation agree with itself",
+      "phase": "AFTER INPUT REVIEW",
+      "status": "Not yet passed",
+      "depends_on": [
+        "G1"
+      ],
+      "checkpoint": "Next bounded candidate calculation, after G1",
+      "deliverable": "A reproducible equilibrium/current comparison with failed and successful cases retained.",
+      "pass_rule": "Current and pressure profiles are mutually consistent under stated tolerances and assumptions. Either support the intended operating point or report a named redesign; do not fit a scalar merely to restore the desired power.",
+      "stop_rule": "Reject or revise the operating point when closure or compatibility fails. Keep nonconvergence distinct from proof of impossibility.",
+      "reuse_ids": [
+        "tokamaker-candidate-equilibrium-20260916",
+        "redl-bootstrap-current-2021"
+      ],
+      "issue": 7,
+      "missing_inputs": [
+        "G1 input packet",
+        "Prespecified numerical/compatibility criteria"
+      ],
+      "start_date": null,
+      "due_date": null,
+      "execution_status": "not_running",
+      "timing_kind": "dependency_order_not_calendar_promise"
+    },
+    {
+      "id": "G3",
+      "title": "Test whether the heating can do both jobs",
+      "phase": "AFTER A MATCHED PLASMA",
+      "status": "Waiting on G2",
+      "depends_on": [
+        "G2"
+      ],
+      "checkpoint": "After a consistent candidate plasma is available",
+      "deliverable": "Actual ray, absorption and driven-current profiles with the retained heating/control functions.",
+      "pass_rule": "Meet the approximately 7.598 MA external-current requirement within 170 MW credited drive power AND the required heating/control/current-profile conditions. The current total alone is insufficient.",
+      "stop_rule": "Reject or reduce the higher-power allocation if those functions cannot coexist; do not import current from the unrelated ITER reference.",
+      "reuse_ids": [
+        "lopez-hare-launcher-search-2025",
+        "seino-jademo-eccd-2024",
+        "genray-canonical-iter-reference-20260916"
+      ],
+      "issue": 7,
+      "missing_inputs": [
+        "Matched candidate equilibrium",
+        "Qualified launch geometry and power definition",
+        "Heating/control acceptance criteria"
+      ],
+      "start_date": null,
+      "due_date": null,
+      "execution_status": "not_running",
+      "timing_kind": "dependency_order_not_calendar_promise"
+    },
+    {
+      "id": "G4",
+      "title": "Check cooling, fuel and materials on that same design",
+      "phase": "PARALLEL EVIDENCE; THEN INTEGRATION",
+      "status": "Unresolved",
+      "depends_on": [
+        "G2",
+        "G3"
+      ],
+      "checkpoint": "Prior-data review can proceed now; full design integration follows G2/G3",
+      "deliverable": "One traceable nuclear-to-thermal/fuel/structural model, with benchmark support and missing data explicit.",
+      "pass_rule": "Use the same geometry and source throughout; satisfy stated cooling, fuel-recovery and material limits without mixing favorable results from different designs.",
+      "stop_rule": "Do not promote the design when fuel/cooling/material constraints fail or the experimental comparison is unsupported.",
+      "reuse_ids": [
+        "fng-hcpb-2005",
+        "novais-peterson-fng-hcpb-2025",
+        "jade-vv-framework"
+      ],
+      "issue": 3,
+      "missing_inputs": [
+        "Compatible permitted benchmark inputs",
+        "Same-design geometry and nuclear loads",
+        "Fuel recovery / thermal / material evidence"
+      ],
+      "start_date": null,
+      "due_date": null,
+      "execution_status": "not_running",
+      "timing_kind": "dependency_order_not_calendar_promise"
+    },
+    {
+      "id": "G5",
+      "title": "Obtain relevant physical validation",
+      "phase": "LATER; NO EXPERIMENT BOOKED",
+      "status": "Not scheduled",
+      "depends_on": [
+        "G4"
+      ],
+      "checkpoint": "Only after a credible design and an authorized measurement plan",
+      "deliverable": "Independent, calibrated physical tests of the relevant design claims, with uncertainty and provenance.",
+      "pass_rule": "A qualified partner or facility tests the relevant claims; unrelated laboratory records and simulations do not count as our hardware result.",
+      "stop_rule": "No hardware or fusion claim without traceable measurements and the necessary resources and approvals.",
+      "reuse_ids": [
+        "power-progress-measurement-boundaries-20260916"
+      ],
+      "issue": null,
+      "missing_inputs": [
+        "Facility / partner and resources",
+        "Experiment-specific safety and review",
+        "Measurement and calibration plan"
+      ],
+      "start_date": null,
+      "due_date": null,
+      "execution_status": "not_running",
+      "timing_kind": "dependency_order_not_calendar_promise"
+    },
+    {
+      "id": "G6",
+      "title": "Demonstrate useful net electricity",
+      "phase": "LONG-TERM GOAL; NO DATE ESTABLISHED",
+      "status": "Not demonstrated",
+      "depends_on": [
+        "G5"
+      ],
+      "checkpoint": "No credible completion date is established",
+      "deliverable": "An independently checked complete energy account over operation, including internal loads.",
+      "pass_rule": "Measured electricity delivered exceeds electricity consumed at the declared whole-system boundary over the stated period; shot yield or a model estimate is not enough.",
+      "stop_rule": "Do not declare success from reaction energy, target gain, or positive hypothetical plant power.",
+      "reuse_ids": [
+        "power-progress-measurement-boundaries-20260916"
+      ],
+      "issue": null,
+      "missing_inputs": [
+        "Working, independently validated physical system",
+        "Full operating energy measurements"
+      ],
+      "start_date": null,
+      "due_date": null,
+      "execution_status": "not_running",
+      "timing_kind": "dependency_order_not_calendar_promise"
+    }
+  ]
+}
