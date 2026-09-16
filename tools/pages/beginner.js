@@ -1,0 +1,11 @@
+// MIT. Reuses the existing reference-design mesh; camera motion is not physics.
+import {DeviceViewer} from './viewer.js';
+const $=id=>document.getElementById(id);
+const explanations={plasma:'Hot fuel region: this is where fusion would need to be sustained. The glow is only a drawing aid.',solenoid:'Central magnet: it would help drive electrical current through the plasma.',coils:'Surrounding magnets: they would help keep the hot fuel away from the walls. Their shapes are simplified here.',first_wall:'First wall: the surface facing the hot fuel and incoming radiation.',blanket:'Blanket: material intended to absorb neutron energy and help produce replacement fuel. Whole-reactor performance is not established.',shield:'Shielding: material intended to protect equipment from radiation.',vessel:'Vacuum vessel: the enclosure around the plasma. This shape is not a qualified pressure-vessel design.'};
+try{const viewer=new DeviceViewer($('beginner-viewport'),id=>{$('beginner-part').textContent=explanations[id]||'Conceptual component; engineering qualification remains open.';});
+let rotating=!matchMedia('(prefers-reduced-motion: reduce)').matches;viewer.controls.autoRotate=rotating;viewer.controls.autoRotateSpeed=.6;
+const rotate=()=>{$('beginner-rotate').textContent=rotating?'Pause rotation':'Rotate the view';viewer.controls.autoRotate=rotating;viewer.needsRender=true;};rotate();
+$('beginner-rotate').onclick=()=>{rotating=!rotating;rotate();};$('beginner-reset').onclick=()=>viewer.reset();$('beginner-cutaway').onchange=()=>viewer.setCutaway($('beginner-cutaway').checked);
+viewer.controls.addEventListener('start',()=>{rotating=false;rotate();});
+viewer.load('r838').then(()=>{$('beginner-viewport').dataset.model='r838';$('beginner-part').textContent='This is the reference reactor concept. Drag to look around; click a part for a plain-language explanation.';window.workbenchBeginnerReady=true;}).catch(()=>{$('beginner-part').textContent='The 3D mesh could not be loaded. Use the particle experiment or research links; no substitute simulation is shown.';});
+}catch(err){$('beginner-part').textContent='Your browser could not start the 3D view. This is a graphics issue, not a reactor test result.';console.error(err);}

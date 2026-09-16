@@ -36,7 +36,7 @@ def build(root=ROOT):
  html=html.replace('src="./app.js"','src="./app-public.js"')
  html=re.sub(r'(<span id="connection" class="connection">).*?(</span>)',r'\1Published snapshot - no hosted solver\2',html)
  html=re.sub(r'(<span id="footer-status">).*?(</span>)',r'\1OPEN RESEARCH - PUBLISHED RESULTS, NOT LIVE COMPUTE\2',html)
- html=html.replace('<button class="tab selected" data-tab="device">','<button class="tab selected" data-tab="overview">Overview & progress</button><button class="tab" data-tab="device">')
+ html=html.replace('<button class="tab selected" data-tab="device">','<button class="tab selected" data-tab="overview">Start here</button><button class="tab" data-tab="device">')
  html=html.replace('id="device" class="view active"','id="device" class="view"')
  html=html.replace('<span id="connection" class="connection">Checking local workerâ€¦</span>','<span id="connection" class="connection">Published snapshot Â· no remote solver</span>')
  html=html.replace('<div class="eyebrow">LOCAL EXPERIMENTS</div>','<div class="eyebrow">DESKTOP EXPERIMENTS</div>')
@@ -47,20 +47,21 @@ def build(root=ROOT):
  html=html.replace('This prototype saves a local JSON brief; it does not submit or publish it.','This form downloads a proposal brief; it does not submit it. Attach the brief to a reviewed contribution through the repository when its public collaboration gate is open.')
  html=html.replace('Public contribution hosting and reviewed live result publication are not connected yet.','No public code-execution endpoint is exposed.')
  html=html.replace('<title>Fusion Workbench â€” open research</title>','<title>Fusion Workbench | Explore the research and evidence</title>')
+ html=html.replace('>3D transport</button>','>Our particles</button>')
  html=html.replace('</head>','<meta name="description" content="Inspect fusion reactor concepts, recorded neutron transport, open research reports and the unresolved evidence gaps. Research preview, not a working reactor."><link rel="stylesheet" href="./pages.css"></head>')
  overview=(root/'tools/pages/overview.html').read_text(encoding='utf-8');html=html.replace('<main id="device"',overview+'\n<main id="device"',1)
- html=html.replace('</body>','<script type="module" src="./pages.js"></script><script type="module" src="./power-summary.js"></script></body>')
+ html=html.replace('</body>','<script type="module" src="./pages.js"></script><script type="module" src="./power-summary.js"></script><script type="module" src="./beginner.js"></script></body>')
  importmap=re.search(r'<script type="importmap">(.*?)</script>',html,re.S).group(1)
  digest=base64.b64encode(hashlib.sha256(importmap.encode()).digest()).decode()
  csp="default-src 'self'; script-src 'self' 'sha256-"+digest+"'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; worker-src 'none'"
  html=html.replace('<head>','<head><meta http-equiv="Content-Security-Policy" content="'+csp+'">',1)
  (out/'index.html').write_text(html,encoding='utf-8');(out/'.nojekyll').write_text('')
- for name in ['pages.css','pages.js','power-summary.js']:shutil.copyfile(root/'tools/pages'/name,out/name)
+ for name in ['pages.css','pages.js','power-summary.js','beginner.js']:shutil.copyfile(root/'tools/pages'/name,out/name)
  for name in ['source-context.png','neutron-study.png']:
   p=root/'media'/name
   if p.exists():dst=out/'media'/name;dst.parent.mkdir(exist_ok=True);shutil.copyfile(p,dst)
  catalog=json.loads((data/'catalog.json').read_text());library=json.loads((data/'research_library.json').read_text());proof=json.loads((root/'project-status.json').read_text())
- published={'schema':'fusion.pages-publication.v1','viewer_version':'0.5.6-power-progress','data_date':library['updated_date'],'research_records':len(library['records']),'data_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in data.iterdir() if p.is_file()},'repository':REPO,'source_branch':BRANCH,'solver_hosted':False,'snapshot_only':True,'public_collaboration_open':True,'release_gate':'Clean public repository; see public-deployment.json for independent hosting verification.','readiness':proof['readiness'],'milestones':proof['milestones']}
+ published={'schema':'fusion.pages-publication.v1','viewer_version':'0.5.7-plain-language','data_date':library['updated_date'],'research_records':len(library['records']),'data_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in data.iterdir() if p.is_file()},'repository':REPO,'source_branch':BRANCH,'solver_hosted':False,'snapshot_only':True,'public_collaboration_open':True,'release_gate':'Clean public repository; see public-deployment.json for independent hosting verification.','readiness':proof['readiness'],'milestones':proof['milestones']}
  published['plant_decision_sha256']={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((out/'plant-decision').iterdir()) if p.is_file()}
  published['ec_equilibrium_sha256']={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((out/'ec-wave').iterdir()) if p.is_file()}
  published['power_progress_sha256']={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((out/'power-progress').iterdir()) if p.is_file()}
