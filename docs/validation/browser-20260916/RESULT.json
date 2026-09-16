@@ -1,0 +1,60 @@
+{
+  "schema": "fusion.real-browser-verification.v1",
+  "passed": true,
+  "base_url": "https://chriszavadil.github.io/fusion-workbench-open/",
+  "pages": [
+    {
+      "path": "/",
+      "homepage_scores_displayed": true
+    },
+    {
+      "path": "power-progress/",
+      "scores_and_history_verified": true,
+      "all_three_physical_series_verified": true,
+      "csv_export_verified": true,
+      "mobile_layout_checked": {
+        "width": 390,
+        "height": 844,
+        "page_overflow": false
+      }
+    },
+    {
+      "path": "ec-wave/",
+      "four_equilibria_verified": true,
+      "analytic_filters_verified": true,
+      "actual_ray_playback_verified": true
+    },
+    {
+      "path": "plant-decision/",
+      "power_ledger_and_cycle_scrubber_verified": true
+    }
+  ],
+  "browser_channel": "msedge",
+  "headless": true,
+  "tls_errors_ignored": false,
+  "browser_sandbox_enabled": true,
+  "security_settings_changed": false,
+  "signed_in_profile_used": false,
+  "scientific_jobs_submitted": 0,
+  "retry_after_access_denial": false,
+  "browser_version": "153.0.4234.32",
+  "elapsed_s": 7.578,
+  "page_errors": [],
+  "http_failures": [],
+  "artifacts": {
+    "ec-wave-desktop.png": "de00ab9076bfae5280d78b2913d3a1924428d2c740d1d2af71d8bf6c78708404",
+    "history-chart.png": "4fcfe214bcc5f0ef6850c48e4aeb40d711590152b70e12d2841b7459ed110b8c",
+    "history.csv": "6dc40b9c72b438f4c9a6ccc686fcc4051fe71387ae614b9347ea50d5f38d7b8d",
+    "homepage-desktop.png": "262c8a16deeb1a55c351ec5b25702cab046701d32d17125f973dd0a8e4d70df2",
+    "physical-results.png": "06295acf8a83d8235bf62c721dc93d7ccd4d2b9b3f141de08396deeae5caef15",
+    "plant-decision-desktop.png": "a3ac4afcb2e18331d0350d457b45f3af45f26446f8e931463d073066107fb37b",
+    "power-progress-desktop.png": "cb8d8180fde3e808589f4888691ef11e4a19cf15a5a8b88b776067fdab25e728",
+    "power-progress-mobile.png": "db763677e953f234efae263780f1fad457b064f919f8a1f957de6850b8285f29"
+  },
+  "verified_repository_commit": "ad2a9c62416dc841ef9cb465f2fd378e239cc9a9",
+  "manual_visual_review": [
+    "homepage-desktop.png",
+    "history-chart.png"
+  ],
+  "scope": "Installed Edge on authorized workstation; new browser context; no policy or TLS changes. Desktop four views and390px power layout. Not all browsers or accessibility conformance."
+}

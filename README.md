@@ -1,5 +1,7 @@
 # Fusion Workbench
 
+**Browser verification repaired:** actual installed-Edge checks now cover the homepage, Power progress, EC-wave and plant-decision pages, including power-history CSV export, reference-ray animation and the narrow-screen power layout. [Dated verification and repeatable procedure](docs/BROWSER_VERIFICATION_2026-09-16.md). Security policies remain enabled; this is application verification, not new fusion evidence.
+
 **Power progress:** [best recorded model, historical results and real-world experiments](https://chriszavadil.github.io/fusion-workbench-open/power-progress/). The headline is conditional modeled net electricity, not physical output. Failed and retired claims stay visible; JET, TFTR and NIF measurements are separately labeled and sourced.
 
 **September16 research update:** [Equilibrium and EC-wave explorer](https://chriszavadil.github.io/fusion-workbench-open/ec-wave/) shows four force-balanced construction cases, the restored56-point analytical study and a separately labeled canonical ITER reference ray. The construction does not match the original scalar-q assumptions; candidate current drive remains unqualified. Read the dated research report and preserved failures before using the values. The released Unreal binary is unchanged.
