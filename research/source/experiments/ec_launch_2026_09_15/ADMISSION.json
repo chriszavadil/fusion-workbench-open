@@ -1,0 +1,20 @@
+{
+  "schema": "fusion.ec-analytic-admission.v1",
+  "date": "2026-09-15",
+  "question": "Which local frequency/parallel-index combinations are worth supplying to an established ray and current-drive calculation for the published fixed-radius alternative, and do they satisfy the local cold-wave dispersion prerequisite?",
+  "prior_work": "Poli et al. (2018) HARE and Lopez, Alieva, McNamara, Zhang (2025 publication; arXiv v2 2026) feed-forward launcher selection. Apply their local analytic formulas, not a new method and not a reproduction of their GENRAY results.",
+  "fixed_execution": {
+    "cases": ["control75", "alternative30"],
+    "rho_values": [0.0,0.1,0.2,0.3,0.4,0.5,0.6],
+    "absorption_width_fractions_a": [0.1,0.2],
+    "cos_inclinations": [0.5,1.0],
+    "base_case": {"absorption_width_fraction_a":0.2,"cos_inclination":1.0},
+    "fixed_frequency_checks_GHz": [170.0,204.0,230.0,240.0],
+    "note": "Sensitivity values are selected before evaluation; not probabilities or physical uncertainty bounds. The full grid has56 local evaluations, not56 ray/transport runs."
+  },
+  "methods": ["Reconstruct analytic profiles and check their volume averages", "HARE analytic resonant-electron and wave seed selection", "Electron-only Stix cold-plasma dispersion roots at the target", "Independent resonance and determinant identities", "Local required efficiency normalization, without assigning any achieved efficiency"],
+  "fail_criteria": ["Invalid profile moment/positivity", "Nonpositive HARE resonant energy", "No positive continuous cold O-like perpendicular-index root at target", "Failure of independently recomputed resonance or Maxwell determinant identity"],
+  "excluded_claims": ["actual launcher coordinates or physical rays", "measured or predicted achieved current drive", "absorption fraction or deposition profile", "solved magnetic equilibrium", "demonstrated 30MW control sufficiency", "higher net electricity accepted", "physical validation"],
+  "access_scope": "Workstation calls explicitly paused by its monthly-usage limit; do not retry/reconnect. Current GitHub tools are read-only. This computation uses the local ChatGPT container and public read data only; no credentials or restrictions are bypassed.",
+  "stop_rule": "Retain all56 seeds and all rejection reasons. Package the source, tests, scientific report and offline visualization. No brute-force launch scan, optimizer retuning or synthetic efficiency reward."
+}
