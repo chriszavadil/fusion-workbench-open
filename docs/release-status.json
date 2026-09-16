@@ -1,14 +1,15 @@
 {
   "schema": "fusion.pages-publication.v1",
-  "viewer_version": "0.5.5-ec-equilibrium",
+  "viewer_version": "0.5.6-power-progress",
   "data_date": "2026-09-16",
-  "research_records": 95,
+  "research_records": 96,
   "data_sha256": {
     "catalog.json": "ec18c81e4c7505c37f341a8eaee3ed3df0fdda63ead8648ce534c96c29e13da7",
     "lif_benchmark.json": "d2109b5c2648e7e1e702325ac0a3aff91d13b1fbd9739b498ee0cd8a5c131bc1",
     "neutronics.json": "8775de27179749257beb0313ab4dfdf576b206485ce76c9e0c2bfc3483cb0ac0",
-    "prior_work.json": "92b1426165cd4507b659411d5c694b9ac7dff33254838783cc7305731e65cd70",
-    "research_library.json": "16bc9386acca0715f0e285ff08f904c0a5fef2077827cf7063b8f6e403e46e9e",
+    "power_progress.json": "4cf103c00741a04c4b3fc4066b403f7852ab5dbd3ff6ed8d9f1b68fd82c574d1",
+    "prior_work.json": "beef5eb4cd0f076549cfb01bbddf2d2a2c35bef91e3bdc1f0676b0466f121655",
+    "research_library.json": "404f3eea5af3e1fbec9a938e34dadc5649e5c350a87457766f3df2b497076da3",
     "source_context.bin": "7aa5de4dc4ac40b49172f67ac8c225641fe113c6bfd05732d75489d52ae2cb38",
     "transport_lab.json": "b9bd41d7686668e3341d7df76f6f47637ea383418bf644368d757e8a0b02c8c9"
   },
@@ -57,6 +58,13 @@
     }
   ],
   "milestones": [
+    {
+      "id": "power-progress-dashboard-20260916",
+      "date": "2026-09-16",
+      "title": "Power score, full study history and physical benchmarks made visible",
+      "summary": "Homepage highlights274.0MW conditional modeled average, with213.7MW maintained reference and physical electricity not measured. Twelve model/screen/failure records and11 independently sourced physical milestones remain separate; no new power is claimed.",
+      "search": "Power progress: best model output"
+    },
     {
       "id": "ec-equilibrium-interface-20260916",
       "date": "2026-09-16",
@@ -135,5 +143,11 @@
     "style.css": "8705d1a0212c470390b40e9a437c062bc0e75b5bc0cff25de6e52e5f2c3172ae",
     "view.js": "6d1b84d2de026398410ceabe575be8d1487562cc5cf2f6c80fa2ad2f2a16e906"
   },
-  "revision_id": "9a200566a39eed48159f6d04060ab65f4c9a245e51ff3680680644903bf4162a"
+  "power_progress_sha256": {
+    "data.json": "4cf103c00741a04c4b3fc4066b403f7852ab5dbd3ff6ed8d9f1b68fd82c574d1",
+    "index.html": "fff83bad5834ffc81ac212dad72e01cb3a0bfe6e7327d58f1c983167264eb819",
+    "style.css": "84bbce4b720b266a0677ab6dd4b4c7210b8bf14bcdc1347ab07dafd9d341aefb",
+    "view.js": "b31fd498e9c57735ea948abc8e363534c4d4f898c60ce24281d5f8e6267c086a"
+  },
+  "revision_id": "07e4acbb5acba501e94b99b93d0073def618c288bdaa218cda4c68c0c036fe6e"
 }

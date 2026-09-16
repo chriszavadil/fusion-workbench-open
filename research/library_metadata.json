@@ -140,5 +140,11 @@
     "track": "plasma",
     "status": "current update",
     "scope_notice": "Four force-balanced fixed-boundary constructions fail scalar-q compatibility; canonical ITER ray is a different reference. No candidate current or new electricity is qualified."
+  },
+  "research/reports/results/POWER_PROGRESS_DASHBOARD_2026-09-16.md": {
+    "configuration_scope": "r838 r900 project",
+    "track": "systems",
+    "status": "current update",
+    "scope_notice": "Power-focused presentation of existing model records and separately attributed physical milestones. No new solver run, hardware measurement or qualification."
   }
 }

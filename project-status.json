@@ -39,6 +39,13 @@
   ],
   "milestones": [
     {
+      "id": "power-progress-dashboard-20260916",
+      "date": "2026-09-16",
+      "title": "Power score, full study history and physical benchmarks made visible",
+      "summary": "Homepage highlights274.0MW conditional modeled average, with213.7MW maintained reference and physical electricity not measured. Twelve model/screen/failure records and11 independently sourced physical milestones remain separate; no new power is claimed.",
+      "search": "Power progress: best model output"
+    },
+    {
       "id": "ec-equilibrium-interface-20260916",
       "date": "2026-09-16",
       "title": "Magnetic equilibrium tested before actuator qualification",
